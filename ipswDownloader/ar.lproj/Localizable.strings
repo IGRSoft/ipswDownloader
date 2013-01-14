@@ -1,0 +1,103 @@
+/* Arabic Localization made by Azzam AlKhozaiym */
+
+/* Download size */
+"%.2f / %.2f Mb  (%.2f Mb/s)" = "%1$.2f / %2$.2f م.ب  (%3$.2f م.ب/ث)";
+
+/* Download time min/sec */
+"%i min %i sec" = "%1$i دقيقة %2$i ثانية";
+
+/* Download time sec */
+"%i sec" = "%i ثانية";
+
+/* An update is available */
+"An update is available" = "هناك تحديث متوفر";
+
+/* Are you sure want to cancel */
+"Are you sure want to cancel?" = "هل أنت متأكد انك تريد الالغاء؟";
+
+/* Can't download ipsw list */
+"Can't download ipsw list" = "تعذر تحميل قائمة ipsw";
+
+/* Cancel Download */
+"Cancel Download" = "الغاء التحميل";
+
+/* Connection error */
+"Connection error" = "خطأ في الاتصال";
+
+/* Download to */
+"Download to" = "تحميل إلى";
+
+/* Expect to start download */
+"Expect to start download" = "سيبدأ التحميل بعد قليل";
+
+/* Growl notification title */
+"ipswDownloader" = "ipswDownloader";
+
+/* No */
+"No" = "لا";
+
+/* No updates */
+"No updates" = "لا يوجد تحديثات";
+
+/* OK */
+"OK" = "حسناً";
+
+/* Update */
+"Update" = "تحديث";
+
+/* Would you like to update application now? */
+"Would you like to update application now?" = "هل تريد تحديث البرنامج الآن؟";
+
+/* Yes */
+"Yes" = "نعم";
+
+/* You are using the latest version */
+"You are using the latest version" = "أنت تستخدم أحدث إصدار";
+
+/* Growl Download Complete */
+"Download Complete" = "اكتمل التحميل";
+
+/* Growl Download Fail */
+"Download Fail" = "فشل التحميل";
+
+/* Growl Download Canceled */
+"Download Canceled" = "تم إلغاء التحميل";
+
+/* Growl Download Paused */
+"Download Paused" = "تم ايقاف التحميل";
+
+/* Growl Download Resume */
+"Download Resume" = "تم استئناف التحميل";
+
+/* Growl SHA1 Checksum Fail" */
+"SHA1 Checksum Fail" = "فشل التدقيق للتجزئة";
+
+/* Resume */
+"Resume" = "استئناف";
+
+/* Pause */
+"Pause" = "إيقاف";
+
+/* No Internet Connection */
+"No Internet Connection" = "لا يوجد اتصال انترنت";
+
+/* Please check your Internet connection */
+"Please check your Internet connection" = "فضلاً تأكد من اتصالك بالإنترنت";
+
+/* Cancel */
+"Cancel" = "لغاء";
+
+/* Download */
+"Download" = "التحميل";
+
+/* Duplicate finded */
+"Duplicate finded" = "Duplicate finded";
+
+/* Start new Download 1 */
+"You are currently downloading that firmware. Do You want start new download?" = "You are currently downloading that firmware. Do You want start new download?";
+
+/* Start new Download 2 */
+"You are downloaded that firmware before. Do You want start new download?" = "You are downloaded that firmware before. Do You want start new download?";
+
+/* Start new Download 3 */
+"That firmware is paused. Do You want start new or resume download?" = "That firmware is paused. Do You want start new or resume download?";

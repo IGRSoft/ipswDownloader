@@ -1,0 +1,57 @@
+//
+// Prefix header for all source files of the 'ipswDownloader' target in the 'ipswDownloader' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
+
+#define FIRMWARE_URL1 @"http://igrsoft.com/"
+#define FIRMWARE_URL2 @"wp-content/iPhone/"
+#define FIRMWARE_URL3 @"Firmware"
+#define FIRMWARE_URL4 @"Links"
+#define FIRMWARE_URL5 @"Devices"
+
+#define ARCH_PASS1 @"taLgr"
+#define ARCH_PASS2 @"ZLmi8"
+#define ARCH_PASS3 @"ZhcDM"
+#define ARCH_PASS4 @"0K6VL"
+//taLgrZLmi8ZhcDM0K6VL
+
+#define BYTE_IN_MB 1048576
+#define BYTE_IN_GB 1073741824
+
+#ifdef DEBUG
+#define DBNSLog NSLog
+#else
+#define DBNSLog( s, ... )
+#endif
+
+//zip
+#define unix TARGET_OS_MAC
+#define USE_FILE32API 0
+
+//Growl
+#define GROWL_DOWNLOAD_COMPLETE @"Download Complete"
+#define GROWL_DOWNLOAD_FAIL		@"Download Fail"
+#define GROWL_CHECKSUM_FAIL		@"SHA1 Checksum Fail"
+#define GROWL_DOWNLOAD_CANCELED @"Download Canceled"
+
+#define ADD_DOWNLOAD_OBJECT_NOTIFICATION @"AddDownloadObjectNotification"
+#define REMOVE_DOWNLOAD_OBJECT_NOTIFICATION @"RemoveDownloadObjectNotification"
+#define FAILED_DOWNLOAD_OBJECT_NOTIFICATION @"FailedDownloadObjectNotification"
+
+#define SP_SCREEN_SCALE() ([[NSScreen mainScreen] respondsToSelector:@selector(backingScaleFactor)]? [[NSScreen mainScreen] backingScaleFactor]: 1.0f)
+
+enum 
+{
+	UPDATE_AT_APP_START = 0,
+	UPDATE_EVERY_DAY,
+	UPDATE_EVERY_WEEK,
+};
+
+enum
+{
+	DirectoryLocationErrorNoPathFound,
+	DirectoryLocationErrorFileExistsAtLocation
+};

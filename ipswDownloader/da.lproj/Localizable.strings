@@ -1,0 +1,103 @@
+/* Danish/Dansk Localization made by Magnus Mencke (@mmencke) */
+
+/* Download størrelse */
+"%.2f / %.2f Mb  (%.2f Mb/s)" = "%1$.2f / %2$.2f Mb  (%3$.2f Mb/s)";
+
+/* Download tid min/sek */
+"%i min %i sec" = "%1$i min %2$i sek";
+
+/* Download tid sek */
+"%i sec" = "%i sek";
+
+/* En opdatering er tilgængelig */
+"An update is available" = "En opdatering er tilgængelig";
+
+/* Er du sikker på at du vil annullere */
+"Are you sure want to cancel?" = "Er du sikker på at du vil annullere?";
+
+/* Kan ikke downloade ipsw listen */
+"Can't download ipsw list" = "Kan ikke downloade ipsw listen";
+
+/* Annuller Download */
+"Cancel Download" = "Annuller Download";
+
+/* Forbindelses fejl */
+"Connection error" = "Forbindelses fejl";
+
+/* Download til */
+"Download to" = "Download til";
+
+/* Expect to start download */
+"Expect to start download" = "Vær forberedt på at starte dit download";
+
+/* Growl notification title */
+"ipswDownloader" = "ipswDownloader";
+
+/* No */
+"No" = "Nej";
+
+/* No updates */
+"No updates" = "Ingen opdateringer";
+
+/* OK */
+"OK" = "OK";
+
+/* Update */
+"Update" = "Opdatering";
+
+/* Would you like to update application now? */
+"Would you like to update application now?" = "Vil du opdatere programmet nu?";
+
+/* Yes */
+"Yes" = "Ja";
+
+/* You are using the latest version */
+"You are using the latest version" = "Du bruger den seneste version";
+
+/* Growl Download Complete */
+"Download Complete" = "Dit Download er Færdigt";
+
+/* Growl Download Fail */
+"Download Fail" = "Fejl ved Download";
+
+/* Growl Download Canceled */
+"Download Canceled" = "Download annulleret";
+
+/* Growl Download Paused */
+"Download Paused" = "Download sat på pause";
+
+/* Growl Download Resume */
+"Download Resume" = "Fortsæt Download";
+
+/* Growl SHA1 Checksum Fail" */
+"SHA1 Checksum Fail" = "Fejl ved SHA1 Checksum";
+
+/* Resume */
+"Resume" = "Fortsæt";
+
+/* Pause */
+"Pause" = "Pause";
+
+/* No Internet Connection */
+"No Internet Connection" = "Ingen Internetforbindelse";
+
+/* Please check your Internet connection */
+"Please check your Internet connection" = "Kontrollér din internetforbindelse";
+
+/* Cancel */
+"Cancel" = "Annuller";
+
+/* Download */
+"Download" = "Download";
+
+/* Duplicate finded */
+"Duplicate finded" = "Duplicate finded";
+
+/* Start new Download 1 */
+"You are currently downloading that firmware. Do You want start new download?" = "You are currently downloading that firmware. Do You want start new download?";
+
+/* Start new Download 2 */
+"You are downloaded that firmware before. Do You want start new download?" = "You are downloaded that firmware before. Do You want start new download?";
+
+/* Start new Download 3 */
+"That firmware is paused. Do You want start new or resume download?" = "That firmware is paused. Do You want start new or resume download?";

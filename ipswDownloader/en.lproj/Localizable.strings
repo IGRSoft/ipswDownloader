@@ -1,0 +1,103 @@
+﻿/* English Localization made by Vitaly Parovishnik */
+
+/* Download size */
+"%.2f / %.2f Mb  (%.2f Mb/s)" = "%1$.2f / %2$.2f Mb  (%3$.2f Mb/s)";
+
+/* Download time min/sec */
+"%i min %i sec" = "%1$i min %2$i sec";
+
+/* Download time sec */
+"%i sec" = "%i sec";
+
+/* An update is available */
+"An update is available" = "An update is available";
+
+/* Are you sure want to cancel */
+"Are you sure want to cancel?" = "Are you sure want to cancel?";
+
+/* Can't download ipsw list */
+"Can't download ipsw list" = "Can't download ipsw list";
+
+/* Cancel Download */
+"Cancel Download" = "Cancel Download";
+
+/* Connection error */
+"Connection error" = "Connection error";
+
+/* Download to */
+"Download to" = "Download to";
+
+/* Expect to start download */
+"Expect to start download" = "Expect to start download";
+
+/* Growl notification title */
+"ipswDownloader" = "ipswDownloader";
+
+/* No */
+"No" = "No";
+
+/* No updates */
+"No updates" = "No updates";
+
+/* OK */
+"OK" = "OK";
+
+/* Update */
+"Update" = "Update";
+
+/* Would you like to update application now? */
+"Would you like to update application now?" = "Would you like to update application now?";
+
+/* Yes */
+"Yes" = "Yes";
+
+/* You are using the latest version */
+"You are using the latest version" = "You are using the latest version";
+
+/* Growl Download Complete */
+"Download Complete" = "Download Complete";
+
+/* Growl Download Fail */
+"Download Fail" = "Download Fail";
+
+/* Growl Download Canceled */
+"Download Canceled" = "Download Canceled";
+
+/* Growl Download Paused */
+"Download Paused" = "Download Paused";
+
+/* Growl Download Resume */
+"Download Resume" = "Download Resume";
+
+/* Growl SHA1 Checksum Fail" */
+"SHA1 Checksum Fail" = "SHA1 Checksum Fail";
+
+/* Resume */
+"Resume" = "Resume";
+
+/* Pause */
+"Pause" = "Pause";
+
+/* No Internet Connection */
+"No Internet Connection" = "No Internet Connection";
+
+/* Please check your Internet connection */
+"Please check your Internet connection" = "Please check your Internet connection";
+
+/* Cancel */
+"Cancel" = "Cancel";
+
+/* Download */
+"Download" = "Download";
+
+/* Duplicate finded */
+"Duplicate finded" = "Duplicate finded";
+
+/* Start new Download 1 */
+"You are currently downloading that firmware. Do You want start new download?" = "You are currently downloading that firmware. Do You want start new download?";
+
+/* Start new Download 2 */
+"You are downloaded that firmware before. Do You want start new download?" = "You are downloaded that firmware before. Do You want start new download?";
+
+/* Start new Download 3 */
+"That firmware is paused. Do You want start new or resume download?" = "That firmware is paused. Do You want start new or resume download?";
