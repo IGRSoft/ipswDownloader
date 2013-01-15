@@ -1,0 +1,12 @@
+[submodule "External/asi-http-request"]
+	path = External/asi-http-request
+	url = https://github.com/iKorich/asi-http-request.git
+[submodule "External/Reachability"]
+	path = External/Reachability
+	url = https://github.com/tonymillion/Reachability.git
+[submodule "External/ZipArchive"]
+	path = External/ZipArchive
+	url = https://github.com/mattconnolly/ZipArchive.git
+[submodule "External/Sparkle"]
+	path = External/Sparkle
+	url = https://github.com/andymatuschak/Sparkle.git
