@@ -472,6 +472,11 @@ bool needWaitProcess = false;
 	return result;
 }
 
+- (BOOL)selectionShouldChangeInTableView:(NSTableView *)aTableView
+{
+	return NO;
+}
+
 #pragma mark - Firmware
 
 - (IBAction) selectDevice:(id)sender

@@ -418,11 +418,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
 			<key>info</key>
-			<string>Tethered jailbreak only</string>
+			<string></string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>a3f8e3955f460786d88b879f10be69a9858f1688</string>
 			<key>size</key>
@@ -447,9 +447,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>1ff50161d8fb7d0a804aaea49f4b31d5690a3e4a</string>
 			<key>size</key>
@@ -462,6 +462,33 @@
 			<string></string>
 			<key>build</key>
 			<string>SundanceTide 10A831</string>
+		</dict>
+		<key>5.2 (6.1) / 10B144b</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8, Seas0nPass 0.8.9</string>
+			<key>sha1</key>
+			<string>78358d14f776f70a7de719af6ca697221bd8f4bb</string>
+			<key>size</key>
+			<integer>588830446</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/AppleTV/041-6474.20130128.Cnnew/AppleTV2,1_5.2_10B144b_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B144b</string>
 		</dict>
 	</dict>
 	<key>Apple TV 3G</key>
@@ -600,6 +627,63 @@
 			<string></string>
 			<key>build</key>
 			<string>SundanceTide 10A831</string>
+		</dict>
+		<key>5.2 (6.1) / 10B144b</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>78358d14f776f70a7de719af6ca697221bd8f4bb</string>
+			<key>size</key>
+			<integer>588830446</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/AppleTV/041-6474.20130128.Cnnew/AppleTV2,1_5.2_10B144b_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B144b</string>
+		</dict>
+	</dict>
+	<key>Apple TV 3G (Rev A)</key>
+	<dict>
+		<key>5.2 (6.1) / 10B144b</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>f64d0d425ae193c43adb1167a5678343fa01ee8d</string>
+			<key>size</key>
+			<integer>656072051</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/AppleTV/041-6472.20130128.dUtpr/AppleTV3,2_5.2_10B144b_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B144b</string>
 		</dict>
 	</dict>
 	<key>iPad</key>
@@ -1266,9 +1350,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>3916fdd5e6c269dc1c44ddbb1172bdb9abc8cdbc</string>
 			<key>size</key>
@@ -1293,9 +1377,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>aa9daddde156105a2f96b18683b6afbe9d2b7d52</string>
 			<key>size</key>
@@ -1308,6 +1392,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.05</string>
+			<key>hwstr</key>
+			<string>iPad2,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>908de0af794749e08534c8a48664709a31b508d4</string>
+			<key>size</key>
+			<integer>846987486</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6483.20130128.Gdsob/iPad2,3_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad 2 GSM</key>
@@ -1593,9 +1704,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>8635d642aee348f23de21653273046bdff635e8a</string>
 			<key>size</key>
@@ -1620,9 +1731,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>c2725e3e1adbd986de61af6507611653a310de52</string>
 			<key>size</key>
@@ -1635,6 +1746,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.05</string>
+			<key>hwstr</key>
+			<string>iPad2,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>3b35197a563cf71e4ed8ae35b5f3bcf298d2963f</string>
+			<key>size</key>
+			<integer>849025303</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6508.20130128.Ohdre/iPad2,2_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad 2 Wi-Fi</key>
@@ -1920,9 +2058,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>d839f59f3f605f6d39304e44ff783758eaed7ee3</string>
 			<key>size</key>
@@ -1947,9 +2085,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>2c68427154208b3a1001beebdc2ed547e6e7049d</string>
 			<key>size</key>
@@ -1962,6 +2100,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>5c59397bbeeb7cde06ce6b0e1021f69eb008d3b4</string>
+			<key>size</key>
+			<real>832</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6476.20130128.Hrb56/iPad2,1_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad 2 Wi-Fi (Rev A)</key>
@@ -2023,7 +2188,7 @@
 		<key>6.0 / 10A403</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>none</string>
 			<key>hwstr</key>
 			<string>iPad2,4</string>
 			<key>docs</key>
@@ -2031,9 +2196,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>a21c644c4c397823cc828f3ae8c1b37538192968</string>
 			<key>size</key>
@@ -2050,7 +2215,7 @@
 		<key>6.0.1 / 10A523</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>none</string>
 			<key>hwstr</key>
 			<string>iPad2,4</string>
 			<key>docs</key>
@@ -2058,9 +2223,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>8a8532c1ab19ec03b34f1d0c3b15093bc7e7569c</string>
 			<key>size</key>
@@ -2073,6 +2238,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>9499ec3791ea10b30f5085880d7fb1249c844888</string>
+			<key>size</key>
+			<integer>832075445</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6478.20130128.Mgr4g/iPad2,4_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Wi-Fi </key>
@@ -2142,9 +2334,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>242a1802392f212dc070a88480a482f4a118692c</string>
 			<key>size</key>
@@ -2169,9 +2361,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>b5670ddb2f300c42434dd5c551a8a0ad170a4e09</string>
 			<key>size</key>
@@ -2184,6 +2376,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>f6f1f831b5edac27deaf68fcc4e692fdb02181a4</string>
+			<key>size</key>
+			<integer>1157252488</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6462.20130128.cnlgh5/iPad3,1_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad 3 CDMA</key>
@@ -2253,9 +2472,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>a81a4557fbd134033c31727e0f8b0c79b15edea2</string>
 			<key>size</key>
@@ -2280,9 +2499,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>255b9c46e31cb21440e998e4210e8b04e597d2de</string>
 			<key>size</key>
@@ -2295,6 +2514,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.3.03</string>
+			<key>hwstr</key>
+			<string>iPad3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>ccf3592bd95f5a99b33545e0009a854834ac8efe</string>
+			<key>size</key>
+			<integer>1190049008</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-5907.20130128.tgt54/iPad3,2_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Global</key>
@@ -2364,9 +2610,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>02ae5aeef497d4847e836c5866b9b77d1fbac7c7</string>
 			<key>size</key>
@@ -2391,9 +2637,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>2f6c515904464d01dfc4743debf656c1c01293cb</string>
 			<key>size</key>
@@ -2406,6 +2652,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.3.03</string>
+			<key>hwstr</key>
+			<string>iPad3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>ca04e4a4bcc898497036e636e35d6863652112b4</string>
+			<key>size</key>
+			<integer>1190269932</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6467.20130128.Ugw14/iPad3,3_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad 4 Wi-Fi</key>
@@ -2421,9 +2694,9 @@
 			<key>info</key>
 			<string>Initial shipment.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>681b5e7cbb2f385ddbf57af5c163cc6b64212e65</string>
 			<key>size</key>
@@ -2448,9 +2721,9 @@
 			<key>info</key>
 			<string>Initial shipment.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>278c41801594141a5b582f37591352c9c3658514</string>
 			<key>size</key>
@@ -2463,6 +2736,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>ca04e4a4bcc898497036e636e35d6863652112b4</string>
+			<key>size</key>
+			<integer>1174632808</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6468.20130128.Ch565/iPad3,4_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad 4 GSM</key>
@@ -2478,9 +2778,9 @@
 			<key>info</key>
 			<string>Initial shipment.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>488dd71c9bb7f4b8df83c9bc778fb6adcd2dc12d</string>
 			<key>size</key>
@@ -2493,6 +2793,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SundanceTaos 10A8426</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.24</string>
+			<key>hwstr</key>
+			<string>iPad3,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>ec210c9d682900b16ae41fae776afcb9d09639e4</string>
+			<key>size</key>
+			<integer>1213624570</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6608.20130128.6605t/iPad3,5_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad 4 Global</key>
@@ -2508,9 +2835,9 @@
 			<key>info</key>
 			<string>Initial shipment.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>2396de5f9581f473f695fdeb0ba33f9aa2502966</string>
 			<key>size</key>
@@ -2523,6 +2850,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SundanceTaos 10A8426</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.24</string>
+			<key>hwstr</key>
+			<string>iPad3,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>4119ccedf339daafcfab794ef3b8b211e7e3c547</string>
+			<key>size</key>
+			<integer>1213820448</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6611.20130128.cagw3/iPad3,6_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G Wi-Fi</key>
@@ -2538,9 +2892,9 @@
 			<key>info</key>
 			<string>Initial shipment.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>f60d64fe30dbc2396e6f3dedc3b8683ffef1d99f</string>
 			<key>size</key>
@@ -2563,11 +2917,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-8089.20121029.Ch6Gt/iPadiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Initial shipment.</string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
 			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>4210d4c9c5f9501c752a43a4efe5a11fbf9fbbdc</string>
 			<key>size</key>
@@ -2590,11 +2944,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-9260.20121217.CaCg3/iPadiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Initial shipment.</string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
 			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>2478703098b51df1928747639983c825a3d03612</string>
 			<key>size</key>
@@ -2607,6 +2961,60 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Sundance 10A550</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>3c56f63764c7f4e01f129bb190104c8e4b419fee</string>
+			<key>size</key>
+			<integer>859488333</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6469.20130128.tasor/iPad2,5_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0</string>
+			<key>sha1</key>
+			<string>09a0196d309465387afd4a6b11a610a32a39ce15</string>
+			<key>size</key>
+			<integer>859491043</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0746.20130215.436Gb/iPad2,5_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G GSM</key>
@@ -2622,9 +3030,9 @@
 			<key>info</key>
 			<string>Initial shipment.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>95efc0e3f6f489035f245b119c9f9db9eac1d822</string>
 			<key>size</key>
@@ -2649,9 +3057,9 @@
 			<key>info</key>
 			<string>Initial shipment.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>d6670bf5e2848f48be3fb502fda293a5c298d698</string>
 			<key>size</key>
@@ -2664,6 +3072,60 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SundanceTaos 10A8500</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.24</string>
+			<key>hwstr</key>
+			<string>iPad2,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>3c56f63764c7f4e01f129bb190104c8e4b419fee</string>
+			<key>size</key>
+			<integer>898661102</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6613.20130128.Pre3r/iPad2,6_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B147</key>
+		<dict>
+			<key>baseband</key>
+			<string>unknown</string>
+			<key>hwstr</key>
+			<string>iPad2,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>840f08c508df9beb9a8ee1220878154ff76b08ce</string>
+			<key>size</key>
+			<integer>898698946</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0749.20130215.96TgY/iPad2,6_6.1.2_10B147_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B147</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G Global</key>
@@ -2679,9 +3141,9 @@
 			<key>info</key>
 			<string>Initial shipment.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>8cbcdc63854905e9326a584537202715cc2f31e3</string>
 			<key>size</key>
@@ -2706,9 +3168,9 @@
 			<key>info</key>
 			<string>Initial shipment.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>fdd10634929933f673d8cff6464770d885011b53</string>
 			<key>size</key>
@@ -2721,6 +3183,60 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SundanceTaos 10A8500</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.24</string>
+			<key>hwstr</key>
+			<string>iPad2,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0644.20130128.vnz2q/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Initial shipment.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>52a05ffd839ed4380651aa70adb8d1e71dea7330</string>
+			<key>size</key>
+			<integer>898702892</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6615.20130128.i5rft/iPad2,7_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B147</key>
+		<dict>
+			<key>baseband</key>
+			<string>unknown</string>
+			<key>hwstr</key>
+			<string>iPad2,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a1ef619a9ac5f6244806dba5b13eb862bff0b718</string>
+			<key>size</key>
+			<integer>898668333</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0730.20130215.Acsit/iPad2,7_6.1.2_10B147_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B147</string>
 		</dict>
 	</dict>
 	<key>iPhone</key>
@@ -4198,11 +4714,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-7022.20120919.LdvHt/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Tethered jailbreak for new bootrom, Upgrade baseband to 6.15.00 from iPad firmware 3.2.2 for unlock device made before 2011 week 35 (Not recommended)</string>
+			<string>Upgrade baseband to 6.15.00 from iPad firmware 3.2.2 for unlock device made before 2011 week 35 (Not recommended)</string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b2</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>85963dfe1c0febf34d9871ee32b891b93d47b2b6</string>
 			<key>size</key>
@@ -4225,11 +4741,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-8088.20121026.5FvrH/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Tethered jailbreak for new bootrom, Upgrade baseband to 6.15.00 from iPad firmware 3.2.2 for unlock device made before 2011 week 35 (Not recommended)</string>
+			<string>Upgrade baseband to 6.15.00 from iPad firmware 3.2.2 for unlock device made before 2011 week 35 (Not recommended)</string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>38bda2110c9b6b2227a61ee57c9e9ad7cb0fbfbc</string>
 			<key>size</key>
@@ -4242,6 +4758,60 @@
 			<string>ultrasn0w</string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>05.16.08</string>
+			<key>hwstr</key>
+			<string>iPhone2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0643.20130128.sll3y/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Upgrade baseband to 6.15.00 from iPad firmware 3.2.2 for unlock device made before 2011 week 35 (Not recommended)</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>db88aa859cb15af1c70e5e4b30e4056367bd998d</string>
+			<key>size</key>
+			<integer>822631819</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6493.20130128.sh4rG/iPhone2,1_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>ultrasn0w</string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>unknown</string>
+			<key>hwstr</key>
+			<string>iPhone2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1175.20130215.Zzs32/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Upgrade baseband to 6.15.00 from iPad firmware 3.2.2 for unlock device made before 2011 week 35 (Not recommended)</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0</string>
+			<key>sha1</key>
+			<string>17174031c923080be0b7cfa6f550aa8008b63583</string>
+			<key>size</key>
+			<integer>822609618</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6493.20130128.sh4rG/iPhone2,1_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string>ultrasn0w</string>
+			<key>build</key>
+			<string>Brighton 10B1416</string>
 		</dict>
 	</dict>
 	<key>iPhone 4 GSM</key>
@@ -4606,7 +5176,7 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS5/041-4061.20120307.fjeed/iPhoneiTunesUpdateReadMe_5.1.ipd</string>
 			<key>info</key>
-			<string></string>
+			<string>Tethered jailbreak.</string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
@@ -4687,11 +5257,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-7022.20120919.LdvHt/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Tethered jailbreak</string>
+			<string></string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b2</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>4553077c61fd9c487c906ee419d2159f807a00fb</string>
 			<key>size</key>
@@ -4714,11 +5284,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-8088.20121026.5FvrH/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Tethered jailbreak</string>
+			<string></string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>3d123107c71588fef6f03bd1fc8ca42bda400621</string>
 			<key>size</key>
@@ -4731,6 +5301,60 @@
 			<string></string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B144</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.05</string>
+			<key>hwstr</key>
+			<string>iPhone3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0643.20130128.sll3y/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>2dcaae314ae8e0a353ad43010159cf15f7f6bd4e</string>
+			<key>size</key>
+			<integer>938516113</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0682.20130128.mefc4/iPhone3,1_6.1_10B144_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B144</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>unknown</string>
+			<key>hwstr</key>
+			<string>iPhone3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1175.20130215.Zzs32/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0</string>
+			<key>sha1</key>
+			<string>b62c043338898893c210bb81e608b4b099de7c5f</string>
+			<key>size</key>
+			<integer>938592821</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0722.20130215.BzrgV/iPhone3,1_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPhone 4 GSM (Rev A)</key>
@@ -4746,9 +5370,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>4aefb7146df559d29c77f65c29c663a29cf43514</string>
 			<key>size</key>
@@ -4773,9 +5397,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>f311dd43f23f4ab33a4ede6075034f740a9dfd3f</string>
 			<key>size</key>
@@ -4789,365 +5413,59 @@
 			<key>build</key>
 			<string>Sundance 10A523</string>
 		</dict>
-	</dict>
-	<key>iPhone 4S</key>
-	<dict>
-		<key>5.0 / 9A334</key>
+		<key>6.1 / 10B144</key>
 		<dict>
 			<key>baseband</key>
-			<string>1.0.11</string>
+			<string>unknown</string>
 			<key>hwstr</key>
-			<string>iPhone4,1</string>
+			<string>iPhone3,2</string>
 			<key>docs</key>
-			<string>http://appldnld.apple.com/iPhone4/041-2591.20111012.APPr4/iPhoneReadMe_5.0.ipd</string>
-			<key>info</key>
-			<string>Initial shipment. IPSW also contains baseband 04.11.08</string>
-			<key>jailbreak</key>
-			<true/>
-			<key>jbtools</key>
-			<string>Absinthe v0.2</string>
-			<key>sha1</key>
-			<string>efab39972534df65eb357e7500ece5b010c3e8ca</string>
-			<key>size</key>
-			<integer>835490060</integer>
-			<key>unlock</key>
-			<true/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iPhone4/041-1317.20111012.UVTgr/iPhone4,1_5.0_9A334_Restore.ipsw</string>
-			<key>utools</key>
-			<string>SAM</string>
-			<key>build</key>
-			<string>Telluride 9A334</string>
-		</dict>
-		<key>5.0.1 / 9A405</key>
-		<dict>
-			<key>baseband</key>
-			<string>1.0.13</string>
-			<key>hwstr</key>
-			<string>iPhone4,1</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iPhone4/041-3362.20111110.VcxzA/iPhoneReadMe_5.0.1.ipd</string>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0643.20130128.sll3y/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>Absinthe v0.2, redsn0w 0.9.10b7</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
-			<string>df036914f0dc069963589cc590575e04b6e3745a</string>
+			<string>f3086f7aca0750e843819c84fe2acc3c1f325b7c</string>
 			<key>size</key>
-			<integer>852471592</integer>
+			<integer>938303367</integer>
 			<key>unlock</key>
-			<true/>
+			<false/>
 			<key>url</key>
-			<string>http://appldnld.apple.com/iPhone4/041-3305.20111109.Bghy6/iPhone4,1_5.0.1_9A405_Restore.ipsw</string>
+			<string>http://appldnld.apple.com/iOS6.1/091-0692.20130128.R3lr4/iPhone3,2_6.1_10B144_Restore.ipsw</string>
 			<key>utools</key>
-			<string>SAM</string>
+			<string></string>
 			<key>build</key>
-			<string>Telluride 9A405</string>
+			<string></string>
 		</dict>
-		<key>5.0.1 / 9A406</key>
+		<key>6.1.2 / 10B146</key>
 		<dict>
 			<key>baseband</key>
-			<string>1.0.14</string>
+			<string>unknown</string>
 			<key>hwstr</key>
-			<string>iPhone4,1</string>
+			<string>iPhone3,2</string>
 			<key>docs</key>
-			<string>http://appldnld.apple.com/iPhone4/041-3362.20111110.VcxzA/iPhoneReadMe_5.0.1.ipd</string>
-			<key>info</key>
-			<string>Released to fix &quot;No SIM&quot; issue.</string>
-			<key>jailbreak</key>
-			<true/>
-			<key>jbtools</key>
-			<string>Absinthe v0.2, redsn0w 0.9.10b7</string>
-			<key>sha1</key>
-			<string>869caa17e6b3176efb11b5de653ec8330d43b176</string>
-			<key>size</key>
-			<integer>849922173</integer>
-			<key>unlock</key>
-			<true/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iPhone4//041-3417.20111215.Slnt4/iPhone4,1_5.0.1_9A406_Restore.ipsw</string>
-			<key>utools</key>
-			<string>SAM</string>
-			<key>build</key>
-			<string>Telluride 9A406</string>
-		</dict>
-		<key>5.1 / 9B179</key>
-		<dict>
-			<key>baseband</key>
-			<string>2.0.10</string>
-			<key>hwstr</key>
-			<string>iPhone4,1</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS5/041-4061.20120307.fjeed/iPhoneiTunesUpdateReadMe_5.1.ipd</string>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1175.20130215.Zzs32/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>Absinthe 2.0, PwnageTool 5.1.1, redsn0w 0.9.12b1</string>
+			<string>evasi0n 1.4.0</string>
 			<key>sha1</key>
-			<string>44f86c53e90a177292b4df45186cccbb12ceb1bc</string>
+			<string>054a21fb789d05055f11b99f3d0acf19c344d9be</string>
 			<key>size</key>
-			<integer>841955251</integer>
-			<key>unlock</key>
-			<true/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iOS5/041-1530.20120307.LDDac/iPhone4,1_5.1_9B179_Restore.ipsw</string>
-			<key>utools</key>
-			<string>SAM</string>
-			<key>build</key>
-			<string>Hoodoo 9B179</string>
-		</dict>
-		<key>5.1.1 / 9B206</key>
-		<dict>
-			<key>baseband</key>
-			<string>2.0.12</string>
-			<key>hwstr</key>
-			<string>iPhone4,1</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS5.1.1/041-5710.20120504.dEtEn/iPhoneiTunesUpdateReadMe_5.1.ipd</string>
-			<key>info</key>
-			<string></string>
-			<key>jailbreak</key>
-			<true/>
-			<key>jbtools</key>
-			<string>Absinthe 2.0, PwnageTool 5.1.1, redsn0w 0.9.12b1</string>
-			<key>sha1</key>
-			<string>ac99928cc52fcb24502959ace3c36a63ba75ab6c</string>
-			<key>size</key>
-			<integer>841767623</integer>
+			<integer>938287748</integer>
 			<key>unlock</key>
 			<false/>
 			<key>url</key>
-			<string>http://appldnld.apple.com/iOS5.1.1/041-4346.20120427.1RuDG/iPhone4,1_5.1.1_9B206_Restore.ipsw</string>
+			<string>http://appldnld.apple.com/iOS6.1/091-0739.20130215.F654R/iPhone3,2_6.1.2_10B146_Restore.ipsw</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
-			<string>Hoodoo 9B206</string>
-		</dict>
-		<key>6.0 / 10A403</key>
-		<dict>
-			<key>baseband</key>
-			<string>3.0.04</string>
-			<key>hwstr</key>
-			<string>iPhone4,1</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS6/Documentation/041-7022.20120919.LdvHt/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
-			<key>info</key>
-			<string></string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
-			<string></string>
-			<key>sha1</key>
-			<string>12cee460eefc2055b4bb3b52b20843fe4ca035fc</string>
-			<key>size</key>
-			<integer>957042795</integer>
-			<key>unlock</key>
-			<false/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iOS6/Restore/041-7181.20120919.lEuOK/iPhone4,1_6.0_10A403_Restore.ipsw</string>
-			<key>utools</key>
-			<string></string>
-			<key>build</key>
-			<string>Sundance 10A403</string>
-		</dict>
-		<key>6.0.1 / 10A523</key>
-		<dict>
-			<key>baseband</key>
-			<string>3.0.04</string>
-			<key>hwstr</key>
-			<string>iPhone4,1</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS6/Documentation/041-8088.20121026.5FvrH/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
-			<key>info</key>
-			<string></string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
-			<string></string>
-			<key>sha1</key>
-			<string>c71881dc7d5e8f37974a441478b77389bbfea009</string>
-			<key>size</key>
-			<integer>957030240</integer>
-			<key>unlock</key>
-			<false/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iOS6/041-7953.20121101.Apmtr/iPhone4,1_6.0.1_10A523_Restore.ipsw</string>
-			<key>utools</key>
-			<string></string>
-			<key>build</key>
-			<string>Sundance 10A403</string>
-		</dict>
-	</dict>
-	<key>iPhone 5 GSM</key>
-	<dict>
-		<key>6.0 / 10A403</key>
-		<dict>
-			<key>baseband</key>
-			<string>1.00.16</string>
-			<key>hwstr</key>
-			<string>iPhone5,1</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS6/Documentation/041-7022.20120919.LdvHt/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
-			<key>info</key>
-			<string>Initial shipment.</string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
-			<string></string>
-			<key>sha1</key>
-			<string>e746a07feabaadc86b46615b33197c8ac1c80605</string>
-			<key>size</key>
-			<integer>1030720411</integer>
-			<key>unlock</key>
-			<false/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iOS6/Restore/041-7169.20120919.5Mial/iPhone5,1_6.0_10A405_Restore.ipsw</string>
-			<key>utools</key>
-			<string></string>
-			<key>build</key>
-			<string>Sundance 10A403</string>
-		</dict>
-		<key>6.0.1 / 10A523</key>
-		<dict>
-			<key>baseband</key>
-			<string>1.01.00</string>
-			<key>hwstr</key>
-			<string>iPhone5,1</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS6/Documentation/041-8088.20121026.5FvrH/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
-			<key>info</key>
-			<string></string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
-			<string></string>
-			<key>sha1</key>
-			<string>68f3bbcfd867bd0c9484086dd0639f6f0cba0578</string>
-			<key>size</key>
-			<integer>1030747959</integer>
-			<key>unlock</key>
-			<false/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iOS6/041-8530.20121101.svtly/iPhone5,1_6.0.1_10A525_Restore.ipsw</string>
-			<key>utools</key>
-			<string></string>
-			<key>build</key>
-			<string>Sundance 10A523</string>
-		</dict>
-		<key>6.0.2 / 10A551</key>
-		<dict>
-			<key>baseband</key>
-			<string>1.01.00</string>
-			<key>hwstr</key>
-			<string>iPhone5,1</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS6/Documentation/041-9277.20121217.92fr0/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
-			<key>info</key>
-			<string></string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
-			<string></string>
-			<key>sha1</key>
-			<string>b68b927f245ce8b6ab7c3ff88ac2f9e2fbf2fe6b</string>
-			<key>size</key>
-			<integer>1105954078</integer>
-			<key>unlock</key>
-			<false/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iOS6/041-0779.20121217.Dre43/iPhone5,1_6.0.2_10A551_Restore.ipsw</string>
-			<key>utools</key>
-			<string></string>
-			<key>build</key>
-			<string>Sundance 10A551</string>
-		</dict>
-	</dict>
-	<key>iPhone 5 Global</key>
-	<dict>
-		<key>6.0 / 10A403</key>
-		<dict>
-			<key>baseband</key>
-			<string>1.00.16</string>
-			<key>hwstr</key>
-			<string>iPhone5,2</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS6/Documentation/041-7022.20120919.LdvHt/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
-			<key>info</key>
-			<string></string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
-			<string></string>
-			<key>sha1</key>
-			<string>bd86f460ffcb0a7d198ab1db591335e832593dc1</string>
-			<key>size</key>
-			<integer>1030868962</integer>
-			<key>unlock</key>
-			<false/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iOS6/Restore/041-7171.20120919.doJ1e/iPhone5,2_6.0_10A405_Restore.ipsw</string>
-			<key>utools</key>
-			<string></string>
-			<key>build</key>
-			<string>Sundance 10A403</string>
-		</dict>
-		<key>6.0.1 / 10A523</key>
-		<dict>
-			<key>baseband</key>
-			<string>1.01.00</string>
-			<key>hwstr</key>
-			<string>iPhone5,2</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS6/Documentation/041-8088.20121026.5FvrH/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
-			<key>info</key>
-			<string></string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
-			<string></string>
-			<key>sha1</key>
-			<string>cc306ca0ae099ed90f3d85ac120b6d0f3b0cdb87</string>
-			<key>size</key>
-			<integer>1030935804</integer>
-			<key>unlock</key>
-			<false/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iOS6/041-8531.20121101.Fvjr6/iPhone5,2_6.0.1_10A525_Restore.ipsw</string>
-			<key>utools</key>
-			<string></string>
-			<key>build</key>
-			<string>Sundance 10A523</string>
-		</dict>
-		<key>6.0.2 / 10A551</key>
-		<dict>
-			<key>baseband</key>
-			<string>1.01.00</string>
-			<key>hwstr</key>
-			<string>iPhone5,2</string>
-			<key>docs</key>
-			<string>http://appldnld.apple.com/iOS6/Documentation/041-9277.20121217.92fr0/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
-			<key>info</key>
-			<string></string>
-			<key>jailbreak</key>
-			<false/>
-			<key>jbtools</key>
-			<string></string>
-			<key>sha1</key>
-			<string>baa6bfccf748e6d2c0723fd48bbb87eb494be19d</string>
-			<key>size</key>
-			<integer>1105954078</integer>
-			<key>unlock</key>
-			<false/>
-			<key>url</key>
-			<string>http://appldnld.apple.com/iOS6/041-4272.20121217.Zsw29/iPhone5,2_6.0.2_10A551_Restore.ipsw</string>
-			<key>utools</key>
-			<string></string>
-			<key>build</key>
-			<string>Sundance 10A551</string>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPhone 4 CDMA</key>
@@ -5404,11 +5722,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-7022.20120919.LdvHt/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Tethered jailbreak</string>
+			<string></string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b2</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>82c8774281d97cde005da969ac50827ff4fab173</string>
 			<key>size</key>
@@ -5431,11 +5749,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-8088.20121026.5FvrH/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Tethered jailbreak</string>
+			<string></string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>3084e9bbc9c6fedefc52f098590d57dbcc6da97e</string>
 			<key>size</key>
@@ -5448,6 +5766,609 @@
 			<string></string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.05</string>
+			<key>hwstr</key>
+			<string>iPhone3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0643.20130128.sll3y/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>18c3b2fda21a12729976ecbb44344686ef27442b</string>
+			<key>size</key>
+			<integer>935561144</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6505.20130128.Cpt63/iPhone3,3_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.05</string>
+			<key>hwstr</key>
+			<string>iPhone3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1175.20130215.Zzs32/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0</string>
+			<key>sha1</key>
+			<string>8e975c8028daf68ed2fe8e6af3d5e065486b013c</string>
+			<key>size</key>
+			<integer>935611971</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0726.20130215.Npal4/iPhone3,3_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
+		</dict>
+	</dict>
+	<key>iPhone 4S</key>
+	<dict>
+		<key>5.0 / 9A334</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.0.11</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iPhone4/041-2591.20111012.APPr4/iPhoneReadMe_5.0.ipd</string>
+			<key>info</key>
+			<string>Initial shipment. IPSW also contains baseband 04.11.08</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>Absinthe v0.2</string>
+			<key>sha1</key>
+			<string>efab39972534df65eb357e7500ece5b010c3e8ca</string>
+			<key>size</key>
+			<integer>835490060</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iPhone4/041-1317.20111012.UVTgr/iPhone4,1_5.0_9A334_Restore.ipsw</string>
+			<key>utools</key>
+			<string>SAM</string>
+			<key>build</key>
+			<string>Telluride 9A334</string>
+		</dict>
+		<key>5.0.1 / 9A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.0.13</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iPhone4/041-3362.20111110.VcxzA/iPhoneReadMe_5.0.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>Absinthe v0.2, redsn0w 0.9.10b7</string>
+			<key>sha1</key>
+			<string>df036914f0dc069963589cc590575e04b6e3745a</string>
+			<key>size</key>
+			<integer>852471592</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iPhone4/041-3305.20111109.Bghy6/iPhone4,1_5.0.1_9A405_Restore.ipsw</string>
+			<key>utools</key>
+			<string>SAM</string>
+			<key>build</key>
+			<string>Telluride 9A405</string>
+		</dict>
+		<key>5.0.1 / 9A406</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.0.14</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iPhone4/041-3362.20111110.VcxzA/iPhoneReadMe_5.0.1.ipd</string>
+			<key>info</key>
+			<string>Released to fix &quot;No SIM&quot; issue.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>Absinthe v0.2, redsn0w 0.9.10b7</string>
+			<key>sha1</key>
+			<string>869caa17e6b3176efb11b5de653ec8330d43b176</string>
+			<key>size</key>
+			<integer>849922173</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iPhone4//041-3417.20111215.Slnt4/iPhone4,1_5.0.1_9A406_Restore.ipsw</string>
+			<key>utools</key>
+			<string>SAM</string>
+			<key>build</key>
+			<string>Telluride 9A406</string>
+		</dict>
+		<key>5.1 / 9B179</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.0.10</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS5/041-4061.20120307.fjeed/iPhoneiTunesUpdateReadMe_5.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>44f86c53e90a177292b4df45186cccbb12ceb1bc</string>
+			<key>size</key>
+			<integer>841955251</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS5/041-1530.20120307.LDDac/iPhone4,1_5.1_9B179_Restore.ipsw</string>
+			<key>utools</key>
+			<string>SAM</string>
+			<key>build</key>
+			<string>Hoodoo 9B179</string>
+		</dict>
+		<key>5.1.1 / 9B206</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.0.12</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS5.1.1/041-5710.20120504.dEtEn/iPhoneiTunesUpdateReadMe_5.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>Absinthe 2.0, PwnageTool 5.1.1, redsn0w 0.9.12b1</string>
+			<key>sha1</key>
+			<string>ac99928cc52fcb24502959ace3c36a63ba75ab6c</string>
+			<key>size</key>
+			<integer>841767623</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS5.1.1/041-4346.20120427.1RuDG/iPhone4,1_5.1.1_9B206_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Hoodoo 9B206</string>
+		</dict>
+		<key>6.0 / 10A403</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.0.04</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6/Documentation/041-7022.20120919.LdvHt/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>12cee460eefc2055b4bb3b52b20843fe4ca035fc</string>
+			<key>size</key>
+			<integer>957042795</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6/Restore/041-7181.20120919.lEuOK/iPhone4,1_6.0_10A403_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10A403</string>
+		</dict>
+		<key>6.0.1 / 10A523</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.0.04</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6/Documentation/041-8088.20121026.5FvrH/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>c71881dc7d5e8f37974a441478b77389bbfea009</string>
+			<key>size</key>
+			<integer>957030240</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6/041-7953.20121101.Apmtr/iPhone4,1_6.0.1_10A523_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10A403</string>
+		</dict>
+		<key>6.1 / 10B142</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.4.01</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0643.20130128.sll3y/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>e49a848895823c61b7a1bb1f22650766a9ea9157</string>
+			<key>size</key>
+			<integer>964624379</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-5902.20130128.bhyt6/iPhone4,1_6.1_10B142_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B142</string>
+		</dict>
+		<key>6.1.1 / 10B145</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.4.02</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0921.20130211.Awq0p/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.3.0</string>
+			<key>sha1</key>
+			<string>5f80fa7db28bd372099f0dec706c05e92c834281</string>
+			<key>size</key>
+			<integer>964781377</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0723.20130211.Fcr43/iPhone4,1_6.1.1_10B145_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B145</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.4.02</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1175.20130215.Zzs32/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0</string>
+			<key>sha1</key>
+			<string>40392e8b3cf6934e639374a215cae7859f83f02c</string>
+			<key>size</key>
+			<integer>964701770</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0926.20130215.DaTe4/iPhone4,1_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B145</string>
+		</dict>
+	</dict>
+	<key>iPhone 5 GSM</key>
+	<dict>
+		<key>6.0 / 10A403</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.00.16</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6/Documentation/041-7022.20120919.LdvHt/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Initial shipment.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>e746a07feabaadc86b46615b33197c8ac1c80605</string>
+			<key>size</key>
+			<integer>1030720411</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6/Restore/041-7169.20120919.5Mial/iPhone5,1_6.0_10A405_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10A403</string>
+		</dict>
+		<key>6.0.1 / 10A523</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.01.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6/Documentation/041-8088.20121026.5FvrH/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>68f3bbcfd867bd0c9484086dd0639f6f0cba0578</string>
+			<key>size</key>
+			<integer>1030747959</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6/041-8530.20121101.svtly/iPhone5,1_6.0.1_10A525_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.0.2 / 10A551</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.01.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6/Documentation/041-9277.20121217.92fr0/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Wi-Fi bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>b68b927f245ce8b6ab7c3ff88ac2f9e2fbf2fe6b</string>
+			<key>size</key>
+			<integer>1105954078</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6/041-0779.20121217.Dre43/iPhone5,1_6.0.2_10A551_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10A551</string>
+		</dict>
+		<key>6.1 / 10B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.25</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0643.20130128.sll3y/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>42ffd7f16d32fa71dab964314387140164c5af10</string>
+			<key>size</key>
+			<integer>1037222452</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6485.20130128.mt0dy/iPhone5,1_6.1_10B143_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10B143</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.25</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1175.20130215.Zzs32/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0</string>
+			<key>sha1</key>
+			<string>969754380f9236dc25d60de8892b9a889894274d</string>
+			<key>size</key>
+			<integer>1037195381</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0720.20130215.Xerg4/iPhone5,1_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10B146</string>
+		</dict>
+	</dict>
+	<key>iPhone 5 Global</key>
+	<dict>
+		<key>6.0 / 10A403</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.00.16</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6/Documentation/041-7022.20120919.LdvHt/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>bd86f460ffcb0a7d198ab1db591335e832593dc1</string>
+			<key>size</key>
+			<integer>1030868962</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6/Restore/041-7171.20120919.doJ1e/iPhone5,2_6.0_10A405_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10A403</string>
+		</dict>
+		<key>6.0.1 / 10A523</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.01.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6/Documentation/041-8088.20121026.5FvrH/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>cc306ca0ae099ed90f3d85ac120b6d0f3b0cdb87</string>
+			<key>size</key>
+			<integer>1030935804</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6/041-8531.20121101.Fvjr6/iPhone5,2_6.0.1_10A525_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.0.2 / 10A551</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.01.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6/Documentation/041-9277.20121217.92fr0/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Wi-Fi bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>baa6bfccf748e6d2c0723fd48bbb87eb494be19d</string>
+			<key>size</key>
+			<integer>1105954078</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6/041-4272.20121217.Zsw29/iPhone5,2_6.0.2_10A551_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sundance 10A551</string>
+		</dict>
+		<key>6.1 / 10B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.25</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0643.20130128.sll3y/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>a32af87309a7e01a976eb73cac3f06370c5a1079</string>
+			<key>size</key>
+			<integer>1037462937</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6487.20130128.Ihb56/iPhone5,2_6.1_10B143_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B143</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.25</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1175.20130215.Zzs32/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0</string>
+			<key>sha1</key>
+			<string>a4f9d2a100b10869be43037eee4a3210e88f9d53</string>
+			<key>size</key>
+			<integer>1037483522</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0727.20130215.Prgt5/iPhone5,2_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPod Touch 1</key>
@@ -7036,11 +7957,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-7024.20120919.OmUDy/iPodtouchiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Tethered jailbreak</string>
+			<string></string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b2</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>7cc754118a4a8113a67635b14abee0b247936ce8</string>
 			<key>size</key>
@@ -7063,11 +7984,11 @@
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6/Documentation/041-8090.20121029.7aByk/iPodtouchiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string>Tethered jailbreak</string>
+			<string></string>
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3</string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>dd1824e1cd77eea1d210094ab58b1bf15f980af1</string>
 			<key>size</key>
@@ -7080,6 +8001,60 @@
 			<string></string>
 			<key>build</key>
 			<string>Sundance 10A523</string>
+		</dict>
+		<key>6.1 / 10B144</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0645.20130128.5BTh/iPodtouchiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>8bc0f54ef70cab0573b635fc56764397116d4d1b</string>
+			<key>size</key>
+			<integer>888641886</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0688.20130128.omwy3/iPod4,1_6.1_10B144_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B144</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1177.20130215.Sce3n/iPodtouchiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0</string>
+			<key>sha1</key>
+			<string>2fc5141896a0723b9723b36a98037fa17698ad5c</string>
+			<key>size</key>
+			<integer>888508753</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0732.20130215.Mkmt5/iPod4,1_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPod Touch 5</key>
@@ -7095,9 +8070,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>0f540ac8b38f91e5d16854dfa08f144d6f146193</string>
 			<key>size</key>
@@ -7122,9 +8097,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
 			<key>sha1</key>
 			<string>ca8710e9878d9e64318d69badfa29f0e40dce849</string>
 			<key>size</key>
@@ -7137,6 +8112,60 @@
 			<string></string>
 			<key>build</key>
 			<string>Sundance 10A403</string>
+		</dict>
+		<key>6.1 / 10B141</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-0645.20130128.5BTh/iPodtouchiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.2.0, sn0wbreeze v2.9.8</string>
+			<key>sha1</key>
+			<string>cc79241eb3f5712a867a216445044d794884d83b</string>
+			<key>size</key>
+			<integer>936568628</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/041-6488.20130128.L3etg/iPod5,1_6.1_10B141_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1177.20130215.Sce3n/iPodtouchiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0</string>
+			<key>sha1</key>
+			<string>5999e122124fbeb372b978eb8bf05eb7e243ff08</string>
+			<key>size</key>
+			<integer>936577616</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0731.20130215.At0tt/iPod5,1_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 </dict>
