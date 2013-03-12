@@ -961,7 +961,7 @@
 		<key>5.0 / 9A334</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>7.11.01</string>
 			<key>hwstr</key>
 			<string>iPad1,1</string>
 			<key>docs</key>
@@ -988,7 +988,7 @@
 		<key>5.0.1 / 9A405</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>7.11.01</string>
 			<key>hwstr</key>
 			<string>iPad1,1</string>
 			<key>docs</key>
@@ -1042,7 +1042,7 @@
 		<key>5.1.1 / 9B206</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>7.11.01</string>
 			<key>hwstr</key>
 			<string>iPad1,1</string>
 			<key>docs</key>
@@ -1420,6 +1420,33 @@
 			<key>build</key>
 			<string>Brighton 10B141</string>
 		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.0.04</string>
+			<key>hwstr</key>
+			<string>iPad2,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>9f0611f0073d073b5afcacad31622e652ab19010</string>
+			<key>size</key>
+			<integer>847028614</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0708.20130215.Qm6q4/iPad2,3_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
+		</dict>
 	</dict>
 	<key>iPad 2 GSM</key>
 	<dict>
@@ -1773,6 +1800,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.05</string>
+			<key>hwstr</key>
+			<string>iPad2,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>e15419883b94aae6efe60462b67d5af5449bb552</string>
+			<key>size</key>
+			<integer>849014812</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0724.20130215.2D4rt/iPad2,2_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPad 2 Wi-Fi</key>
@@ -2128,6 +2182,33 @@
 			<key>build</key>
 			<string>Brighton 10B141</string>
 		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>0e3d505c124a2f5b348689c096059662f02d65ee</string>
+			<key>size</key>
+			<integer>832401128</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0714.20130215.Mpsr2/iPad2,1_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
+		</dict>
 	</dict>
 	<key>iPad 2 Wi-Fi (Rev A)</key>
 	<dict>
@@ -2265,6 +2346,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>e473e3f7d3c23fd2675c0caf124c26ef9a0c214c</string>
+			<key>size</key>
+			<integer>832088422</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0750.20130215.Fb65t/iPad2,4_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Wi-Fi </key>
@@ -2404,6 +2512,33 @@
 			<key>build</key>
 			<string>Brighton 10B141</string>
 		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>ec85e851bc57f54749d71c910b570baf6f7803fd</string>
+			<key>size</key>
+			<integer>1157225703</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0736.20130215.Wwft4/iPad3,1_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
+		</dict>
 	</dict>
 	<key>iPad 3 CDMA</key>
 	<dict>
@@ -2541,6 +2676,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.3.03</string>
+			<key>hwstr</key>
+			<string>iPad3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>26887ff4004229fa7dac395557294877b8cbbc59</string>
+			<key>size</key>
+			<integer>1190140557</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0710.20130215.Vfgst/iPad3,2_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Global</key>
@@ -2680,6 +2842,33 @@
 			<key>build</key>
 			<string>Brighton 10B141</string>
 		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.3.03</string>
+			<key>hwstr</key>
+			<string>iPad3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>acc7fb2f474dd05a79cf011cca0ab6e3611d268d</string>
+			<key>size</key>
+			<integer>1190242049</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0747.20130215.6994G/iPad3,3_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
+		</dict>
 	</dict>
 	<key>iPad 4 Wi-Fi</key>
 	<dict>
@@ -2764,6 +2953,33 @@
 			<key>build</key>
 			<string>Brighton 10B141</string>
 		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>097799dce920dd210a77e5319300e2ced3e80028</string>
+			<key>size</key>
+			<integer>1174563463</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0734.20130215.543df/iPad3,4_6.1.2_10B146_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
+		</dict>
 	</dict>
 	<key>iPad 4 GSM</key>
 	<dict>
@@ -2821,6 +3037,33 @@
 			<key>build</key>
 			<string>Brighton 10B141</string>
 		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.25</string>
+			<key>hwstr</key>
+			<string>iPad3,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>cac221fdaab3ebaf3f231187c4c2abe3a644b172</string>
+			<key>size</key>
+			<integer>1213692168</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0719.20130215.FssOd/iPad3,5_6.1.2_10B147_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
+		</dict>
 	</dict>
 	<key>iPad 4 Global</key>
 	<dict>
@@ -2877,6 +3120,33 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Brighton 10B141</string>
+		</dict>
+		<key>6.1.2 / 10B146</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.25</string>
+			<key>hwstr</key>
+			<string>iPad3,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string>Exchange bug fix.</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
+			<key>sha1</key>
+			<string>63a982c781692e9f9eaed32db134fe0c5fcbf8ce</string>
+			<key>size</key>
+			<integer>1213809705</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-0721.20130215.FkaJr/iPad3,6_6.1.2_10B147_Restore.ipsw</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G Wi-Fi</key>
@@ -3002,7 +3272,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>09a0196d309465387afd4a6b11a610a32a39ce15</string>
 			<key>size</key>
@@ -3103,17 +3373,17 @@
 		<key>6.1.2 / 10B147</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>3.04.25</string>
 			<key>hwstr</key>
 			<string>iPad2,6</string>
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string></string>
+			<string>Exchange bug fix.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>840f08c508df9beb9a8ee1220878154ff76b08ce</string>
 			<key>size</key>
@@ -3214,17 +3484,17 @@
 		<key>6.1.2 / 10B147</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>3.04.25</string>
 			<key>hwstr</key>
 			<string>iPad2,7</string>
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-1176.20130215.Lpr45/iPadiTunesUpdateReadMe_6.0.ipd</string>
 			<key>info</key>
-			<string></string>
+			<string>Exchange bug fix.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>a1ef619a9ac5f6244806dba5b13eb862bff0b718</string>
 			<key>size</key>
@@ -4789,7 +5059,7 @@
 		<key>6.1.2 / 10B146</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>05.16.08</string>
 			<key>hwstr</key>
 			<string>iPhone2,1</string>
 			<key>docs</key>
@@ -4799,7 +5069,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>17174031c923080be0b7cfa6f550aa8008b63583</string>
 			<key>size</key>
@@ -5332,7 +5602,7 @@
 		<key>6.1.2 / 10B146</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>04.12.05</string>
 			<key>hwstr</key>
 			<string>iPhone3,1</string>
 			<key>docs</key>
@@ -5342,7 +5612,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>b62c043338898893c210bb81e608b4b099de7c5f</string>
 			<key>size</key>
@@ -5416,7 +5686,7 @@
 		<key>6.1 / 10B144</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>04.12.05</string>
 			<key>hwstr</key>
 			<string>iPhone3,2</string>
 			<key>docs</key>
@@ -5443,7 +5713,7 @@
 		<key>6.1.2 / 10B146</key>
 		<dict>
 			<key>baseband</key>
-			<string>unknown</string>
+			<string>04.12.05</string>
 			<key>hwstr</key>
 			<string>iPhone3,2</string>
 			<key>docs</key>
@@ -5451,9 +5721,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<true/>
+			<false/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>054a21fb789d05055f11b99f3d0acf19c344d9be</string>
 			<key>size</key>
@@ -5770,7 +6040,7 @@
 		<key>6.1 / 10B141</key>
 		<dict>
 			<key>baseband</key>
-			<string>04.12.05</string>
+			<string>3.0.04</string>
 			<key>hwstr</key>
 			<string>iPhone3,3</string>
 			<key>docs</key>
@@ -5797,7 +6067,7 @@
 		<key>6.1.2 / 10B146</key>
 		<dict>
 			<key>baseband</key>
-			<string>04.12.05</string>
+			<string>3.0.04</string>
 			<key>hwstr</key>
 			<string>iPhone3,3</string>
 			<key>docs</key>
@@ -5807,7 +6077,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>8e975c8028daf68ed2fe8e6af3d5e065486b013c</string>
 			<key>size</key>
@@ -6080,7 +6350,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>40392e8b3cf6934e639374a215cae7859f83f02c</string>
 			<key>size</key>
@@ -6092,7 +6362,7 @@
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
-			<string>Brighton 10B145</string>
+			<string>Brighton 10B146</string>
 		</dict>
 	</dict>
 	<key>iPhone 5 GSM</key>
@@ -6218,7 +6488,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>969754380f9236dc25d60de8892b9a889894274d</string>
 			<key>size</key>
@@ -6356,7 +6626,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>a4f9d2a100b10869be43037eee4a3210e88f9d53</string>
 			<key>size</key>
@@ -8042,7 +8312,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>2fc5141896a0723b9723b36a98037fa17698ad5c</string>
 			<key>size</key>
@@ -8153,7 +8423,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n 1.4.0</string>
+			<string>evasi0n 1.4.0, sn0wbreeze 2.9.11</string>
 			<key>sha1</key>
 			<string>5999e122124fbeb372b978eb8bf05eb7e243ff08</string>
 			<key>size</key>
