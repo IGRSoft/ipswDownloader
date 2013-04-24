@@ -7,6 +7,3 @@
 [submodule "External/ZipArchive"]
 	path = External/ZipArchive
 	url = https://github.com/mattconnolly/ZipArchive.git
-[submodule "External/Sparkle"]
-	path = External/Sparkle
-	url = https://github.com/tumult/Sparkle.git
