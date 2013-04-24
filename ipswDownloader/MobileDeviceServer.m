@@ -171,21 +171,22 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	lockdownd_client_t client = [self getInfoForDevice:_device];
 	
 	afc_client_t _afc = NULL;
-	uint16_t port = 0;
+	
+	lockdownd_service_descriptor_t descriptor = 0;
 	
 	if (!client) {
 		lockdownd_client_free(client);
 		return _afc;
 	}
 	
-	if ((lockdownd_start_service(client, "com.apple.afc", &port) != LOCKDOWN_E_SUCCESS) || !port)
+	if ((lockdownd_start_service(client, "com.apple.afc", &descriptor) != LOCKDOWN_E_SUCCESS) || !descriptor)
 	{
 		lockdownd_client_free(client);
 		return _afc;
 	}
 	
 	lockdownd_client_free(client);
-	afc_client_new(_device, port, &_afc);
+	afc_client_new(_device, descriptor, &_afc);
 	
 	return _afc;
 }
@@ -444,29 +445,29 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 
 - (NSArray*) appsList
 {
-	uint16_t port = 0;
+	lockdownd_service_descriptor_t descriptor = 0;
 	instproxy_client_t ipc = NULL;
 	lockdownd_client_t client = [self getInfoForDevice:device];
 	sbservices_client_t sbs = NULL;
 	if ((lockdownd_start_service
 		 (client, "com.apple.mobile.installation_proxy",
-		  &port) != LOCKDOWN_E_SUCCESS) || !port) {
+		  &descriptor) != LOCKDOWN_E_SUCCESS) || !descriptor) {
 			 DBNSLog(@"ERROR: Could not start com.apple.mobile.installation_proxy!");
 			 return nil;
 		 }
 	
-	if (instproxy_client_new(device, port, &ipc) != INSTPROXY_E_SUCCESS) {
+	if (instproxy_client_new(device, descriptor, &ipc) != INSTPROXY_E_SUCCESS) {
 		DBNSLog(@"ERROR: Could not connect to installation_proxy");
 		return nil;
 	}
 	
-	if ((lockdownd_start_service (client, "com.apple.springboardservices", &port) != LOCKDOWN_E_SUCCESS) || !port)
+	if ((lockdownd_start_service (client, "com.apple.springboardservices", &descriptor) != LOCKDOWN_E_SUCCESS) || !descriptor)
 	{
 		DBNSLog(@"INFO: Could not start com.apple.springboardservices!");
 	}
 	else
 	{
-		if (sbservices_client_new(device, port, &sbs) != INSTPROXY_E_SUCCESS) {
+		if (sbservices_client_new(device, descriptor, &sbs) != INSTPROXY_E_SUCCESS) {
 			DBNSLog(@"INFO: Could not connect to springboard");
 		}
 	}

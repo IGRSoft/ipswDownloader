@@ -69,8 +69,8 @@ extern bool needWaitProcess;
 @property (nonatomic, strong) IBOutlet NSImageView			*firmwareUnlock;
 @property (nonatomic, strong) IBOutlet NSTextField			*firmwareSize;
 @property (nonatomic, strong) IBOutlet NSTextField			*firmwareInfo;
-@property (nonatomic, strong) IBOutlet NSTextField			*firmwareJBTools;
-@property (nonatomic, strong) IBOutlet NSTextField			*firmwareUTools;
+@property (nonatomic, strong) IBOutlet NSTextView			*firmwareJBTools;
+@property (nonatomic, strong) IBOutlet NSTextView			*firmwareUTools;
 @property (nonatomic, strong) IBOutlet NSTextField			*firmwareSHA1;
 @property (nonatomic, strong) IBOutlet NSTextField			*firmwareBuild;
 
@@ -100,7 +100,7 @@ extern bool needWaitProcess;
 - (BOOL) internetEnabledWithAlert:(bool)showAlert;
 - (void) startAlert:(NSAlert*) alert selector:(SEL)alertSelector;
 
-- (void) setHiperLinkForTextField:(NSTextField*) textField;
+- (void) setHiperLinkForTextField:(NSTextView*) textField;
 - (void) setControlsEnabled:(BOOL) yesno;
 
 - (IBAction) showInFinder:(id)sender;

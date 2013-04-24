@@ -560,10 +560,10 @@ bool needWaitProcess = false;
 	
 	m_DocsURL = [NSURL URLWithString: [m_plistParser getDocks:oneDeviceFirmware]];
 	
-	[self.firmwareJBTools setStringValue: [m_plistParser getJBTools:oneDeviceFirmware]];
+	[self.firmwareJBTools setString: [m_plistParser getJBTools:oneDeviceFirmware]];
 	[self setHiperLinkForTextField:self.firmwareJBTools];
 	 
-	[self.firmwareUTools setStringValue: [m_plistParser getUnlockTools:oneDeviceFirmware]];
+	[self.firmwareUTools setString: [m_plistParser getUnlockTools:oneDeviceFirmware]];
 	[self setHiperLinkForTextField:self.firmwareUTools];
 	
 	[self.firmwareSHA1 setStringValue: [m_plistParser getSHA1:oneDeviceFirmware]];
@@ -763,12 +763,20 @@ bool needWaitProcess = false;
 	[[NSWorkspace sharedWorkspace] openURL:url];
 }
 
-- (void) setHiperLinkForTextField:(NSTextField*) textField
+- (void) setHiperLinkForTextField:(NSTextView*) textField
 {
-	NSMutableAttributedString *mutText = [[textField attributedStringValue] mutableCopy];
-	NSString *text = [textField stringValue];
+	[textField setLinkTextAttributes:nil];
+	
+	NSString *text = [[textField textStorage] string];
+	NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc] initWithString:text];
+	[attrString addAttribute:NSFontAttributeName value:[NSFont systemFontOfSize:13] range:[text rangeOfString:text]];
 	
 	NSArray *arr = [text componentsSeparatedByString:@", "];
+	
+	[attrString beginEditing];
+	
+	NSMutableParagraphStyle *truncateStyle = [[NSMutableParagraphStyle alloc] init];
+	[truncateStyle setLineBreakMode:NSLineBreakByTruncatingTail];
 	
 	for (int i = 0; i < [arr count]; ++i) {
 		NSArray *arr2 = [arr[i] componentsSeparatedByString:@" "];
@@ -778,13 +786,31 @@ bool needWaitProcess = false;
 			continue;
 		}
 
-		NSDictionary *dict = @{NSLinkAttributeName: url};
+		NSDictionary *dict = @{	NSLinkAttributeName: url,
+								NSForegroundColorAttributeName:[NSColor colorWithCalibratedRed:0.058 green:0.385 blue:0.784 alpha:1.000],
+								NSCursorAttributeName:[NSCursor pointingHandCursor],
+								NSParagraphStyleAttributeName:truncateStyle
+						  };
 		NSRange range = [text rangeOfString:arr2[0]];
-		[mutText addAttributes: dict range: range];
+		[attrString addAttributes: dict range: range];
 	}
 	
-	[textField setAttributedStringValue: mutText];
-	[textField setAllowsEditingTextAttributes: YES];
+	
+	
+	[attrString endEditing];
+	
+	[textField setEditable:NO];
+	
+	// do not display background
+	[textField setDrawsBackground:NO];
+	[[textField enclosingScrollView] setDrawsBackground:NO];
+	
+	// remove borders and scrollers
+	[[textField enclosingScrollView] setAutohidesScrollers:YES];
+	[[textField enclosingScrollView] setBorderType:NSNoBorder];
+	
+	// and finally set attributed string
+	[[textField textStorage] setAttributedString:attrString];
 }
 
 - (NSURL*) getHiperLinkForTool:(NSString*)tool

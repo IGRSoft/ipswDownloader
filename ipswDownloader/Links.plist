@@ -50,6 +50,8 @@
 	<dict>
 		<key>IGR Software</key>
 		<string>http://igrsoft.com</string>
+		<key>Donate</key>
+		<string>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ENPVXEYJUQU9G</string>
 		<key>Twitter</key>
 		<string>http://twitter.com/#!/iKorich</string>
 		<key>Facebook</key>

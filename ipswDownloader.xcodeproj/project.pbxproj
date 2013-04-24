@@ -88,6 +88,7 @@
 		A5E895A81695DAE6009F7CA5 /* libusbmuxd.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E895A01695DAD5009F7CA5 /* libusbmuxd.2.dylib */; };
 		A5E895A91695DAEC009F7CA5 /* libplist.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E895A11695DAD5009F7CA5 /* libplist.1.dylib */; };
 		A5E895AA1695DAEF009F7CA5 /* libimobiledevice.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E895A21695DAD5009F7CA5 /* libimobiledevice.3.dylib */; };
+		A5F6147316F75553004640D8 /* btn_donate_SM.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5F6147216F75553004640D8 /* btn_donate_SM.gif */; };
 		A5F9B076168C724900B9D51F /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B074168C724900B9D51F /* DeviceInfo.m */; };
 		A5F9B077168C724900B9D51F /* DeviceInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F9B075168C724900B9D51F /* DeviceInfo.xib */; };
 		A5F9B081168CA8B800B9D51F /* NSColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B080168CA8B800B9D51F /* NSColoredView.m */; };
@@ -327,6 +328,7 @@
 		A5E895A01695DAD5009F7CA5 /* libusbmuxd.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.2.dylib; path = ../../../../../usr/local/lib/libusbmuxd.2.dylib; sourceTree = "<group>"; };
 		A5E895A11695DAD5009F7CA5 /* libplist.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.1.dylib; path = ../../../../../usr/local/lib/libplist.1.dylib; sourceTree = "<group>"; };
 		A5E895A21695DAD5009F7CA5 /* libimobiledevice.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.3.dylib; path = ../../../../../usr/local/lib/libimobiledevice.3.dylib; sourceTree = "<group>"; };
+		A5F6147216F75553004640D8 /* btn_donate_SM.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donate_SM.gif; sourceTree = "<group>"; };
 		A5F9B073168C724900B9D51F /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
 		A5F9B074168C724900B9D51F /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
 		A5F9B075168C724900B9D51F /* DeviceInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceInfo.xib; sourceTree = "<group>"; };
@@ -560,6 +562,7 @@
 		A5AE01AF153383EC001F72B9 /* buttons */ = {
 			isa = PBXGroup;
 			children = (
+				A5F6147216F75553004640D8 /* btn_donate_SM.gif */,
 				A52CF34015AB5E7C00BE3842 /* InfoButton.pdf */,
 				A5AE01B0153383EC001F72B9 /* DownloadsButton.png */,
 			);
@@ -894,6 +897,7 @@
 				A52CF34115AB5E7C00BE3842 /* InfoButton.pdf in Resources */,
 				A5F9B077168C724900B9D51F /* DeviceInfo.xib in Resources */,
 				A53A3BB3168F981800C19F81 /* noAppIcon.png in Resources */,
+				A5F6147316F75553004640D8 /* btn_donate_SM.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
