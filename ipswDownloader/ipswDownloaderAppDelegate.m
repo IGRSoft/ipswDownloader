@@ -570,6 +570,8 @@ bool needWaitProcess = false;
 	
 	[self.firmwareBuild setStringValue: [m_plistParser getBuild:oneDeviceFirmware]];
 	
+	[self.tfJailbreak setHidden:NO];
+	[self.tfUnlock setHidden:NO];
 }
 
 - (void) openImageFor:(NSImageView*)_imageView withImageName:(NSString*)name
@@ -794,8 +796,6 @@ bool needWaitProcess = false;
 		NSRange range = [text rangeOfString:arr2[0]];
 		[attrString addAttributes: dict range: range];
 	}
-	
-	
 	
 	[attrString endEditing];
 	
