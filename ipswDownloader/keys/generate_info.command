@@ -4,9 +4,9 @@ set -o errexit
 ABSOLUTE_PATH=$(cd ${0%/*} && pwd -P)
 
 PROJECT_NAME="ipswDownloader"
-VERSION="2.4.2"
-VERSION_SHORT="242"
-BUILD="95"
+VERSION="2.5.0"
+VERSION_SHORT="250"
+BUILD="100"
 DOWNLOAD_BASE_URL="http://downloads.igrsoft.com/ipswDownloader/"
 RELEASENOTES_BASE_URL="http://igrsoft.com/wp-content/iPhone/info"
 

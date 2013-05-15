@@ -78,16 +78,13 @@
 		A5B8FF121353A0D9006091F4 /* ipswDownloaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FF111353A0D9006091F4 /* ipswDownloaderAppDelegate.m */; };
 		A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4EF0E12F73A3E00A46734 /* Cocoa.framework */; };
 		A5C4EF4112F73E8B00A46734 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A5C4EF4012F73E8A00A46734 /* Icon.icns */; };
-		A5D66EEB136756610064C7FE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D66EEA136756600064C7FE /* libxml2.dylib */; };
 		A5DCC3191375D07200E2F466 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DCC3171375D07200E2F466 /* Localizable.strings */; };
-		A5E895A31695DAD5009F7CA5 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E8959F1695DAD5009F7CA5 /* libxml2.2.dylib */; };
-		A5E895A41695DAD5009F7CA5 /* libusbmuxd.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E895A01695DAD5009F7CA5 /* libusbmuxd.2.dylib */; };
-		A5E895A51695DAD5009F7CA5 /* libplist.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E895A11695DAD5009F7CA5 /* libplist.1.dylib */; };
-		A5E895A61695DAD5009F7CA5 /* libimobiledevice.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E895A21695DAD5009F7CA5 /* libimobiledevice.3.dylib */; };
-		A5E895A71695DAE3009F7CA5 /* libxml2.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E8959F1695DAD5009F7CA5 /* libxml2.2.dylib */; };
-		A5E895A81695DAE6009F7CA5 /* libusbmuxd.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E895A01695DAD5009F7CA5 /* libusbmuxd.2.dylib */; };
-		A5E895A91695DAEC009F7CA5 /* libplist.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E895A11695DAD5009F7CA5 /* libplist.1.dylib */; };
-		A5E895AA1695DAEF009F7CA5 /* libimobiledevice.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E895A21695DAD5009F7CA5 /* libimobiledevice.3.dylib */; };
+		A5E5C388174390F000D35DCD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E5C385174390EF00D35DCD /* libplist.dylib */; };
+		A5E5C389174390F000D35DCD /* libusbmuxd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E5C386174390F000D35DCD /* libusbmuxd.dylib */; };
+		A5E5C38A174390F000D35DCD /* libxml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E5C387174390F000D35DCD /* libxml.dylib */; };
+		A5E5C38D1743928500D35DCD /* libplist.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E5C385174390EF00D35DCD /* libplist.dylib */; };
+		A5E5C38E1743928800D35DCD /* libusbmuxd.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E5C386174390F000D35DCD /* libusbmuxd.dylib */; };
+		A5E5C38F1743928B00D35DCD /* libxml.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E5C387174390F000D35DCD /* libxml.dylib */; };
 		A5F6147316F75553004640D8 /* btn_donate_SM.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5F6147216F75553004640D8 /* btn_donate_SM.gif */; };
 		A5F9B076168C724900B9D51F /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B074168C724900B9D51F /* DeviceInfo.m */; };
 		A5F9B077168C724900B9D51F /* DeviceInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F9B075168C724900B9D51F /* DeviceInfo.xib */; };
@@ -195,10 +192,9 @@
 			files = (
 				A54CEB6F17285B040065D91D /* Sparkle.framework in CopyFiles */,
 				A589290B16A5A6A700063E09 /* Growl.framework in CopyFiles */,
-				A5E895A81695DAE6009F7CA5 /* libusbmuxd.2.dylib in CopyFiles */,
-				A5E895A71695DAE3009F7CA5 /* libxml2.2.dylib in CopyFiles */,
-				A5E895AA1695DAEF009F7CA5 /* libimobiledevice.3.dylib in CopyFiles */,
-				A5E895A91695DAEC009F7CA5 /* libplist.1.dylib in CopyFiles */,
+				A5E5C38D1743928500D35DCD /* libplist.dylib in CopyFiles */,
+				A5E5C38E1743928800D35DCD /* libusbmuxd.dylib in CopyFiles */,
+				A5E5C38F1743928B00D35DCD /* libxml.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +253,6 @@
 		A54C4BFF150FCD4800166718 /* download100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download100.png; sourceTree = "<group>"; };
 		A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Sparkle.xcodeproj; sourceTree = "<group>"; };
 		A551C60D13E7285A00ADE661 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = keys/dsa_pub.pem; sourceTree = "<group>"; };
-		A552C2D01681DCD800BA3397 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		A57BDB07163034C000215237 /* receipt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = receipt; sourceTree = "<group>"; };
 		A57BDB2616304FE700215237 /* IPSWInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSWInfoHelper.h; sourceTree = "<group>"; };
 		A57BDB2716304FE700215237 /* IPSWInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSWInfoHelper.m; sourceTree = "<group>"; };
@@ -327,14 +322,13 @@
 		A5C4EF1B12F73A3E00A46734 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5C4EF2012F73A3E00A46734 /* ipswDownloaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipswDownloaderAppDelegate.h; sourceTree = "<group>"; };
 		A5C4EF4012F73E8A00A46734 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
-		A5D66EEA136756600064C7FE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		A5DCC3181375D07200E2F466 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A5E3BDDF15A4378900CB865F /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = en.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5E3BDE915A437A400CB865F /* ru */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ru; path = ru.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
-		A5E8959F1695DAD5009F7CA5 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../usr/local/lib/libxml2.2.dylib; sourceTree = "<group>"; };
-		A5E895A01695DAD5009F7CA5 /* libusbmuxd.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.2.dylib; path = ../../../../../usr/local/lib/libusbmuxd.2.dylib; sourceTree = "<group>"; };
-		A5E895A11695DAD5009F7CA5 /* libplist.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.1.dylib; path = ../../../../../usr/local/lib/libplist.1.dylib; sourceTree = "<group>"; };
-		A5E895A21695DAD5009F7CA5 /* libimobiledevice.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.3.dylib; path = ../../../../../usr/local/lib/libimobiledevice.3.dylib; sourceTree = "<group>"; };
+		A5E5C385174390EF00D35DCD /* libplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.dylib; path = Frameworks/libplist.dylib; sourceTree = "<group>"; };
+		A5E5C386174390F000D35DCD /* libusbmuxd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.dylib; path = Frameworks/libusbmuxd.dylib; sourceTree = "<group>"; };
+		A5E5C387174390F000D35DCD /* libxml.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml.dylib; path = Frameworks/libxml.dylib; sourceTree = "<group>"; };
+		A5E5C38C1743912A00D35DCD /* add_libs.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = add_libs.sh; sourceTree = SOURCE_ROOT; };
 		A5F6147216F75553004640D8 /* btn_donate_SM.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donate_SM.gif; sourceTree = "<group>"; };
 		A5F9B073168C724900B9D51F /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
 		A5F9B074168C724900B9D51F /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
@@ -354,14 +348,12 @@
 				A589290816A5A66600063E09 /* libZipArchive-mac.a in Frameworks */,
 				A589272C16A5A52800063E09 /* Growl.framework in Frameworks */,
 				A585C26C14B9F678004CEC78 /* Security.framework in Frameworks */,
-				A5D66EEB136756610064C7FE /* libxml2.dylib in Frameworks */,
 				A5FA0E2C136489820084A0A8 /* AudioToolbox.framework in Frameworks */,
 				A5FD5699134CF0EC00D2488D /* SystemConfiguration.framework in Frameworks */,
 				A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */,
-				A5E895A31695DAD5009F7CA5 /* libxml2.2.dylib in Frameworks */,
-				A5E895A41695DAD5009F7CA5 /* libusbmuxd.2.dylib in Frameworks */,
-				A5E895A51695DAD5009F7CA5 /* libplist.1.dylib in Frameworks */,
-				A5E895A61695DAD5009F7CA5 /* libimobiledevice.3.dylib in Frameworks */,
+				A5E5C388174390F000D35DCD /* libplist.dylib in Frameworks */,
+				A5E5C389174390F000D35DCD /* libusbmuxd.dylib in Frameworks */,
+				A5E5C38A174390F000D35DCD /* libxml.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,13 +605,10 @@
 		A5C4EF1012F73A3E00A46734 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5E5C385174390EF00D35DCD /* libplist.dylib */,
+				A5E5C386174390F000D35DCD /* libusbmuxd.dylib */,
+				A5E5C387174390F000D35DCD /* libxml.dylib */,
 				A589272B16A5A52800063E09 /* Growl.framework */,
-				A5E8959F1695DAD5009F7CA5 /* libxml2.2.dylib */,
-				A5E895A01695DAD5009F7CA5 /* libusbmuxd.2.dylib */,
-				A5E895A11695DAD5009F7CA5 /* libplist.1.dylib */,
-				A5E895A21695DAD5009F7CA5 /* libimobiledevice.3.dylib */,
-				A552C2D01681DCD800BA3397 /* libz.dylib */,
-				A5D66EEA136756600064C7FE /* libxml2.dylib */,
 				A5C4EF1112F73A3E00A46734 /* AppKit.framework */,
 			);
 			name = "Other Frameworks";
@@ -649,6 +638,7 @@
 		A5C4EF1512F73A3E00A46734 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5E5C38C1743912A00D35DCD /* add_libs.sh */,
 				A5C4EF1612F73A3E00A46734 /* ipswDownloader-Info.plist */,
 				A5C4EF1A12F73A3E00A46734 /* ipswDownloader-Prefix.pch */,
 				A5C4EF1B12F73A3E00A46734 /* main.m */,
@@ -705,6 +695,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5C4EF3A12F73A3E00A46734 /* Build configuration list for PBXNativeTarget "ipswDownloader" */;
 			buildPhases = (
+				A5E5C38B1743911800D35DCD /* ShellScript */,
 				A5C4EF0612F73A3E00A46734 /* Sources */,
 				A5C4EF0712F73A3E00A46734 /* Frameworks */,
 				A5C4EF0812F73A3E00A46734 /* Resources */,
@@ -930,7 +921,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "install_name_tool -change /usr/local/lib/libplist.1.dylib @executable_path/../Frameworks/libplist.1.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\ninstall_name_tool -change /usr/local/lib/libimobiledevice.3.dylib @executable_path/../Frameworks/libimobiledevice.3.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\ninstall_name_tool -change /usr/local/lib/libusbmuxd.2.dylib @executable_path/../Frameworks/libusbmuxd.2.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\ninstall_name_tool -change /usr/local/lib/libxml2.2.dylib @executable_path/../Frameworks/libxml2.2.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\ninstall_name_tool -change /usr/local/lib/libplist.1.dylib @loader_path/libplist.1.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/Frameworks/libimobiledevice.3.dylib\ninstall_name_tool -change /usr/local/lib/libusbmuxd.2.dylib @loader_path/libusbmuxd.2.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/Frameworks/libimobiledevice.3.dylib\ninstall_name_tool -change /usr/local/lib/libxml2.2.dylib @loader_path/libxml2.2.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/Frameworks/libplist.1.dylib\ninstall_name_tool -change /usr/local/lib/libplist.1.dylib @loader_path/libplist.1.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/Frameworks/libusbmuxd.2.dylib";
+			shellScript = "install_name_tool -change /usr/local/lib/libplist.1.dylib @executable_path/../Frameworks/libplist.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\ninstall_name_tool -change /usr/local/lib/libusbmuxd.2.dylib @executable_path/../Frameworks/libusbmuxd.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\ninstall_name_tool -change /usr/local/lib/libxml2.2.dylib @executable_path/../Frameworks/libxml.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\n\ninstall_name_tool -change /usr/local/lib/libxml2.2.dylib @loader_path/libxml.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/Frameworks/libplist.dylib\ninstall_name_tool -change /usr/local/lib/libplist.1.dylib @loader_path/libplist.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/Frameworks/libusbmuxd.dylib";
+		};
+		A5E5C38B1743911800D35DCD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /Users/korich/Project/Develop/ipswDownloader/add_libs.sh;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1073,19 +1077,24 @@
 					ASI_DEBUG_LOG,
 				);
 				HEADER_SEARCH_PATHS = (
-					"${SDK_DIR}/usr/include/libxml2",
-					/usr/local/include,
+					"\"$(SDKROOT)/usr/include/openssl\"",
 					"\"$(SRCROOT)/External/ZipArchive\"",
 					"\"$(SRCROOT)/External/ZipArchive/minizip\"",
+					/usr/local/include,
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
+				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",
-					/usr/local/lib,
+					"\"$(SRCROOT)/Frameworks\"",
 				);
-				OTHER_LDFLAGS = "-lz";
+				OTHER_LDFLAGS = (
+					"-limobiledevice",
+					"-lz",
+					"-lcrypto",
+					"-lssl",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1105,19 +1114,24 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipswDownloader/ipswDownloader-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"${SDK_DIR}/usr/include/libxml2",
-					/usr/local/include,
+					"\"$(SDKROOT)/usr/include/openssl\"",
 					"\"$(SRCROOT)/External/ZipArchive\"",
 					"\"$(SRCROOT)/External/ZipArchive/minizip\"",
+					/usr/local/include,
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
+				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",
-					/usr/local/lib,
+					"\"$(SRCROOT)/Frameworks\"",
 				);
-				OTHER_LDFLAGS = "-lz";
+				OTHER_LDFLAGS = (
+					"-limobiledevice",
+					"-lz",
+					"-lcrypto",
+					"-lssl",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

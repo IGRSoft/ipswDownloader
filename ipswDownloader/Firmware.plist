@@ -7096,6 +7096,33 @@
 			<key>build</key>
 			<string>BrightonMaps 10B329</string>
 		</dict>
+		<key>6.1.4 / 10B350</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.25</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-5119.20130502.Usa23/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>53b6aa61ee9c258ea66d8c28bb5bfe3fd4ba7939</string>
+			<key>size</key>
+			<integer>1037550400</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-3403.20130502.Xerz1/iPhone5,1_6.1.4_10B350_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>BrightonMaps 10B350</string>
+		</dict>
 	</dict>
 	<key>iPhone 5 Global</key>
 	<dict>
@@ -7260,6 +7287,33 @@
 			<string></string>
 			<key>build</key>
 			<string>BrightonMaps 10B329</string>
+		</dict>
+		<key>6.1.4 / 10B350</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.04.25</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/091-5119.20130502.Usa23/iPhoneiTunesUpdateReadMe_6.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>5afaa5f085d19595d0884c2662a954d61b1a627e</string>
+			<key>size</key>
+			<integer>1037923480</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-3423.20130502.Tr3Lz/iPhone5,2_6.1.4_10B350_Restore.ipsw</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>BrightonMaps 10B350</string>
 		</dict>
 	</dict>
 	<key>iPod Touch 1</key>

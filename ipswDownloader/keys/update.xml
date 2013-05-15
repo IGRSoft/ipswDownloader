@@ -99,5 +99,11 @@
 			<pubDate>Thu, 18 Oct 2012 17:17:19 +0300</pubDate>
 			<enclosure url="http://downloads.igrsoft.com/ipswDownloader/ipswDownloader_242.zip" sparkle:version="2.4.2" length="5937000" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCAIzHCyLc55ntISY8I7pDNam4/AQIUd5cXxeU62lU4YU7qiMP9m4H957M=" />
 		</item>
+		<item>
+			<title>Version 2.5.0, Build 100</title>
+			<sparkle:releaseNotesLink>http://igrsoft.com/wp-content/iPhone/info_250.html</sparkle:releaseNotesLink>
+			<pubDate>Wed, 15 May 2013 12:58:24 +0300</pubDate>
+			<enclosure url="http://downloads.igrsoft.com/ipswDownloader/ipswDownloader_250.zip" sparkle:version="2.5.0" length="4809358" type="application/octet-stream" sparkle:dsaSignature="MCwCFG0GeCB2gYxVAsWPR2yNF3Dj7A99AhQqXf4X6vkMyHL9J0p9q29HQIZM/A==" />
+		</item>
 	</channel>
 </rss>
