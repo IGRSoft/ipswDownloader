@@ -10,3 +10,9 @@
 [submodule "External/Sparkle"]
 	path = External/Sparkle
 	url = https://github.com/tumult/Sparkle.git
+[submodule "External/LBProgressBar"]
+	path = External/LBProgressBar
+	url = https://github.com/iKorich/LBProgressBar.git
+[submodule "External/libimobiledevice"]
+	path = External/libimobiledevice
+	url = https://github.com/aburgh/libimobiledevice.git

@@ -1,0 +1,2 @@
+need add
+Growl.frameworkSparkle.framework

@@ -48,9 +48,11 @@
 		A54C4C09150FCD4800166718 /* download080.png in Resources */ = {isa = PBXBuildFile; fileRef = A54C4BFD150FCD4800166718 /* download080.png */; };
 		A54C4C0A150FCD4800166718 /* download090.png in Resources */ = {isa = PBXBuildFile; fileRef = A54C4BFE150FCD4800166718 /* download090.png */; };
 		A54C4C0B150FCD4800166718 /* download100.png in Resources */ = {isa = PBXBuildFile; fileRef = A54C4BFF150FCD4800166718 /* download100.png */; };
-		A54CEB6C17285ADD0065D91D /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54CEB6117285AB60065D91D /* Sparkle.framework */; };
-		A54CEB6F17285B040065D91D /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A54CEB6117285AB60065D91D /* Sparkle.framework */; };
 		A551C60E13E7285A00ADE661 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = A551C60D13E7285A00ADE661 /* dsa_pub.pem */; };
+		A554D23E17CCB84F00DBE617 /* LBProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A554D23517CCB84F00DBE617 /* LBProgressBar.m */; };
+		A554D25C17CCBA9100DBE617 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A554D25B17CCBA9100DBE617 /* Sparkle.framework */; };
+		A554D25D17CCBB2500DBE617 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A554D1FC17CCB83F00DBE617 /* libimobiledevice.a */; };
+		A554D25E17CCBB2500DBE617 /* libusbmuxd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A554D25017CCB8A400DBE617 /* libusbmuxd.a */; };
 		A575D07315A451AE0072734F /* ipswDownloaderHelp in Resources */ = {isa = PBXBuildFile; fileRef = A5E3BDDE15A4378900CB865F /* ipswDownloaderHelp */; };
 		A577289913E8228700C9AB51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4EF1B12F73A3E00A46734 /* main.m */; };
 		A57BDB0C16303E3100215237 /* receipt in CopyFiles */ = {isa = PBXBuildFile; fileRef = A57BDB07163034C000215237 /* receipt */; };
@@ -79,12 +81,6 @@
 		A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4EF0E12F73A3E00A46734 /* Cocoa.framework */; };
 		A5C4EF4112F73E8B00A46734 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A5C4EF4012F73E8A00A46734 /* Icon.icns */; };
 		A5DCC3191375D07200E2F466 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DCC3171375D07200E2F466 /* Localizable.strings */; };
-		A5E5C388174390F000D35DCD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E5C385174390EF00D35DCD /* libplist.dylib */; };
-		A5E5C389174390F000D35DCD /* libusbmuxd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E5C386174390F000D35DCD /* libusbmuxd.dylib */; };
-		A5E5C38A174390F000D35DCD /* libxml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E5C387174390F000D35DCD /* libxml.dylib */; };
-		A5E5C38D1743928500D35DCD /* libplist.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E5C385174390EF00D35DCD /* libplist.dylib */; };
-		A5E5C38E1743928800D35DCD /* libusbmuxd.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E5C386174390F000D35DCD /* libusbmuxd.dylib */; };
-		A5E5C38F1743928B00D35DCD /* libxml.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5E5C387174390F000D35DCD /* libxml.dylib */; };
 		A5F6147316F75553004640D8 /* btn_donate_SM.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5F6147216F75553004640D8 /* btn_donate_SM.gif */; };
 		A5F9B076168C724900B9D51F /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B074168C724900B9D51F /* DeviceInfo.m */; };
 		A5F9B077168C724900B9D51F /* DeviceInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F9B075168C724900B9D51F /* DeviceInfo.xib */; };
@@ -94,54 +90,215 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A54CEB6017285AB60065D91D /* PBXContainerItemProxy */ = {
+		A554D1FB17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = Sparkle;
+			remoteGlobalIDString = 96B88B30174E0B9900B868D9;
+			remoteInfo = imobiledevice.a;
 		};
-		A54CEB6217285AB60065D91D /* PBXContainerItemProxy */ = {
+		A554D1FD17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 61B5F90209C4CEE200B25A18;
-			remoteInfo = "Sparkle Test App";
+			remoteGlobalIDString = 96CCC5FE174E493200AF832F;
+			remoteInfo = imobiledevice.dylib;
 		};
-		A54CEB6417285AB60065D91D /* PBXContainerItemProxy */ = {
+		A554D1FF17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 612279D90DB5470200AB99EA;
-			remoteInfo = "Sparkle Unit Tests";
+			remoteGlobalIDString = 96CCC65F174E7D6800AF832F;
+			remoteInfo = ideviceclient;
 		};
-		A54CEB6617285AB60065D91D /* PBXContainerItemProxy */ = {
+		A554D20117CCB83F00DBE617 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5D06E8D00FD68C7C005AE3F6;
-			remoteInfo = BinaryDelta;
+			remoteGlobalIDString = 96CCC67E174EA13500AF832F;
+			remoteInfo = afccheck;
 		};
-		A54CEB6817285AB60065D91D /* PBXContainerItemProxy */ = {
+		A554D20317CCB83F00DBE617 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 55C14BB7136EEF1500649790;
-			remoteInfo = finish_installation;
+			remoteGlobalIDString = 96CCC68B174EAA9C00AF832F;
+			remoteInfo = "lckd-client";
 		};
-		A54CEB6A17285AB60065D91D /* PBXContainerItemProxy */ = {
+		A554D20517CCB83F00DBE617 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8B887B5E1517F3AB000BB292;
-			remoteInfo = sandbox_service;
+			remoteGlobalIDString = 96CCC69B174EABFB00AF832F;
+			remoteInfo = filerelaytest;
 		};
-		A54CEB6D17285AF80065D91D /* PBXContainerItemProxy */ = {
+		A554D20717CCB83F00DBE617 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96CCC6A8174EAD4800AF832F;
+			remoteInfo = housearresttest;
+		};
+		A554D20917CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96CCC6B5174EAF2900AF832F;
+			remoteInfo = ideviceheartbeat;
+		};
+		A554D20B17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96CCC6D2174EB17D00AF832F;
+			remoteInfo = idevice_id;
+		};
+		A554D20D17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96CCC6EB174EB24E00AF832F;
+			remoteInfo = ideviceinfo;
+		};
+		A554D20F17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96CCC6FB174EBC5B00AF832F;
+			remoteInfo = ideviceenterrecovery;
+		};
+		A554D21117CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96CCC70A174EBDCC00AF832F;
+			remoteInfo = idevicesyslog;
+		};
+		A554D21317CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96CCC719174EC00100AF832F;
+			remoteInfo = idevicediagnostics;
+		};
+		A554D21517CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9609CAF2174EF50100E744BE;
+			remoteInfo = idevicepair;
+		};
+		A554D21717CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F0F5FA174EFFAC0014879C;
+			remoteInfo = idevicebackup;
+		};
+		A554D21917CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F0F60E174F01420014879C;
+			remoteInfo = idevicebackup2;
+		};
+		A554D21B17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F0F637175223B70014879C;
+			remoteInfo = idevicedate;
+		};
+		A554D21D17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F0F655175224C20014879C;
+			remoteInfo = idevicedebugserverproxy;
+		};
+		A554D21F17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F0F66717522D320014879C;
+			remoteInfo = ideviceimagemounter;
+		};
+		A554D22117CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F0F67C175231690014879C;
+			remoteInfo = ideviceprovision;
+		};
+		A554D22317CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F0F68E1752322C0014879C;
+			remoteInfo = idevicescreenshot;
+		};
+		A554D22517CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A8D95117A12DF6006E38E0;
+			remoteInfo = ideviceexec;
+		};
+		A554D22717CCB83F00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A8D97317A4A9B5006E38E0;
+			remoteInfo = afccl;
+		};
+		A554D24117CCB87000DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = Sparkle;
+			remoteGlobalIDString = 96B88B2F174E0B9900B868D9;
+			remoteInfo = imobiledevice.a;
+		};
+		A554D24F17CCB8A400DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96ED2EF011B83BF3003ED904;
+			remoteInfo = libusbmuxd.a;
+		};
+		A554D25117CCB8A400DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1007CB0801007CB0801007CB;
+			remoteInfo = libusbmuxd.dylib;
+		};
+		A554D25317CCB8A400DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1007DEBE01007DEBE01007DE;
+			remoteInfo = usbmuxd;
+		};
+		A554D25517CCB8A400DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1007ED7E01007ED7E01007ED;
+			remoteInfo = iproxy;
+		};
+		A554D25717CCB8A400DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96C86655175C42200061472B;
+			remoteInfo = "iproxy-osx";
+		};
+		A554D25917CCB8AC00DBE617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 96ED2EE411B83BF3003ED904;
+			remoteInfo = libusbmuxd.a;
 		};
 		A58928FE16A5A64800063E09 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -190,11 +347,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A54CEB6F17285B040065D91D /* Sparkle.framework in CopyFiles */,
 				A589290B16A5A6A700063E09 /* Growl.framework in CopyFiles */,
-				A5E5C38D1743928500D35DCD /* libplist.dylib in CopyFiles */,
-				A5E5C38E1743928800D35DCD /* libusbmuxd.dylib in CopyFiles */,
-				A5E5C38F1743928B00D35DCD /* libxml.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +404,12 @@
 		A54C4BFD150FCD4800166718 /* download080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download080.png; sourceTree = "<group>"; };
 		A54C4BFE150FCD4800166718 /* download090.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download090.png; sourceTree = "<group>"; };
 		A54C4BFF150FCD4800166718 /* download100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download100.png; sourceTree = "<group>"; };
-		A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Sparkle.xcodeproj; sourceTree = "<group>"; };
 		A551C60D13E7285A00ADE661 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = keys/dsa_pub.pem; sourceTree = "<group>"; };
+		A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libimobiledevice.xcodeproj; path = External/libimobiledevice/libimobiledevice.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A554D23417CCB84F00DBE617 /* LBProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBProgressBar.h; sourceTree = "<group>"; };
+		A554D23517CCB84F00DBE617 /* LBProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBProgressBar.m; sourceTree = "<group>"; };
+		A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = usbmuxd.xcodeproj; path = External/libimobiledevice/deps/usbmuxd/usbmuxd.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A554D25B17CCBA9100DBE617 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		A57BDB07163034C000215237 /* receipt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = receipt; sourceTree = "<group>"; };
 		A57BDB2616304FE700215237 /* IPSWInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSWInfoHelper.h; sourceTree = "<group>"; };
 		A57BDB2716304FE700215237 /* IPSWInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSWInfoHelper.m; sourceTree = "<group>"; };
@@ -286,7 +443,7 @@
 		A58926A116A5A31400063E09 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = "External/asi-http-request/Classes/ASIProgressDelegate.h"; sourceTree = SOURCE_ROOT; };
 		A58926CC16A5A3D100063E09 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A58926CD16A5A3D100063E09 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		A589272B16A5A52800063E09 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = External/Growl.framework; sourceTree = "<group>"; };
+		A589272B16A5A52800063E09 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Frameworks/Growl.framework; sourceTree = "<group>"; };
 		A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZipArchive.xcodeproj; path = ZipArchive/ZipArchive.xcodeproj; sourceTree = "<group>"; };
 		A595922313E824D4007C8514 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = res/Credits.rtf; sourceTree = "<group>"; };
 		A595922413E824D4007C8514 /* Preference.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Preference.xib; path = res/Preference.xib; sourceTree = "<group>"; };
@@ -325,9 +482,6 @@
 		A5DCC3181375D07200E2F466 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A5E3BDDF15A4378900CB865F /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = en.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5E3BDE915A437A400CB865F /* ru */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ru; path = ru.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
-		A5E5C385174390EF00D35DCD /* libplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.dylib; path = Frameworks/libplist.dylib; sourceTree = "<group>"; };
-		A5E5C386174390F000D35DCD /* libusbmuxd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.dylib; path = Frameworks/libusbmuxd.dylib; sourceTree = "<group>"; };
-		A5E5C387174390F000D35DCD /* libxml.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml.dylib; path = Frameworks/libxml.dylib; sourceTree = "<group>"; };
 		A5E5C38C1743912A00D35DCD /* add_libs.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = add_libs.sh; sourceTree = SOURCE_ROOT; };
 		A5F6147216F75553004640D8 /* btn_donate_SM.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donate_SM.gif; sourceTree = "<group>"; };
 		A5F9B073168C724900B9D51F /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
@@ -344,16 +498,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A54CEB6C17285ADD0065D91D /* Sparkle.framework in Frameworks */,
+				A554D25D17CCBB2500DBE617 /* libimobiledevice.a in Frameworks */,
+				A554D25E17CCBB2500DBE617 /* libusbmuxd.a in Frameworks */,
 				A589290816A5A66600063E09 /* libZipArchive-mac.a in Frameworks */,
 				A589272C16A5A52800063E09 /* Growl.framework in Frameworks */,
 				A585C26C14B9F678004CEC78 /* Security.framework in Frameworks */,
 				A5FA0E2C136489820084A0A8 /* AudioToolbox.framework in Frameworks */,
 				A5FD5699134CF0EC00D2488D /* SystemConfiguration.framework in Frameworks */,
 				A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */,
-				A5E5C388174390F000D35DCD /* libplist.dylib in Frameworks */,
-				A5E5C389174390F000D35DCD /* libusbmuxd.dylib in Frameworks */,
-				A5E5C38A174390F000D35DCD /* libxml.dylib in Frameworks */,
+				A554D25C17CCBA9100DBE617 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,19 +587,6 @@
 			path = download;
 			sourceTree = "<group>";
 		};
-		A54CEB5817285AB50065D91D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A54CEB6117285AB60065D91D /* Sparkle.framework */,
-				A54CEB6317285AB60065D91D /* Sparkle Test App.app */,
-				A54CEB6517285AB60065D91D /* Sparkle Unit Tests.octest */,
-				A54CEB6717285AB60065D91D /* BinaryDelta */,
-				A54CEB6917285AB60065D91D /* finish_installation.app */,
-				A54CEB6B17285AB60065D91D /* com.andymatuschak.Sparkle.SandboxService.xpc */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A551C60F13E7287A00ADE661 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +603,58 @@
 			);
 			name = Resources;
 			path = ipswDownloader;
+			sourceTree = "<group>";
+		};
+		A554D1DF17CCB83D00DBE617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A554D1FC17CCB83F00DBE617 /* libimobiledevice.a */,
+				A554D1FE17CCB83F00DBE617 /* libimobiledevice.dylib */,
+				A554D20017CCB83F00DBE617 /* ideviceclient */,
+				A554D20217CCB83F00DBE617 /* afccheck */,
+				A554D20417CCB83F00DBE617 /* lckd-client */,
+				A554D20617CCB83F00DBE617 /* filerelaytest */,
+				A554D20817CCB83F00DBE617 /* housearresttest */,
+				A554D20A17CCB83F00DBE617 /* ideviceheartbeat */,
+				A554D20C17CCB83F00DBE617 /* idevice_id */,
+				A554D20E17CCB83F00DBE617 /* ideviceinfo */,
+				A554D21017CCB83F00DBE617 /* ideviceenterrecovery */,
+				A554D21217CCB83F00DBE617 /* idevicesyslog */,
+				A554D21417CCB83F00DBE617 /* idevicediagnostics */,
+				A554D21617CCB83F00DBE617 /* idevicepair */,
+				A554D21817CCB83F00DBE617 /* idevicebackup */,
+				A554D21A17CCB83F00DBE617 /* idevicebackup2 */,
+				A554D21C17CCB83F00DBE617 /* idevicedate */,
+				A554D21E17CCB83F00DBE617 /* idevicedebugserverproxy */,
+				A554D22017CCB83F00DBE617 /* ideviceimagemounter */,
+				A554D22217CCB83F00DBE617 /* ideviceprovision */,
+				A554D22417CCB83F00DBE617 /* idevicescreenshot */,
+				A554D22617CCB83F00DBE617 /* ideviceexec */,
+				A554D22817CCB83F00DBE617 /* afccl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A554D22917CCB84F00DBE617 /* LBProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				A554D23417CCB84F00DBE617 /* LBProgressBar.h */,
+				A554D23517CCB84F00DBE617 /* LBProgressBar.m */,
+			);
+			name = LBProgressBar;
+			path = External/LBProgressBar/LBProgressBar;
+			sourceTree = SOURCE_ROOT;
+		};
+		A554D24717CCB8A300DBE617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A554D25017CCB8A400DBE617 /* libusbmuxd.a */,
+				A554D25217CCB8A400DBE617 /* libusbmuxd.dylib */,
+				A554D25417CCB8A400DBE617 /* usbmuxd-iphat */,
+				A554D25617CCB8A400DBE617 /* iproxy */,
+				A554D25817CCB8A400DBE617 /* iproxy-osx */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A55BB8B5132C335500EA83C8 /* res */ = {
@@ -540,15 +732,6 @@
 			path = External/ZipArchive;
 			sourceTree = SOURCE_ROOT;
 		};
-		A589272D16A5A5EF00063E09 /* Sparkle */ = {
-			isa = PBXGroup;
-			children = (
-				A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */,
-			);
-			name = Sparkle;
-			path = External/Sparkle;
-			sourceTree = SOURCE_ROOT;
-		};
 		A58928F516A5A64800063E09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -605,9 +788,7 @@
 		A5C4EF1012F73A3E00A46734 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A5E5C385174390EF00D35DCD /* libplist.dylib */,
-				A5E5C386174390F000D35DCD /* libusbmuxd.dylib */,
-				A5E5C387174390F000D35DCD /* libxml.dylib */,
+				A554D25B17CCBA9100DBE617 /* Sparkle.framework */,
 				A589272B16A5A52800063E09 /* Growl.framework */,
 				A5C4EF1112F73A3E00A46734 /* AppKit.framework */,
 			);
@@ -650,7 +831,9 @@
 		A5D5CF1D137092B2004325AD /* External */ = {
 			isa = PBXGroup;
 			children = (
-				A589272D16A5A5EF00063E09 /* Sparkle */,
+				A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */,
+				A554D22917CCB84F00DBE617 /* LBProgressBar */,
+				A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */,
 				A58926EE16A5A46600063E09 /* ZipArchive */,
 				A58926AA16A5A3D100063E09 /* Reachability */,
 				A5D5CF1E137092B2004325AD /* ASIHTTPRequest */,
@@ -695,18 +878,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5C4EF3A12F73A3E00A46734 /* Build configuration list for PBXNativeTarget "ipswDownloader" */;
 			buildPhases = (
-				A5E5C38B1743911800D35DCD /* ShellScript */,
 				A5C4EF0612F73A3E00A46734 /* Sources */,
 				A5C4EF0712F73A3E00A46734 /* Frameworks */,
 				A5C4EF0812F73A3E00A46734 /* Resources */,
 				A5B8FF0B135396A9006091F4 /* CopyFiles */,
 				A518815115AB2B0400A246D2 /* CopyFiles */,
-				A57BDB0D16303F5E00215237 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A54CEB6E17285AF80065D91D /* PBXTargetDependency */,
+				A554D25A17CCB8AC00DBE617 /* PBXTargetDependency */,
+				A554D24217CCB87000DBE617 /* PBXTargetDependency */,
 				A589290716A5A64F00063E09 /* PBXTargetDependency */,
 			);
 			name = ipswDownloader;
@@ -720,7 +902,7 @@
 		A5C4EF0112F73A3D00A46734 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = A5C4EF0412F73A3D00A46734 /* Build configuration list for PBXProject "ipswDownloader" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -768,8 +950,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = A54CEB5817285AB50065D91D /* Products */;
-					ProjectRef = A54CEB5717285AB50065D91D /* Sparkle.xcodeproj */;
+					ProductGroup = A554D1DF17CCB83D00DBE617 /* Products */;
+					ProjectRef = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+				},
+				{
+					ProductGroup = A554D24717CCB8A300DBE617 /* Products */;
+					ProjectRef = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
 				},
 				{
 					ProductGroup = A58928F516A5A64800063E09 /* Products */;
@@ -784,46 +970,200 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A54CEB6117285AB60065D91D /* Sparkle.framework */ = {
+		A554D1FC17CCB83F00DBE617 /* libimobiledevice.a */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Sparkle.framework;
-			remoteRef = A54CEB6017285AB60065D91D /* PBXContainerItemProxy */;
+			fileType = archive.ar;
+			path = libimobiledevice.a;
+			remoteRef = A554D1FB17CCB83F00DBE617 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A54CEB6317285AB60065D91D /* Sparkle Test App.app */ = {
+		A554D1FE17CCB83F00DBE617 /* libimobiledevice.dylib */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Sparkle Test App.app";
-			remoteRef = A54CEB6217285AB60065D91D /* PBXContainerItemProxy */;
+			fileType = "compiled.mach-o.dylib";
+			path = libimobiledevice.dylib;
+			remoteRef = A554D1FD17CCB83F00DBE617 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A54CEB6517285AB60065D91D /* Sparkle Unit Tests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Sparkle Unit Tests.octest";
-			remoteRef = A54CEB6417285AB60065D91D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A54CEB6717285AB60065D91D /* BinaryDelta */ = {
+		A554D20017CCB83F00DBE617 /* ideviceclient */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
-			path = BinaryDelta;
-			remoteRef = A54CEB6617285AB60065D91D /* PBXContainerItemProxy */;
+			path = ideviceclient;
+			remoteRef = A554D1FF17CCB83F00DBE617 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A54CEB6917285AB60065D91D /* finish_installation.app */ = {
+		A554D20217CCB83F00DBE617 /* afccheck */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = finish_installation.app;
-			remoteRef = A54CEB6817285AB60065D91D /* PBXContainerItemProxy */;
+			fileType = "compiled.mach-o.executable";
+			path = afccheck;
+			remoteRef = A554D20117CCB83F00DBE617 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A54CEB6B17285AB60065D91D /* com.andymatuschak.Sparkle.SandboxService.xpc */ = {
+		A554D20417CCB83F00DBE617 /* lckd-client */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = com.andymatuschak.Sparkle.SandboxService.xpc;
-			remoteRef = A54CEB6A17285AB60065D91D /* PBXContainerItemProxy */;
+			fileType = "compiled.mach-o.executable";
+			path = "lckd-client";
+			remoteRef = A554D20317CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D20617CCB83F00DBE617 /* filerelaytest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = filerelaytest;
+			remoteRef = A554D20517CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D20817CCB83F00DBE617 /* housearresttest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = housearresttest;
+			remoteRef = A554D20717CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D20A17CCB83F00DBE617 /* ideviceheartbeat */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ideviceheartbeat;
+			remoteRef = A554D20917CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D20C17CCB83F00DBE617 /* idevice_id */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = idevice_id;
+			remoteRef = A554D20B17CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D20E17CCB83F00DBE617 /* ideviceinfo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ideviceinfo;
+			remoteRef = A554D20D17CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D21017CCB83F00DBE617 /* ideviceenterrecovery */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ideviceenterrecovery;
+			remoteRef = A554D20F17CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D21217CCB83F00DBE617 /* idevicesyslog */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = idevicesyslog;
+			remoteRef = A554D21117CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D21417CCB83F00DBE617 /* idevicediagnostics */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = idevicediagnostics;
+			remoteRef = A554D21317CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D21617CCB83F00DBE617 /* idevicepair */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = idevicepair;
+			remoteRef = A554D21517CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D21817CCB83F00DBE617 /* idevicebackup */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = idevicebackup;
+			remoteRef = A554D21717CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D21A17CCB83F00DBE617 /* idevicebackup2 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = idevicebackup2;
+			remoteRef = A554D21917CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D21C17CCB83F00DBE617 /* idevicedate */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = idevicedate;
+			remoteRef = A554D21B17CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D21E17CCB83F00DBE617 /* idevicedebugserverproxy */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = idevicedebugserverproxy;
+			remoteRef = A554D21D17CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D22017CCB83F00DBE617 /* ideviceimagemounter */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ideviceimagemounter;
+			remoteRef = A554D21F17CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D22217CCB83F00DBE617 /* ideviceprovision */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ideviceprovision;
+			remoteRef = A554D22117CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D22417CCB83F00DBE617 /* idevicescreenshot */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = idevicescreenshot;
+			remoteRef = A554D22317CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D22617CCB83F00DBE617 /* ideviceexec */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ideviceexec;
+			remoteRef = A554D22517CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D22817CCB83F00DBE617 /* afccl */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = afccl;
+			remoteRef = A554D22717CCB83F00DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D25017CCB8A400DBE617 /* libusbmuxd.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libusbmuxd.a;
+			remoteRef = A554D24F17CCB8A400DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D25217CCB8A400DBE617 /* libusbmuxd.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libusbmuxd.dylib;
+			remoteRef = A554D25117CCB8A400DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D25417CCB8A400DBE617 /* usbmuxd-iphat */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "usbmuxd-iphat";
+			remoteRef = A554D25317CCB8A400DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D25617CCB8A400DBE617 /* iproxy */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = iproxy;
+			remoteRef = A554D25517CCB8A400DBE617 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A554D25817CCB8A400DBE617 /* iproxy-osx */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "iproxy-osx";
+			remoteRef = A554D25717CCB8A400DBE617 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		A58928FF16A5A64800063E09 /* libZipArchive-ios.a */ = {
@@ -909,35 +1249,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A57BDB0D16303F5E00215237 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "install_name_tool -change /usr/local/lib/libplist.1.dylib @executable_path/../Frameworks/libplist.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\ninstall_name_tool -change /usr/local/lib/libusbmuxd.2.dylib @executable_path/../Frameworks/libusbmuxd.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\ninstall_name_tool -change /usr/local/lib/libxml2.2.dylib @executable_path/../Frameworks/libxml.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/MacOS/\"$PRODUCT_NAME\"\n\ninstall_name_tool -change /usr/local/lib/libxml2.2.dylib @loader_path/libxml.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/Frameworks/libplist.dylib\ninstall_name_tool -change /usr/local/lib/libplist.1.dylib @loader_path/libplist.dylib \"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".app/Contents/Frameworks/libusbmuxd.dylib";
-		};
-		A5E5C38B1743911800D35DCD /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = /Users/korich/Project/Develop/ipswDownloader/add_libs.sh;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		A5C4EF0612F73A3E00A46734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -961,16 +1272,22 @@
 				A58926A816A5A31500063E09 /* ASIInputStream.m in Sources */,
 				A58926A916A5A31500063E09 /* ASINetworkQueue.m in Sources */,
 				A58926E516A5A3D100063E09 /* Reachability.m in Sources */,
+				A554D23E17CCB84F00DBE617 /* LBProgressBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A54CEB6E17285AF80065D91D /* PBXTargetDependency */ = {
+		A554D24217CCB87000DBE617 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Sparkle;
-			targetProxy = A54CEB6D17285AF80065D91D /* PBXContainerItemProxy */;
+			name = imobiledevice.a;
+			targetProxy = A554D24117CCB87000DBE617 /* PBXContainerItemProxy */;
+		};
+		A554D25A17CCB8AC00DBE617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libusbmuxd.a;
+			targetProxy = A554D25917CCB8AC00DBE617 /* PBXContainerItemProxy */;
 		};
 		A589290716A5A64F00063E09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1037,13 +1354,13 @@
 		A5C4EF3812F73A3E00A46734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -1051,7 +1368,6 @@
 		A5C4EF3912F73A3E00A46734 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1069,7 +1385,7 @@
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/External\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipswDownloader/ipswDownloader-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1079,21 +1395,17 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(SDKROOT)/usr/include/openssl\"",
 					"\"$(SRCROOT)/External/ZipArchive\"",
+					"\"$(SRCROOT)/External/libimobiledevice/osx\"",
+					"\"$(SRCROOT)/External/libimobiledevice/include\"",
 					"\"$(SRCROOT)/External/ZipArchive/minizip\"",
-					/usr/local/include,
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
 				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SDKROOT)/usr/lib/system\"",
-					"\"$(SRCROOT)/Frameworks\"",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
-					"-limobiledevice",
-					"-lz",
 					"-lcrypto",
 					"-lssl",
+					"-lz",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1110,27 +1422,23 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/External\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipswDownloader/ipswDownloader-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"$(SDKROOT)/usr/include/openssl\"",
 					"\"$(SRCROOT)/External/ZipArchive\"",
+					"\"$(SRCROOT)/External/libimobiledevice/osx\"",
+					"\"$(SRCROOT)/External/libimobiledevice/include\"",
 					"\"$(SRCROOT)/External/ZipArchive/minizip\"",
-					/usr/local/include,
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
 				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SDKROOT)/usr/lib/system\"",
-					"\"$(SRCROOT)/Frameworks\"",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
-					"-limobiledevice",
-					"-lz",
 					"-lcrypto",
 					"-lssl",
+					"-lz",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
