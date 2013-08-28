@@ -53,6 +53,7 @@
 		A554D25C17CCBA9100DBE617 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A554D25B17CCBA9100DBE617 /* Sparkle.framework */; };
 		A554D25D17CCBB2500DBE617 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A554D1FC17CCB83F00DBE617 /* libimobiledevice.a */; };
 		A554D25E17CCBB2500DBE617 /* libusbmuxd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A554D25017CCB8A400DBE617 /* libusbmuxd.a */; };
+		A5690E8B17CDF67700906610 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A554D25B17CCBA9100DBE617 /* Sparkle.framework */; };
 		A575D07315A451AE0072734F /* ipswDownloaderHelp in Resources */ = {isa = PBXBuildFile; fileRef = A5E3BDDE15A4378900CB865F /* ipswDownloaderHelp */; };
 		A577289913E8228700C9AB51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4EF1B12F73A3E00A46734 /* main.m */; };
 		A57BDB0C16303E3100215237 /* receipt in CopyFiles */ = {isa = PBXBuildFile; fileRef = A57BDB07163034C000215237 /* receipt */; };
@@ -72,7 +73,7 @@
 		A58926E516A5A3D100063E09 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A58926CD16A5A3D100063E09 /* Reachability.m */; };
 		A589272C16A5A52800063E09 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; };
 		A589290816A5A66600063E09 /* libZipArchive-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A589290116A5A64800063E09 /* libZipArchive-mac.a */; };
-		A589290B16A5A6A700063E09 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; };
+		A589290B16A5A6A700063E09 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; };
 		A595922513E824D4007C8514 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A595922313E824D4007C8514 /* Credits.rtf */; };
 		A595922613E824D4007C8514 /* Preference.xib in Resources */ = {isa = PBXBuildFile; fileRef = A595922413E824D4007C8514 /* Preference.xib */; };
 		A59969F3167F3E9500374C31 /* MobileDeviceServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A59969F2167F3E9500374C31 /* MobileDeviceServer.m */; };
@@ -251,13 +252,6 @@
 			remoteGlobalIDString = 96A8D97317A4A9B5006E38E0;
 			remoteInfo = afccl;
 		};
-		A554D24117CCB87000DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 96B88B2F174E0B9900B868D9;
-			remoteInfo = imobiledevice.a;
-		};
 		A554D24F17CCB8A400DBE617 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
@@ -300,6 +294,13 @@
 			remoteGlobalIDString = 96ED2EE411B83BF3003ED904;
 			remoteInfo = libusbmuxd.a;
 		};
+		A5690E8917CDF65700906610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B88B2F174E0B9900B868D9;
+			remoteInfo = imobiledevice.a;
+		};
 		A58928FE16A5A64800063E09 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */;
@@ -341,14 +342,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B8FF0B135396A9006091F4 /* CopyFiles */ = {
+		A5B8FF0B135396A9006091F4 /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A589290B16A5A6A700063E09 /* Growl.framework in CopyFiles */,
+				A5690E8B17CDF67700906610 /* Sparkle.framework in Copy Frameworks */,
+				A589290B16A5A6A700063E09 /* Growl.framework in Copy Frameworks */,
 			);
+			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -482,7 +485,6 @@
 		A5DCC3181375D07200E2F466 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A5E3BDDF15A4378900CB865F /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = en.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5E3BDE915A437A400CB865F /* ru */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ru; path = ru.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
-		A5E5C38C1743912A00D35DCD /* add_libs.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = add_libs.sh; sourceTree = SOURCE_ROOT; };
 		A5F6147216F75553004640D8 /* btn_donate_SM.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donate_SM.gif; sourceTree = "<group>"; };
 		A5F9B073168C724900B9D51F /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
 		A5F9B074168C724900B9D51F /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
@@ -593,9 +595,8 @@
 				A53C748115E38D1300E82A75 /* ipswDownloader.entitlements */,
 				A57BDB06163034C000215237 /* _MASReceipt */,
 				A5E3BDDE15A4378900CB865F /* ipswDownloaderHelp */,
-				A501D4CF1507A8B3003D9386 /* MainMenu.xib */,
+				A5690E8E17CDF78900906610 /* XIB */,
 				A595922313E824D4007C8514 /* Credits.rtf */,
-				A595922413E824D4007C8514 /* Preference.xib */,
 				A55BB8B5132C335500EA83C8 /* res */,
 				A5C4EF4012F73E8A00A46734 /* Icon.icns */,
 				A551C60D13E7285A00ADE661 /* dsa_pub.pem */,
@@ -668,6 +669,25 @@
 				A54C4BF3150FCD4800166718 /* download */,
 			);
 			path = res;
+			sourceTree = "<group>";
+		};
+		A5690E8C17CDF68D00906610 /* libmobiledevice */ = {
+			isa = PBXGroup;
+			children = (
+				A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */,
+				A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */,
+			);
+			name = libmobiledevice;
+			sourceTree = "<group>";
+		};
+		A5690E8E17CDF78900906610 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				A501D4CF1507A8B3003D9386 /* MainMenu.xib */,
+				A5F9B075168C724900B9D51F /* DeviceInfo.xib */,
+				A595922413E824D4007C8514 /* Preference.xib */,
+			);
+			name = XIB;
 			sourceTree = "<group>";
 		};
 		A57BDB06163034C000215237 /* _MASReceipt */ = {
@@ -755,6 +775,7 @@
 		A5C4EEFF12F73A3D00A46734 = {
 			isa = PBXGroup;
 			children = (
+				A5D5CF1D137092B2004325AD /* External */,
 				A5C4EF1412F73A3E00A46734 /* ipswDownloader */,
 				A5C4EF1512F73A3E00A46734 /* Supporting Files */,
 				A5C4EF0D12F73A3E00A46734 /* Frameworks */,
@@ -802,7 +823,6 @@
 				A57BDB371630503A00215237 /* Preference */,
 				A57BDB301630501500215237 /* Cells */,
 				A57BDB2516304FE700215237 /* Helper */,
-				A5D5CF1D137092B2004325AD /* External */,
 				A5C4EF2012F73A3E00A46734 /* ipswDownloaderAppDelegate.h */,
 				A5B8FF111353A0D9006091F4 /* ipswDownloaderAppDelegate.m */,
 				A59969F1167F3E9500374C31 /* MobileDeviceServer.h */,
@@ -811,7 +831,6 @@
 				A582F25B14FF78A70018372A /* DownloadsManager.m */,
 				A5F9B073168C724900B9D51F /* DeviceInfo.h */,
 				A5F9B074168C724900B9D51F /* DeviceInfo.m */,
-				A5F9B075168C724900B9D51F /* DeviceInfo.xib */,
 			);
 			path = ipswDownloader;
 			sourceTree = "<group>";
@@ -819,7 +838,6 @@
 		A5C4EF1512F73A3E00A46734 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5E5C38C1743912A00D35DCD /* add_libs.sh */,
 				A5C4EF1612F73A3E00A46734 /* ipswDownloader-Info.plist */,
 				A5C4EF1A12F73A3E00A46734 /* ipswDownloader-Prefix.pch */,
 				A5C4EF1B12F73A3E00A46734 /* main.m */,
@@ -831,14 +849,14 @@
 		A5D5CF1D137092B2004325AD /* External */ = {
 			isa = PBXGroup;
 			children = (
-				A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */,
+				A5690E8C17CDF68D00906610 /* libmobiledevice */,
 				A554D22917CCB84F00DBE617 /* LBProgressBar */,
-				A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */,
 				A58926EE16A5A46600063E09 /* ZipArchive */,
 				A58926AA16A5A3D100063E09 /* Reachability */,
 				A5D5CF1E137092B2004325AD /* ASIHTTPRequest */,
 			);
-			path = External;
+			name = External;
+			path = ipswDownloader/External;
 			sourceTree = "<group>";
 		};
 		A5D5CF1E137092B2004325AD /* ASIHTTPRequest */ = {
@@ -881,14 +899,14 @@
 				A5C4EF0612F73A3E00A46734 /* Sources */,
 				A5C4EF0712F73A3E00A46734 /* Frameworks */,
 				A5C4EF0812F73A3E00A46734 /* Resources */,
-				A5B8FF0B135396A9006091F4 /* CopyFiles */,
+				A5B8FF0B135396A9006091F4 /* Copy Frameworks */,
 				A518815115AB2B0400A246D2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				A554D25A17CCB8AC00DBE617 /* PBXTargetDependency */,
-				A554D24217CCB87000DBE617 /* PBXTargetDependency */,
+				A5690E8A17CDF65700906610 /* PBXTargetDependency */,
 				A589290716A5A64F00063E09 /* PBXTargetDependency */,
 			);
 			name = ipswDownloader;
@@ -1279,15 +1297,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A554D24217CCB87000DBE617 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = imobiledevice.a;
-			targetProxy = A554D24117CCB87000DBE617 /* PBXContainerItemProxy */;
-		};
 		A554D25A17CCB8AC00DBE617 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libusbmuxd.a;
 			targetProxy = A554D25917CCB8AC00DBE617 /* PBXContainerItemProxy */;
+		};
+		A5690E8A17CDF65700906610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = imobiledevice.a;
+			targetProxy = A5690E8917CDF65700906610 /* PBXContainerItemProxy */;
 		};
 		A589290716A5A64F00063E09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1381,6 +1399,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "IGR Software";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
@@ -1415,6 +1434,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "IGR Software";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1437,7 +1457,6 @@
 					"-lz",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

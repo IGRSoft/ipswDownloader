@@ -940,7 +940,6 @@ bool needWaitProcess = false;
 		[self.simpleModeMenu setState:NSOnState];
 		
 		[self.detailsBox setHidden:YES];
-		[self.infoButton setHidden:YES];
 		NSRect rect = self.window.frame;
 		rect.size.height = 120.0;
 		[self.window setFrame:rect display:YES animate:YES];
@@ -949,7 +948,6 @@ bool needWaitProcess = false;
 		[self.simpleModeMenu setState:NSOffState];
 
 		[self.detailsBox setHidden:NO];
-		[self.infoButton setHidden:NO];
 		NSRect rect = self.window.frame;
 		rect.size.height = 364.0;
 		[self.window setFrame:rect display:YES animate:YES];
@@ -1045,6 +1043,12 @@ bool needWaitProcess = false;
 - (void)applicationWillTerminate:(NSNotification *)notification { }
 
 - (void) awakeFromNib {	}
+
+- (BOOL)windowShouldZoom:(NSWindow *)window toFrame:(NSRect)newFrame {
+	
+	[self simpleMode:nil];
+	return NO;
+}
 
 - (void)createMenus
 {
