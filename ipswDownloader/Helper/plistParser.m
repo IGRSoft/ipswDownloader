@@ -24,7 +24,7 @@ NSString * const deviceFileName = @"Devices.db";
 							   appendPathComponent:executableName
 											 error:&error];
 	
-	if (!error)
+	if (!result)
 	{
 		DBNSLog(@"Unable to find or create application support directory:\n%@", [error localizedDescription]);
 	}

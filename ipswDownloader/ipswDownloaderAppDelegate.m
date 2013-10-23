@@ -32,8 +32,8 @@ bool needWaitProcess = false;
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	
 	NSString *filePath = [aNotification userInfo][@"filePath"];
-	DBNSLog(@"%@", aNotification);
     if (filePath){
+		DBNSLog(@"%@", aNotification);
         [[NSWorkspace sharedWorkspace] selectFile: filePath inFileViewerRootedAtPath: nil];
     }
 	
