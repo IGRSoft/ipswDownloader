@@ -1,18 +1,24 @@
 [submodule "External/asi-http-request"]
 	path = External/asi-http-request
 	url = https://github.com/iKorich/asi-http-request.git
+	branch = master
 [submodule "External/Reachability"]
 	path = External/Reachability
 	url = https://github.com/tonymillion/Reachability.git
+	branch = master
 [submodule "External/ZipArchive"]
 	path = External/ZipArchive
 	url = https://github.com/mattconnolly/ZipArchive.git
+	branch = master
 [submodule "External/LBProgressBar"]
 	path = External/LBProgressBar
 	url = https://github.com/iKorich/LBProgressBar.git
+	branch = master
 [submodule "External/libimobiledevice"]
 	path = External/libimobiledevice
 	url = https://github.com/aburgh/libimobiledevice.git
+	branch = osx
 [submodule "External/Sparkle"]
 	path = External/Sparkle
 	url = https://github.com/zwaldowski/Sparkle.git
+	branch = master
