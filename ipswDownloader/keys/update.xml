@@ -122,5 +122,12 @@
 			<pubDate>Wed, 15 May 2013 12:58:24 +0300</pubDate>
 			<enclosure url="http://downloads.igrsoft.com/ipswDownloader/ipswDownloader_250.zip" sparkle:version="250" length="4809358" type="application/octet-stream" sparkle:dsaSignature="MCwCFG0GeCB2gYxVAsWPR2yNF3Dj7A99AhQqXf4X6vkMyHL9J0p9q29HQIZM/A==" />
 		</item>
+		<item>
+			<title>Version 2.6.0, Build 7623fa553f1aca792ed13046047d66a3ca579647</title>
+			<sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+			<sparkle:releaseNotesLink>http://igrsoft.com/wp-content/iPhone/info_260.html</sparkle:releaseNotesLink>
+			<pubDate>Mon, 18 Nov 2013 22:07:52 +0200</pubDate>
+			<enclosure url="http://downloads.igrsoft.com/ipswDownloader/ipswDownloader_260.zip" sparkle:version="260" length="4863662" type="application/octet-stream" sparkle:dsaSignature="MCwCFBbjIDmltHfJ6Zxf1Ovk9fF6P/pJAhQ29tCMX2iaApd6by7s3nO9VW/zHw==" />
+		</item>
 	</channel>
 </rss>

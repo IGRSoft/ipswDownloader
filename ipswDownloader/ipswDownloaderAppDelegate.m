@@ -1157,7 +1157,12 @@ bool needWaitProcess = false;
 	
 		[NSAnimationContext beginGrouping];
 		[[NSAnimationContext currentContext] setDuration:1.0];
-		[self.device setFrame:NSMakeRect(55, 295, 182, 26)];
+		
+		NSRect rect = self.device.frame;
+		rect.origin.x = 55.f;
+		rect.size.width = 182.f;
+		[self.device setFrame:rect];
+		
 		[NSAnimationContext endGrouping];
 		
 		[self.infoDeviceButton setHidden:NO];
@@ -1170,7 +1175,12 @@ bool needWaitProcess = false;
 	
 	[NSAnimationContext beginGrouping];
 	[[NSAnimationContext currentContext] setDuration:1.0];
-	[self.device setFrame:NSMakeRect(20, 295, 217, 26)];
+	
+	NSRect rect = self.device.frame;
+	rect.origin.x = 20.f;
+	rect.size.width = 217.f;
+	[self.device setFrame:rect];
+	
 	[NSAnimationContext endGrouping];
 	
 	[m_DeviceInfo close];
