@@ -642,6 +642,64 @@
 			<key>build</key>
 			<string>Innsbruck</string>
 		</dict>
+		<key>6.0.1 (7.0.3) / 11B511d</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>bbb592b55b3ee4af7c37df1fae400eb9d9be21c7</string>
+			<key>size</key>
+			<integer>694238541</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/AppleTV/091-8981.20131024.CoPt5/AppleTV2,1_6.0.1_11B511d_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Oct 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>6.0.2 (7.0.4) / 11B544a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>d60f9eee5ddfddbe71220ccdf7cf249f68a6346c</string>
+			<key>size</key>
+			<integer>694049341</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1765.20131114.P3wE4/AppleTV2,1_6.0.2_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>Apple TV 3G</key>
 	<dict>
@@ -935,6 +993,64 @@
 			<key>build</key>
 			<string>Innsbruck</string>
 		</dict>
+		<key>6.0.1 (7.0.3) / 11B511d</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>3b0a4a610a28a8bae702e7b98c1d068f19d9473e</string>
+			<key>size</key>
+			<integer>764460956</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/AppleTV/091-8951.20131024.mvt4t/AppleTV3,1_6.0.1_11B511d_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Oct 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>6.0.2 (7.0.4) / 11B544a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>fcad030a832accef9e9015cc862247bee7e10254</string>
+			<key>size</key>
+			<integer>764364506</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1834.20131114.P3wE4/AppleTV3,1_6.0.2_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>Apple TV 3G (Rev A)</key>
 	<dict>
@@ -1082,6 +1198,64 @@
 			<string></string>
 			<key>build</key>
 			<string>Innsbruck</string>
+		</dict>
+		<key>6.0.1 (7.0.3) / 11B511d</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>312404d97b2b68334e73427e8e2bb2ac1d0e747d</string>
+			<key>size</key>
+			<integer>764320731</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/AppleTV/091-8994.20131024.BbedF/AppleTV3,2_6.0.1_11B511d_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Oct 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>6.0.2 (7.0.4) / 11B544a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>32b533a1b0eb9eb48762d2bc36966960269508ba</string>
+			<key>size</key>
+			<integer>763991693</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1850.20131114.P3wE4/AppleTV3,2_6.0.2_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
 		</dict>
 	</dict>
 	<key>iPad</key>
@@ -2017,6 +2191,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>1b5ca32be0a112b167cc11613a312495d9cd9dff</string>
+			<key>size</key>
+			<integer>1137806933</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1762.20131114.P3wE4/iPad2,3_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad 2 GSM</key>
 	<dict>
@@ -2537,6 +2740,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-1029.20131022.Llkfc/iPad2,2_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a1c65b49274f7662baa4ce450afde7d7726b04da</string>
+			<key>size</key>
+			<integer>1138900912</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1767.20131114.P3wE4/iPad2,2_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -3067,6 +3299,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>012d89520f093e008b553ea0f41b5676788bbf1f</string>
+			<key>size</key>
+			<integer>1121978667</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1724.20131114.P3wE4/iPad2,1_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad 2 Wi-Fi (Rev A)</key>
 	<dict>
@@ -3355,6 +3616,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-0955.20131022.Lion3/iPad2,4_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>4ea96465334bcf2f0205a9e2f716c06617f4b671</string>
+			<key>size</key>
+			<integer>1121418985</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-0955.20131022.Lion3/iPad2,4_7.0.3_11B511_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -3653,6 +3943,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>515811f329671ff057412c2051933d7faea74585</string>
+			<key>size</key>
+			<integer>1403855634</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1815.20131114.P3wE4/iPad3,1_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad 3 CDMA</key>
 	<dict>
@@ -3941,6 +4260,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-0938.20131022.Qw23d/iPad3,3_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.1.02</string>
+			<key>hwstr</key>
+			<string>iPad3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>c5bd47788b7a14490a7779c7c6c813b203f7126a</string>
+			<key>size</key>
+			<real>1438505017</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1744.20131114.P3wE4/iPad3,2_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -4239,6 +4587,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.1.02</string>
+			<key>hwstr</key>
+			<string>iPad3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>4ec8a7e263ea2d1bcfbb0f11018d0ee182344e84</string>
+			<key>size</key>
+			<integer>1438695606</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1823.20131114.P3wE4/iPad3,3_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad 4 Wi-Fi</key>
 	<dict>
@@ -4474,6 +4851,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>9885eafcc31bf65331da3629b43d6fa3eb1ce08d</string>
+			<key>size</key>
+			<integer>1419411059</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-0868.20131022.444e3/iPad3,4_7.0.3_11B511_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad 4 GSM</key>
 	<dict>
@@ -4675,6 +5081,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-0924.20131022.vajre/iPad3,5_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.02.00</string>
+			<key>hwstr</key>
+			<string>iPad3,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>0952412579a5feaaecd272f86dda82ad43bc3aae</string>
+			<key>size</key>
+			<integer>1478303874</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1807.20131114.P3wE4/iPad3,5_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -4886,6 +5321,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.02.00</string>
+			<key>hwstr</key>
+			<string>iPad3,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>d0674fb72cf831e7df3fb0ccc8507358fbb474fb</string>
+			<key>size</key>
+			<integer>1478513059</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-0852.20131022.Okedf/iPad3,6_7.0.3_11B511_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad Air Wi-Fi</key>
 	<dict>
@@ -4918,13 +5382,42 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>4ec62dd7bdcb6577ab681ce7331eee957c7c5104</string>
+			<key>size</key>
+			<integer>1574458112</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-0904.20131022.Estog/iPad4,1_7.0.3_11B511_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad Air Cellular</key>
 	<dict>
 		<key>7.0.3 / 11B511</key>
 		<dict>
 			<key>baseband</key>
-			<string>none</string>
+			<string>1.02.02</string>
 			<key>hwstr</key>
 			<string>iPad4,2</string>
 			<key>docs</key>
@@ -4943,6 +5436,35 @@
 			<true/>
 			<key>url</key>
 			<string>http://appldnld.apple.com/iOS7/031-0939.20131022.10Cpy/iPad4,2_7.0.3_11B511_Restore.ipsw</string>
+			<key>date</key>
+			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.03.01</string>
+			<key>hwstr</key>
+			<string>iPad4,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>1e0f709d716f906d2a9c197dc20e2d2174e634f5</string>
+			<key>size</key>
+			<integer>1642100893</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1824.20131114.P3wE4/iPad4,2_7.0.4_11B554a_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
 			<key>utools</key>
@@ -5214,6 +5736,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>41301bbaea6d3bd1bca7f739bd84c4a9ceb98d0d</string>
+			<key>size</key>
+			<integer>1192721560</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1732.20131114.P3wE4/iPad2,5_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad mini 1G GSM</key>
 	<dict>
@@ -5449,6 +6000,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.02.00</string>
+			<key>hwstr</key>
+			<string>iPad2,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>68ee2b59eaf51714db5614acf3ff6ea258109273</string>
+			<key>size</key>
+			<integer>1232671436</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1761.20131114.P3wE4/iPad2,6_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad mini 1G Global</key>
 	<dict>
@@ -5672,13 +6252,42 @@
 			<key>sha1</key>
 			<string>f6e7398a6eaac7fa22360c1c71cdda2afff28f99</string>
 			<key>size</key>
-			<integer>1192732645</integer>
+			<integer>1232760331</integer>
 			<key>unlock</key>
 			<true/>
 			<key>url</key>
 			<string>http://appldnld.apple.com/iOS7/031-0870.20131022.ser34/iPad2,5_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.02.00</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>63d777814b4f2da0833fdabff8339628e2f2cf87</string>
+			<key>size</key>
+			<integer>1232740295</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1868.20131114.P3wE4/iPad2,7_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -5716,6 +6325,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>92b0009c29a2ad9906749d5c0e87e6ff95da6cd2</string>
+			<key>size</key>
+			<integer>1574419462</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1772.20131114.P3wE4/iPad4,4_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPad mini 2G Cellular</key>
 	<dict>
@@ -5743,6 +6381,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-0863.20131022.ewh5t/iPad4,5_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.03.01</string>
+			<key>hwstr</key>
+			<string>iPad4,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1893.201114.3Cmpt/iPadiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string>Initial shipment.</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>770762e5db4d37cd645619e44a6764f3f173284e</string>
+			<key>size</key>
+			<integer>1642210601</integer>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1722.20131114.P3wE4/iPad4,5_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -8167,6 +8834,35 @@
 			<key>build</key>
 			<string>Innsbruck</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPhone3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>964c2e3e152cc4ca3efe4cedbc71aa7b06350555</string>
+			<key>size</key>
+			<integer>1201639929</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1831.20131114.P3wE4/iPhone3,1_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Innsbruck</string>
+		</dict>
 	</dict>
 	<key>iPhone 4 GSM (Rev A)</key>
 	<dict>
@@ -8397,6 +9093,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-1022.20131022.pptgk/iPhone3,3_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Innsbruck</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPhone3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>964c2e3e152cc4ca3efe4cedbc71aa7b06350555</string>
+			<key>size</key>
+			<integer>1201639929</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1831.20131114.P3wE4/iPhone3,1_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -8898,6 +9623,35 @@
 			<key>build</key>
 			<string>Innsbruck</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.0.04</string>
+			<key>hwstr</key>
+			<string>iPhone3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>37bc86c162464ff97507facf5d3068df4ac3b0f5</string>
+			<key>size</key>
+			<integer>1200810705</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1864.20131114.P3wE4/iPhone3,3_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Innsbruck</string>
+		</dict>
 	</dict>
 	<key>iPhone 4S</key>
 	<dict>
@@ -9307,6 +10061,35 @@
 			<key>build</key>
 			<string>Innsbruck</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.0.02</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>76b111adb02d2de53fcc5edcb02e8e176a4c6723</string>
+			<key>size</key>
+			<integer>1268348817</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1833.20131114.P3wE4/iPhone4,1_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Innsbruck</string>
+		</dict>
 	</dict>
 	<key>iPhone 5 GSM</key>
 	<dict>
@@ -9595,6 +10378,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-0855.20131022.astg4/iPhone5,1_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.02.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>00f13e376490e0aa91b950d65a43bf93d46a1e79</string>
+			<key>size</key>
+			<integer>1323630611</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1700.20131114.P3wE4/iPhone5,1_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -9893,6 +10705,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.02.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>252a699947452efd599cd3418578e39182a842c2</string>
+			<key>size</key>
+			<integer>1333375798</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1828.20131114.P3wE4/iPhone5,3_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPhone 5C GSM</key>
 	<dict>
@@ -9978,6 +10819,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-0943.20131022.Mestt/iPhone5,3_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.03.01</string>
+			<key>hwstr</key>
+			<string>iPhone5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>30c583c6582d1e7bb2380b602140a3ee15533082</string>
+			<key>size</key>
+			<integer>1333231834</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1869.20131114.P3wE4/iPhone5,4_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -10073,6 +10943,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.02.02</string>
+			<key>hwstr</key>
+			<string>iPhone5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>30c583c6582d1e7bb2380b602140a3ee15533082</string>
+			<key>size</key>
+			<integer>1333231834</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1869.20131114.P3wE4/iPhone5,4_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPhone 5S GSM</key>
 	<dict>
@@ -10163,6 +11062,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.03.01</string>
+			<key>hwstr</key>
+			<string>iPhone6,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>30c583c6582d1e7bb2380b602140a3ee15533082</string>
+			<key>size</key>
+			<integer>1488122800</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1855.20131114.P3wE4/iPhone6,1_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
 	</dict>
 	<key>iPhone 5S Global</key>
 	<dict>
@@ -10248,6 +11176,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-0966.20131022.45gBg/iPhone6,1_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.03.01</string>
+			<key>hwstr</key>
+			<string>iPhone6,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1894.201114.MAA3X/iPhoneiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>3a124b0066d1d76264da6662a6b3e82f11388a1f</string>
+			<key>size</key>
+			<integer>1487957738</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1751.20131114.P3wE4/iPhone6,2_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -12322,6 +13279,35 @@
 			<string>http://appldnld.apple.com/iOS7/031-0912.20131022.Seedf/iPod5,1_7.0.3_11B511_Restore.ipsw</string>
 			<key>date</key>
 			<string>22 Oct 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>InnsbruckTaos</string>
+		</dict>
+		<key>7.0.4 / 11B554a</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7/Documentation/031-1892.201114.AAx4r/iPodtouchiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>dc9462881e9ff7726b0c51961cf941c410dbb757</string>
+			<key>size</key>
+			<integer>1246118227</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7/031-1792.20131114.P3wE4/iPod5,1_7.0.4_11B554a_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
