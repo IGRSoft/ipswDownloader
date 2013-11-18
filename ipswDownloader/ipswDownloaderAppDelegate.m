@@ -570,6 +570,8 @@ bool needWaitProcess = false;
 	
 	[self.firmwareBuild setStringValue: [m_plistParser getBuild:oneDeviceFirmware]];
 	
+	[self.firmwareReleaseDate setStringValue: [m_plistParser getReleaseDate:oneDeviceFirmware]];
+	
 	[self.tfJailbreak setHidden:NO];
 	[self.tfUnlock setHidden:NO];
 }
@@ -941,7 +943,7 @@ bool needWaitProcess = false;
 		
 		[self.detailsBox setHidden:YES];
 		NSRect rect = self.window.frame;
-		rect.size.height = 120.0;
+		rect.size.height = 120.f;
 		[self.window setFrame:rect display:YES animate:YES];
 	}
 	else {
@@ -949,7 +951,7 @@ bool needWaitProcess = false;
 
 		[self.detailsBox setHidden:NO];
 		NSRect rect = self.window.frame;
-		rect.size.height = 364.0;
+		rect.size.height = 362.f + 22.f;
 		[self.window setFrame:rect display:YES animate:YES];
 	}
 	

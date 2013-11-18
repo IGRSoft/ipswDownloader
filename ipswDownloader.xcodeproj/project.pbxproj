@@ -35,6 +35,7 @@
 		A52CF33E15AB542500BE3842 /* on.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A52CF33A15AB542500BE3842 /* on.pdf */; };
 		A52CF33F15AB542500BE3842 /* tether.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A52CF33B15AB542500BE3842 /* tether.pdf */; };
 		A52CF34115AB5E7C00BE3842 /* InfoButton.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A52CF34015AB5E7C00BE3842 /* InfoButton.pdf */; };
+		A5304A8A182579DC00E6EFAF /* libusbmuxd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5304A81182579BB00E6EFAF /* libusbmuxd.a */; };
 		A53A3BB3168F981800C19F81 /* noAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A53A3BB2168F981800C19F81 /* noAppIcon.png */; };
 		A54346CF153CA77100DE798A /* downloaderror.png in Resources */ = {isa = PBXBuildFile; fileRef = A54346CE153CA77100DE798A /* downloaderror.png */; };
 		A54C4C00150FCD4800166718 /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = A54C4BF4150FCD4800166718 /* document.png */; };
@@ -54,7 +55,6 @@
 		A551C60E13E7285A00ADE661 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = A551C60D13E7285A00ADE661 /* dsa_pub.pem */; };
 		A554D23E17CCB84F00DBE617 /* LBProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A554D23517CCB84F00DBE617 /* LBProgressBar.m */; };
 		A554D25D17CCBB2500DBE617 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A554D1FC17CCB83F00DBE617 /* libimobiledevice.a */; };
-		A554D25E17CCBB2500DBE617 /* libusbmuxd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A554D25017CCB8A400DBE617 /* libusbmuxd.a */; };
 		A575D07315A451AE0072734F /* ipswDownloaderHelp in Resources */ = {isa = PBXBuildFile; fileRef = A5E3BDDE15A4378900CB865F /* ipswDownloaderHelp */; };
 		A577289913E8228700C9AB51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4EF1B12F73A3E00A46734 /* main.m */; };
 		A57BDB0C16303E3100215237 /* receipt in CopyFiles */ = {isa = PBXBuildFile; fileRef = A57BDB07163034C000215237 /* receipt */; };
@@ -104,6 +104,41 @@
 			proxyType = 2;
 			remoteGlobalIDString = C95AB37417E1C47D00120861;
 			remoteInfo = "ZipArchive mac Tests";
+		};
+		A5304A80182579BB00E6EFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5304A79182579BB00E6EFAF /* libusbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F87242181DD60900EE8AF6;
+			remoteInfo = libusbmuxd.a;
+		};
+		A5304A82182579BB00E6EFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5304A79182579BB00E6EFAF /* libusbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F8724B181DD62E00EE8AF6;
+			remoteInfo = libusbmuxd.dylib;
+		};
+		A5304A84182579BB00E6EFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5304A79182579BB00E6EFAF /* libusbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F8727C181E684800EE8AF6;
+			remoteInfo = iproxy;
+		};
+		A5304A86182579BB00E6EFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5304A79182579BB00E6EFAF /* libusbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F87290181F4C5000EE8AF6;
+			remoteInfo = "iproxy-osx";
+		};
+		A5304A88182579CB00E6EFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5304A79182579BB00E6EFAF /* libusbmuxd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F87241181DD60900EE8AF6;
+			remoteInfo = libusbmuxd.a;
 		};
 		A54F7A3A1817D5CC00420935 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -308,48 +343,6 @@
 			remoteGlobalIDString = 96A8D97317A4A9B5006E38E0;
 			remoteInfo = afccl;
 		};
-		A554D24F17CCB8A400DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96ED2EF011B83BF3003ED904;
-			remoteInfo = libusbmuxd.a;
-		};
-		A554D25117CCB8A400DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1007CB0801007CB0801007CB;
-			remoteInfo = libusbmuxd.dylib;
-		};
-		A554D25317CCB8A400DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1007DEBE01007DEBE01007DE;
-			remoteInfo = usbmuxd;
-		};
-		A554D25517CCB8A400DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1007ED7E01007ED7E01007ED;
-			remoteInfo = iproxy;
-		};
-		A554D25717CCB8A400DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96C86655175C42200061472B;
-			remoteInfo = "iproxy-osx";
-		};
-		A554D25917CCB8AC00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 96ED2EE411B83BF3003ED904;
-			remoteInfo = libusbmuxd.a;
-		};
 		A5690E8917CDF65700906610 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
@@ -442,6 +435,7 @@
 		A52CF33A15AB542500BE3842 /* on.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = on.pdf; sourceTree = "<group>"; };
 		A52CF33B15AB542500BE3842 /* tether.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tether.pdf; sourceTree = "<group>"; };
 		A52CF34015AB5E7C00BE3842 /* InfoButton.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = InfoButton.pdf; sourceTree = "<group>"; };
+		A5304A79182579BB00E6EFAF /* libusbmuxd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libusbmuxd.xcodeproj; path = External/libimobiledevice/deps/libusbmuxd/libusbmuxd.xcodeproj; sourceTree = SOURCE_ROOT; };
 		A53A3BB2168F981800C19F81 /* noAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noAppIcon.png; sourceTree = "<group>"; };
 		A53C748115E38D1300E82A75 /* ipswDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ipswDownloader.entitlements; sourceTree = "<group>"; };
 		A54346CE153CA77100DE798A /* downloaderror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downloaderror.png; sourceTree = "<group>"; };
@@ -462,7 +456,6 @@
 		A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libimobiledevice.xcodeproj; path = External/libimobiledevice/libimobiledevice.xcodeproj; sourceTree = SOURCE_ROOT; };
 		A554D23417CCB84F00DBE617 /* LBProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBProgressBar.h; sourceTree = "<group>"; };
 		A554D23517CCB84F00DBE617 /* LBProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBProgressBar.m; sourceTree = "<group>"; };
-		A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = usbmuxd.xcodeproj; path = External/libimobiledevice/deps/usbmuxd/usbmuxd.xcodeproj; sourceTree = SOURCE_ROOT; };
 		A57BDB07163034C000215237 /* receipt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = receipt; sourceTree = "<group>"; };
 		A57BDB2616304FE700215237 /* IPSWInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSWInfoHelper.h; sourceTree = "<group>"; };
 		A57BDB2716304FE700215237 /* IPSWInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSWInfoHelper.m; sourceTree = "<group>"; };
@@ -549,8 +542,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5304A8A182579DC00E6EFAF /* libusbmuxd.a in Frameworks */,
 				A554D25D17CCBB2500DBE617 /* libimobiledevice.a in Frameworks */,
-				A554D25E17CCBB2500DBE617 /* libusbmuxd.a in Frameworks */,
 				A589290816A5A66600063E09 /* libZipArchive-mac.a in Frameworks */,
 				A54F7A501817D6A500420935 /* Sparkle.framework in Frameworks */,
 				A589272C16A5A52800063E09 /* Growl.framework in Frameworks */,
@@ -608,6 +601,17 @@
 				A52CF33B15AB542500BE3842 /* tether.pdf */,
 			);
 			path = indicators;
+			sourceTree = "<group>";
+		};
+		A5304A7A182579BB00E6EFAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5304A81182579BB00E6EFAF /* libusbmuxd.a */,
+				A5304A83182579BB00E6EFAF /* libusbmuxd.dylib */,
+				A5304A85182579BB00E6EFAF /* iproxy */,
+				A5304A87182579BB00E6EFAF /* iproxy-osx */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A53A3BB1168F981800C19F81 /* other */ = {
@@ -715,18 +719,6 @@
 			path = External/LBProgressBar/LBProgressBar;
 			sourceTree = SOURCE_ROOT;
 		};
-		A554D24717CCB8A300DBE617 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A554D25017CCB8A400DBE617 /* libusbmuxd.a */,
-				A554D25217CCB8A400DBE617 /* libusbmuxd.dylib */,
-				A554D25417CCB8A400DBE617 /* usbmuxd-iphat */,
-				A554D25617CCB8A400DBE617 /* iproxy */,
-				A554D25817CCB8A400DBE617 /* iproxy-osx */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A55BB8B5132C335500EA83C8 /* res */ = {
 			isa = PBXGroup;
 			children = (
@@ -743,7 +735,7 @@
 		A5690E8C17CDF68D00906610 /* libmobiledevice */ = {
 			isa = PBXGroup;
 			children = (
-				A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */,
+				A5304A79182579BB00E6EFAF /* libusbmuxd.xcodeproj */,
 				A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */,
 			);
 			name = libmobiledevice;
@@ -977,7 +969,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A554D25A17CCB8AC00DBE617 /* PBXTargetDependency */,
+				A5304A89182579CB00E6EFAF /* PBXTargetDependency */,
 				A5690E8A17CDF65700906610 /* PBXTargetDependency */,
 				A589290716A5A64F00063E09 /* PBXTargetDependency */,
 				A54F7A4F1817D61900420935 /* PBXTargetDependency */,
@@ -1045,12 +1037,12 @@
 					ProjectRef = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
 				},
 				{
-					ProductGroup = A54F79431817D5CB00420935 /* Products */;
-					ProjectRef = A54F79421817D5CB00420935 /* Sparkle.xcodeproj */;
+					ProductGroup = A5304A7A182579BB00E6EFAF /* Products */;
+					ProjectRef = A5304A79182579BB00E6EFAF /* libusbmuxd.xcodeproj */;
 				},
 				{
-					ProductGroup = A554D24717CCB8A300DBE617 /* Products */;
-					ProjectRef = A554D24617CCB8A300DBE617 /* usbmuxd.xcodeproj */;
+					ProductGroup = A54F79431817D5CB00420935 /* Products */;
+					ProjectRef = A54F79421817D5CB00420935 /* Sparkle.xcodeproj */;
 				},
 				{
 					ProductGroup = A58928F516A5A64800063E09 /* Products */;
@@ -1077,6 +1069,34 @@
 			fileType = wrapper.cfbundle;
 			path = "ZipArchive mac Tests.xctest";
 			remoteRef = A51C386F1817DE1300F1AC8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5304A81182579BB00E6EFAF /* libusbmuxd.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libusbmuxd.a;
+			remoteRef = A5304A80182579BB00E6EFAF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5304A83182579BB00E6EFAF /* libusbmuxd.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libusbmuxd.dylib;
+			remoteRef = A5304A82182579BB00E6EFAF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5304A85182579BB00E6EFAF /* iproxy */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = iproxy;
+			remoteRef = A5304A84182579BB00E6EFAF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5304A87182579BB00E6EFAF /* iproxy-osx */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "iproxy-osx";
+			remoteRef = A5304A86182579BB00E6EFAF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		A54F7A3B1817D5CC00420935 /* Sparkle.framework */ = {
@@ -1275,41 +1295,6 @@
 			remoteRef = A554D22717CCB83F00DBE617 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A554D25017CCB8A400DBE617 /* libusbmuxd.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = libusbmuxd.a;
-			remoteRef = A554D24F17CCB8A400DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D25217CCB8A400DBE617 /* libusbmuxd.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = libusbmuxd.dylib;
-			remoteRef = A554D25117CCB8A400DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D25417CCB8A400DBE617 /* usbmuxd-iphat */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "usbmuxd-iphat";
-			remoteRef = A554D25317CCB8A400DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D25617CCB8A400DBE617 /* iproxy */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = iproxy;
-			remoteRef = A554D25517CCB8A400DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D25817CCB8A400DBE617 /* iproxy-osx */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "iproxy-osx";
-			remoteRef = A554D25717CCB8A400DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		A58928FF16A5A64800063E09 /* libZipArchive-ios.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1432,15 +1417,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A5304A89182579CB00E6EFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libusbmuxd.a;
+			targetProxy = A5304A88182579CB00E6EFAF /* PBXContainerItemProxy */;
+		};
 		A54F7A4F1817D61900420935 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Sparkle;
 			targetProxy = A54F7A4E1817D61900420935 /* PBXContainerItemProxy */;
-		};
-		A554D25A17CCB8AC00DBE617 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libusbmuxd.a;
-			targetProxy = A554D25917CCB8AC00DBE617 /* PBXContainerItemProxy */;
 		};
 		A5690E8A17CDF65700906610 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1556,7 +1541,6 @@
 					"\"$(SRCROOT)/External/ZipArchive\"",
 					"\"$(SRCROOT)/External/libimobiledevice/osx\"",
 					"\"$(SRCROOT)/External/libimobiledevice/include\"",
-					"\"$(SRCROOT)/External/ZipArchive/minizip\"",
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
 				INSTALL_PATH = /Applications;
@@ -1588,7 +1572,6 @@
 					"\"$(SRCROOT)/External/ZipArchive\"",
 					"\"$(SRCROOT)/External/libimobiledevice/osx\"",
 					"\"$(SRCROOT)/External/libimobiledevice/include\"",
-					"\"$(SRCROOT)/External/ZipArchive/minizip\"",
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
 				INSTALL_PATH = /Applications;

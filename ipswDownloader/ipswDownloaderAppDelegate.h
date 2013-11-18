@@ -75,6 +75,7 @@ extern bool needWaitProcess;
 @property (nonatomic, strong) IBOutlet NSTextField			*firmwareBuild;
 @property (nonatomic, strong) IBOutlet NSScrollView			*tfJailbreak;
 @property (nonatomic, strong) IBOutlet NSScrollView			*tfUnlock;
+@property (nonatomic, strong) IBOutlet NSTextField			*firmwareReleaseDate;
 
 @property (nonatomic, strong) IBOutlet NSProgressIndicator	*animation;
 @property (nonatomic, strong) IBOutlet NSComboBox			*device;

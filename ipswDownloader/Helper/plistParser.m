@@ -248,6 +248,16 @@ NSString * const deviceFileName = @"Devices.db";
 	return fw[@"build"];
 }
 
+- (NSString*) getReleaseDate:(NSMutableDictionary*)fw
+{
+	NSString *sDate = fw[@"date"];
+	NSDateFormatter *format = [[NSDateFormatter alloc] init];
+	[format setDateFormat:@"dd MMM yyyy"];
+	[format setLocale:[NSLocale localeWithLocaleIdentifier:@"en_US"]];
+	NSDate *date = [format dateFromString:sDate];
+	return [NSDateFormatter localizedStringFromDate:date dateStyle:NSDateFormatterFullStyle timeStyle:NSDateFormatterNoStyle];
+}
+
 - (NSString *)findOrCreateDirectory:(NSSearchPathDirectory)searchPathDirectory
 						   inDomain:(NSSearchPathDomainMask)domainMask
 				appendPathComponent:(NSString *)appendComponent

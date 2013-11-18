@@ -25,6 +25,7 @@
 - (NSString*) getUnlockTools:(NSMutableDictionary*)fw;
 - (NSString*) getSHA1:(NSMutableDictionary*)fw;
 - (NSString*) getBuild:(NSMutableDictionary*)fw;
+- (NSString*) getReleaseDate:(NSMutableDictionary*)fw;
 
 - (NSString *)findOrCreateDirectory:(NSSearchPathDirectory)searchPathDirectory
 						   inDomain:(NSSearchPathDomainMask)domainMask
