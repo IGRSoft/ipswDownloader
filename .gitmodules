@@ -17,8 +17,8 @@
 [submodule "External/libimobiledevice"]
 	path = External/libimobiledevice
 	url = https://github.com/aburgh/libimobiledevice.git
-	branch = osx
+	branch = master
 [submodule "External/Sparkle"]
 	path = External/Sparkle
-	url = https://github.com/samdeane/Sparkle.git
-	branch = sandboxing
+	url = https://github.com/zwaldowski/Sparkle.git
+	branch = master
