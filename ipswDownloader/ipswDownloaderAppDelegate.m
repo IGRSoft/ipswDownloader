@@ -862,9 +862,9 @@ bool needWaitProcess = false;
     
 	if (!m_PlistDict && [m_PlistDict count] == 0) {
 		NSMutableDictionary* dict = [m_plistParser loadListWithInterval:m_dbUpdateInterval];
-		m_PlistDict = [[NSMutableDictionary alloc] initWithDictionary:dict[@"firmware"]];
-		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[@"links"]];
-		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[@"devices"]];
+		m_PlistDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL3]];
+		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL4]];
+		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL5]];
 	}
 	
 	if (m_PlistDict) {
@@ -971,9 +971,9 @@ bool needWaitProcess = false;
 		[self deviceRemoved];
 		
 		NSMutableDictionary* dict = [m_plistParser loadListWithInterval:UPDATE_AT_APP_START];
-        m_PlistDict = [[NSMutableDictionary alloc] initWithDictionary:dict[@"firmware"]];
-		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[@"links"]];
-		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[@"devices"]];
+        m_PlistDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL3]];
+		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL4]];
+		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL5]];
 		
 		if (m_PlistDict) {
 			[self setControlsEnabled: YES];

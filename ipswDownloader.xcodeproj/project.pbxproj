@@ -81,6 +81,8 @@
 		A5AE01B1153383EC001F72B9 /* DownloadsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AE01B0153383EC001F72B9 /* DownloadsButton.png */; };
 		A5B8FF121353A0D9006091F4 /* ipswDownloaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FF111353A0D9006091F4 /* ipswDownloaderAppDelegate.m */; };
 		A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4EF0E12F73A3E00A46734 /* Cocoa.framework */; };
+		A5C7DC6D187081BB0015EB06 /* evasi0n.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C7DC6C187081BB0015EB06 /* evasi0n.png */; };
+		A5C7DC6F187082210015EB06 /* evasi0n7.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C7DC6E187082210015EB06 /* evasi0n7.png */; };
 		A5DCC3191375D07200E2F466 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DCC3171375D07200E2F466 /* Localizable.strings */; };
 		A5F6147316F75553004640D8 /* btn_donate_SM.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5F6147216F75553004640D8 /* btn_donate_SM.gif */; };
 		A5F9B076168C724900B9D51F /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B074168C724900B9D51F /* DeviceInfo.m */; };
@@ -524,6 +526,8 @@
 		A5C4EF1A12F73A3E00A46734 /* ipswDownloader-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ipswDownloader-Prefix.pch"; sourceTree = "<group>"; };
 		A5C4EF1B12F73A3E00A46734 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5C4EF2012F73A3E00A46734 /* ipswDownloaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipswDownloaderAppDelegate.h; sourceTree = "<group>"; };
+		A5C7DC6C187081BB0015EB06 /* evasi0n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evasi0n.png; sourceTree = "<group>"; };
+		A5C7DC6E187082210015EB06 /* evasi0n7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evasi0n7.png; sourceTree = "<group>"; };
 		A5DCC3181375D07200E2F466 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A5E3BDDF15A4378900CB865F /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = en.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5E3BDE915A437A400CB865F /* ru */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ru; path = ru.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
@@ -571,6 +575,8 @@
 		A512A5D21547340F000D63B4 /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				A5C7DC6E187082210015EB06 /* evasi0n7.png */,
+				A5C7DC6C187081BB0015EB06 /* evasi0n.png */,
 				A512A5D31547340F000D63B4 /* Absinthe.png */,
 				A512A5D41547340F000D63B4 /* Ac1dsn0w.png */,
 				A512A5D51547340F000D63B4 /* BlackRa1n.png */,
@@ -985,7 +991,7 @@
 		A5C4EF0112F73A3D00A46734 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = A5C4EF0412F73A3D00A46734 /* Build configuration list for PBXProject "ipswDownloader" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1316,6 +1322,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C7DC6F187082210015EB06 /* evasi0n7.png in Resources */,
+				A5C7DC6D187081BB0015EB06 /* evasi0n.png in Resources */,
 				A5DCC3191375D07200E2F466 /* Localizable.strings in Resources */,
 				A551C60E13E7285A00ADE661 /* dsa_pub.pem in Resources */,
 				A595922513E824D4007C8514 /* Credits.rtf in Resources */,

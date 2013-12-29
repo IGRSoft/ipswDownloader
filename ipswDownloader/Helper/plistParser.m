@@ -9,9 +9,9 @@
 #import "plistParser.h"
 #include "ZipArchive.h"
 
-NSString * const firmwareFileName = @"Firmware.db";
-NSString * const linksFileName = @"Links.db";
-NSString * const deviceFileName = @"Devices.db";
+static NSString * const firmwareFileName = @"Firmware.db";
+static NSString * const linksFileName = @"Links.db";
+static NSString * const deviceFileName = @"Devices.db";
 
 @implementation plistParser
 
@@ -100,7 +100,7 @@ NSString * const deviceFileName = @"Devices.db";
 	NSMutableDictionary* _plist;
 	_plist = [[NSMutableDictionary alloc] initWithCapacity:2];
 	
-	_plist[@"firmware"] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
+	_plist[FIRMWARE_URL3] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
 	
 	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName]) {
 		[[NSFileManager defaultManager] removeItemAtPath:tempFileName error:nil];
@@ -122,7 +122,7 @@ NSString * const deviceFileName = @"Devices.db";
 	
 	tempFileName = [NSString stringWithString:[result stringByAppendingPathComponent:@"Links.plist"]];
 	
-	_plist[@"links"] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
+	_plist[FIRMWARE_URL4] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
 	
 	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName]) {
 		[[NSFileManager defaultManager] removeItemAtPath:tempFileName error:nil];
@@ -144,7 +144,7 @@ NSString * const deviceFileName = @"Devices.db";
 	
 	tempFileName = [NSString stringWithString:[result stringByAppendingPathComponent:@"Devices.plist"]];
 	
-	_plist[@"devices"] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
+	_plist[FIRMWARE_URL5] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
 	
 	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName]) {
 		[[NSFileManager defaultManager] removeItemAtPath:tempFileName error:nil];

@@ -10,7 +10,7 @@
 #import "MobileDeviceServer.h"
 #import "ItemCellView.h"
 
-NSString* const IMG_URL = @"http://igrsoft.com/wp-content/images/devices";
+NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
 
 @interface DeviceInfo ()
 
@@ -61,8 +61,12 @@ NSString* const IMG_URL = @"http://igrsoft.com/wp-content/images/devices";
 			if (![color isEqualToString:@"black"]) {
 				imgKey = [imgKey stringByAppendingFormat:@"_%@", color];
 			}
-			NSString *val = [IMG_URL stringByAppendingString:info[imgKey]];
-			img = [[NSImage alloc] initWithContentsOfURL:[NSURL URLWithString:val]];
+			NSString *sImg = info[imgKey];
+			if (sImg)
+			{
+				NSString *val = [IMG_URL stringByAppendingString:[NSString stringWithFormat:@"/%@", sImg]];
+				img = [[NSImage alloc] initWithContentsOfURL:[NSURL URLWithString:val]];
+			}
 		}
 		
 		dispatch_async(dispatch_get_main_queue(), ^{

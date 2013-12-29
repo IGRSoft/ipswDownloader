@@ -18,3 +18,6 @@
 	path = External/libimobiledevice
 	url = https://github.com/aburgh/libimobiledevice.git
 	branch = master
+[submodule "External/Sparkle"]
+	path = External/Sparkle
+	url = https://github.com/samdeane/Sparkle.git
