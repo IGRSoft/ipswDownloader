@@ -666,6 +666,7 @@
 		A551C60F13E7287A00ADE661 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A51C38A1181806C700F1AC8D /* Images.xcassets */,
 				A53C748115E38D1300E82A75 /* ipswDownloader.entitlements */,
 				A57BDB06163034C000215237 /* _MASReceipt */,
 				A5E3BDDE15A4378900CB865F /* ipswDownloaderHelp */,
@@ -892,7 +893,6 @@
 				A582F25B14FF78A70018372A /* DownloadsManager.m */,
 				A5F9B073168C724900B9D51F /* DeviceInfo.h */,
 				A5F9B074168C724900B9D51F /* DeviceInfo.m */,
-				A51C38A1181806C700F1AC8D /* Images.xcassets */,
 			);
 			path = ipswDownloader;
 			sourceTree = "<group>";

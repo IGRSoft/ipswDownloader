@@ -20,5 +20,5 @@
 	branch = osx
 [submodule "External/Sparkle"]
 	path = External/Sparkle
-	url = https://github.com/zwaldowski/Sparkle.git
-	branch = master
+	url = https://github.com/samdeane/Sparkle.git
+	branch = sandboxing
