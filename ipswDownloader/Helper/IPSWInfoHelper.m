@@ -10,37 +10,6 @@
 
 @implementation IPSWInfoHelper
 
-#define IPHONE_1G_NAMESTRING            @"iPhone"
-#define IPHONE_3G_NAMESTRING            @"iPhone 3G"
-#define IPHONE_3GS_NAMESTRING           @"iPhone 3GS"
-#define IPHONE_4_NAMESTRING             @"iPhone 4"
-#define IPHONE_4_CDMA_NAMESTRING        @"iPhone 4 CDMA"
-#define IPHONE_4S_NAMESTRING            @"iPhone 4S"
-#define IPHONE_5_NAMESTRING             @"iPhone 5"
-#define IPHONE_UNKNOWN_NAMESTRING       @"iPhone Unknown"
-
-#define IPOD_1G_NAMESTRING              @"iPod Touch 1G"
-#define IPOD_2G_NAMESTRING              @"iPod Touch 2G"
-#define IPOD_3G_NAMESTRING              @"iPod Touch 3G"
-#define IPOD_4G_NAMESTRING              @"iPod Touch 4G"
-#define IPOD_UNKNOWN_NAMESTRING         @"iPod Unknown"
-
-#define IPAD_1G_NAMESTRING              @"iPad 1G"
-#define IPAD_2G_WIFI_NAMESTRING         @"iPad 2G Wi-Fi"
-#define IPAD_2G_CDMA_NAMESTRING         @"iPad 2G CDMA"
-#define IPAD_2G_GSM_NAMESTRING          @"iPad 2G GSM"
-#define IPAD_2G_R2_NAMESTRING           @"iPad 2G Wi-Fi R2"
-#define IPAD_3G_WIFI_NAMESTRING         @"iPad 3G Wi-Fi"
-#define IPAD_3G_CDMA_NAMESTRING         @"iPad 3G CDMA"
-#define IPAD_3G_GLOBAL_NAMESTRING       @"iPad 3G Global"
-#define IPAD_UNKNOWN_NAMESTRING         @"iPad Unknown"
-
-#define APPLETV_2G_NAMESTRING           @"Apple TV 2G"
-#define APPLETV_3G_NAMESTRING           @"Apple TV 3G"
-#define APPLETV_UNKNOWN_NAMESTRING      @"Apple TV Unknown"
-
-#define IOS_FAMILY_UNKNOWN_DEVICE       @"Unknown iOS device"
-
 + (NSString*)nameIPWS:(NSString*)fileName
 {
 	NSArray* devices = [fileName componentsSeparatedByString:@"_"];
@@ -52,40 +21,57 @@
 		return fileName;
 	}
 	
-	NSString *name = IOS_FAMILY_UNKNOWN_DEVICE;
+	NSString *name = @"Unknown";
 	
     // iPhone
-    if ([platform isEqualToString:@"iPhone1,1"])		platform = IPHONE_1G_NAMESTRING;
-    else if ([platform isEqualToString:@"iPhone1,2"])   platform = IPHONE_3G_NAMESTRING;
-    else if ([platform isEqualToString:@"iPhone2,1"])   platform = IPHONE_3GS_NAMESTRING;
-    else if ([platform isEqualToString:@"iPhone3,1"])   platform = IPHONE_4_NAMESTRING;
-	else if ([platform isEqualToString:@"iPhone3,3"])   platform = IPHONE_4_CDMA_NAMESTRING;
-    else if ([platform isEqualToString:@"iPhone4,1"])   platform = IPHONE_4S_NAMESTRING;
+	if ([platform isEqualToString:@"iPhone1,1"])		 platform = @"iPhone 2G";
+    else if ([platform isEqualToString:@"iPhone1,2"])    platform = @"iPhone 3G";
+    else if ([platform isEqualToString:@"iPhone2,1"])    platform = @"iPhone 3GS";
+    else if ([platform isEqualToString:@"iPhone3,1"])    platform = @"iPhone 4 (GSM)";
+    else if ([platform isEqualToString:@"iPhone3,2"])    platform = @"iPhone 4 (GSM Rev. A)";
+    else if ([platform isEqualToString:@"iPhone3,3"])    platform = @"iPhone 4 (CDMA)";
+    else if ([platform isEqualToString:@"iPhone4,1"])    platform = @"iPhone 4S";
+    else if ([platform isEqualToString:@"iPhone5,1"])    platform = @"iPhone 5 (GSM)";
+    else if ([platform isEqualToString:@"iPhone5,2"])    platform = @"iPhone 5 (Global)";
+    else if ([platform isEqualToString:@"iPhone5,3"])    platform = @"iPhone 5C (GSM)";
+    else if ([platform isEqualToString:@"iPhone5,4"])    platform = @"iPhone 5C (Global)";
+    else if ([platform isEqualToString:@"iPhone6,1"])    platform = @"iPhone 5S (GSM)";
+    else if ([platform isEqualToString:@"iPhone6,2"])    platform = @"iPhone 5S (Global)";
     
-    // iPod
-    else if ([platform hasPrefix:@"iPod1"])				platform = IPOD_1G_NAMESTRING;
-    else if ([platform hasPrefix:@"iPod2"])				platform = IPOD_2G_NAMESTRING;
-    else if ([platform hasPrefix:@"iPod3"])				platform = IPOD_3G_NAMESTRING;
-    else if ([platform hasPrefix:@"iPod4"])				platform = IPOD_4G_NAMESTRING;
-	
-    // iPad
-    else if ([platform isEqualToString:@"iPad1,1"])     platform = IPAD_1G_NAMESTRING;
-    else if ([platform isEqualToString:@"iPad2,1"])     platform = IPAD_2G_WIFI_NAMESTRING;
-	else if ([platform isEqualToString:@"iPad2,2"])     platform = IPAD_2G_GSM_NAMESTRING;
-	else if ([platform isEqualToString:@"iPad2,3"])     platform = IPAD_2G_CDMA_NAMESTRING;
-	else if ([platform isEqualToString:@"iPad2,4"])     platform = IPAD_2G_R2_NAMESTRING;
-    else if ([platform isEqualToString:@"iPad3,1"])     platform = IPAD_3G_WIFI_NAMESTRING;
-	else if ([platform isEqualToString:@"iPad3,2"])     platform = IPAD_3G_CDMA_NAMESTRING;
-	else if ([platform isEqualToString:@"iPad3,3"])     platform = IPAD_3G_GLOBAL_NAMESTRING;
+	//ipod
+    else if ([platform isEqualToString:@"iPod1,1"])      platform = @"iPod Touch (1 Gen)";
+    else if ([platform isEqualToString:@"iPod2,1"])      platform = @"iPod Touch (2 Gen)";
+    else if ([platform isEqualToString:@"iPod3,1"])      platform = @"iPod Touch (3 Gen)";
+    else if ([platform isEqualToString:@"iPod4,1"])      platform = @"iPod Touch (4 Gen)";
+    else if ([platform isEqualToString:@"iPod5,1"])      platform = @"iPod Touch (5 Gen)";
     
-    // Apple TV
-    else if ([platform isEqualToString:@"AppleTV2,1"])  platform = APPLETV_2G_NAMESTRING;
-	else if ([platform isEqualToString:@"AppleTV3,1"])  platform = APPLETV_3G_NAMESTRING;
+	//ipad
+    else if ([platform isEqualToString:@"iPad1,1"])      platform = @"iPad (WiFi)";
+    else if ([platform isEqualToString:@"iPad1,2"])      platform = @"iPad 3G";
+    else if ([platform isEqualToString:@"iPad2,1"])      platform = @"iPad 2 (WiFi)";
+    else if ([platform isEqualToString:@"iPad2,2"])      platform = @"iPad 2 (GSM)";
+    else if ([platform isEqualToString:@"iPad2,3"])      platform = @"iPad 2 (CDMA)";
+    else if ([platform isEqualToString:@"iPad2,4"])      platform = @"iPad 2 (WiFi Rev. A)";
+    else if ([platform isEqualToString:@"iPad2,5"])      platform = @"iPad Mini (WiFi)";
+    else if ([platform isEqualToString:@"iPad2,6"])      platform = @"iPad Mini (GSM)";
+    else if ([platform isEqualToString:@"iPad2,7"])      platform = @"iPad Mini (CDMA)";
+    else if ([platform isEqualToString:@"iPad3,1"])      platform = @"iPad 3 (WiFi)";
+    else if ([platform isEqualToString:@"iPad3,2"])      platform = @"iPad 3 (CDMA)";
+    else if ([platform isEqualToString:@"iPad3,3"])      platform = @"iPad 3 (Global)";
+    else if ([platform isEqualToString:@"iPad3,4"])      platform = @"iPad 4 (WiFi)";
+    else if ([platform isEqualToString:@"iPad3,5"])      platform = @"iPad 4 (CDMA)";
+    else if ([platform isEqualToString:@"iPad3,6"])      platform = @"iPad 4 (Global)";
+    else if ([platform isEqualToString:@"iPad4,1"])      platform = @"iPad Air (WiFi)";
+    else if ([platform isEqualToString:@"iPad4,2"])      platform = @"iPad Air (WiFi+GSM)";
+    else if ([platform isEqualToString:@"iPad4,3"])      platform = @"iPad Air (WiFi+CDMA)";
+    else if ([platform isEqualToString:@"iPad4,4"])      platform = @"iPad Mini Retina (WiFi)";
+    else if ([platform isEqualToString:@"iPad4,5"])      platform = @"iPad Mini Retina (WiFi+CDMA)";
 	
-    else if ([platform hasPrefix:@"iPhone"])            platform = IPHONE_UNKNOWN_NAMESTRING;
-    else if ([platform hasPrefix:@"iPod"])              platform = IPOD_UNKNOWN_NAMESTRING;
-    else if ([platform hasPrefix:@"iPad"])              platform = IPAD_UNKNOWN_NAMESTRING;
-	else if ([platform hasPrefix:@"AppleTV"])           platform = APPLETV_UNKNOWN_NAMESTRING;
+	else if ([platform hasPrefix:@"iPhone"])             platform = @"Unknown iPhone";
+    else if ([platform hasPrefix:@"iPod"])               platform = @"Unknown iPod";
+    else if ([platform hasPrefix:@"iPad"])               platform = @"Unknown iPad";
+	else if ([platform hasPrefix:@"AppleTV"])            platform = @"Unknown AppleTV";
+	
 	
 	name = [NSString stringWithFormat:@"%@ %@(%@)", platform, version, code];
 	

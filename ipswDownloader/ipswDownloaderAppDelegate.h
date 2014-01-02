@@ -38,9 +38,9 @@ extern bool needWaitProcess;
 	NSInteger						alertReturnStatus;
 	
 	//user prefs
-	int								m_dbUpdateInterval;
-	bool							m_bSimpleMode;
-	bool							m_bInternet;
+	NSUInteger						m_dbUpdateInterval;
+	BOOL							m_bSimpleMode;
+	BOOL							m_bInternet;
 	
 	//downloads view
 	NSTimer							*DownloadUpdateTimer;
@@ -100,7 +100,7 @@ extern bool needWaitProcess;
 - (void) updateInfo: (NSString*)firmware;
 - (void) openImageFor:(NSImageView*)_imageView withImageName:(NSString*)name;
 
-- (BOOL) internetEnabledWithAlert:(bool)showAlert;
+- (BOOL) internetEnabledWithAlert:(BOOL)showAlert;
 - (void) startAlert:(NSAlert*) alert selector:(SEL)alertSelector;
 
 - (void) setHiperLinkForTextField:(NSTextView*) textField;

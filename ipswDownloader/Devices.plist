@@ -138,6 +138,28 @@
 		<key>img_#3b3b3c</key>
 		<string>iPhone_5_Black.png</string>
 	</dict>
+	<key>iPhone6,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 5S GSM</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
+	<key>iPhone6,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 5S Global</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
 	<key>iPod1,1</key>
 	<dict>
 		<key>device</key>

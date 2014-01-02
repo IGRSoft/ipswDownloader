@@ -221,7 +221,7 @@ bool needWaitProcess = false;
 		NSDictionary* downloadsInfo = [notification object][0];
 		if (downloadsInfo)
 		{
-			int _index = [[downloadsInfo valueForKey:@"index"] intValue];
+			NSInteger _index = [[downloadsInfo valueForKey:@"index"] integerValue];
 			if (_index == -1) {
 				DBNSLog(@"add download");
 				[self.downloadsList reloadData];
@@ -260,7 +260,7 @@ bool needWaitProcess = false;
 	if ([[notification name] isEqualToString:FAILED_DOWNLOAD_OBJECT_NOTIFICATION])
 	{
 		NSString* downloadsInfo = [notification object];
-		int pos = 0;
+		NSUInteger pos = 0;
 		for (Item *item in [m_DownloadsManager downloadsInfoData]) {
 			if ([item.tempDownloadPath isEqualToString:downloadsInfo]) {
 				item.state = DOWNLOAD_FAILED;
@@ -405,7 +405,7 @@ bool needWaitProcess = false;
 			float size = (float)([request contentLength] + [request partialDownloadSize]) / BYTE_IN_MB;
 			float cur_size = (float)([request totalBytesRead]+[request partialDownloadSize]) / BYTE_IN_MB;
 			
-			int percentComplete = (cur_size / size) * 10.0 + 0.2;
+			NSInteger percentComplete = (cur_size / size) * 10.0 + 0.2;
 			
 			NSImage* img = [NSImage imageNamed:[NSString stringWithFormat:@"NSStopProgressFreestandingTemplate"]];
 			[result.detailPauseResumeButton setImage:img];
@@ -415,7 +415,7 @@ bool needWaitProcess = false;
 				img = [NSImage imageNamed:imgstr];
 			}
 			else {
-				NSString * imgstr = [NSString stringWithFormat:@"download0%d0.png", percentComplete];
+				NSString * imgstr = [NSString stringWithFormat:@"download0%ld0.png", (long)percentComplete];
 				img = [NSImage imageNamed:imgstr];
 			}
 			
@@ -426,7 +426,7 @@ bool needWaitProcess = false;
 			NSTimeInterval timeNow = [NSDate timeIntervalSinceReferenceDate];
 			float speed = cur_size / (timeNow - [item startrTimer] - [item timeShift]);
 			
-			int _time = (size - cur_size) / speed;
+			NSInteger _time = (size - cur_size) / speed;
 			if (_time > 60) {
 				text = [NSString stringWithFormat:NSLocalizedString(@"%.1f/%.1fMb (%.1f Mb/s) - %i min %i sec", @"Download time min/sec"), cur_size, size, speed, (_time/60), (_time % 60)];
 			}
@@ -524,7 +524,7 @@ bool needWaitProcess = false;
 	NSArray* arrayKey = [[NSArray alloc] initWithArray:[m_FirmwareList allKeys]];
 	NSArray* sortedKeys = [arrayKey sortedArrayUsingSelector:@selector(localizedCompare:)];
 	
-	for (int i = [sortedKeys count]; i > 0; --i) {
+	for (NSUInteger i = [sortedKeys count]; i > 0; --i) {
 		[self.firmware addItemWithObjectValue:sortedKeys[(i-1)]];
 	}
 	
@@ -706,23 +706,23 @@ bool needWaitProcess = false;
 	[NSApp endSheet:[alert window]];
 }
 
-- (void)closeAlert:(NSWindow *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo
+- (void)closeAlert:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo
 {	
-	DBNSLog(@"clicked %d button\n", returnCode);
+	DBNSLog(@"clicked %ld button\n", (long)returnCode);
 	if (returnCode == NSAlertSecondButtonReturn) {
 	}
     // make the returnCode publicly available after closing the sheet
     alertReturnStatus = returnCode;
 }
 
-- (void)closeFirmwareInfo:(NSWindow *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo
+- (void)closeFirmwareInfo:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo
 {
 	if (returnCode == NSAlertSecondButtonReturn) {
 	}
 	alertReturnStatus = returnCode;
 }
 
-- (void)closDownloadAlert:(NSWindow *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo
+- (void)closDownloadAlert:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo
 {
 	if (returnCode == NSAlertFirstButtonReturn) {
 		
@@ -740,7 +740,7 @@ bool needWaitProcess = false;
 	alertReturnStatus = returnCode;
 }
 
-- (void)closDownloadAlertWithResume:(NSWindow *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo
+- (void)closDownloadAlertWithResume:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo
 {
 	if (returnCode == NSAlertFirstButtonReturn) {
 		
@@ -782,7 +782,7 @@ bool needWaitProcess = false;
 	NSMutableParagraphStyle *truncateStyle = [[NSMutableParagraphStyle alloc] init];
 	[truncateStyle setLineBreakMode:NSLineBreakByTruncatingTail];
 	
-	for (int i = 0; i < [arr count]; ++i) {
+	for (NSUInteger i = 0; i < [arr count]; ++i) {
 		NSArray *arr2 = [arr[i] componentsSeparatedByString:@" "];
 		NSURL *url = [self getHiperLinkForTool:arr2[0]];
 		
@@ -1062,7 +1062,7 @@ bool needWaitProcess = false;
 	NSArray* arrayKey = [NSArray arrayWithArray:[jbMenu allKeys]];
 	NSArray* sortedKeys = [arrayKey sortedArrayUsingSelector:@selector(localizedCompare:)];
 	
-	int i = 0;
+	NSUInteger i = 0;
 	
 	for (NSString *menuName in sortedKeys) {
 		
@@ -1148,7 +1148,7 @@ bool needWaitProcess = false;
 		
 		if (info) {
 			NSString *val = info[@"device"];
-			int index = [self.device indexOfItemWithObjectValue:val];
+			NSInteger index = [self.device indexOfItemWithObjectValue:val];
 			if (index >= 0) {
 				[self.device selectItemAtIndex:index];
 				[self addItemsToFirmware:val];

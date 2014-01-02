@@ -2086,9 +2086,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>b02a4f3f5b6b948bdcd036caee71449201e72f63</string>
 			<key>size</key>
@@ -2640,9 +2640,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>1b7897aea7b23d2e00e3d3c5c0ad2a0c47b345cd</string>
 			<key>size</key>
@@ -3194,9 +3194,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>241a02bb446c21e44e8470b77e09b5fbfba7d6c4</string>
 			<key>size</key>
@@ -3516,9 +3516,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>120e8ffec8a8564728704c06b93d06c3a4e94d23</string>
 			<key>size</key>
@@ -3838,9 +3838,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>4c2a39d499004e53e9ce0edd81e4fad78fb0d0ec</string>
 			<key>size</key>
@@ -4160,9 +4160,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>4e2b6b01f226838925c33ffa58c5ba6dcb214d81</string>
 			<key>size</key>
@@ -4482,9 +4482,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>5dee332abebbb3924d176cfa5e6ee7b76f1cc46f</string>
 			<key>size</key>
@@ -4746,9 +4746,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>e4de25259eff8deb00859c0482e57c02630b3103</string>
 			<key>size</key>
@@ -4981,9 +4981,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>e2765c0d546a0edb21241aeb56c53dbfe6c1f684</string>
 			<key>size</key>
@@ -5216,9 +5216,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>a7df3c07ec9ff56fc229cddd7bd5c667f83fecc5</string>
 			<key>size</key>
@@ -5631,9 +5631,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>02a679b092037c2086fb27646c1ca2698307c7f4</string>
 			<key>size</key>
@@ -5895,9 +5895,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>bc507ad8eec55f0e084486e23436fef271248e70</string>
 			<key>size</key>
@@ -6159,9 +6159,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>1b06da56b129536b6bd58c732746962972442be1</string>
 			<key>size</key>
@@ -8119,7 +8119,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14</string>
+			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14, p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>15e92a89ff3caf51523962fdb125e918d78c1807</string>
 			<key>size</key>
@@ -8731,7 +8731,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14</string>
+			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14, p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>f8c53328656f2708e1d2bcb793f12ae46dd4eb23</string>
 			<key>size</key>
@@ -8995,7 +8995,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14</string>
+			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14, p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>42f09fdc2e35426cc402ee683efb3b5e62dfe46a</string>
 			<key>size</key>
@@ -9520,7 +9520,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14</string>
+			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14, p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>8e975c8028daf68ed2fe8e6af3d5e065486b013c</string>
 			<key>size</key>
@@ -9956,9 +9956,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>7a62ee60b574301a6aafc48dcc9cccf0894ffb27</string>
 			<key>size</key>
@@ -10249,9 +10249,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>967154e902dda814a0fe0ec757f8124c43973701</string>
 			<key>size</key>
@@ -10278,9 +10278,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>53b6aa61ee9c258ea66d8c28bb5bfe3fd4ba7939</string>
 			<key>size</key>
@@ -10571,9 +10571,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>9f7dcc672fd54a3aeefcabbcd547c0e53818513d</string>
 			<key>size</key>
@@ -10600,9 +10600,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>5afaa5f085d19595d0884c2662a954d61b1a627e</string>
 			<key>size</key>
@@ -13033,7 +13033,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14</string>
+			<string>redsn0w 0.9.15b3, sn0wbreeze 2.9.14, p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>c9c8efb5663b8ab5faece095cefd03aa7d499f5e</string>
 			<key>size</key>
@@ -13048,6 +13048,35 @@
 			<string></string>
 			<key>build</key>
 			<string>BrightonMaps 10B329</string>
+		</dict>
+		<key>6.1.5 / 10B400</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS6.1/Documentation/031-1594.20131106.F43ew/iPodtouchiTunesUpdateReadMe_7.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>p0sixspwn 1.0.2</string>
+			<key>sha1</key>
+			<string>146c1390bf476c6b87f5ff63100c8e574c8a369a</string>
+			<key>size</key>
+			<integer>888928473</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS6.1/091-3505.20131106.PosTg/iPod4,1_6.1.5_10B400_Restore.ipsw</string>
+			<key>date</key>
+			<string>14 Nov 2013</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>BrightonMaps 10B400</string>
 		</dict>
 	</dict>
 	<key>iPod Touch 5</key>
@@ -13179,9 +13208,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>p0sixspwn 1.0.2</string>
 			<key>sha1</key>
 			<string>9cd17c39294c62447c2a6ef2e4e9445b98ce88a4</string>
 			<key>size</key>
