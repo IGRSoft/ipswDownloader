@@ -15,7 +15,7 @@ static NSString * const deviceFileName = @"Devices.db";
 
 @implementation plistParser
 
-- (NSMutableDictionary*) loadListWithInterval:(int)interval
+- (NSMutableDictionary*)loadListWithInterval:(NSUInteger)interval
 {
 	NSString *executableName = [[NSBundle mainBundle] infoDictionary][@"CFBundleExecutable"];
 	NSError *error;
@@ -29,18 +29,18 @@ static NSString * const deviceFileName = @"Devices.db";
 		DBNSLog(@"Unable to find or create application support directory:\n%@", [error localizedDescription]);
 	}
 	
-	bool needUpdateDB = false;
+	BOOL needUpdateDB = NO;
 	NSFileManager* fm = [NSFileManager defaultManager];
 	
 	if (![fm fileExistsAtPath:[result stringByAppendingPathComponent:firmwareFileName]] 
 		|| ![fm fileExistsAtPath:[result stringByAppendingPathComponent:linksFileName]]
 		|| ![fm fileExistsAtPath:[result stringByAppendingPathComponent:deviceFileName]])
 	{
-		needUpdateDB = true;
+		needUpdateDB = YES;
 	}
 	else if (interval == UPDATE_AT_APP_START) 
 	{		
-		needUpdateDB = true;
+		needUpdateDB = YES;
 	}
 	else if (interval == UPDATE_EVERY_DAY || interval == UPDATE_EVERY_WEEK)
 	{		
@@ -55,34 +55,42 @@ static NSString * const deviceFileName = @"Devices.db";
 		NSDirectoryEnumerator *enumerator = [fm enumeratorAtPath:result];
 		NSString *file = nil;
 		NSDate *fileDate = nil;
-		while ((file = [enumerator nextObject])) {
-			
-			if ([file isEqualToString:firmwareFileName]) {
+		while ((file = [enumerator nextObject]))
+		{
+			if ([file isEqualToString:firmwareFileName])
+			{
 				NSDictionary *attributes = [enumerator fileAttributes];
 				
 				fileDate = attributes[NSFileCreationDate];
 			}
 		}
 		
-		if (fileDate) {
+		if (fileDate)
+		{
 			components = [calendar components:units fromDate:fileDate];
 			NSInteger fileDay = [components day];
 			NSInteger fileMonth = [components month];
 			
-			if (interval == UPDATE_EVERY_DAY) {
-				if (currentMonth != fileMonth || (currentDay - fileDay) >= 1) {
-					needUpdateDB = true;
+			if (interval == UPDATE_EVERY_DAY)
+			{
+				if (currentMonth != fileMonth || (currentDay - fileDay) >= 1)
+				{
+					needUpdateDB = YES;
 				}
 				
-			} else {
-				if (currentMonth != fileMonth || (currentDay - fileDay) >= 7) {
-					needUpdateDB = true;
+			}
+			else
+			{
+				if (currentMonth != fileMonth || (currentDay - fileDay) >= 7)
+				{
+					needUpdateDB = YES;
 				}
 			}
 		}
 	}
 	
-	if (needUpdateDB) {
+	if (needUpdateDB)
+	{
 		NSString *url = [NSString stringWithFormat:@"%@%@%@", FIRMWARE_URL1, FIRMWARE_URL2, FIRMWARE_URL3];
 		NSData *theData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
 		[theData writeToFile:[result stringByAppendingPathComponent:firmwareFileName] atomically:YES];
@@ -90,8 +98,9 @@ static NSString * const deviceFileName = @"Devices.db";
 	
 	ZipArchive *za = [[ZipArchive alloc] init];
 	NSString *pas = [NSString stringWithFormat:@"%@%@%@%@", ARCH_PASS1, ARCH_PASS2, ARCH_PASS3, ARCH_PASS4];
-	if ([za UnzipOpenFile: [result stringByAppendingPathComponent:firmwareFileName] Password:pas]) {
-		BOOL ret = [za UnzipFileTo: result overWrite: YES];
+	if ([za UnzipOpenFile: [result stringByAppendingPathComponent:firmwareFileName] Password:pas])
+	{
+		BOOL ret = [za UnzipFileTo:result overWrite:YES];
 		
 		if (NO == ret){} [za UnzipCloseFile];
 	}
@@ -102,11 +111,13 @@ static NSString * const deviceFileName = @"Devices.db";
 	
 	_plist[FIRMWARE_URL3] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
 	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName]) {
+	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName])
+	{
 		[[NSFileManager defaultManager] removeItemAtPath:tempFileName error:nil];
 	}
 	
-	if (needUpdateDB) {
+	if (needUpdateDB)
+	{
 		NSString *url = [NSString stringWithFormat:@"%@%@%@", FIRMWARE_URL1, FIRMWARE_URL2, FIRMWARE_URL4];
 		NSData *theData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
 		[theData writeToFile:[result stringByAppendingPathComponent:linksFileName] atomically:YES];
@@ -114,8 +125,9 @@ static NSString * const deviceFileName = @"Devices.db";
 	
 	za = [[ZipArchive alloc] init];
 	pas = [NSString stringWithFormat:@"%@%@%@%@", ARCH_PASS1, ARCH_PASS2, ARCH_PASS3, ARCH_PASS4];
-	if ([za UnzipOpenFile: [result stringByAppendingPathComponent:linksFileName] Password:pas]) {
-		BOOL ret = [za UnzipFileTo: result overWrite: YES];
+	if ([za UnzipOpenFile:[result stringByAppendingPathComponent:linksFileName] Password:pas])
+	{
+		BOOL ret = [za UnzipFileTo:result overWrite:YES];
 		
 		if (NO == ret){} [za UnzipCloseFile];
 	}
@@ -124,11 +136,13 @@ static NSString * const deviceFileName = @"Devices.db";
 	
 	_plist[FIRMWARE_URL4] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
 	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName]) {
+	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName])
+	{
 		[[NSFileManager defaultManager] removeItemAtPath:tempFileName error:nil];
 	}
 	
-	if (needUpdateDB) {
+	if (needUpdateDB)
+	{
 		NSString *url = [NSString stringWithFormat:@"%@%@%@", FIRMWARE_URL1, FIRMWARE_URL2, FIRMWARE_URL5];
 		NSData *theData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
 		[theData writeToFile:[result stringByAppendingPathComponent:deviceFileName] atomically:YES];
@@ -136,7 +150,8 @@ static NSString * const deviceFileName = @"Devices.db";
 	
 	za = [[ZipArchive alloc] init];
 	pas = [NSString stringWithFormat:@"%@%@%@%@", ARCH_PASS1, ARCH_PASS2, ARCH_PASS3, ARCH_PASS4];
-	if ([za UnzipOpenFile: [result stringByAppendingPathComponent:deviceFileName] Password:pas]) {
+	if ([za UnzipOpenFile: [result stringByAppendingPathComponent:deviceFileName] Password:pas])
+	{
 		BOOL ret = [za UnzipFileTo: result overWrite: YES];
 		
 		if (NO == ret){} [za UnzipCloseFile];
@@ -146,7 +161,8 @@ static NSString * const deviceFileName = @"Devices.db";
 	
 	_plist[FIRMWARE_URL5] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
 	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName]) {
+	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName])
+	{
 		[[NSFileManager defaultManager] removeItemAtPath:tempFileName error:nil];
 	}
 	
@@ -155,21 +171,24 @@ static NSString * const deviceFileName = @"Devices.db";
 
 #pragma mark ==================== one firmware ==================
 
-- (NSString*) getBaseband:(NSMutableDictionary*)fw
+- (NSString*)getBaseband:(NSMutableDictionary*)fw
 {
 	return fw[@"baseband"];
 }
 
-- (NSString*) getJBIndicatir:(NSMutableDictionary*)fw
+- (NSString*)getJBIndicatir:(NSMutableDictionary*)fw
 {
-	bool value = false;
+	BOOL value = NO;
 	NSString* image;
 	
 	value = [fw[@"jailbreak"] boolValue];
 	
-	if (value) {
+	if (value)
+	{
 		image = @"on";
-	} else {
+	}
+	else
+	{
 		image = @"off";
 	}
 	
@@ -186,69 +205,74 @@ static NSString * const deviceFileName = @"Devices.db";
 	return image;
 }
 
-- (NSString*) getUnlockIndicatir:(NSMutableDictionary*)fw
+- (NSString*)getUnlockIndicatir:(NSMutableDictionary*)fw
 {
-	bool value = false;
+	BOOL value = NO;
 	NSString* image;
 	
 	value = [fw[@"unlock"] boolValue];
 	
-	if (value) {
+	if (value)
+	{
 		image = @"on";
-	} else if ([[self getBaseband:fw] isEqualToString:@"none"]) {
+	}
+	else if ([[self getBaseband:fw] isEqualToString:@"none"])
+	{
 		image = @"none";
-	} else {
+	}
+	else
+	{
 		image = @"off";
 	}
 	
 	return image;
 }
 
-- (NSString*) getSize:(NSMutableDictionary*)fw
+- (NSString*)getSize:(NSMutableDictionary*)fw
 {
-	float size = 0;
-	size = [fw[@"size"] intValue];
+	CGFloat size = 0;
+	size = [fw[@"size"] floatValue];
 	size = size / BYTE_IN_MB;
 	
 	return [NSString stringWithFormat:@"%.2f Mb", size];
 }
 
-- (NSString*) getURL:(NSMutableDictionary*)fw
+- (NSString*)getURL:(NSMutableDictionary*)fw
 {
 	return fw[@"url"];
 }
 
-- (NSString*) getInfo:(NSMutableDictionary*)fw
+- (NSString*)getInfo:(NSMutableDictionary*)fw
 {
 	return fw[@"info"];
 }
 
-- (NSString*) getDocks:(NSMutableDictionary*)fw
+- (NSString*)getDocks:(NSMutableDictionary*)fw
 {
 	return fw[@"docs"];
 }
 
-- (NSString*) getJBTools:(NSMutableDictionary*)fw
+- (NSString*)getJBTools:(NSMutableDictionary*)fw
 {
 	return fw[@"jbtools"];
 }
 
-- (NSString*) getUnlockTools:(NSMutableDictionary*)fw
+- (NSString*)getUnlockTools:(NSMutableDictionary*)fw
 {
 	return fw[@"utools"];
 }
 
-- (NSString*) getSHA1:(NSMutableDictionary*)fw
+- (NSString*)getSHA1:(NSMutableDictionary*)fw
 {
 	return fw[@"sha1"];
 }
 
-- (NSString*) getBuild:(NSMutableDictionary*)fw
+- (NSString*)getBuild:(NSMutableDictionary*)fw
 {
 	return fw[@"build"];
 }
 
-- (NSString*) getReleaseDate:(NSMutableDictionary*)fw
+- (NSString*)getReleaseDate:(NSMutableDictionary*)fw
 {
 	NSString *sDate = fw[@"date"];
 	NSDateFormatter *format = [[NSDateFormatter alloc] init];
@@ -343,6 +367,5 @@ static NSString * const deviceFileName = @"Devices.db";
 	
 	return resolvedPath;
 }
-
 
 @end

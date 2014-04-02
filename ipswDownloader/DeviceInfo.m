@@ -56,9 +56,11 @@ NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
 		NSString *color = [mobileDeviceServer deviceColor];
 		
 		NSImage *img = nil;
-		if (info) {
+		if (info)
+		{
 			NSString *imgKey = @"img";
-			if (![color isEqualToString:@"black"]) {
+			if (![color isEqualToString:@"black"])
+			{
 				imgKey = [imgKey stringByAppendingFormat:@"_%@", color];
 			}
 			NSString *sImg = info[imgKey];
@@ -71,7 +73,8 @@ NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
 		
 		dispatch_async(dispatch_get_main_queue(), ^{
 			
-			if (img) {
+			if (img)
+			{
 				dispatch_async(dispatch_get_main_queue(), ^{
 					[_devicePic setImage:img];
 				});
@@ -150,9 +153,9 @@ NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
 		
 		NSString *totalBytes = [mobileDeviceServer deviceAFSTotalBytes];
 		NSString *freeBytes = [mobileDeviceServer deviceAFSFreeBytes];
-		float total = [totalBytes floatValue] / BYTE_IN_GB;
-		float free = [freeBytes floatValue] / BYTE_IN_GB;
-		float filled = total - free;
+		CGFloat total = [totalBytes floatValue] / BYTE_IN_GB;
+		CGFloat free = [freeBytes floatValue] / BYTE_IN_GB;
+		CGFloat filled = total - free;
 		dispatch_async(dispatch_get_main_queue(), ^{
 			[_deviceCapacity setStringValue:[NSString stringWithFormat:@"%.3f GB", total]];
 			[_deviceFilledCapacity setStringValue:[NSString stringWithFormat:@"%.3f GB", filled]];
@@ -166,7 +169,8 @@ NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
 		m_AppsList = [[NSArray alloc] initWithArray:[mobileDeviceServer appsList]];
 		dispatch_async(dispatch_get_main_queue(), ^{
 			[_deviceInfo setString:[mobileDeviceServer deviceAllInfo]];
-			if ([m_AppsList count] > 0) {
+			if ([m_AppsList count] > 0)
+			{
 				[_appsList reloadData];
 			}
 		});
@@ -184,11 +188,13 @@ NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
 }
 
 #pragma mark - NSTableViewDelegate
-- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
+{
 	return [m_AppsList count];
 }
 
-- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
+- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
 	ItemCellView *result = [tableView makeViewWithIdentifier:tableColumn.identifier owner:self];
 	
 	NSDictionary *dic = m_AppsList[row];
@@ -196,7 +202,8 @@ NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
 	result.detailTextField.stringValue = dic[@"app_version"];
 	
 	NSString *iconPath = dic[@"app_icon"];
-	if ([iconPath length] > 0) {
+	if ([iconPath length] > 0)
+	{
 		NSImage *img = [[NSImage alloc] initWithContentsOfFile:iconPath];
 		result.imageView.image = img;
 	}

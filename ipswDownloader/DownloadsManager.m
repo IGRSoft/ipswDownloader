@@ -17,17 +17,18 @@
 #import "IPSWInfoHelper.h"
 #import "Item.h"
 
-extern bool needWaitProcess;
+extern BOOL needWaitProcess;
 
 @interface DownloadsManager ()
-- (void) URLFetchWithProgressComplete:(ASIHTTPRequest *)request;
-- (void) URLFetchWithProgressFailed:(ASIHTTPRequest *)request;
-- (void) playSystemSound:(NSString*) name;
+- (void)URLFetchWithProgressComplete:(ASIHTTPRequest *)request;
+- (void)URLFetchWithProgressFailed:(ASIHTTPRequest *)request;
+- (void)playSystemSound:(NSString*) name;
 @end
 
 @implementation DownloadsManager
 
-- (id) init {
+- (id)init
+{
 	if (!(self = [super init]))
 	{
 		return nil;
@@ -41,27 +42,30 @@ extern bool needWaitProcess;
 	return self;
 }
 
-- (BOOL) addDownloadFile:(NSURL*)downloadURL withSHA1:(NSString*)downloadSHA1
+- (BOOL)addDownloadFile:(NSURL*)downloadURL withSHA1:(NSString*)downloadSHA1
 {
 	NSString* fileName = [NSString stringWithString:[URLHelper splitURL:downloadURL][1]];
 	
 	NSString *downloadsDirectory = NSSearchPathForDirectoriesInDomains(NSDownloadsDirectory, NSUserDomainMask, YES)[0];
 	
 	NSString* tempFileName = [[NSMutableString alloc] initWithString:[downloadsDirectory stringByAppendingFormat:@"/%@.download", fileName]];
-	bool mayStart = false;
-	if (![[NSFileManager defaultManager] fileExistsAtPath:tempFileName]) {
-		mayStart = true;
+	BOOL mayStart = NO;
+	if (![[NSFileManager defaultManager] fileExistsAtPath:tempFileName])
+	{
+		mayStart = YES;
 	}
 	
-	int shift = 1;
+	NSUInteger shift = 1;
 	
-	while (!mayStart) {
+	while (!mayStart)
+	{
 		NSRange range = [fileName rangeOfString:@".ipsw"];
-		NSString *tmp = [NSString stringWithFormat:@"%@_%d%@", [fileName substringToIndex:(range.location)], shift++, [fileName substringFromIndex:range.location]];
+		NSString *tmp = [NSString stringWithFormat:@"%@_%@%@", [fileName substringToIndex:(range.location)], @(shift++), [fileName substringFromIndex:range.location]];
 		tempFileName = [downloadsDirectory stringByAppendingFormat:@"/%@.download", tmp];
-		if (![[NSFileManager defaultManager] fileExistsAtPath:tempFileName]) {
+		if (![[NSFileManager defaultManager] fileExistsAtPath:tempFileName])
+		{
 			fileName = tmp;
-			mayStart = true;
+			mayStart = YES;
 		}
 	}
 
@@ -69,7 +73,7 @@ extern bool needWaitProcess;
 	[request setDownloadDestinationPath:[downloadsDirectory stringByAppendingFormat:@"/%@", fileName]];
 	[request setTemporaryFileDownloadPath:tempFileName];
 	
-	[self startDownloadWithRequest:request AtIndex:-1];
+	[self startDownloadWithRequest:request atIndex:-1];
 	
 	fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 	
@@ -83,7 +87,7 @@ extern bool needWaitProcess;
 	return YES;
 }
 
-- (void)startDownloadWithRequest:(ASIHTTPRequest*)request AtIndex:(int)index
+- (void)startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSUInteger)index
 {
 	[request setAllowResumeForFileDownloads:YES];
 	[request setDelegate:self];
@@ -92,10 +96,8 @@ extern bool needWaitProcess;
 	
 	[request startAsynchronous];
 	
-	if (index >= 0) {
-		Item *item = self.downloadsInfoData[index];
-		item.request = request;
-	}
+	Item *item = self.downloadsInfoData[index];
+	item.request = request;
 	
 	NSMutableArray *ma = [[NSMutableArray alloc] init];
 	NSDictionary * expDict = @{@"index": @(index)};
@@ -106,31 +108,35 @@ extern bool needWaitProcess;
 	
 }
 
-- (void) pauseDownloadAtIndex:(int)index withObject:(NSDictionary*)object
+- (void)pauseDownloadAtIndex:(NSUInteger)index withObject:(NSDictionary*)object
 {
 	[self.pausedInfoData insertObject:object atIndex:index];
 }
 
 - (void)URLFetchWithProgressComplete:(ASIHTTPRequest *)request
 {
-	needWaitProcess = true;
+	needWaitProcess = YES;
 	
 	Item *item = nil;
-	for (Item *itm in [self downloadsInfoData]) {
-		if (itm.request == request) {
+	for (Item *itm in [self downloadsInfoData])
+	{
+		if (itm.request == request)
+		{
 			item = itm;
 		}
 	}
 	
-	if (!item) {
+	if (!item)
+	{
 		return;
 		
 	}
+	
 	NSString *filePath = [item downloadPath];
 	[[NSNotificationCenter defaultCenter] postNotificationName:REMOVE_DOWNLOAD_OBJECT_NOTIFICATION
 														object:filePath];
 	
-	bool m_bNeedCheckCRC = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsCheckSHA1Key];
+	BOOL m_bNeedCheckCRC = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsCheckSHA1Key];
 	if (m_bNeedCheckCRC)
 	{
 		CFStringRef sha1hash = FileSHA1HashCreateWithPath((__bridge CFStringRef)filePath, FileHashDefaultChunkSizeForReadingData);
@@ -138,11 +144,12 @@ extern bool needWaitProcess;
 		
 		NSString *sha1 = [item sha1];
 		
-		if (![sha1 isEqualToString:(__bridge NSString *)sha1hash]) {
+		if (![sha1 isEqualToString:(__bridge NSString *)sha1hash])
+		{
+			BOOL m_bShowNotification = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseNotificationKey];
 			
-			bool m_bShowNotification = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseNotificationKey];
-			
-			if (m_bShowNotification) {
+			if (m_bShowNotification)
+			{
 				NSString* fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 				
 				if (NSClassFromString(@"NSUserNotificationCenter"))
@@ -167,20 +174,23 @@ extern bool needWaitProcess;
 											   clickContext: nil];
 				}
 			}
-			else {
+			else
+			{
 				DBNSLog(@"%@", NSLocalizedString(GROWL_CHECKSUM_FAIL, @"Growl SHA1 Checksum Fail"));
 			}
 			
 			
-			if ([[NSFileManager defaultManager] fileExistsAtPath:[request downloadDestinationPath]]) {
+			if ([[NSFileManager defaultManager] fileExistsAtPath:[request downloadDestinationPath]])
+			{
 				[[NSFileManager defaultManager] removeItemAtPath:[request downloadDestinationPath] error:nil];
 			}
 			[self playSystemSound:@"Basso"];
 		}
 		else {
-			bool m_bShowNotification = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseNotificationKey];
+			BOOL m_bShowNotification = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseNotificationKey];
 			
-			if (m_bShowNotification) {
+			if (m_bShowNotification)
+			{
 				NSString* fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 				
 				if (NSClassFromString(@"NSUserNotificationCenter"))
@@ -216,10 +226,12 @@ extern bool needWaitProcess;
 		
 		if (sha1hash) CFRelease(sha1hash);
 	}
-	else {
-		bool m_bShowNotification = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseNotificationKey];
+	else
+	{
+		BOOL m_bShowNotification = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseNotificationKey];
 		
-		if (m_bShowNotification) {
+		if (m_bShowNotification)
+		{
 			NSString* fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 			
 			if (NSClassFromString(@"NSUserNotificationCenter"))
@@ -257,24 +269,29 @@ extern bool needWaitProcess;
 
 - (void)URLFetchWithProgressFailed:(ASIHTTPRequest *)request
 {	
-	if (![request isCancelled]) {
-		needWaitProcess = true;
+	if (![request isCancelled])
+	{
+		needWaitProcess = YES;
 		[[NSNotificationCenter defaultCenter] postNotificationName:FAILED_DOWNLOAD_OBJECT_NOTIFICATION
 															object:request.temporaryFileDownloadPath];
 	}
 	
-	if ([[request error] domain] == NetworkRequestErrorDomain && [[request error] code] == ASIRequestCancelledErrorType) {
+	if ([[request error] domain] == NetworkRequestErrorDomain && [[request error] code] == ASIRequestCancelledErrorType)
+	{
 		//
-	} else {
+	}
+	else
+	{
 		
 		//Growl
 		// Inform the user.
 		DBNSLog(@"Download failed! Error - %@ %@",
 				[[request error] localizedDescription],
 				[[request error] userInfo][NSURLErrorFailingURLStringErrorKey]);
-		bool m_bShowNotification = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseNotificationKey];
+		BOOL m_bShowNotification = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseNotificationKey];
 		
-		if (m_bShowNotification) {
+		if (m_bShowNotification)
+		{
 			NSString* fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 			
 			if (NSClassFromString(@"NSUserNotificationCenter"))
@@ -303,10 +320,11 @@ extern bool needWaitProcess;
 	}
 }
 
-- (void) playSystemSound:(NSString*) name
+- (void)playSystemSound:(NSString*)name
 {
-	bool m_bUseSound = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseSoundKey];
-	if (!m_bUseSound) {
+	BOOL m_bUseSound = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsUseSoundKey];
+	if (!m_bUseSound)
+	{
 		return;
 	}
 	
@@ -314,7 +332,8 @@ extern bool needWaitProcess;
 	
 	NSFileManager *fm = [NSFileManager defaultManager];
 	
-	if ([ fm fileExistsAtPath:soundFile] == YES) {		
+	if ([ fm fileExistsAtPath:soundFile] == YES)
+	{
 		NSURL* filePath = [NSURL fileURLWithPath: soundFile isDirectory: NO];
 		SystemSoundID soundID;
 		AudioServicesCreateSystemSoundID((__bridge CFURLRef)filePath, &soundID);
@@ -322,10 +341,9 @@ extern bool needWaitProcess;
 	}
 }
 
-
 #pragma mark ---- Growl ----
 
-- (NSDictionary *) registrationDictionaryForGrowl
+- (NSDictionary *)registrationDictionaryForGrowl
 {
     NSArray * notifications = @[GROWL_DOWNLOAD_COMPLETE, 
 							   GROWL_DOWNLOAD_FAIL, 
@@ -335,7 +353,7 @@ extern bool needWaitProcess;
     return @{GROWL_NOTIFICATIONS_ALL: notifications, GROWL_NOTIFICATIONS_DEFAULT: notifications};
 }
 
-- (void) growlNotificationWasClicked: (id) clickContext
+- (void)growlNotificationWasClicked:(id)clickContext
 {
     if (!clickContext || ![clickContext isKindOfClass: [NSDictionary class]])
         return;
@@ -353,7 +371,8 @@ extern bool needWaitProcess;
 - (void)userNotificationCenter:(NSUserNotificationCenter *)center didActivateNotification:(NSUserNotification *)notification
 {
 	NSString *filePath = [notification userInfo][@"filePath"];
-    if (filePath){
+    if (filePath)
+	{
         [[NSWorkspace sharedWorkspace] selectFile: filePath inFileViewerRootedAtPath: nil];
     }
 	[center removeDeliveredNotification:notification];

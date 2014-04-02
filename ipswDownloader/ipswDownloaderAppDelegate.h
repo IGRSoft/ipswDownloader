@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "MobileDeviceServer.h"
 
-extern bool needWaitProcess;
+extern BOOL needWaitProcess;
 
 @class Item;
 @class PreferenceController;

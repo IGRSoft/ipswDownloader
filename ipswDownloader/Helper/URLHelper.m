@@ -10,12 +10,12 @@
 
 @implementation URLHelper
 
-+ (NSArray* ) splitURL: (NSURL*)url
++ (NSArray* )splitURL:(NSURL*)url
 {	
 	NSString* secondPart = [[NSString alloc] initWithString:[url lastPathComponent]];
 	NSString* temp = [[NSString alloc] initWithString:[url relativeString]];
-	int i = [temp length];
-	int j = [secondPart length];
+	NSUInteger i = [temp length];
+	NSUInteger j = [secondPart length];
 	NSString* firstPart = [[NSString alloc] initWithString:[temp substringToIndex:( i-j )]];
 	
 	NSArray* arr = @[firstPart, secondPart];

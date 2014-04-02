@@ -11,15 +11,15 @@
 
 @class ASIHTTPRequest;
 
-@interface DownloadsManager : NSObject <GrowlApplicationBridgeDelegate, NSUserNotificationCenterDelegate> {
-	
+@interface DownloadsManager : NSObject <GrowlApplicationBridgeDelegate, NSUserNotificationCenterDelegate>
+{	
 }
 
-@property (nonatomic, retain) NSMutableArray				*pausedInfoData;
-@property (nonatomic, retain) NSMutableArray				*downloadsInfoData;
+@property (nonatomic, retain) NSMutableArray	*pausedInfoData;
+@property (nonatomic, retain) NSMutableArray	*downloadsInfoData;
 
 - (BOOL) addDownloadFile:(NSURL*)downloadURL withSHA1:(NSString*)downloadSHA1;
-- (void) startDownloadWithRequest:(ASIHTTPRequest*)request AtIndex:(int)index;
-- (void) pauseDownloadAtIndex:(int)index withObject:(NSDictionary*)object;
+- (void) startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSUInteger)index;
+- (void) pauseDownloadAtIndex:(NSUInteger)index withObject:(NSDictionary*)object;
 
 @end

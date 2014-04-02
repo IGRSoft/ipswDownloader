@@ -8,11 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface plistParser : NSObject {
+@interface plistParser : NSObject
+{
 
 }
 
-- (NSMutableDictionary*) loadListWithInterval:(int)interval;
+- (NSMutableDictionary*) loadListWithInterval:(NSUInteger)interval;
 
 - (NSString*) getBaseband:(NSMutableDictionary*)fw;
 - (NSString*) getJBIndicatir:(NSMutableDictionary*)fw;

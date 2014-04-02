@@ -16,8 +16,8 @@
 
 #include <plist/plist.h>
 
-typedef enum {
-	
+typedef NS_ENUM(NSUInteger, deviceInfoType)
+{
 	deviceInfoTypeName = 0,
 	deviceInfoTypeProductType,
 	deviceInfoTypeCapacity,
@@ -39,17 +39,15 @@ typedef enum {
 	deviceInfoTypeAll,
 	
 	deviceInfoTypeCount
+};
 
-} deviceInfoType;
-
-typedef enum {
-	
+typedef NS_ENUM(NSUInteger, deviceAFCInfoType)
+{
 	deviceAFSTotalBytes = 0,
 	deviceAFSFreeBytes,
 	
-	deviceAFSInfoTypeCount
-	
-} deviceAFCInfoType;
+	deviceAFSInfoTypeCount	
+};
 
 static MobileDeviceServer* tmpSelf = nil;
 
@@ -71,7 +69,8 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 
 @implementation MobileDeviceServer
 
-- (id) init {
+- (id)init
+{
 	if (!(self = [super init]))
 	{
 		return nil;
@@ -98,7 +97,7 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	return mds;
 }
 
-- (void) scanForDevice
+- (void)scanForDevice
 {
 	@synchronized(self)
     {
@@ -117,7 +116,7 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	}
 }
 
-- (idevice_t) findDevices
+- (idevice_t)findDevices
 {
 	idevice_t _device;
 	
@@ -128,7 +127,8 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	
 	DBNSLog(@"INFO: Retrieving device list");
 
-    if (idevice_get_device_list(&list, &count) < 0 || count == 0) {
+    if (idevice_get_device_list(&list, &count) < 0 || count == 0)
+	{
 		DBNSLog(@"ERROR: Cannot retrieve device list");
 		return nil;
     }
@@ -139,10 +139,14 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
     
 	DBNSLog(@"INFO: Opening device");
     device_status = idevice_new(&_device, uuid);
-    if (device_status != IDEVICE_E_SUCCESS) {
-        if (device_status == IDEVICE_E_NO_DEVICE) {
+    if (device_status != IDEVICE_E_SUCCESS)
+	{
+        if (device_status == IDEVICE_E_NO_DEVICE)
+		{
 			DBNSLog(@"ERROR: No device found");
-        } else {
+        }
+		else
+		{
 			DBNSLog(@"ERROR: Unable to open device, %d", device_status);
         }
 		return nil;
@@ -151,13 +155,13 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	return _device;
 }
 
-- (lockdownd_client_t) getInfoForDevice:(idevice_t)_device
+- (lockdownd_client_t)getInfoForDevice:(idevice_t)aDevice
 {
 	lockdownd_client_t _lockdownd;
 	
  	lockdownd_error_t lockdownd_error = 0;
 	DBNSLog(@"INFO: Creating lockdownd client");
-	lockdownd_error = lockdownd_client_new_with_handshake(_device, &_lockdownd, "ipswDownloader");
+	lockdownd_error = lockdownd_client_new_with_handshake(aDevice, &_lockdownd, "ipswDownloader");
 	if(lockdownd_error != LOCKDOWN_E_SUCCESS) {
 		DBNSLog(@"ERROR: Cannot create lockdownd client");
 		return nil;
@@ -166,15 +170,16 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	return _lockdownd;
 }
 
-- (afc_client_t) getAFCInfoForDevice:(idevice_t)_device
+- (afc_client_t)getAFCInfoForDevice:(idevice_t)aDevice
 {
-	lockdownd_client_t client = [self getInfoForDevice:_device];
+	lockdownd_client_t client = [self getInfoForDevice:aDevice];
 	
 	afc_client_t _afc = NULL;
 	
 	lockdownd_service_descriptor_t descriptor = 0;
 	
-	if (!client) {
+	if (!client)
+	{
 		lockdownd_client_free(client);
 		return _afc;
 	}
@@ -186,12 +191,12 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	}
 	
 	lockdownd_client_free(client);
-	afc_client_new(_device, descriptor, &_afc);
+	afc_client_new(aDevice, descriptor, &_afc);
 	
 	return _afc;
 }
 
-- (bool) isConnected
+- (bool)isConnected
 {
 	return device != NULL;
 }
@@ -201,111 +206,112 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	if (device) idevice_free(device);
 }
 
-- (NSString *) deviceName
+- (NSString *)deviceName
 {	
 	return [self deviceInfoFor:deviceInfoTypeName];
 }
 
-- (NSString *) deviceProductType
+- (NSString *)deviceProductType
 {
 	return [self deviceInfoFor:deviceInfoTypeProductType];
 }
 
-- (NSString *) deviceProductVersion
+- (NSString *)deviceProductVersion
 {
 	return [self deviceInfoFor:deviceInfoTypeProductVersion];
 }
 
-- (NSString *) deviceCapacity
+- (NSString *)deviceCapacity
 {
 	return [self deviceInfoFor:deviceInfoTypeCapacity];
 }
 
-- (NSString *) deviceSerialNumber
+- (NSString *)deviceSerialNumber
 {
 	return [self deviceInfoFor:deviceInfoTypeSerialNumber];
 }
 
-- (NSString *) devicePhoneNumber
+- (NSString *)devicePhoneNumber
 {
 	return [self deviceInfoFor:deviceInfoTypePhoneNumber];
 }
 
-- (NSString *) deviceClass
+- (NSString *)deviceClass
 {
 	return [self deviceInfoFor:deviceInfoTypeDeviceClass];
 }
 
-- (NSString *) deviceColor
+- (NSString *)deviceColor
 {
 	return [self deviceInfoFor:deviceInfoTypeDeviceColor];
 }
 
-- (NSString *) deviceBaseband
+- (NSString *)deviceBaseband
 {
 	return [self deviceInfoFor:deviceInfoTypeBasebandVersion];
 }
 
-- (NSString *) deviceBootloader
+- (NSString *)deviceBootloader
 {
 	return [self deviceInfoFor:deviceInfoTypeFirmwareVersion];
 }
 
-- (NSString *) deviceHardwareModel
+- (NSString *)deviceHardwareModel
 {
 	return [self deviceInfoFor:deviceInfoTypeHardwareModel];
 }
 
-- (NSString *) deviceUniqueDeviceID
+- (NSString *)deviceUniqueDeviceID
 {
 	return [self deviceInfoFor:deviceInfoTypeUniqueDeviceID];
 }
 
-- (NSString *) deviceCPUArchitecture
+- (NSString *)deviceCPUArchitecture
 {
 	return [self deviceInfoFor:deviceInfoTypeCPUArchitecture];
 }
 
-- (NSString *) deviceHardwarePlatform
+- (NSString *)deviceHardwarePlatform
 {
 	return [self deviceInfoFor:deviceInfoTypeHardwarePlatform];
 }
 
-- (NSString *) deviceBluetoothAddress
+- (NSString *)deviceBluetoothAddress
 {
 	return [self deviceInfoFor:deviceInfoTypeBluetoothAddress];
 }
 
-- (NSString *) deviceWiFiAddress
+- (NSString *)deviceWiFiAddress
 {
 	return [self deviceInfoFor:deviceInfoTypeWiFiAddress];
 }
 
-- (NSString *) deviceModelNumber
+- (NSString *)deviceModelNumber
 {
 	return [self deviceInfoFor:deviceInfoTypeModelNumber];
 }
 
-- (NSString *) deviceAllInfo
+- (NSString *)deviceAllInfo
 {
 	return [self deviceInfoFor:deviceInfoTypeAll];
 }
 
-- (NSString *) deviceAFSTotalBytes
+- (NSString *)deviceAFSTotalBytes
 {
 	return [self deviceAFCInfoFor:deviceAFSTotalBytes];
 }
 
-- (NSString *) deviceAFSFreeBytes
+- (NSString *)deviceAFSFreeBytes
 {
 	return [self deviceAFCInfoFor:deviceAFSFreeBytes];
 }
 
-- (NSString *) deviceInfoFor:(deviceInfoType)deviceInfoType
+- (NSString *)deviceInfoFor:(deviceInfoType)deviceInfoType
 {
 	const char *key = NULL;
 	
-	switch (deviceInfoType) {
+	switch (deviceInfoType)
+	{
 		case deviceInfoTypeName:
 			key = "DeviceName";
 			break;
@@ -370,8 +376,10 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	lockdownd_get_value(lockdownd, NULL, key, &value_node);
 	
 	char *val = NULL;
-	if (value_node) {
-		if (key) {
+	if (value_node)
+	{
+		if (key)
+		{
 			plist_get_string_val(value_node, &val);
 		}
 		else
@@ -385,11 +393,12 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	return val != NULL ? [NSString stringWithUTF8String:val] : @"";
 }
 
-- (NSString *) deviceAFCInfoFor:(deviceAFCInfoType)deviceAFCInfoType
+- (NSString *)deviceAFCInfoFor:(deviceAFCInfoType)deviceAFCInfoType
 {
 	const char *key = NULL;
 	
-	switch (deviceAFCInfoType) {
+	switch (deviceAFCInfoType)
+	{
 		case deviceAFSTotalBytes:
 			key = "FSTotalBytes";
 			break;
@@ -410,24 +419,29 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 
 void device_event_cb(const idevice_event_t* event, void* userdata)
 {
-	if (tmpSelf) {
+	if (tmpSelf)
+	{
 		[tmpSelf checkNewDeviceEvent:event withUserData:userdata];
 	}
 }
 
-- (void) checkNewDeviceEvent:(const idevice_event_t*)event withUserData:(void*)userdata
+- (void)checkNewDeviceEvent:(const idevice_event_t*)event withUserData:(void*)userdata
 {
-	if (event->event == IDEVICE_DEVICE_ADD) {
+	if (event->event == IDEVICE_DEVICE_ADD)
+	{
 		[self scanForDevice];
-	} else if (event->event == IDEVICE_DEVICE_REMOVE) {
+	}
+	else if (event->event == IDEVICE_DEVICE_REMOVE)
+	{
 		if (device) idevice_free(device);
-		if ([self.delegate respondsToSelector:@selector(deviceRemoved)]) {
+		if ([self.delegate respondsToSelector:@selector(deviceRemoved)])
+		{
 			[self.delegate deviceRemoved];
 		}
 	}
 }
 
-- (bool) deviceEnterRecovery
+- (bool)deviceEnterRecovery
 {
 	lockdownd_client_t lockdownd = [self getInfoForDevice:device];
 	lockdownd_error_t isSuccessful = lockdownd_enter_recovery(lockdownd);
@@ -435,7 +449,7 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	return isSuccessful == LOCKDOWN_E_SUCCESS;
 }
 
-- (bool) deviceExitRecovery
+- (bool)deviceExitRecovery
 {
 	lockdownd_client_t lockdownd = [self getInfoForDevice:device];
 	lockdownd_error_t isSuccessful = lockdownd_goodbye(lockdownd);
@@ -443,7 +457,7 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	return isSuccessful == LOCKDOWN_E_SUCCESS;
 }
 
-- (NSArray*) appsList
+- (NSArray*)appsList
 {
 	lockdownd_service_descriptor_t descriptor = 0;
 	instproxy_client_t ipc = NULL;
@@ -451,12 +465,14 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	sbservices_client_t sbs = NULL;
 	if ((lockdownd_start_service
 		 (client, "com.apple.mobile.installation_proxy",
-		  &descriptor) != LOCKDOWN_E_SUCCESS) || !descriptor) {
+		  &descriptor) != LOCKDOWN_E_SUCCESS) || !descriptor)
+	{
 			 DBNSLog(@"ERROR: Could not start com.apple.mobile.installation_proxy!");
 			 return nil;
-		 }
+	}
 	
-	if (instproxy_client_new(device, descriptor, &ipc) != INSTPROXY_E_SUCCESS) {
+	if (instproxy_client_new(device, descriptor, &ipc) != INSTPROXY_E_SUCCESS)
+	{
 		DBNSLog(@"ERROR: Could not connect to installation_proxy");
 		return nil;
 	}
@@ -467,7 +483,8 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	}
 	else
 	{
-		if (sbservices_client_new(device, descriptor, &sbs) != INSTPROXY_E_SUCCESS) {
+		if (sbservices_client_new(device, descriptor, &sbs) != INSTPROXY_E_SUCCESS)
+		{
 			DBNSLog(@"INFO: Could not connect to springboard");
 		}
 	}
@@ -480,21 +497,26 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	
 	err = instproxy_browse(ipc, client_opts, &apps);
 	instproxy_client_options_free(client_opts);
-	if (err != INSTPROXY_E_SUCCESS) {
+	if (err != INSTPROXY_E_SUCCESS)
+	{
 		DBNSLog(@"ERROR: instproxy_browse returned %d", err);
 		instproxy_client_free(ipc);
 		lockdownd_client_free(client);
 		if (sbs) sbservices_client_free(sbs);
+		
 		return nil;
 	}
-	if (!apps || (plist_get_node_type(apps) != PLIST_ARRAY)) {
+	if (!apps || (plist_get_node_type(apps) != PLIST_ARRAY))
+	{
 		DBNSLog(@"ERROR: instproxy_browse returnd an invalid plist!");
 		instproxy_client_free(ipc);
 		lockdownd_client_free(client);
 		if (sbs) sbservices_client_free(sbs);
+		
 		return nil;
 	}
-	if (xml_mode) {
+	if (xml_mode)
+	{
 		char *xml = NULL;
 		uint32_t len = 0;
 		
@@ -507,12 +529,14 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 		instproxy_client_free(ipc);
 		lockdownd_client_free(client);
 		if (sbs) sbservices_client_free(sbs);
+	
 		return nil;
 	}
 	//printf("Total: %d apps\n", plist_array_get_size(apps));
 	NSMutableArray *arr = [NSMutableArray array];
 	uint32_t i = 0;
-	for (i = 0; i < plist_array_get_size(apps); i++) {
+	for (i = 0; i < plist_array_get_size(apps); ++i)
+	{
 		plist_t app = plist_array_get_item(apps, i);
 		plist_t p_appid =
 		plist_dict_get_item(app, "CFBundleIdentifier");
@@ -523,22 +547,27 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 		plist_t dispName = plist_dict_get_item(app, "CFBundleDisplayName");
 		plist_t version = plist_dict_get_item(app, "CFBundleVersion");
 		
-		if (p_appid) {
+		if (p_appid)
+		{
 			plist_get_string_val(p_appid, &s_appid);
 		}
-		if (!s_appid) {
+		if (!s_appid)
+		{
 			DBNSLog(@"ERROR: Failed to get APPID!");
 			continue;
 		}
 		
-		if (dispName) {
+		if (dispName)
+		{
 			plist_get_string_val(dispName, &s_dispName);
 		}
-		if (version) {
+		if (version)
+		{
 			plist_get_string_val(version, &s_version);
 		}
 		
-		if (!s_dispName) {
+		if (!s_dispName)
+		{
 			s_dispName = strdup(s_appid);
 		}
 
@@ -546,7 +575,8 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 									@"", @"app_version",
 									@"", @"app_icon",
 									nil];
-		if (s_version) {
+		if (s_version)
+		{
 			dic[@"app_version"] = [NSString stringWithUTF8String:s_version];
 			free(s_version);
 		}
@@ -555,7 +585,8 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 		{
 			NSString *s_icon = NULL;
 			s_icon = load_icon(sbs, s_appid);
-			if (s_icon) {
+			if (s_icon)
+			{
 				dic[@"app_icon"] = s_icon;
 			}
 		}
@@ -572,7 +603,7 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	return arr;
 }
 
-NSString* load_icon (sbservices_client_t sbs, const char *_id)
+NSString* load_icon(sbservices_client_t sbs, const char *_id)
 {
 	NSString *path;
 	NSString *filename;
@@ -585,34 +616,41 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id)
 	NSError *error = nil;
 	
 	NSString *cache = [cachesPath stringByAppendingPathComponent:@"ipswDownloader"];
-	if ([fm fileExistsAtPath:cache isDirectory:&isDir] && isDir) {
+	if ([fm fileExistsAtPath:cache isDirectory:&isDir] && isDir)
+	{
 	}
-	else{
+	else
+	{
 		[fm createDirectoryAtPath:cache
 	  withIntermediateDirectories:YES
 					   attributes:nil
 							error:&error];
-		if (error) {
+		if (error)
+		{
 			DBNSLog(@"ERROR: Can't write a folder: %@!", cache);
 			return nil;
 		}
 		
 	}
+	
 	cache = [cache stringByAppendingPathComponent:@"icons"];
-	if ([fm fileExistsAtPath:cache isDirectory:&isDir] && isDir) {
-		
+	if ([fm fileExistsAtPath:cache isDirectory:&isDir] && isDir)
+	{
 	}
-	else{
+	else
+	{
 		[fm createDirectoryAtPath:cache
 	  withIntermediateDirectories:YES
 					   attributes:nil
 							error:&error];
-		if (error) {
+		if (error)
+		{
 			DBNSLog(@"ERROR: Can't write a folder: %@!", cache);
 			return nil;
 		}
 		
 	}
+	
 	filename = [NSString stringWithFormat:@"%s.png", _id];
 	path = [NSString stringWithFormat:@"%@/%@", cache, filename];
 	
@@ -631,7 +669,8 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id)
 	
 	if (![fm createFileAtPath:path
 					contents:[NSData dataWithBytes:data length:len]
-				  attributes:nil]){
+				  attributes:nil])
+	{
 		DBNSLog(@"ERROR: Can't write a file: %@!", filename);
 		free (data);
 		return nil;

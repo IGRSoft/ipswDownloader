@@ -9,11 +9,11 @@
 #import "PreferenceController.h"
 
 //NSString * const defaultsLanguageKey = @"Language";
-NSString * const defaultsDBUpdateKey = @"DBUpdateType";
-NSString * const defaultsCheckSHA1Key = @"CheckSHA1";
-NSString * const defaultsUseSoundKey = @"UseSound";
+NSString * const defaultsDBUpdateKey        = @"DBUpdateType";
+NSString * const defaultsCheckSHA1Key       = @"CheckSHA1";
+NSString * const defaultsUseSoundKey        = @"UseSound";
 NSString * const defaultsUseNotificationKey = @"UseNotification";
-NSString * const defaultsSimpleModeKey = @"SimpleMode";
+NSString * const defaultsSimpleModeKey      = @"SimpleMode";
 
 @implementation PreferenceController
 
@@ -27,12 +27,12 @@ NSString * const defaultsSimpleModeKey = @"SimpleMode";
 	return self;
 }
 
--(void) windowDidLoad
+-(void)windowDidLoad
 {
 	[self setPrefs];
 }
 
-- (IBAction) setDBUpdate:(id) sender
+- (IBAction)setDBUpdate:(id) sender
 {
 	[appPrefs setObject:@([updateDB indexOfSelectedItem])
                       forKey:defaultsDBUpdateKey];
@@ -40,7 +40,7 @@ NSString * const defaultsSimpleModeKey = @"SimpleMode";
 	[appPrefs synchronize];
 }
 
-- (IBAction) setSound:(id) sender
+- (IBAction)setSound:(id) sender
 {
 	[appPrefs setObject:@([useSound state])
                       forKey:defaultsUseSoundKey];
@@ -48,7 +48,7 @@ NSString * const defaultsSimpleModeKey = @"SimpleMode";
 	[appPrefs synchronize];
 }
 
-- (IBAction) setChecksum:(id) sender
+- (IBAction)setChecksum:(id) sender
 {
 	[appPrefs setObject:@([useChecksum state])
 				 forKey:defaultsCheckSHA1Key];
@@ -56,7 +56,7 @@ NSString * const defaultsSimpleModeKey = @"SimpleMode";
 	[appPrefs synchronize];
 }
 
-- (IBAction) setNotification:(id) sender
+- (IBAction)setNotification:(id) sender
 {
 	[appPrefs setObject:@([useNotification state])
 				 forKey:defaultsUseNotificationKey];
@@ -64,7 +64,7 @@ NSString * const defaultsSimpleModeKey = @"SimpleMode";
 	[appPrefs synchronize];
 }
 
-- (void) setPrefs
+- (void)setPrefs
 {
 	appPrefs = [NSUserDefaults standardUserDefaults];
 	

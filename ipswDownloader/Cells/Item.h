@@ -8,14 +8,14 @@
 
 @class ASIHTTPRequest;
 
-enum DownloadStatus {
+typedef NS_ENUM(NSUInteger, DownloadStatus)
+{
 	DOWNLOAD_IN_PROGRESS = 0,
 	DOWNLOAD_PAUSED,
 	DOWNLOAD_COMPLEATED,
 	DOWNLOAD_FAILED,
 	
 	DOWNLOAD_COUNT
-	
 };
 
 @interface Item : NSObject {
@@ -30,7 +30,7 @@ enum DownloadStatus {
 @property (nonatomic, copy)		NSString		*tempDownloadPath;
 @property (nonatomic, copy)		NSString		*downloadPath;
 @property (nonatomic, weak)		ASIHTTPRequest	*request;
-@property (nonatomic, assign)	int				state;
+@property (nonatomic, assign)	DownloadStatus  state;
 @property (nonatomic, assign)	NSTimeInterval	timeShift;
 @property (nonatomic, assign)	NSTimeInterval	startrTimer;
 @property (nonatomic, assign)	NSTimeInterval	pauseTimer;

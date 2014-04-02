@@ -36,12 +36,4 @@
 	return self;
 }
 
-- (void)dealloc {
-	_request = nil;
-	_state = 0;
-	_timeShift = 0;
-	_startrTimer = 0;
-	_pauseTimer = 0;
-}
-
 @end

@@ -43,7 +43,7 @@
 
 #define SP_SCREEN_SCALE() ([[NSScreen mainScreen] respondsToSelector:@selector(backingScaleFactor)]? [[NSScreen mainScreen] backingScaleFactor]: 1.0f)
 
-enum 
+enum
 {
 	UPDATE_AT_APP_START = 0,
 	UPDATE_EVERY_DAY,

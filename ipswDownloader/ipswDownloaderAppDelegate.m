@@ -25,19 +25,22 @@
 
 #import "MobileDeviceServer.h"
 
-bool needWaitProcess = false;
+BOOL needWaitProcess = NO;
+static const NSUInteger kSecInMin = 60;
 
 @implementation ipswDownloaderAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
 	
 	NSString *filePath = [aNotification userInfo][@"filePath"];
-    if (filePath){
+    if (filePath)
+	{
 		DBNSLog(@"%@", aNotification);
         [[NSWorkspace sharedWorkspace] selectFile: filePath inFileViewerRootedAtPath: nil];
     }
 	
-	m_bInternet = false;
+	m_bInternet = NO;
 	[[NSNotificationCenter defaultCenter] addObserver:self 
                                              selector:@selector(reachabilityChanged:) 
                                                  name:kReachabilityChangedNotification 
@@ -48,14 +51,14 @@ bool needWaitProcess = false;
     reach.reachableBlock = ^(Reachability * reachability)
     {
         dispatch_async(dispatch_get_main_queue(), ^{
-            m_bInternet = true;
+            m_bInternet = YES;
         });
     };
     
     reach.unreachableBlock = ^(Reachability * reachability)
     {
         dispatch_async(dispatch_get_main_queue(), ^{
-            m_bInternet = false;
+            m_bInternet = NO;
         });
     };
     
@@ -88,7 +91,8 @@ bool needWaitProcess = false;
 	});
 }
 
-- (id) init {
+- (id)init
+{
 	if (!(self = [super init])) 
 	{
 		return nil;
@@ -115,31 +119,33 @@ bool needWaitProcess = false;
     return self;
 }
 
-- (void) dealloc
+- (void)dealloc
 {
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 #pragma mark - Download Manager
 
-- (IBAction) downloadIPSW:(id)sender
+- (IBAction)downloadIPSW:(id)sender
 {
-	if (![self internetEnabledWithAlert:true]) {
+	if (![self internetEnabledWithAlert:YES])
+	{
 		return;
 	}
 	
 	NSString* fileName = [NSString stringWithString:[URLHelper splitURL:m_DownloadURL][1]];
 	fileName = [fileName substringToIndex:[fileName length]-5];
 	
-	bool blockDownload = false;
+	BOOL blockDownload = NO;
 	NSRange textRange;
-	bool needCheckonDisk = true;
+	BOOL needCheckonDisk = YES;
 	
-	for (Item *item in [m_DownloadsManager downloadsInfoData]) {
+	for (Item *item in [m_DownloadsManager downloadsInfoData])
+	{
 		textRange = [item.downloadPath rangeOfString:fileName];
-		if(textRange.location != NSNotFound) {
-			
-			needCheckonDisk = false;
+		if(textRange.location != NSNotFound)
+		{
+			needCheckonDisk = NO;
 			
 			m_Tempitem = item;
 			
@@ -148,23 +154,24 @@ bool needWaitProcess = false;
 			[alert addButtonWithTitle:NSLocalizedString(@"Download", @"Download")];
 			[alert setMessageText:NSLocalizedString(@"Duplicate finded", @"Duplicate finded")];
 			
-			switch (m_Tempitem.state) {
+			switch (m_Tempitem.state)
+			{
 				case DOWNLOAD_IN_PROGRESS:
 					[alert setInformativeText:NSLocalizedString(@"You are currently downloading that firmware. Do You want start new download?", @"Start new Download 1")];
 					[self startAlert:alert selector:@selector(closDownloadAlert:returnCode:contextInfo:)];
-					blockDownload = true;
+					blockDownload = YES;
 					break;
 				case DOWNLOAD_COMPLEATED:
 					[alert setInformativeText:NSLocalizedString(@"You are downloaded that firmware before. Do You want start new download?", @"Start new Download 2")];
 					[alert addButtonWithTitle:NSLocalizedString(@"Show in Finder", @"Show in Finder")];
 					[self startAlert:alert selector:@selector(closDownloadAlert:returnCode:contextInfo:)];
-					blockDownload = true;
+					blockDownload = YES;
 					break;
 				case DOWNLOAD_PAUSED:
 					[alert setInformativeText:NSLocalizedString(@"That firmware is paused. Do You want start new or resume download?", @"Start new Download 3")];
 					[alert addButtonWithTitle:NSLocalizedString(@"Resume", @"Resume")];
 					[self startAlert:alert selector:@selector(closDownloadAlertWithResume:returnCode:contextInfo:)];
-					blockDownload = true;
+					blockDownload = YES;
 					break;
 				default:
 					break;
@@ -174,14 +181,14 @@ bool needWaitProcess = false;
 		}
 	}
 	
-	if (needCheckonDisk) {
-		
+	if (needCheckonDisk)
+	{
 		fileName = [NSString stringWithString:[URLHelper splitURL:m_DownloadURL][1]];
 		NSString *downloadsDirectory = NSSearchPathForDirectoriesInDomains(NSDownloadsDirectory, NSUserDomainMask, YES)[0];
 		NSString* tempFileName = [NSString stringWithString:[downloadsDirectory stringByAppendingFormat:@"/%@", fileName]];
 		
-		if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName]) {
-			
+		if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName])
+		{
 			Item *item = [[Item alloc] init];
 			item.downloadPath = tempFileName;
 			item.state = DOWNLOAD_COMPLEATED;
@@ -197,11 +204,12 @@ bool needWaitProcess = false;
 			[alert setInformativeText:NSLocalizedString(@"You are downloaded that firmware before. Do You want start new download?", @"Start new Download 2")];
 			[self startAlert:alert selector:@selector(closDownloadAlert:returnCode:contextInfo:)];
 			
-			blockDownload = true;
+			blockDownload = YES;
 		}
 	}
 	
-	if (!blockDownload) {
+	if (!blockDownload)
+	{
 		[self.downloadsButton highlight:YES];
 		[self performSelector:@selector(removeHighlight) withObject:self afterDelay:0.2];
 		
@@ -209,12 +217,12 @@ bool needWaitProcess = false;
 	}
 }
 
-- (void) removeHighlight
+- (void)removeHighlight
 {
 	[self.downloadsButton highlight:NO];
 }
 
-- (void) addDownloadObject:(NSNotification *) notification
+- (void)addDownloadObject:(NSNotification *)notification
 {
 	if ([[notification name] isEqualToString:ADD_DOWNLOAD_OBJECT_NOTIFICATION])
 	{
@@ -222,11 +230,13 @@ bool needWaitProcess = false;
 		if (downloadsInfo)
 		{
 			NSInteger _index = [[downloadsInfo valueForKey:@"index"] integerValue];
-			if (_index == -1) {
+			if (_index == -1)
+			{
 				DBNSLog(@"add download");
 				[self.downloadsList reloadData];
 			}
-			else {
+			else
+			{
 				DBNSLog(@"resume download");
 				Item *item = [m_DownloadsManager downloadsInfoData][_index];
 				item.state = DOWNLOAD_IN_PROGRESS;
@@ -238,36 +248,40 @@ bool needWaitProcess = false;
 	}
 }
 
-- (void) removeDownloadObject:(NSNotification *) notification
+- (void)removeDownloadObject:(NSNotification *)notification
 {
 	DBNSLog(@"compleate");
 	if ([[notification name] isEqualToString:REMOVE_DOWNLOAD_OBJECT_NOTIFICATION])
 	{
 		NSString* downloadsInfo = [notification object];
-		for (Item *item in [m_DownloadsManager downloadsInfoData]) {
-			if ([item.downloadPath isEqualToString:downloadsInfo]) {
+		for (Item *item in [m_DownloadsManager downloadsInfoData])
+		{
+			if ([item.downloadPath isEqualToString:downloadsInfo])
+			{
 				item.state = DOWNLOAD_COMPLEATED;
-				needWaitProcess = false;
+				needWaitProcess = NO;
 				break;
 			}
 		}
 	}
 }
 
-- (void) failedDownloadObject:(NSNotification *) notification
+- (void)failedDownloadObject:(NSNotification *)notification
 {
 	DBNSLog(@"failed");
 	if ([[notification name] isEqualToString:FAILED_DOWNLOAD_OBJECT_NOTIFICATION])
 	{
 		NSString* downloadsInfo = [notification object];
 		NSUInteger pos = 0;
-		for (Item *item in [m_DownloadsManager downloadsInfoData]) {
-			if ([item.tempDownloadPath isEqualToString:downloadsInfo]) {
+		for (Item *item in [m_DownloadsManager downloadsInfoData])
+		{
+			if ([item.tempDownloadPath isEqualToString:downloadsInfo])
+			{
 				item.state = DOWNLOAD_FAILED;
 				id _object = item.request;
 				[_object setTag:pos];
 				[self cancelButtonPressed:_object];
-				needWaitProcess = false;
+				needWaitProcess = NO;
 				break;
 			}
 			++pos;
@@ -275,19 +289,22 @@ bool needWaitProcess = false;
 	}
 }
 
-- (IBAction) showInFinder:(id)sender
+- (IBAction)showInFinder:(id)sender
 {
 	Item *item;
 	
-	if ([NSStringFromClass([sender class]) isEqualToString:@"Item"]) {
+	if ([NSStringFromClass([sender class]) isEqualToString:@"Item"])
+	{
 		item = (Item*)sender;
 	}
-	else {
+	else
+	{
 		NSInteger row = [sender tag];
 		item = [m_DownloadsManager downloadsInfoData][row];
 	}
 	
-	switch ([item state]) {
+	switch ([item state])
+	{
 		case DOWNLOAD_IN_PROGRESS:
 		case DOWNLOAD_PAUSED:
 		case DOWNLOAD_FAILED:
@@ -305,27 +322,32 @@ bool needWaitProcess = false;
 	}
 }
 
-- (IBAction) cancelButtonPressed:(id) sender
+- (IBAction)cancelButtonPressed:(id)sender
 {	
 	Item *item = nil;
-	NSInteger row = 0;
+	NSUInteger row = 0;
 	
-	if ([NSStringFromClass([sender class]) isEqualToString:@"Item"]) {
+	if ([NSStringFromClass([sender class]) isEqualToString:@"Item"])
+	{
 		item = (Item*)sender;
-		for (Item *_item in [m_DownloadsManager downloadsInfoData]) {
+		for (Item *_item in [m_DownloadsManager downloadsInfoData])
+		{
 			++row;
-			if (_item == item) {
+			if (_item == item)
+			{
 				--row;
 				break;
 			}
 		}
 	}
-	else {
+	else
+	{
 		row = [sender tag];
 		item = [m_DownloadsManager downloadsInfoData][row];
 	}
 	
-	switch ([item state]) {
+	switch ([item state])
+	{
 		case DOWNLOAD_IN_PROGRESS:
 		{
 			DBNSLog(@"pause");
@@ -353,7 +375,7 @@ bool needWaitProcess = false;
 			[request setDownloadDestinationPath:expDict[@"downloadDestinationPath"]];
 			[request setTemporaryFileDownloadPath:expDict[@"temporaryFileDownloadPath"]];
 			
-			[m_DownloadsManager startDownloadWithRequest:request AtIndex:row];
+			[m_DownloadsManager startDownloadWithRequest:request atIndex:row];
 		}
 			break;
 		case DOWNLOAD_FAILED:
@@ -378,11 +400,13 @@ bool needWaitProcess = false;
 }
 
 #pragma mark - NSTableViewDelegate
-- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
+{
 	return [[m_DownloadsManager downloadsInfoData] count];
 }
 
-- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
+- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
 	ItemCellView *result = [tableView makeViewWithIdentifier:tableColumn.identifier owner:self];
 	
 	result.detailPauseResumeButton.tag = row;
@@ -390,11 +414,13 @@ bool needWaitProcess = false;
 	
 	Item *item = [m_DownloadsManager downloadsInfoData][row];
 	
-	if (needWaitProcess) {
+	if (needWaitProcess)
+	{
 		return result;
 	}
 	
-	switch ([item state]) {
+	switch ([item state])
+	{
 		case DOWNLOAD_IN_PROGRESS:
 		{
 			result.textField.stringValue = [item name];
@@ -402,19 +428,21 @@ bool needWaitProcess = false;
 			ASIHTTPRequest *request = [item request];
 			
 			//remove that faik
-			float size = (float)([request contentLength] + [request partialDownloadSize]) / BYTE_IN_MB;
-			float cur_size = (float)([request totalBytesRead]+[request partialDownloadSize]) / BYTE_IN_MB;
+			CGFloat size = (CGFloat)([request contentLength] + [request partialDownloadSize]) / BYTE_IN_MB;
+			CGFloat cur_size = (CGFloat)([request totalBytesRead]+[request partialDownloadSize]) / BYTE_IN_MB;
 			
 			NSInteger percentComplete = (cur_size / size) * 10.0 + 0.2;
 			
 			NSImage* img = [NSImage imageNamed:[NSString stringWithFormat:@"NSStopProgressFreestandingTemplate"]];
 			[result.detailPauseResumeButton setImage:img];
 			
-			if (percentComplete == 10) {
+			if (percentComplete == 10)
+			{
 				NSString * imgstr = [NSString stringWithFormat:@"download100.png"];
 				img = [NSImage imageNamed:imgstr];
 			}
-			else {
+			else
+			{
 				NSString * imgstr = [NSString stringWithFormat:@"download0%ld0.png", (long)percentComplete];
 				img = [NSImage imageNamed:imgstr];
 			}
@@ -424,16 +452,19 @@ bool needWaitProcess = false;
 			NSString* text;
 			
 			NSTimeInterval timeNow = [NSDate timeIntervalSinceReferenceDate];
-			float speed = cur_size / (timeNow - [item startrTimer] - [item timeShift]);
+			CGFloat speed = cur_size / (timeNow - [item startrTimer] - [item timeShift]);
 			
 			NSInteger _time = (size - cur_size) / speed;
-			if (_time > 60) {
-				text = [NSString stringWithFormat:NSLocalizedString(@"%.1f/%.1fMb (%.1f Mb/s) - %i min %i sec", @"Download time min/sec"), cur_size, size, speed, (_time/60), (_time % 60)];
+			if (_time > kSecInMin)
+			{
+				text = [NSString stringWithFormat:NSLocalizedString(@"%.1f/%.1fMb (%.1f Mb/s) - %i min %i sec", @"Download time min/sec"), cur_size, size, speed, (_time/kSecInMin), (_time % kSecInMin)];
 			}
-			if (_time <= 60) {
+			if (_time <= kSecInMin)
+			{
 				text = [NSString stringWithFormat:NSLocalizedString(@"%.1f/%.1fMb (%.1f Mb/s) - %i sec", @"Download time sec"), cur_size, size, speed, _time];
 			}
-			if (_time < 0) {
+			if (_time < 0)
+			{
 				text = [NSString stringWithString:NSLocalizedString(@"Expect to start download", @"Expect to start download")];
 			}
 			
@@ -479,17 +510,17 @@ bool needWaitProcess = false;
 
 #pragma mark - Firmware
 
-- (IBAction) selectDevice:(id)sender
+- (IBAction)selectDevice:(id)sender
 {
 	[self addItemsToFirmware: [sender stringValue]];
 }
 
-- (IBAction) selectFirmware: (id)sender
+- (IBAction)selectFirmware: (id)sender
 {
 	[self updateInfo:[sender stringValue]];
 }
 
-- (void) addItemsToDevice
+- (void)addItemsToDevice
 {
 	if (!m_PlistDict && [m_PlistDict count] == 0 )
 	{
@@ -515,7 +546,7 @@ bool needWaitProcess = false;
 	
 }
 
-- (void) addItemsToFirmware: (NSString*)device
+- (void)addItemsToFirmware:(NSString*)device
 {	
 	[self.firmware removeAllItems];
 	
@@ -524,7 +555,8 @@ bool needWaitProcess = false;
 	NSArray* arrayKey = [[NSArray alloc] initWithArray:[m_FirmwareList allKeys]];
 	NSArray* sortedKeys = [arrayKey sortedArrayUsingSelector:@selector(localizedCompare:)];
 	
-	for (NSUInteger i = [sortedKeys count]; i > 0; --i) {
+	for (NSUInteger i = [sortedKeys count]; i > 0; --i)
+	{
 		[self.firmware addItemWithObjectValue:sortedKeys[(i-1)]];
 	}
 	
@@ -533,7 +565,7 @@ bool needWaitProcess = false;
 	
 }
 
-- (void) updateInfo: (NSString*)firmware
+- (void)updateInfo:(NSString*)firmware
 {	
 	NSMutableDictionary* oneDeviceFirmware = [[NSMutableDictionary alloc] initWithDictionary:(m_FirmwareList)[firmware]];
 	
@@ -554,7 +586,9 @@ bool needWaitProcess = false;
 	if ([[m_DownloadURL relativeString] length] > 0)
 	{
 		[self.downloadButton setEnabled:YES];
-	} else {
+	}
+	else
+	{
 		[self.downloadButton setEnabled:NO];
 	}
 	
@@ -576,18 +610,19 @@ bool needWaitProcess = false;
 	[self.tfUnlock setHidden:NO];
 }
 
-- (void) openImageFor:(NSImageView*)_imageView withImageName:(NSString*)name
+- (void)openImageFor:(NSImageView*)imageView withImageName:(NSString*)name
 {	
-	[_imageView setImage:[NSImage imageNamed:name]];
+	[imageView setImage:[NSImage imageNamed:name]];
 }
 
 - (IBAction) appleInfo:(id)sender
 {
-	if (![self internetEnabledWithAlert:true]) {
+	if (![self internetEnabledWithAlert:YES])
+	{
 		return;
 	}
 	
-	[self.animation setHidden:false];
+	[self.animation setHidden:NO];
 	[self.animation startAnimation:self];
 	
 	NSString *executableName = [[NSBundle mainBundle] infoDictionary][@"CFBundleExecutable"];
@@ -608,28 +643,33 @@ bool needWaitProcess = false;
 	[theData writeToFile:[result stringByAppendingPathComponent:fileName] atomically:YES];
 	
 	ZipArchive *za = [[ZipArchive alloc] init];
-	if ([za UnzipOpenFile: [result stringByAppendingPathComponent:fileName]]) {
+	if ([za UnzipOpenFile: [result stringByAppendingPathComponent:fileName]])
+	{
 		BOOL ret = [za UnzipFileTo: [result stringByAppendingPathComponent:folderName] overWrite: YES];
 		
 		if (NO == ret){} [za UnzipCloseFile];
 	}
 	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:[result stringByAppendingPathComponent:fileName]]) {
+	if ([[NSFileManager defaultManager] fileExistsAtPath:[result stringByAppendingPathComponent:fileName]])
+	{
 		[[NSFileManager defaultManager] removeItemAtPath:[result stringByAppendingPathComponent:fileName] error:nil];
 	}
 	
 	NSString* readmeFile = [[NSString alloc] initWithString:[result stringByAppendingPathComponent:folderName]];
 	NSString* sufix = [[NSString alloc] initWithString:[[[NSLocale currentLocale] localeIdentifier] substringToIndex:2]];
 	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:[readmeFile stringByAppendingPathComponent:sufix]]) {
+	if ([[NSFileManager defaultManager] fileExistsAtPath:[readmeFile stringByAppendingPathComponent:sufix]])
+	{
 		readmeFile = [readmeFile stringByAppendingPathComponent:sufix];
-	} else {
+	}
+	else
+	{
 		readmeFile = [readmeFile stringByAppendingPathComponent:@"en"];
 	}
 		
 	readmeFile = [readmeFile stringByAppendingPathComponent:@"ReadMe.rtf"];
 	
-	[self.animation setHidden:true];
+	[self.animation setHidden:YES];
 	[self.animation stopAnimation:self];
 	
 	NSAlert *alert = [[NSAlert alloc] init];
@@ -660,10 +700,10 @@ bool needWaitProcess = false;
 	
 	[alert setAccessoryView:scroll];
 	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:[result stringByAppendingPathComponent:folderName]]) {
+	if ([[NSFileManager defaultManager] fileExistsAtPath:[result stringByAppendingPathComponent:folderName]])
+	{
 		[[NSFileManager defaultManager] removeItemAtPath:[result stringByAppendingPathComponent:folderName] error:nil];
 	}
-
 	
 	[self startAlert:alert selector:@selector(closeFirmwareInfo:returnCode:contextInfo:)];
 
@@ -671,7 +711,7 @@ bool needWaitProcess = false;
 
 #pragma mark - Alert / Panel
 
-- (void) startAlert:(NSAlert*) alert selector:(SEL)alertSelector 
+- (void)startAlert:(NSAlert*)alert selector:(SEL)alertSelector
 {
 	alertReturnStatus = -1;
 	
@@ -683,7 +723,8 @@ bool needWaitProcess = false;
 						contextInfo:nil];
 	
 	NSModalSession session = [NSApp beginModalSessionForWindow:[alert window]];
-	for (;;) {
+	for (;;)
+	{
 		// alertReturnStatus will be set in alertDidEndSheet:returnCode:contextInfo:
 		if(alertReturnStatus != -1)
 			break;
@@ -702,6 +743,7 @@ bool needWaitProcess = false;
 								 beforeDate:[NSDate distantFuture]];
 		
 	}
+	
 	[NSApp endModalSession:session];
 	[NSApp endSheet:[alert window]];
 }
@@ -709,7 +751,8 @@ bool needWaitProcess = false;
 - (void)closeAlert:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo
 {	
 	DBNSLog(@"clicked %ld button\n", (long)returnCode);
-	if (returnCode == NSAlertSecondButtonReturn) {
+	if (returnCode == NSAlertSecondButtonReturn)
+	{
 	}
     // make the returnCode publicly available after closing the sheet
     alertReturnStatus = returnCode;
@@ -717,23 +760,27 @@ bool needWaitProcess = false;
 
 - (void)closeFirmwareInfo:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo
 {
-	if (returnCode == NSAlertSecondButtonReturn) {
+	if (returnCode == NSAlertSecondButtonReturn)
+	{
 	}
+	
 	alertReturnStatus = returnCode;
 }
 
 - (void)closDownloadAlert:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo
 {
-	if (returnCode == NSAlertFirstButtonReturn) {
-		
+	if (returnCode == NSAlertFirstButtonReturn)
+	{
 	}
-	else if (returnCode == NSAlertSecondButtonReturn) {
+	else if (returnCode == NSAlertSecondButtonReturn)
+	{
 		[self.downloadsButton highlight:YES];
 		[self performSelector:@selector(removeHighlight) withObject:self afterDelay:0.2];
 		
 		[m_DownloadsManager addDownloadFile:m_DownloadURL withSHA1:[self.firmwareSHA1 stringValue]];
 	}
-	else if (returnCode == NSAlertThirdButtonReturn) {
+	else if (returnCode == NSAlertThirdButtonReturn)
+	{
 		[self showInFinder:m_Tempitem];
 	}
 	
@@ -742,16 +789,18 @@ bool needWaitProcess = false;
 
 - (void)closDownloadAlertWithResume:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo
 {
-	if (returnCode == NSAlertFirstButtonReturn) {
-		
+	if (returnCode == NSAlertFirstButtonReturn)
+	{
 	}
-	else if (returnCode == NSAlertSecondButtonReturn) {
+	else if (returnCode == NSAlertSecondButtonReturn)
+	{
 		[self.downloadsButton highlight:YES];
 		[self performSelector:@selector(removeHighlight) withObject:self afterDelay:0.2];
 		
 		[m_DownloadsManager addDownloadFile:m_DownloadURL withSHA1:[self.firmwareSHA1 stringValue]];
 	}
-	else if (returnCode == NSAlertThirdButtonReturn) {
+	else if (returnCode == NSAlertThirdButtonReturn)
+	{
 		[self cancelButtonPressed:m_Tempitem];
 	}
 	
@@ -760,14 +809,14 @@ bool needWaitProcess = false;
 
 #pragma mark - System Functions
 
-- (IBAction) goToURL:(id)sender
+- (IBAction)goToURL:(id)sender
 {	
 	NSURL *url = [self getHiperLinkForTool:[sender title]];
 	
 	[[NSWorkspace sharedWorkspace] openURL:url];
 }
 
-- (void) setHiperLinkForTextField:(NSTextView*) textField
+- (void)setHiperLinkForTextField:(NSTextView*)textField
 {
 	[textField setLinkTextAttributes:nil];
 	
@@ -782,11 +831,13 @@ bool needWaitProcess = false;
 	NSMutableParagraphStyle *truncateStyle = [[NSMutableParagraphStyle alloc] init];
 	[truncateStyle setLineBreakMode:NSLineBreakByTruncatingTail];
 	
-	for (NSUInteger i = 0; i < [arr count]; ++i) {
+	for (NSUInteger i = 0; i < [arr count]; ++i)
+	{
 		NSArray *arr2 = [arr[i] componentsSeparatedByString:@" "];
 		NSURL *url = [self getHiperLinkForTool:arr2[0]];
 		
-		if (url == nil) {
+		if (url == nil)
+		{
 			continue;
 		}
 
@@ -815,15 +866,17 @@ bool needWaitProcess = false;
 	[[textField textStorage] setAttributedString:attrString];
 }
 
-- (NSURL*) getHiperLinkForTool:(NSString*)tool
+- (NSURL*)getHiperLinkForTool:(NSString*)tool
 {
 	tool = [tool lowercaseString];
 	
 	NSEnumerator *enumerator = [m_LinksDict keyEnumerator];
 	
-	for(NSString *aKey in enumerator){
+	for (NSString *aKey in enumerator)
+	{
 		NSMutableDictionary *jbMenu = m_LinksDict[aKey];
-		for (NSString *name in jbMenu) {
+		for (NSString *name in jbMenu)
+		{
 			if ([tool isEqualToString:[name lowercaseString]])
 			{
 				return [NSURL URLWithString:jbMenu[name]];
@@ -834,17 +887,18 @@ bool needWaitProcess = false;
 	return nil;
 }
 
-- (void) setControlsEnabled:(BOOL) yesno
+- (void)setControlsEnabled:(BOOL)yesNo
 {
-	[self.device setEnabled: yesno ];
-	[self.firmware setEnabled: yesno ];
-	[self.downloadButton setEnabled: yesno ];
-	[self.infoButton setEnabled: yesno ];
+	[self.device setEnabled: yesNo ];
+	[self.firmware setEnabled: yesNo ];
+	[self.downloadButton setEnabled: yesNo ];
+	[self.infoButton setEnabled: yesNo ];
 }
 
-- (BOOL) internetEnabledWithAlert:(bool)showAlert
+- (BOOL)internetEnabledWithAlert:(BOOL)showAlert
 {
-	if (!m_bInternet && showAlert) {
+	if (!m_bInternet && showAlert)
+	{
 		NSAlert *alert = [[NSAlert alloc] init];
 		[alert setAlertStyle:NSCriticalAlertStyle];
 		[alert addButtonWithTitle:NSLocalizedString(@"OK", @"OK")];
@@ -860,33 +914,35 @@ bool needWaitProcess = false;
 {
     Reachability * reach = [note object];
     
-	if (!m_PlistDict && [m_PlistDict count] == 0) {
+	if (!m_PlistDict && [m_PlistDict count] == 0)
+	{
 		NSMutableDictionary* dict = [m_plistParser loadListWithInterval:m_dbUpdateInterval];
 		m_PlistDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL3]];
 		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL4]];
 		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL5]];
 	}
 	
-	if (m_PlistDict) {
+	if (m_PlistDict)
+	{
 		[self setControlsEnabled: YES];
 		
 		[self addItemsToDevice];
 	}
-	if (m_LinksDict) {
+	if (m_LinksDict)
+	{
 		[self createMenus];
 	}
-	
     if([reach isReachable])
     {
 		
     }
     else
     {
-        [self internetEnabledWithAlert:true];
+        [self internetEnabledWithAlert:YES];
     }
 }
 
-- (IBAction) openPreference:(id) sender
+- (IBAction)openPreference:(id)sender
 {
 	if (!m_Preference)
 	{
@@ -900,7 +956,7 @@ bool needWaitProcess = false;
 	[m_Preference showWindow:self];
 }
 
-- (IBAction) openDeviceInfo:(id) sender
+- (IBAction)openDeviceInfo:(id)sender
 {
 	if (!m_DeviceInfo)
 	{
@@ -914,7 +970,7 @@ bool needWaitProcess = false;
 	[m_DeviceInfo showWindow:self];
 }
 
-- (void)windowPreferenceWillClose:(NSNotification *)notification;
+- (void)windowPreferenceWillClose:(NSNotification *)notification
 {	
 	[[NSNotificationCenter defaultCenter] removeObserver:self
 													name:NSWindowWillCloseNotification
@@ -927,7 +983,7 @@ bool needWaitProcess = false;
 	m_dbUpdateInterval = [appPrefs integerForKey:defaultsDBUpdateKey];
 }
 
-- (void)windowDeviceInfoWillClose:(NSNotification *)notification;
+- (void)windowDeviceInfoWillClose:(NSNotification *)notification
 {
 	[[NSNotificationCenter defaultCenter] removeObserver:self
 													name:NSWindowWillCloseNotification
@@ -938,7 +994,8 @@ bool needWaitProcess = false;
 
 - (IBAction) simpleMode:(id) sender
 {
-	if (m_bSimpleMode) {
+	if (m_bSimpleMode)
+	{
 		[self.simpleModeMenu setState:NSOnState];
 		
 		[self.detailsBox setHidden:YES];
@@ -946,7 +1003,8 @@ bool needWaitProcess = false;
 		rect.size.height = 120.f;
 		[self.window setFrame:rect display:YES animate:YES];
 	}
-	else {
+	else
+	{
 		[self.simpleModeMenu setState:NSOffState];
 
 		[self.detailsBox setHidden:NO];
@@ -964,9 +1022,9 @@ bool needWaitProcess = false;
 	m_bSimpleMode = !m_bSimpleMode;
 }
 
-- (IBAction) reloadDB:(id) sender
+- (IBAction)reloadDB:(id)sender
 {
-	if ([self internetEnabledWithAlert:true])
+	if ([self internetEnabledWithAlert:YES])
 	{
 		[self deviceRemoved];
 		
@@ -975,12 +1033,14 @@ bool needWaitProcess = false;
 		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL4]];
 		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL5]];
 		
-		if (m_PlistDict) {
+		if (m_PlistDict)
+		{
 			[self setControlsEnabled: YES];
 			
 			[self addItemsToDevice];
 		}
-		if (m_LinksDict) {
+		if (m_LinksDict)
+		{
 			[self createMenus];
 		}
 		
@@ -989,7 +1049,8 @@ bool needWaitProcess = false;
 			[m_MobileDeviceServer scanForDevice];
 		});
 	}
-	else {
+	else
+	{
 		[self setControlsEnabled: NO];
 	}
 }
@@ -1046,8 +1107,8 @@ bool needWaitProcess = false;
 
 - (void) awakeFromNib {	}
 
-- (BOOL)windowShouldZoom:(NSWindow *)window toFrame:(NSRect)newFrame {
-	
+- (BOOL)windowShouldZoom:(NSWindow *)window toFrame:(NSRect)newFrame
+{
 	[self simpleMode:nil];
 	return NO;
 }
@@ -1064,11 +1125,12 @@ bool needWaitProcess = false;
 	
 	NSUInteger i = 0;
 	
-	for (NSString *menuName in sortedKeys) {
-		
+	for (NSString *menuName in sortedKeys)
+	{
 		NSMenuItem *menuInem = [[NSMenuItem alloc] initWithTitle:menuName action:@selector(goToURL:) keyEquivalent:@""];
 		NSImage *img = [NSImage imageNamed:menuName];
-		if (img) {
+		if (img)
+		{
 			[menuInem setImage:img];
 		}
 		[self.toolsMenu insertItem:menuInem atIndex:i++];
@@ -1080,10 +1142,12 @@ bool needWaitProcess = false;
 	arrayKey = [NSArray arrayWithArray:[jbMenu allKeys]];
 	sortedKeys = [arrayKey sortedArrayUsingSelector:@selector(localizedCompare:)];
 	
-	for (NSString *menuName in sortedKeys) {
+	for (NSString *menuName in sortedKeys)
+	{
 		NSMenuItem *menuInem = [[NSMenuItem alloc] initWithTitle:menuName action:@selector(goToURL:) keyEquivalent:@""];
 		NSImage *img = [NSImage imageNamed:menuName];
-		if (img) {
+		if (img)
+		{
 			[menuInem setImage:img];
 		}
 		[self.toolsMenu insertItem:menuInem atIndex:i++];
@@ -1095,10 +1159,12 @@ bool needWaitProcess = false;
 	arrayKey = [NSArray arrayWithArray:[jbMenu allKeys]];
 	sortedKeys = [arrayKey sortedArrayUsingSelector:@selector(localizedCompare:)];
 	
-	for (NSString *menuName in sortedKeys) {
+	for (NSString *menuName in sortedKeys)
+	{
 		NSMenuItem *menuInem = [[NSMenuItem alloc] initWithTitle:menuName action:@selector(goToURL:) keyEquivalent:@""];
 		NSImage *img = [NSImage imageNamed:menuName];
-		if (img) {
+		if (img)
+		{
 			[menuInem setImage:img];
 		}
 		[self.toolsMenu insertItem:menuInem atIndex:i++];
@@ -1110,10 +1176,12 @@ bool needWaitProcess = false;
 	arrayKey = [NSArray arrayWithArray:[jbMenu allKeys]];
 	sortedKeys = [arrayKey sortedArrayUsingSelector:@selector(localizedCompare:)];
 	
-	for (NSString *menuName in sortedKeys) {
+	for (NSString *menuName in sortedKeys)
+	{
 		NSMenuItem *menuInem = [[NSMenuItem alloc] initWithTitle:menuName action:@selector(goToURL:) keyEquivalent:@""];
 		NSImage *img = [NSImage imageNamed:menuName];
-		if (img) {
+		if (img)
+		{
 			[menuInem setImage:img];
 		}
 		[self.supportMenu insertItem:menuInem atIndex:i++];
@@ -1127,9 +1195,12 @@ bool needWaitProcess = false;
 
 - (IBAction) togglePopover:(id)sender
 {
-	if (self.buttonIsPressed) {
+	if (self.buttonIsPressed)
+	{
         [self.popover showRelativeToRect:[self.downloadsButton bounds] ofView:self.downloadsButton preferredEdge:NSMinXEdge | NSMaxYEdge];
-    } else {
+    }
+	else
+	{
         [self.popover close];
     }
 }
@@ -1146,10 +1217,12 @@ bool needWaitProcess = false;
 	{
 		NSDictionary *info = m_DevicesDict[connectedDevice];
 		
-		if (info) {
+		if (info)
+		{
 			NSString *val = info[@"device"];
 			NSInteger index = [self.device indexOfItemWithObjectValue:val];
-			if (index >= 0) {
+			if (index >= 0)
+			{
 				[self.device selectItemAtIndex:index];
 				[self addItemsToFirmware:val];
 			}

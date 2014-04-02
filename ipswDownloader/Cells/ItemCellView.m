@@ -10,7 +10,8 @@
 
 @implementation ItemCellView
 
-- (void)setBackgroundStyle:(NSBackgroundStyle)backgroundStyle {
+- (void)setBackgroundStyle:(NSBackgroundStyle)backgroundStyle
+{
 	NSColor *textColor = (backgroundStyle == NSBackgroundStyleDark) ? [NSColor windowBackgroundColor] : [NSColor controlShadowColor];
 	self.detailTextField.textColor = textColor;
 	[super setBackgroundStyle:backgroundStyle];
