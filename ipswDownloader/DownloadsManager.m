@@ -87,7 +87,7 @@ extern BOOL needWaitProcess;
 	return YES;
 }
 
-- (void)startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSUInteger)index
+- (void)startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSInteger)index
 {
 	[request setAllowResumeForFileDownloads:YES];
 	[request setDelegate:self];
@@ -96,8 +96,11 @@ extern BOOL needWaitProcess;
 	
 	[request startAsynchronous];
 	
-	Item *item = self.downloadsInfoData[index];
-	item.request = request;
+	if (index >= 0)
+	{
+		Item *item = self.downloadsInfoData[index];
+		item.request = request;
+	}
 	
 	NSMutableArray *ma = [[NSMutableArray alloc] init];
 	NSDictionary * expDict = @{@"index": @(index)};

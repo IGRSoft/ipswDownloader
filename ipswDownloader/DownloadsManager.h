@@ -19,7 +19,7 @@
 @property (nonatomic, retain) NSMutableArray	*downloadsInfoData;
 
 - (BOOL) addDownloadFile:(NSURL*)downloadURL withSHA1:(NSString*)downloadSHA1;
-- (void) startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSUInteger)index;
+- (void) startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSInteger)index;
 - (void) pauseDownloadAtIndex:(NSUInteger)index withObject:(NSDictionary*)object;
 
 @end
