@@ -78,7 +78,19 @@ static const NSUInteger kSecInMin = 60;
 	[self openImageFor: _firmwareJailbreak withImageName: path];
 	
 	m_DownloadsManager = [[DownloadsManager alloc] init];
-	
+    
+    __weak ipswDownloaderAppDelegate *weakSelf = self;
+    
+	m_DownloadsManager.successCompletionBlock = ^(NSString *downloadingPath) {
+    
+        [weakSelf doneDownloadObject:downloadingPath];
+    };
+    
+    m_DownloadsManager.failedCompletionBlock = ^(NSString *downloadingPath) {
+        
+        [weakSelf failedDownloadObject:downloadingPath];
+    };
+    
 	DownloadUpdateTimer = [NSTimer scheduledTimerWithTimeInterval:0.5
 														   target:self
 														 selector:@selector(updateDownloadInfo)
@@ -97,21 +109,6 @@ static const NSUInteger kSecInMin = 60;
 	{
 		return nil;
 	}
-	
-	[[NSNotificationCenter defaultCenter] addObserver:self
-											 selector:@selector(addDownloadObject:) 
-												 name:ADD_DOWNLOAD_OBJECT_NOTIFICATION
-											   object:nil];
-	
-	[[NSNotificationCenter defaultCenter] addObserver:self
-											 selector:@selector(removeDownloadObject:) 
-												 name:REMOVE_DOWNLOAD_OBJECT_NOTIFICATION
-											   object:nil];
-
-	[[NSNotificationCenter defaultCenter] addObserver:self
-											 selector:@selector(failedDownloadObject:) 
-												 name:FAILED_DOWNLOAD_OBJECT_NOTIFICATION
-											   object:nil];
 
 	m_plistParser = [[plistParser alloc] init];
 	m_FirmwareList = [[NSMutableDictionary alloc] init];
@@ -213,7 +210,8 @@ static const NSUInteger kSecInMin = 60;
 		[self.downloadsButton highlight:YES];
 		[self performSelector:@selector(removeHighlight) withObject:self afterDelay:0.2];
 		
-		[m_DownloadsManager addDownloadFile:m_DownloadURL withSHA1:[self.firmwareSHA1 stringValue]];
+		NSInteger index = [m_DownloadsManager addDownloadFile:m_DownloadURL withSHA1:[self.firmwareSHA1 stringValue]];
+        [self addDownloadObjectAtIndex:index];
 	}
 }
 
@@ -222,71 +220,57 @@ static const NSUInteger kSecInMin = 60;
 	[self.downloadsButton highlight:NO];
 }
 
-- (void)addDownloadObject:(NSNotification *)notification
+- (void)addDownloadObjectAtIndex:(NSInteger)index
 {
-	if ([[notification name] isEqualToString:ADD_DOWNLOAD_OBJECT_NOTIFICATION])
-	{
-		NSDictionary* downloadsInfo = [notification object][0];
-		if (downloadsInfo)
-		{
-			NSInteger _index = [[downloadsInfo valueForKey:@"index"] integerValue];
-			if (_index == -1)
-			{
-				DBNSLog(@"add download");
-				[self.downloadsList reloadData];
-			}
-			else
-			{
-				DBNSLog(@"resume download");
-				Item *item = [m_DownloadsManager downloadsInfoData][_index];
-				item.state = DOWNLOAD_IN_PROGRESS;
-				item.timeShift += ([NSDate timeIntervalSinceReferenceDate] - item.pauseTimer);
-				
-				[self.downloadsList reloadData];
-			}
-		}
-	}
+	if (index == -1)
+    {
+        DBNSLog(@"add download");
+        [self.downloadsList reloadData];
+    }
+    else
+    {
+        DBNSLog(@"resume download");
+        Item *item = [m_DownloadsManager downloadsInfoData][index];
+        item.state = DOWNLOAD_IN_PROGRESS;
+        item.timeShift += ([NSDate timeIntervalSinceReferenceDate] - item.pauseTimer);
+        
+        [self.downloadsList reloadData];
+    }
 }
 
-- (void)removeDownloadObject:(NSNotification *)notification
+- (void)doneDownloadObject:(NSString *)downloadingPath
 {
 	DBNSLog(@"compleate");
-	if ([[notification name] isEqualToString:REMOVE_DOWNLOAD_OBJECT_NOTIFICATION])
-	{
-		NSString* downloadsInfo = [notification object];
-		for (Item *item in [m_DownloadsManager downloadsInfoData])
-		{
-			if ([item.downloadPath isEqualToString:downloadsInfo])
-			{
-				item.state = DOWNLOAD_COMPLEATED;
-				needWaitProcess = NO;
-				break;
-			}
-		}
-	}
+	for (Item *item in [m_DownloadsManager downloadsInfoData])
+    {
+        if ([item.downloadPath isEqualToString:downloadingPath])
+        {
+            item.state = DOWNLOAD_COMPLEATED;
+            needWaitProcess = NO;
+            break;
+        }
+    }
 }
 
-- (void)failedDownloadObject:(NSNotification *)notification
+- (void)failedDownloadObject:(NSString *)downloadingPath
 {
 	DBNSLog(@"failed");
-	if ([[notification name] isEqualToString:FAILED_DOWNLOAD_OBJECT_NOTIFICATION])
-	{
-		NSString* downloadsInfo = [notification object];
-		NSUInteger pos = 0;
-		for (Item *item in [m_DownloadsManager downloadsInfoData])
-		{
-			if ([item.tempDownloadPath isEqualToString:downloadsInfo])
-			{
-				item.state = DOWNLOAD_FAILED;
-				id _object = item.request;
-				[_object setTag:pos];
-				[self cancelButtonPressed:_object];
-				needWaitProcess = NO;
-				break;
-			}
-			++pos;
-		}
-	}
+	
+    NSUInteger pos = 0;
+    for (Item *item in [m_DownloadsManager downloadsInfoData])
+    {
+        if ([item.tempDownloadPath isEqualToString:downloadingPath])
+        {
+            item.state = DOWNLOAD_FAILED;
+            id _object = item.request;
+            [_object setTag:pos];
+            [self cancelButtonPressed:_object];
+            needWaitProcess = NO;
+            break;
+        }
+        
+        ++pos;
+    }
 }
 
 - (IBAction)showInFinder:(id)sender
@@ -375,7 +359,9 @@ static const NSUInteger kSecInMin = 60;
 			[request setDownloadDestinationPath:expDict[@"downloadDestinationPath"]];
 			[request setTemporaryFileDownloadPath:expDict[@"temporaryFileDownloadPath"]];
 			
-			[m_DownloadsManager startDownloadWithRequest:request atIndex:row];
+			
+            NSInteger index = [m_DownloadsManager startDownloadWithRequest:request atIndex:row];
+            [self addDownloadObjectAtIndex:index];
 		}
 			break;
 		case DOWNLOAD_FAILED:
@@ -777,7 +763,8 @@ static const NSUInteger kSecInMin = 60;
 		[self.downloadsButton highlight:YES];
 		[self performSelector:@selector(removeHighlight) withObject:self afterDelay:0.2];
 		
-		[m_DownloadsManager addDownloadFile:m_DownloadURL withSHA1:[self.firmwareSHA1 stringValue]];
+        NSInteger index = [m_DownloadsManager addDownloadFile:m_DownloadURL withSHA1:[self.firmwareSHA1 stringValue]];
+        [self addDownloadObjectAtIndex:index];
 	}
 	else if (returnCode == NSAlertThirdButtonReturn)
 	{
@@ -797,7 +784,8 @@ static const NSUInteger kSecInMin = 60;
 		[self.downloadsButton highlight:YES];
 		[self performSelector:@selector(removeHighlight) withObject:self afterDelay:0.2];
 		
-		[m_DownloadsManager addDownloadFile:m_DownloadURL withSHA1:[self.firmwareSHA1 stringValue]];
+		NSInteger index = [m_DownloadsManager addDownloadFile:m_DownloadURL withSHA1:[self.firmwareSHA1 stringValue]];
+        [self addDownloadObjectAtIndex:index];
 	}
 	else if (returnCode == NSAlertThirdButtonReturn)
 	{

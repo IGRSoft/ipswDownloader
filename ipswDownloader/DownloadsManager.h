@@ -7,19 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Growl/Growl.h>
 
 @class ASIHTTPRequest;
 
-@interface DownloadsManager : NSObject <GrowlApplicationBridgeDelegate, NSUserNotificationCenterDelegate>
-{	
-}
+typedef void (^DownloadSuccessCompletionBlock)(NSString *downloadingPath);
+typedef void (^DownloadFailedCompletionBlock)(NSString *downloadingPath);
 
-@property (nonatomic, retain) NSMutableArray	*pausedInfoData;
-@property (nonatomic, retain) NSMutableArray	*downloadsInfoData;
+@interface DownloadsManager : NSObject
 
-- (BOOL) addDownloadFile:(NSURL*)downloadURL withSHA1:(NSString*)downloadSHA1;
-- (void) startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSInteger)index;
+@property (nonatomic, strong) NSMutableArray	*pausedInfoData;
+@property (nonatomic, strong) NSMutableArray	*downloadsInfoData;
+
+@property (nonatomic, copy)   DownloadSuccessCompletionBlock successCompletionBlock;
+@property (nonatomic, copy)   DownloadFailedCompletionBlock failedCompletionBlock;
+
+- (NSInteger) addDownloadFile:(NSURL*)downloadURL withSHA1:(NSString*)downloadSHA1;
+- (NSInteger) startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSInteger)index;
 - (void) pauseDownloadAtIndex:(NSUInteger)index withObject:(NSDictionary*)object;
 
 @end

@@ -37,10 +37,6 @@
 #define GROWL_CHECKSUM_FAIL		@"SHA1 Checksum Fail"
 #define GROWL_DOWNLOAD_CANCELED @"Download Canceled"
 
-#define ADD_DOWNLOAD_OBJECT_NOTIFICATION @"AddDownloadObjectNotification"
-#define REMOVE_DOWNLOAD_OBJECT_NOTIFICATION @"RemoveDownloadObjectNotification"
-#define FAILED_DOWNLOAD_OBJECT_NOTIFICATION @"FailedDownloadObjectNotification"
-
 #define SP_SCREEN_SCALE() ([[NSScreen mainScreen] respondsToSelector:@selector(backingScaleFactor)]? [[NSScreen mainScreen] backingScaleFactor]: 1.0f)
 
 enum

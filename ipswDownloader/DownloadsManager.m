@@ -10,6 +10,7 @@
 #import "PreferenceController.h"
 
 #import "ASIHTTPRequest.h"
+#import <Growl/Growl.h>
 
 #import "sha1.h"
 #import <AudioToolbox/AudioToolbox.h>
@@ -19,10 +20,12 @@
 
 extern BOOL needWaitProcess;
 
-@interface DownloadsManager ()
+@interface DownloadsManager () <GrowlApplicationBridgeDelegate, NSUserNotificationCenterDelegate>
+
 - (void)URLFetchWithProgressComplete:(ASIHTTPRequest *)request;
 - (void)URLFetchWithProgressFailed:(ASIHTTPRequest *)request;
 - (void)playSystemSound:(NSString*) name;
+
 @end
 
 @implementation DownloadsManager
@@ -42,7 +45,7 @@ extern BOOL needWaitProcess;
 	return self;
 }
 
-- (BOOL)addDownloadFile:(NSURL*)downloadURL withSHA1:(NSString*)downloadSHA1
+- (NSInteger)addDownloadFile:(NSURL*)downloadURL withSHA1:(NSString*)downloadSHA1
 {
 	NSString* fileName = [NSString stringWithString:[URLHelper splitURL:downloadURL][1]];
 	
@@ -73,7 +76,7 @@ extern BOOL needWaitProcess;
 	[request setDownloadDestinationPath:[downloadsDirectory stringByAppendingFormat:@"/%@", fileName]];
 	[request setTemporaryFileDownloadPath:tempFileName];
 	
-	[self startDownloadWithRequest:request atIndex:-1];
+	NSInteger result = [self startDownloadWithRequest:request atIndex:-1];
 	
 	fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 	
@@ -84,10 +87,10 @@ extern BOOL needWaitProcess;
 	[self.downloadsInfoData addObject:item];
 	[self.pausedInfoData addObject:[NSString string]];
 	
-	return YES;
+	return result;
 }
 
-- (void)startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSInteger)index
+- (NSInteger)startDownloadWithRequest:(ASIHTTPRequest*)request atIndex:(NSInteger)index
 {
 	[request setAllowResumeForFileDownloads:YES];
 	[request setDelegate:self];
@@ -102,12 +105,14 @@ extern BOOL needWaitProcess;
 		item.request = request;
 	}
 	
-	NSMutableArray *ma = [[NSMutableArray alloc] init];
+    return index;
+    
+	/*NSMutableArray *ma = [[NSMutableArray alloc] init];
 	NSDictionary * expDict = @{@"index": @(index)};
 	[ma addObject:expDict];
 	
 	[[NSNotificationCenter defaultCenter] postNotificationName:ADD_DOWNLOAD_OBJECT_NOTIFICATION
-														object:ma];
+														object:ma];*/
 	
 }
 
@@ -136,8 +141,11 @@ extern BOOL needWaitProcess;
 	}
 	
 	NSString *filePath = [item downloadPath];
-	[[NSNotificationCenter defaultCenter] postNotificationName:REMOVE_DOWNLOAD_OBJECT_NOTIFICATION
-														object:filePath];
+    
+    if (self.successCompletionBlock)
+    {
+        self.successCompletionBlock(filePath);
+    }
 	
 	BOOL m_bNeedCheckCRC = [[NSUserDefaults standardUserDefaults] boolForKey:defaultsCheckSHA1Key];
 	if (m_bNeedCheckCRC)
@@ -275,8 +283,11 @@ extern BOOL needWaitProcess;
 	if (![request isCancelled])
 	{
 		needWaitProcess = YES;
-		[[NSNotificationCenter defaultCenter] postNotificationName:FAILED_DOWNLOAD_OBJECT_NOTIFICATION
-															object:request.temporaryFileDownloadPath];
+        
+        if (self.failedCompletionBlock)
+        {
+            self.failedCompletionBlock(request.temporaryFileDownloadPath);
+        }
 	}
 	
 	if ([[request error] domain] == NetworkRequestErrorDomain && [[request error] code] == ASIRequestCancelledErrorType)
