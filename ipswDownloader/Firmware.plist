@@ -2521,9 +2521,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>21f6adff3ec8f50d32346fc62ec7714c07dbb3ee</string>
 			<key>size</key>
@@ -2550,9 +2550,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>fddb398fa99536bd16221c39e0d3e4ea1bff3566</string>
 			<key>size</key>
@@ -3162,9 +3162,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>556ef7d6ddfd8d0bf4431a3b36222d2e34755e15</string>
 			<key>size</key>
@@ -3191,9 +3191,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>d930cc53aeef2ac11ed49e87486547de4ca4d14f</string>
 			<key>size</key>
@@ -3803,9 +3803,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>02f0759237e6d63ee02e41aff517e4d96705648a</string>
 			<key>size</key>
@@ -3832,9 +3832,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>6ccaa523baec28e33f90113458787e0c356b6266</string>
 			<key>size</key>
@@ -4212,9 +4212,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>61bf92c0bcde9ed0f790bea2425a078640d8bcb7</string>
 			<key>size</key>
@@ -4241,9 +4241,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>b6e954299d6caa2622e4f07171991787b780bc6a</string>
 			<key>size</key>
@@ -4621,9 +4621,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>33f4c3a44bf1ac159a5846d251e3d536eeb4eae6</string>
 			<key>size</key>
@@ -4650,9 +4650,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>198a960a95b90383ca2f3225c73b4c3d669edbf4</string>
 			<key>size</key>
@@ -5030,9 +5030,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>b009fb3f4c33aad62168154820dc951314de7975</string>
 			<key>size</key>
@@ -5059,9 +5059,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>ab8e55aa27e160d4efbd727ca0652d5ceb14dc5e</string>
 			<key>size</key>
@@ -5439,9 +5439,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>c3935b58fb7d756ce13766b613fdc2ab854a97f6</string>
 			<key>size</key>
@@ -5468,9 +5468,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>921844128ec2703b691156347d3e2c861fe654bf</string>
 			<key>size</key>
@@ -5790,9 +5790,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>e84534f54915636b6aacbdd8e1c7cf494d6a280f</string>
 			<key>size</key>
@@ -5819,9 +5819,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>b02b3a65acf16deb1232eb220b62db2125edc824</string>
 			<key>size</key>
@@ -6114,7 +6114,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n7</string>
+			<string>evasi0n7, pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>08fea44b70af7f41c6124314b8a755c2ce4c4ec1</string>
 			<key>size</key>
@@ -6143,7 +6143,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n7</string>
+			<string>evasi0n7, pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>13157d773f8ac60ac81fb8a23d465c484ed08a56</string>
 			<key>size</key>
@@ -6436,7 +6436,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>evasi0n7</string>
+			<string>evasi0n7, pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>0d27a4367749f515e2e41e30bf6b30bf0c161649</string>
 			<key>size</key>
@@ -6463,9 +6463,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>af1251146e2421ba6c44e2d63e2592e1fba03139</string>
 			<key>size</key>
@@ -6582,9 +6582,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>f697fc28e78c444515099980764758772c8a8c76</string>
 			<key>size</key>
@@ -6611,9 +6611,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>ecf95d0bcff9c6d56396ef52a856f8dfd01d6410</string>
 			<key>size</key>
@@ -6730,9 +6730,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>91a0464c477c1c69e3369005623e1a1b3c01b6e8</string>
 			<key>size</key>
@@ -6759,9 +6759,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>3c3f3f9bd31458f5da55b3e4beddf9022def6a2c</string>
 			<key>size</key>
@@ -6791,9 +6791,9 @@
 			<key>info</key>
 			<string>Initial release.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>caf9249e44c7b23ace53b26e641de2bd88d10476</string>
 			<key>size</key>
@@ -6820,9 +6820,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>bd7254e8dd2fe47f45f60353e84ef0c58e51e9d3</string>
 			<key>size</key>
@@ -7171,9 +7171,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>ed19486cd082cfccc351b812b283e21ab8819680</string>
 			<key>size</key>
@@ -7200,9 +7200,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>49f4cd10daa3ec64a854f05817e3b887667f56a5</string>
 			<key>size</key>
@@ -7522,9 +7522,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>3137cae5bd6f897afe915fd51d78a4b2545d0097</string>
 			<key>size</key>
@@ -7551,9 +7551,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>6a2552337688dc8d6a55ddf6e218b469eeacefb5</string>
 			<key>size</key>
@@ -7873,9 +7873,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>2575528e7196f2bd50219c5b72b003aa978edf8d</string>
 			<key>size</key>
@@ -7902,9 +7902,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>bc1aa10cdc1944817f473370091c6673f2f44b35</string>
 			<key>size</key>
@@ -8021,9 +8021,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>6c38ad00a4507c7782b32e1132280b1cc27f85c2</string>
 			<key>size</key>
@@ -8050,9 +8050,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>00687b846a3f88c04efde0c352d5358056c3faf2</string>
 			<key>size</key>
@@ -8169,9 +8169,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>d9c0feb875a761d714fc48a144d1f69e85f3687b</string>
 			<key>size</key>
@@ -8198,9 +8198,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>6d95ead6ff17fd0994bccf2aabc31709de69acd7</string>
 			<key>size</key>
@@ -8230,9 +8230,9 @@
 			<key>info</key>
 			<string>Initial release.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>c9dbb9482a451f7106100d54d3cc5766377f1833</string>
 			<key>size</key>
@@ -8259,9 +8259,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>9aceb11df51ad9499a6f599706bb7a8ae84ebc9e</string>
 			<key>size</key>
@@ -10765,9 +10765,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>c657505db208a73a5e27708816b87e8be3997d9a</string>
 			<key>size</key>
@@ -10794,9 +10794,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>49469a01e7c3ffbbd0432610f4b44741623527a4</string>
 			<key>size</key>
@@ -11116,9 +11116,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>41a79180c1a4f7189ba3bdd4805992a27a92764d</string>
 			<key>size</key>
@@ -11145,9 +11145,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>bb6e490fad7395aa208b03b3d3b967f7544ca143</string>
 			<key>size</key>
@@ -11728,9 +11728,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>d4ec8ab2f85c7fd2fda7ae11ee571f91a1ff3c42</string>
 			<key>size</key>
@@ -11757,9 +11757,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>fb3010949bfe2a19779f86148779584ee95733b3</string>
 			<key>size</key>
@@ -12253,9 +12253,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>97d0f9437b605813342f598d43809881d51fd0ce</string>
 			<key>size</key>
@@ -12282,9 +12282,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>be3f954f69083125f4905204e477c743e1c89597</string>
 			<key>size</key>
@@ -12662,9 +12662,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>35604eed080acc90fbc2d78d6ce0f1e52b9254ab</string>
 			<key>size</key>
@@ -12691,9 +12691,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>5cc2878ae2786a9d29c4550a02b495d222081bf3</string>
 			<key>size</key>
@@ -13071,9 +13071,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>621411e8da22db4a9e84d10f4ac8a5be5a8bd9c1</string>
 			<key>size</key>
@@ -13100,9 +13100,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>ca1af5ff972215cb62cbe9c259b77d406a6b7ba7</string>
 			<key>size</key>
@@ -13277,9 +13277,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>09aead61d7609f64f8df5be7937951bbbe828716</string>
 			<key>size</key>
@@ -13306,9 +13306,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>bec7bd4aa5eb2001c292f689673781fdea64be73</string>
 			<key>size</key>
@@ -13512,9 +13512,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>4b97bc9e1150f0cdb23b550cf435bf3e1ce75ae1</string>
 			<key>size</key>
@@ -13541,9 +13541,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>c55aa2c3b1a0d23a65bfe6cec62a38ef0efe225a</string>
 			<key>size</key>
@@ -13718,9 +13718,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>5bc03e3c1725eba428ed302c4f201985d0e1aec3</string>
 			<key>size</key>
@@ -13747,9 +13747,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>549b338024e71994a7be08e3935b1966e1140d24</string>
 			<key>size</key>
@@ -13942,6 +13942,35 @@
 			<key>build</key>
 			<string>InnsbruckTaos</string>
 		</dict>
+		<key>7.1.0 / 11D167</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.18.02</string>
+			<key>hwstr</key>
+			<string>iPhone6,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS7.1/Documentation/031-3602.20140310.LwD2Y/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu 1.0.0</string>
+			<key>sha1</key>
+			<string>6e7027c866f1ef52c2dd876a4df5e88955ceb512</string>
+			<key>size</key>
+			<integer>1541185384</integer>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS7.1/031-4452.20140310.Lv4Gr/iPhone6,2_7.1_11D167_Restore.ipsw</string>
+			<key>date</key>
+			<string>10 Mar 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Sochi</string>
+		</dict>
 		<key>7.1.1 / 11D201</key>
 		<dict>
 			<key>baseband</key>
@@ -13953,9 +13982,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>b02a7731bf820e9b3bb3f10985d10683b5d5370c</string>
 			<key>size</key>
@@ -16143,9 +16172,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>4a343ece50ca318f5d5f8cf11e94be5fd25d4d92</string>
 			<key>size</key>
@@ -16172,9 +16201,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu 1.0.0</string>
 			<key>sha1</key>
 			<string>45ae21d187f1db94db543b13871dc32d29c69c1e</string>
 			<key>size</key>
