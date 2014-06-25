@@ -177,7 +177,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textField verticalHuggingPriority="750" id="633">
-                                    <rect key="frame" x="15" y="229" width="69" height="17"/>
+                                    <rect key="frame" x="15" y="229" width="69" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Baseband:" id="634">
                                         <font key="font" size="13" name="HelveticaNeue-Medium"/>
@@ -186,7 +186,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="635">
-                                    <rect key="frame" x="86" y="229" width="414" height="17"/>
+                                    <rect key="frame" x="86" y="229" width="414" height="20"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="636">
                                         <font key="font" size="13" name="HelveticaNeue"/>
@@ -195,7 +195,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="637">
-                                    <rect key="frame" x="15" y="206" width="69" height="17"/>
+                                    <rect key="frame" x="15" y="206" width="69" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Jailbreak:" id="638">
                                         <font key="font" size="13" name="HelveticaNeue-Medium"/>
@@ -204,7 +204,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="643">
-                                    <rect key="frame" x="15" y="181" width="52" height="17"/>
+                                    <rect key="frame" x="15" y="181" width="52" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Unlock:" id="644">
                                         <font key="font" size="13" name="HelveticaNeue-Medium"/>
@@ -213,7 +213,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="645">
-                                    <rect key="frame" x="15" y="156" width="48" height="17"/>
+                                    <rect key="frame" x="15" y="156" width="48" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="サイズ:" id="646">
                                         <font key="font" size="13" name="HelveticaNeue-Medium"/>
@@ -222,7 +222,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="647">
-                                    <rect key="frame" x="86" y="156" width="414" height="17"/>
+                                    <rect key="frame" x="86" y="156" width="414" height="20"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" usesSingleLineMode="YES" id="648">
                                         <font key="font" size="13" name="HelveticaNeue"/>
@@ -231,7 +231,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="811">
-                                    <rect key="frame" x="86" y="106" width="414" height="17"/>
+                                    <rect key="frame" x="86" y="106" width="414" height="20"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" usesSingleLineMode="YES" id="812">
                                         <font key="font" size="13" name="HelveticaNeue"/>
@@ -240,7 +240,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="649">
-                                    <rect key="frame" x="15" y="56" width="38" height="17"/>
+                                    <rect key="frame" x="15" y="56" width="38" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="情報:" id="650">
                                         <font key="font" size="13" name="HelveticaNeue-Medium"/>
@@ -258,7 +258,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="778">
-                                    <rect key="frame" x="15" y="131" width="42" height="17"/>
+                                    <rect key="frame" x="15" y="131" width="42" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="SHA1:" id="779">
                                         <font key="font" size="13" name="HelveticaNeue-Medium"/>
@@ -267,7 +267,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="786">
-                                    <rect key="frame" x="86" y="131" width="414" height="17"/>
+                                    <rect key="frame" x="86" y="131" width="414" height="20"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" state="on" id="787">
                                         <font key="font" size="13" name="HelveticaNeue"/>
@@ -276,7 +276,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="804">
-                                    <rect key="frame" x="15" y="106" width="35" height="17"/>
+                                    <rect key="frame" x="15" y="106" width="35" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="骨格:" id="805">
                                         <font key="font" size="13" name="HelveticaNeue-Medium"/>
@@ -285,7 +285,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="WwQ-86-ceM">
-                                    <rect key="frame" x="86" y="81" width="414" height="17"/>
+                                    <rect key="frame" x="86" y="81" width="414" height="20"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" usesSingleLineMode="YES" id="axB-m0-52x">
                                         <font key="font" size="13" name="HelveticaNeue"/>
@@ -294,7 +294,7 @@
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" id="g3o-is-IZf">
-                                    <rect key="frame" x="15" y="81" width="35" height="17"/>
+                                    <rect key="frame" x="15" y="81" width="35" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="日付:" id="y2u-yf-1Q4">
                                         <font key="font" size="13" name="HelveticaNeue-Medium"/>
@@ -415,7 +415,7 @@
                         </connections>
                     </button>
                     <button focusRingType="none" id="1273">
-                        <rect key="frame" x="462" y="316" width="26" height="26"/>
+                        <rect key="frame" x="461" y="315" width="28" height="28"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="InfoButton" imagePosition="only" alignment="center" state="on" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="1274">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -627,7 +627,7 @@
     <resources>
         <image name="DonateButton" width="80" height="23"/>
         <image name="DownloadButton" width="130" height="23"/>
-        <image name="InfoButton" width="32" height="32"/>
+        <image name="InfoButton" width="28" height="28"/>
         <image name="NSApplicationIcon" width="128" height="128"/>
         <image name="NSQuickLookTemplate" width="21" height="16"/>
         <image name="NSRevealFreestandingTemplate" width="14" height="14"/>
