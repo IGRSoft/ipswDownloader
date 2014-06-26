@@ -147,7 +147,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <comboBox verticalHuggingPriority="750" id="591">
-                        <rect key="frame" x="241.99999512087373" y="315" width="210" height="26"/>
+                        <rect key="frame" x="241.99999270549213" y="315" width="210" height="26"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                         <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="599">
                             <font key="font" metaFont="system"/>
@@ -473,6 +473,7 @@
                 <outlet property="animation" destination="749" id="1263"/>
                 <outlet property="detailsBox" destination="632" id="1259"/>
                 <outlet property="device" destination="675" id="1264"/>
+                <outlet property="donateButton" destination="1290" id="5vj-k0-6Ea"/>
                 <outlet property="downloadButton" destination="593" id="1265"/>
                 <outlet property="downloadsButton" destination="861" id="1266"/>
                 <outlet property="downloadsList" destination="1218" id="1244"/>
@@ -627,12 +628,12 @@
     <resources>
         <image name="DonateButton" width="80" height="23"/>
         <image name="DownloadButton" width="130" height="23"/>
-        <image name="InfoButton" width="28" height="28"/>
+        <image name="InfoButton" width="28" height="23"/>
         <image name="NSApplicationIcon" width="128" height="128"/>
         <image name="NSQuickLookTemplate" width="21" height="16"/>
         <image name="NSRevealFreestandingTemplate" width="14" height="14"/>
         <image name="NSStopProgressFreestandingTemplate" width="12" height="12"/>
         <image name="PopoverButton" width="28" height="23"/>
-        <image name="none" width="14" height="14"/>
+        <image name="none" width="16" height="16"/>
     </resources>
 </document>

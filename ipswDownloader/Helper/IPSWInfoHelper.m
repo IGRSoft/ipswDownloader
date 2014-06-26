@@ -66,6 +66,11 @@
     else if ([platform isEqualToString:@"iPad4,3"])      platform = @"iPad Air (WiFi+CDMA)";
     else if ([platform isEqualToString:@"iPad4,4"])      platform = @"iPad Mini Retina (WiFi)";
     else if ([platform isEqualToString:@"iPad4,5"])      platform = @"iPad Mini Retina (WiFi+CDMA)";
+    
+    //Apple TV
+    else if ([platform isEqualToString:@"AppleTV2,1"])      platform = @"Apple TV 2G";
+    else if ([platform isEqualToString:@"AppleTV3,1"])      platform = @"Apple TV 3G";
+    else if ([platform isEqualToString:@"AppleTV3,2"])      platform = @"Apple TV 3G (Rev A)";
 	
 	else if ([platform hasPrefix:@"iPhone"])             platform = @"Unknown iPhone";
     else if ([platform hasPrefix:@"iPod"])               platform = @"Unknown iPod";

@@ -473,6 +473,7 @@
                 <outlet property="animation" destination="749" id="1265"/>
                 <outlet property="detailsBox" destination="632" id="1261"/>
                 <outlet property="device" destination="675" id="1266"/>
+                <outlet property="donateButton" destination="1292" id="XQZ-ZD-qHr"/>
                 <outlet property="downloadButton" destination="593" id="1267"/>
                 <outlet property="downloadsButton" destination="861" id="1268"/>
                 <outlet property="downloadsList" destination="1220" id="1246"/>
@@ -627,12 +628,12 @@
     <resources>
         <image name="DonateButton" width="80" height="23"/>
         <image name="DownloadButton" width="130" height="23"/>
-        <image name="InfoButton" width="28" height="28"/>
+        <image name="InfoButton" width="28" height="23"/>
         <image name="NSApplicationIcon" width="128" height="128"/>
         <image name="NSQuickLookTemplate" width="21" height="16"/>
         <image name="NSRevealFreestandingTemplate" width="14" height="14"/>
         <image name="NSStopProgressFreestandingTemplate" width="12" height="12"/>
         <image name="PopoverButton" width="28" height="23"/>
-        <image name="none" width="14" height="14"/>
+        <image name="none" width="16" height="16"/>
     </resources>
 </document>

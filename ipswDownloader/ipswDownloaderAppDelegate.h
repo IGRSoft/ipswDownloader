@@ -84,6 +84,7 @@ extern BOOL needWaitProcess;
 @property (nonatomic, strong) IBOutlet NSButton				*infoButton;
 @property (nonatomic, strong) IBOutlet NSButton				*infoDeviceButton;
 @property (nonatomic, strong) IBOutlet NSButton				*downloadsButton;
+@property (nonatomic, strong) IBOutlet NSButton				*donateButton;
 
 - (IBAction) downloadIPSW:(id) sender;
 - (IBAction) selectDevice:(id) sender;

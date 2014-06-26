@@ -262,6 +262,7 @@ static const NSUInteger kSecInMin = 60;
         if ([item.tempDownloadPath isEqualToString:downloadingPath])
         {
             item.state = DOWNLOAD_FAILED;
+            item.pauseTimer = [NSDate timeIntervalSinceReferenceDate];
             id _object = item.request;
             [_object setTag:pos];
             [self cancelButtonPressed:_object];
@@ -330,7 +331,7 @@ static const NSUInteger kSecInMin = 60;
 		item = [m_DownloadsManager downloadsInfoData][row];
 	}
 	
-	switch ([item state])
+	switch (item.state)
 	{
 		case DOWNLOAD_IN_PROGRESS:
 		{
@@ -366,17 +367,29 @@ static const NSUInteger kSecInMin = 60;
 			break;
 		case DOWNLOAD_FAILED:
 		{
-			item.state = DOWNLOAD_PAUSED;
-			
-			ASIHTTPRequest *request = sender;
-			
-			NSDictionary * expDict = @{@"url": [request url],
-									  @"downloadDestinationPath": [request downloadDestinationPath],
-									  @"temporaryFileDownloadPath": [request temporaryFileDownloadPath]};
-			
-			[m_DownloadsManager pauseDownloadAtIndex:row withObject:expDict];
-		
-			request = nil;
+            if ([sender isKindOfClass:[NSButton class]])
+            {
+                DBNSLog(@"resume");
+                NSDictionary * expDict = [m_DownloadsManager pausedInfoData][row];
+                
+                ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:expDict[@"url"]];
+                [request setDownloadDestinationPath:expDict[@"downloadDestinationPath"]];
+                [request setTemporaryFileDownloadPath:expDict[@"temporaryFileDownloadPath"]];
+                
+                
+                NSInteger index = [m_DownloadsManager startDownloadWithRequest:request atIndex:row];
+                [self addDownloadObjectAtIndex:index];
+            }
+            else
+            {
+                ASIHTTPRequest *request = sender;
+                
+                NSDictionary * expDict = @{@"url": [request url],
+                                           @"downloadDestinationPath": [request downloadDestinationPath],
+                                           @"temporaryFileDownloadPath": [request temporaryFileDownloadPath]};
+                
+                [m_DownloadsManager pauseDownloadAtIndex:row withObject:expDict];
+            }
 		}
 			break;
 		case DOWNLOAD_COMPLEATED:
@@ -475,10 +488,13 @@ static const NSUInteger kSecInMin = 60;
 			break;
 		case DOWNLOAD_FAILED:
 		{
+            NSImage* img = [NSImage imageNamed:[NSString stringWithFormat:@"NSRefreshFreestandingTemplate"]];
+			[result.detailPauseResumeButton setImage:img];
+            
 			result.textField.stringValue = [item name];
 			result.detailTextField.stringValue = NSLocalizedString(@"Failed", @"Failed");
 			
-			NSImage* img = [NSImage imageNamed:[NSString stringWithFormat:@"downloaderror.png"]];
+			img = [NSImage imageNamed:[NSString stringWithFormat:@"downloaderror.png"]];
 			result.imageView.image = img;
 		}	
 			break;
@@ -986,10 +1002,11 @@ static const NSUInteger kSecInMin = 60;
 	{
 		[self.simpleModeMenu setState:NSOnState];
 		
-		[self.detailsBox setHidden:YES];
 		NSRect rect = self.window.frame;
 		rect.size.height = 120.f;
 		[self.window setFrame:rect display:YES animate:YES];
+        
+        [self.detailsBox setHidden:YES];
 	}
 	else
 	{
@@ -1093,11 +1110,28 @@ static const NSUInteger kSecInMin = 60;
 
 - (void)applicationWillTerminate:(NSNotification *)notification { }
 
-- (void) awakeFromNib {	}
+- (void) awakeFromNib
+{
+    NSMutableAttributedString *attrTitle = [[NSMutableAttributedString alloc] initWithString:self.donateButton.title];
+    NSUInteger len = [attrTitle length];
+    NSRange range = NSMakeRange(0, len);
+    
+    [attrTitle addAttribute:NSForegroundColorAttributeName value:[NSColor orangeColor] range:range];
+    [attrTitle addAttribute:NSFontAttributeName value:[NSFont fontWithName:@"Helvetica Bold Oblique" size:12] range:range];
+    
+    NSMutableParagraphStyle *paragrahStyle = [[NSMutableParagraphStyle alloc] init];
+    [paragrahStyle setAlignment:kCTTextAlignmentCenter];
+    
+    [attrTitle addAttribute:NSParagraphStyleAttributeName value:paragrahStyle range:range];
+    
+    [attrTitle fixAttributesInRange:range];
+    [self.donateButton setAttributedTitle:attrTitle];
+}
 
 - (BOOL)windowShouldZoom:(NSWindow *)window toFrame:(NSRect)newFrame
 {
 	[self simpleMode:nil];
+    
 	return NO;
 }
 

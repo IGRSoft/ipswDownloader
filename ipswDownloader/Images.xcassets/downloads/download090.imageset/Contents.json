@@ -1,13 +1,14 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
+      "idiom" : "mac",
       "scale" : "1x",
       "filename" : "download090.png"
     },
     {
-      "idiom" : "universal",
-      "scale" : "2x"
+      "idiom" : "mac",
+      "scale" : "2x",
+      "filename" : "download090@2x.png"
     }
   ],
   "info" : {
