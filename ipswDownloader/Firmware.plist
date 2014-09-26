@@ -2771,6 +2771,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>e5363c8a06300d75015d9f4b9b74be6c90ead7d7</string>
+			<key>size</key>
+			<real>1582377083</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07485.20140924.ZBhyD/iPad2,1_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>c7b81efa61a1adef63d69fdbf239c7effe691297</string>
+			<key>size</key>
+			<real>1582403351</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08115.20140925.jWgVT/iPad2,1_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad 2 GSM</key>
 	<dict>
@@ -3465,6 +3523,64 @@
 			<string>http://appldnld.apple.com/iOS8/031-05482.20140917.MUK6P/iPad2,2_8.0_12A365_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>9e8fb546101c825f41218959191daaa5240045c6</string>
+			<key>size</key>
+			<real>1599176616</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07507.20140924.eUHtO/iPad2,2_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>262108076778085d3f81517d47d600f8593e4f9f</string>
+			<key>size</key>
+			<real>1599169975</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08195.20140925.K4n8k/iPad2,2_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -4169,6 +4285,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-05327.20140917.n3w12/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>589ef82574589e0b13deea518477bdadbdfc5238</string>
+			<key>size</key>
+			<real>1598098297</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07505.20140924.6Gp6g/iPad2,3_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>3859e7afad20591de7f9e07612361e12aa6c4bd5</string>
+			<key>size</key>
+			<real>1598071526</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08186.20140925.XVUYR/iPad2,3_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad 2 Wi-Fi (Rev A)</key>
 	<dict>
@@ -4631,6 +4805,64 @@
 			<string>http://appldnld.apple.com/iOS8/031-05640.20140917.HFZpj/iPad2,4_8.0_12A365_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>2e88ef51c1aaf87e202bc5ff3de3f43dcac44c5d</string>
+			<key>size</key>
+			<real>1581752510</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07537.20140924.61NJA/iPad2,4_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>1738e51adaa6f3664c6b6a7ebc23f1c391aa4f5f</string>
+			<key>size</key>
+			<real>1581783094</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08337.20140925.vQLUs/iPad2,4_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -5103,6 +5335,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>70ffd7f3548aacb25c2d10c369a536ee8c954ee3</string>
+			<key>size</key>
+			<real>1923314419</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07522.20140924.mNSKD/iPad3,1_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>1ed28a76dd3627735ad618672777939177fc765d</string>
+			<key>size</key>
+			<real>1923442961</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08280.20140925.aq3w1/iPad3,1_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad 3 CDMA</key>
 	<dict>
@@ -5565,6 +5855,64 @@
 			<string>http://appldnld.apple.com/iOS8/031-05438.20140917.LhTqV/iPad3,2_8.0_12A365_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.3.00</string>
+			<key>hwstr</key>
+			<string>iPad3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>c0835ce57804d1ed96ff589a593db5e2d75ccf89</string>
+			<key>size</key>
+			<real>1958201981</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07493.20140924.4mkZa/iPad3,2_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.3.00</string>
+			<key>hwstr</key>
+			<string>iPad3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>812354680974aaafcc7a171ba40b4b42a165b4cc</string>
+			<key>size</key>
+			<real>1958185225</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08158.20140925.3A69Y/iPad3,2_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -6037,6 +6385,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.3.00</string>
+			<key>hwstr</key>
+			<string>iPad3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>dc7ffe43efa144c75e5c4f96ef94d06f4ea891e3</string>
+			<key>size</key>
+			<real>1958210002</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07526.20140924.elR3n/iPad3,3_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.3.00</string>
+			<key>hwstr</key>
+			<string>iPad3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>5c94882abb43dd3ca893c16b7df1115f3db3076e</string>
+			<key>size</key>
+			<real>1958070070</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08293.20140925.kYMaq/iPad3,3_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad 4 Wi-Fi</key>
 	<dict>
@@ -6446,6 +6852,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>57d333d7729247f0ea2ff4977c4ffe6b51a2e949</string>
+			<key>size</key>
+			<real>1943888053</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07487.20140924.6V7W8/iPad3,4_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>35f3d90a755d5d5ccdf48c2ca64bde7f4fcbc3e4</string>
+			<key>size</key>
+			<real>1943888247</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08127.20140925.lrCxx/iPad3,4_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad 4 GSM</key>
 	<dict>
@@ -6821,6 +7285,64 @@
 			<string>http://appldnld.apple.com/iOS8/031-05562.20140917.E0S9Y/iPad3,5_8.0_12A365_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad3,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>441c864742f3c62d04be5609597e50d1a75b87f7</string>
+			<key>size</key>
+			<real>1983937504</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07520.20140924.rl9dt/iPad3,5_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad3,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>6085d8ce036942d1f01dce936e952022911cc395</string>
+			<key>size</key>
+			<real>1983991624</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08266.20140925.xPC8X/iPad3,5_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -7206,6 +7728,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad3,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>831d9f160186aea018c2bb9a70d08d19b42aff25</string>
+			<key>size</key>
+			<real>1984335361</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07477.20140924.yOd4i/iPad3,6_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad3,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>61c1fd94d7090a187c88d237a1c69ccf51bd0bc3</string>
+			<key>size</key>
+			<real>1984231885</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08106.20140925.AmAoF/iPad3,6_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad Air Wi-Fi</key>
 	<dict>
@@ -7407,6 +7987,64 @@
 			<string>http://appldnld.apple.com/iOS8/031-05508.20140917.uXvIg/iPad4,1_8.0_12A365_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>00f513c4bcafd4a377f48c02fdd2d23ce5ede1c0</string>
+			<key>size</key>
+			<real>2180975891</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07509.20140924.jzGKv/iPad4,1_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>9b2777b728c6820caa49a40531c8850246664a43</string>
+			<key>size</key>
+			<real>2180985365</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08217.20140925.Ttueu/iPad4,1_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -7618,6 +8256,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPad4,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>00f513c4bcafd4a377f48c02fdd2d23ce5ede1c0</string>
+			<key>size</key>
+			<real>2228639650</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-05594.20140917.kypBi/iPad4,2_8.0_12A365_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPad4,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>f6af6cdd2a2b5163485677906983422d78ca1a1d</string>
+			<key>size</key>
+			<real>2228528002</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08294.20140925.Fjmyo/iPad4,2_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad Air Cellular (Rev A)</key>
 	<dict>
@@ -7732,6 +8428,64 @@
 			<string>http://appldnld.apple.com/iOS8/031-05526.20140917.JKqeh/iPad4,3_8.0_12A365_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPad4,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>62275d9612a3427ec8f0d54f2734604a092502c9</string>
+			<key>size</key>
+			<real>2228378091</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07514.20140924.smKrz/iPad4,3_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPad4,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>8b507bba9d82662ffe20a6f4a7741ede88b6cb61</string>
+			<key>size</key>
+			<real>2228296531</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08237.20140925.l0skK/iPad4,3_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -8175,6 +8929,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>176e49c7cc9c6f4dec023b2c27f3652ed277502c</string>
+			<key>size</key>
+			<real>1698271260</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07490.20140924.QO0ZC/iPad2,5_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>859655efcc6c8262f26a622cbf43c4eef154b261</string>
+			<key>size</key>
+			<real>1698384979</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08141.20140925.XQkVC/iPad2,5_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad mini 1G GSM</key>
 	<dict>
@@ -8579,6 +9391,64 @@
 			<string>http://appldnld.apple.com/iOS8/031-05464.20140917.Y3zCS/iPad2,6_8.0_12A365_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad2,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>3b77c85db50774716b22cef346665f9f63f9385a</string>
+			<key>size</key>
+			<real>1738616032</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07504.20140924.I1CFb/iPad2,6_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad2,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>d9bd4bdc81576f3d1c877af90d6e2531d7cd2713</string>
+			<key>size</key>
+			<real>1738534205</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08182.20140925.ICW91/iPad2,6_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -8993,6 +9863,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad2,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-05327.20140917.n3w12/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>6774063589683a9146fa38472608de79e1d924bc</string>
+			<key>size</key>
+			<real>1738778454</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad2,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-05327.20140917.n3w12/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>5e9f39cbe295a6d405498df53af906d113f46a7a</string>
+			<key>size</key>
+			<real>1738685522</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08081.20140925.djA7V/iPad2,7_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad mini 2G Wi-Fi</key>
 	<dict>
@@ -9194,6 +10122,64 @@
 			<string>http://appldnld.apple.com/iOS8/031-05485.20140917.2eDW4/iPad4,4_8.0_12A365_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>565987c20c86e91cb26515c8f747f4b314e45ce3</string>
+			<key>size</key>
+			<real>2180604089</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07508.20140924.v7Sk9/iPad4,4_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>f303f5eb9a04bba72dc93cf66daf6bbed1c8c20e</string>
+			<key>size</key>
+			<real>2180634815</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08197.20140925.pJhXL/iPad4,4_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -9405,6 +10391,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPad4,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>565987c20c86e91cb26515c8f747f4b314e45ce3</string>
+			<key>size</key>
+			<real>2228356627</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07481.20140924.lsbxZ/iPad4,5_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPad4,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>bc1e04e9ffa731d61722520253eb1a336c7a0479</string>
+			<key>size</key>
+			<real>2228366041</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08110.20140925.JXDGq/iPad4,5_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
 	</dict>
 	<key>iPad mini 2G (Rev A)</key>
 	<dict>
@@ -9519,6 +10563,64 @@
 			<string>http://appldnld.apple.com/iOS8/031-05380.20140917.aj8Sv/iPad4,6_8.0_12A365_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPad4,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>ccacddddcf61e78607cd740617677d79f33baf80</string>
+			<key>size</key>
+			<real>2229134800</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07479.20140924.5EiEr/iPad4,6_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPad4,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08041.20140925.ppl23/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>5a0f5eb6a79831b95d407d73072e62ebacc6a747</string>
+			<key>size</key>
+			<real>2229071291</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08094.20140925.cw37Q/iPad4,6_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
