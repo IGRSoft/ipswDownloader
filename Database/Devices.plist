@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleTV2,1</key>
+	<dict>
+		<key>device</key>
+		<string>Apple TV 2G</string>
+		<key>img</key>
+		<string>AppleTV_2.png</string>
+	</dict>
+	<key>AppleTV3,1</key>
+	<dict>
+		<key>device</key>
+		<string>Apple TV 3G</string>
+		<key>img</key>
+		<string>AppleTV_2.png</string>
+	</dict>
+	<key>AppleTV3,2</key>
+	<dict>
+		<key>device</key>
+		<string>Apple TV 3G (Rev A)</string>
+		<key>img</key>
+		<string>AppleTV_2.png</string>
+	</dict>
+	<key>iPhone4,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 4S</string>
+		<key>img_white</key>
+		<string>iPhone_4_White.png</string>
+		<key>img</key>
+		<string>iPhone_4_Black.png</string>
+	</dict>
+	<key>iPhone4,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 4S</string>
+		<key>img_white</key>
+		<string>iPhone_4_White.png</string>
+		<key>img</key>
+		<string>iPhone_4_Black.png</string>
+	</dict>
+	<key>iPhone4,3</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 4S</string>
+		<key>img_white</key>
+		<string>iPhone_4_White.png</string>
+		<key>img</key>
+		<string>iPhone_4_Black.png</string>
+	</dict>
+	<key>iPhone1,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone</string>
+		<key>img</key>
+		<string>iPhone_3G.png</string>
+	</dict>
+	<key>iPhone1,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 3G</string>
+		<key>img</key>
+		<string>iPhone_3G.png</string>
+	</dict>
+	<key>iPhone2,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 3GS</string>
+		<key>img</key>
+		<string>iPhone_3Gs.png</string>
+	</dict>
+	<key>iPhone3,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 4</string>
+		<key>img_white</key>
+		<string>iPhone_4_White.png</string>
+		<key>img</key>
+		<string>iPhone_4_Black.png</string>
+	</dict>
+	<key>iPhone3,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 4</string>
+		<key>img_white</key>
+		<string>iPhone_4_White.png</string>
+		<key>img</key>
+		<string>iPhone_4_Black.png</string>
+	</dict>
+	<key>iPhone3,3</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 4</string>
+		<key>img_white</key>
+		<string>iPhone_4_White.png</string>
+		<key>img</key>
+		<string>iPhone_4_Black.png</string>
+	</dict>
+	<key>iPhone5,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 5</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
+	<key>iPhone5,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 5</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
+	<key>iPhone5,3</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 5C GSM</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
+	<key>iPhone5,4</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 5C Global</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
+	<key>iPhone6,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 5S GSM</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
+	<key>iPhone6,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 5S Global</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
+	<key>iPhone7,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 6 Plus</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
+	<key>iPhone7,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPhone 6</string>
+		<key>img_white</key>
+		<string>iPhone_5_White.png</string>
+		<key>img</key>
+		<string>iPhone_5_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPhone_5_Black.png</string>
+	</dict>
+	<key>iPod1,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPod Touch 1</string>
+		<key>img</key>
+		<string>iPodTouch.png</string>
+		<key>img_iPodShinyMetal</key>
+		<string>iPodTouch.png</string>
+	</dict>
+	<key>iPod2,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPod Touch 2</string>
+		<key>img</key>
+		<string>iPodTouch.png</string>
+		<key>img_iPodShinyMetal</key>
+		<string>iPodTouch.png</string>
+	</dict>
+	<key>iPod3,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPod Touch 3</string>
+		<key>img</key>
+		<string>iPodTouch_3.png</string>
+		<key>img_iPodShinyMetal</key>
+		<string>iPodTouch_3.png</string>
+	</dict>
+	<key>iPod4,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPod Touch 4</string>
+		<key>img</key>
+		<string>iPodTouch_4_Black.png</string>
+		<key>img_white</key>
+		<string>iPodTouch_4_White.png</string>
+		<key>img_iPodShinyMetal</key>
+		<string>iPodTouch_4_Black.png</string>
+	</dict>
+	<key>iPod5,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPod Touch 5</string>
+		<key>img</key>
+		<string>iPodTouch_5_Black.png</string>
+		<key>img_silver</key>
+		<string>iPodTouch_5_Silver.png</string>
+		<key>img_pink</key>
+		<string>iPodTouch_5_Pink.png</string>
+		<key>img_yellow</key>
+		<string>iPodTouch_5_Yellow.png</string>
+		<key>img_blue</key>
+		<string>iPodTouch_5_Blue.png</string>
+		<key>img_red</key>
+		<string>iPodTouch_5_Red.png</string>
+	</dict>
+	<key>iPad1,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPad</string>
+		<key>img</key>
+		<string>iPad.png</string>
+	</dict>
+	<key>iPad2,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 2 Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad2,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 2 GSM</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad2,3</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 2 CDMA</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad2,4</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 2 Wi-Fi (Rev A)</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad2,5</key>
+	<dict>
+		<key>device</key>
+		<string>iPad mini 1G Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_Mini_White.png</string>
+	</dict>
+	<key>iPad2,6</key>
+	<dict>
+		<key>device</key>
+		<string>iPad mini 1G GSM</string>
+		<key>img</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_Mini_White.png</string>
+	</dict>
+	<key>iPad2,7</key>
+	<dict>
+		<key>device</key>
+		<string>iPad mini 1G Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_Mini_White.png</string>
+	</dict>
+	<key>iPad3,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 3 Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad3,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 3 CDMA</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad3,3</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 3 Global</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad3,4</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 4 Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad3,5</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 4 GSM</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad3,6</key>
+	<dict>
+		<key>device</key>
+		<string>iPad 4 Global</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+	</dict>
+	<key>iPad4,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPad Air Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_2_Black.png</string>
+	</dict>
+	<key>iPad4,2</key>
+	<dict>
+		<key>device</key>
+		<string>iPad Air Cellular</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_2_Black.png</string>
+	</dict>
+	<key>iPad4,4</key>
+	<dict>
+		<key>device</key>
+		<string>iPad mini 2G Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_Mini_White.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_Mini_Black.png</string>
+	</dict>
+	<key>iPad4,5</key>
+	<dict>
+		<key>device</key>
+		<string>iPad mini 2G Cellular</string>
+		<key>img</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_Mini_White.png</string>
+	</dict>
+</dict>
+</plist>

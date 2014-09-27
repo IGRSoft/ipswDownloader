@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+	<channel>
+		<title>ipswDownloader Changelog</title>
+		<language>en</language>      
+			<item>
+				<title>Version 1.0, Build 25</title>
+				<sparkle:releaseNotesLink>http://ibrain.com.ua/wp-content/iPhone/info_10.html</sparkle:releaseNotesLink>
+				<pubDate>Tue, 02 Aug 2011 20:28:45 +0300</pubDate>
+				<enclosure url="http://ibrain.com.ua/wp-content/files/ipswDownloader/ipswDownloader_10.zip" sparkle:version="1.0" length="1365731" type="application/octet-stream" sparkle:dsaSignature="MC0CFCNDy9d9LK5xF7WMBkBeXFACL61sAhUAkmjILBSp+ysyaEUbYr3IqFJrs8I=" />
+			</item>
+			<item>
+				<title>Version 1.1, Build 27</title>
+				<sparkle:releaseNotesLink>http://ibrain.com.ua/wp-content/iPhone/info_11.html</sparkle:releaseNotesLink>
+				<pubDate>Sat, 29 Oct 2011 21:42:09 +0300</pubDate>
+				<enclosure url="http://ibrain.com.ua/wp-content/files/ipswDownloader/ipswDownloader_11.zip" sparkle:version="1.1" length="1370418" type="application/octet-stream" sparkle:dsaSignature="MCwCFAfERFismXgRSYQ3zqLdht3CJXBkAhRn4/MRwvG9i0m9c55y37sR/FwBjg==" />
+			</item>
+            <item>
+				<title>Version 1.2, Build 30</title>
+				<sparkle:releaseNotesLink>http://ibrain.com.ua/wp-content/iPhone/info_12.html</sparkle:releaseNotesLink>
+				<pubDate>Mon, 28 Nov 2011 22:39:48 +0200</pubDate>
+				<enclosure url="http://ibrain.com.ua/wp-content/files/ipswDownloader/ipswDownloader_12.zip" sparkle:version="1.2" length="1406769" type="application/octet-stream" sparkle:dsaSignature="MC0CFC3MdmKbx2Qr1s9YrE3bxtXSPsqUAhUAkln2USYFCwNfSNEXMSDKP+QaBUc=" />
+			</item>
+			<item>
+				<title>Version 1.3, Build 33</title>
+				<sparkle:releaseNotesLink>http://ibrain.com.ua/wp-content/iPhone/info_13.html</sparkle:releaseNotesLink>
+				<pubDate>Fri, 30 Dec 2011 22:27:38 +0200</pubDate>
+				<enclosure url="http://ibrain.com.ua/wp-content/files/ipswDownloader/ipswDownloader_13.zip" sparkle:version="1.3" length="1418368" type="application/octet-stream" sparkle:dsaSignature="MC0CFAE8tGGuEevb+JLxiVPcuCDEQDWoAhUAmVgxxaphWqXglNKij+6eCh4Fum4=" />
+			</item>
+			<item>
+				<title>Version 1.3.1, Build 34</title>
+				<sparkle:releaseNotesLink>http://ibrain.com.ua/wp-content/iPhone/info_131.html</sparkle:releaseNotesLink>
+				<pubDate>Tue, 03 Jan 2012 01:45:21 +0200</pubDate>
+				<enclosure url="http://ibrain.com.ua/wp-content/files/ipswDownloader/ipswDownloader_131.zip" sparkle:version="1.3.1" length="1418403" type="application/octet-stream" sparkle:dsaSignature="MCwCFGZPdoHh7VMRDnhkQxSAVjD5yMV7AhR9+u/neh2TIWyltS4NBrVKX8OrIw==" />
+			</item>
+			<item>
+				<title>Version 1.4, Build 40</title>
+				<sparkle:releaseNotesLink>http://ibrain.com.ua/wp-content/iPhone/info_14.html</sparkle:releaseNotesLink>
+				<pubDate>Tue, 03 Jan 2012 21:59:17 +0200</pubDate>
+				<enclosure url="http://ibrain.com.ua/wp-content/files/ipswDownloader/ipswDownloader_14.zip" sparkle:version="1.4" length="1424471" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCWMhOIxOuWSYO9cE8S3IpbcwKAgAIUTWHyrgRaLXyszfshNTzm6Rbjuiw=" />
+			</item>
+			<item>
+				<title>Version 1.4.1, Build 41</title>
+				<sparkle:releaseNotesLink>http://ibrain.com.ua/wp-content/iPhone/info_141.html</sparkle:releaseNotesLink>
+				<pubDate>Mon, 09 Jan 2012 12:55:25 +0200</pubDate>
+				<enclosure url="http://ibrain.com.ua/wp-content/files/ipswDownloader/ipswDownloader_141.zip" sparkle:version="1.4.1" length="1424471" type="application/octet-stream" sparkle:dsaSignature="MCwCFH7CT2Xduel0hKIWFxAYKQpJJa+UAhRsLe1K5z5WOz62YQ/XUXj+CWXmuA==" />
+			</item>
+			<item>
+				<title>Version 1.5, Build 43</title>
+				<sparkle:releaseNotesLink>http://ibrain.com.ua/wp-content/iPhone/info_15.html</sparkle:releaseNotesLink>
+				<pubDate>Fri, 27 Jan 2012 17:22:11 +0200</pubDate>
+				<enclosure url="http://ibrain.com.ua/wp-content/files/ipswDownloader/ipswDownloader_15.zip" sparkle:version="1.5" length="1869286" type="application/octet-stream" sparkle:dsaSignature="MCwCFHDIEwgGStExYWqTpz9uwtCK+a3WAhR3b9/OpEmIdsS33g33+kr17LYhrQ==" />
+			</item>
+			<item>
+				<title>Version 1.6.0, Build 74</title>
+				<sparkle:releaseNotesLink>http://igrsoft.com/wp-content/iPhone/info_160.html</sparkle:releaseNotesLink>
+				<pubDate>Wed, 23 May 2012 00:10:59 +0300</pubDate>
+				<enclosure url="http://igrsoft.com/wp-content/files/ipswDownloader/ipswDownloader_160.zip" sparkle:version="1.6.0" length="1886273" type="application/octet-stream" sparkle:dsaSignature="MCwCFCJogPNi/E+wFyAfQWh3oZiea9OFAhR2z1GOttx4XRGf0MZrbzzUAlkh7A==" />
+			</item>
+	</channel>
+</rss>

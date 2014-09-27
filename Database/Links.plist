@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Jailbreake</key>
+	<dict>
+		<key>RedSn0w</key>
+		<string>http://blog.iphone-dev.org/</string>
+		<key>PwnageTool</key>
+		<string>http://blog.iphone-dev.org/</string>
+		<key>QuickPWN</key>
+		<string>http://blog.iphone-dev.org/</string>
+		<key>GreenPois0n</key>
+		<string>http://greenpois0n.com/</string>
+		<key>Absinthe</key>
+		<string>http://greenpois0n.com/</string>
+		<key>CDevReporter</key>
+		<string>http://greenpois0n.com/</string>
+		<key>Sn0wBreeze</key>
+		<string>http://ih8sn0w.com/</string>
+		<key>BlackRa1n</key>
+		<string>http://blackra1n.com/</string>
+		<key>BlackSn0w</key>
+		<string>http://blackra1n.com/</string>
+		<key>LimeRa1n</key>
+		<string>http://limera1n.com/</string>
+		<key>JailbreakMe</key>
+		<string>http://www.jailbreakme.com</string>
+		<key>Spirit</key>
+		<string>http://spiritjb.com/</string>
+		<key>Seas0nPass</key>
+		<string>http://appletvblogr.com</string>
+		<key>Ac1dsn0w</key>
+		<string>http://pwndevteam.com/</string>
+		<key>evasi0n</key>
+		<string>http://evasi0n.com</string>
+		<key>evasi0n7</key>
+		<string>http://evasi0n.com</string>
+		<key>p0sixspwn</key>
+		<string>http://p0sixspwn.com</string>
+		<key>pangu</key>
+		<string>http://pangu.io</string>
+	</dict>
+	<key>Unlock</key>
+	<dict>
+		<key>ultrasn0w</key>
+		<string>http://blog.iphone-dev.org/</string>
+		<key>yellowsn0w</key>
+		<string>http://blog.iphone-dev.org/</string>
+		<key>BootNeuter</key>
+		<string>http://www.google.com/search?q=bootneuter+download</string>
+		<key>SAM</key>
+		<string>http://www.iclarified.com/entry/index.php?enid=21501</string>
+	</dict>
+	<key>Support</key>
+	<dict>
+		<key>IGR Software</key>
+		<string>http://igrsoft.com</string>
+		<key>Donate</key>
+		<string>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ENPVXEYJUQU9G</string>
+		<key>Twitter</key>
+		<string>http://twitter.com/#!/iKorich</string>
+		<key>Facebook</key>
+		<string>http://www.facebook.com/pages/IpswDownloader/201703813201575</string>
+		<key>Mail</key>
+		<string>mailto:igrsoft@gmail.com</string>
+		<key>Windows Version</key>
+		<string>http://3d-orange.com.ua/?s=ipswDownloader</string>
+		<key>3D Orange</key>
+		<string>http://3d-orange.com.ua</string>
+	</dict>
+	<key>Tools</key>
+	<dict>
+		<key>iTunes</key>
+		<string>http://www.apple.com/itunes/</string>
+		<key>TinyUmbrella</key>
+		<string>http://thefirmwareumbrella.blogspot.com/</string>
+		<key>iPhone Explorer</key>
+		<string>http://www.macroplant.com/</string>
+	</dict>
+</dict>
+</plist>

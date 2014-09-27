@@ -17,8 +17,8 @@ profile
 DerivedData
 .idea/
 
-ipswDownloader/Firmware
-ipswDownloader/Links
-ipswDownloader/Devices
+Database/Firmware
+Database/Links
+Database/Devices
 
 Frameworks/Growl.framework
