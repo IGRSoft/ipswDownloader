@@ -76,15 +76,15 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 		return nil;
 	}
 	
-	int64_t delayInSeconds = 1.0;
-	dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
-	dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-		idevice_event_subscribe(&device_event_cb, NULL);
-	});
-	
 	tmpSelf = self;
 	
     return self;
+}
+
+- (void)setDelegate:(id<MobileDeviceServerDelegate>)delegate
+{
+    _delegate = delegate;
+    idevice_event_subscribe(&device_event_cb, NULL);
 }
 
 - (id)copyWithZone:(NSZone *)zone
@@ -108,7 +108,6 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 		}
 		
 		afc = [self getAFCInfoForDevice:device];
-		//lockdownd = [self getInfoForDevice:device];
 		
 		if (device && [self.delegate respondsToSelector:@selector(newDeviceDetected:)]) {
 			[self.delegate newDeviceDetected:[self deviceProductType]];
@@ -157,16 +156,22 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 
 - (lockdownd_client_t)getInfoForDevice:(idevice_t)aDevice
 {
-	lockdownd_client_t _lockdownd;
-	
- 	lockdownd_error_t lockdownd_error = 0;
-	DBNSLog(@"INFO: Creating lockdownd client");
-	lockdownd_error = lockdownd_client_new_with_handshake(aDevice, &_lockdownd, "ipswDownloader");
-	if(lockdownd_error != LOCKDOWN_E_SUCCESS) {
-		DBNSLog(@"ERROR: Cannot create lockdownd client");
-		return nil;
-	}
-	
+    static lockdownd_client_t _lockdownd = NULL;
+    
+    if (!_lockdownd && aDevice)
+    {
+        lockdownd_error_t lockdownd_error = 0;
+        DBNSLog(@"INFO: Creating lockdownd client");
+        lockdownd_error = lockdownd_client_new_with_handshake(aDevice, &_lockdownd, "ipswDownloader");
+        if(lockdownd_error != LOCKDOWN_E_SUCCESS) {
+            DBNSLog(@"ERROR: Cannot create lockdownd client");
+        }
+    }
+    else if (!aDevice)
+    {
+        _lockdownd = NULL;
+    }
+    
 	return _lockdownd;
 }
 
@@ -180,17 +185,14 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 	
 	if (!client)
 	{
-		lockdownd_client_free(client);
 		return _afc;
 	}
 	
 	if ((lockdownd_start_service(client, "com.apple.afc", &descriptor) != LOCKDOWN_E_SUCCESS) || !descriptor)
 	{
-		lockdownd_client_free(client);
 		return _afc;
 	}
 	
-	lockdownd_client_free(client);
 	afc_client_new(aDevice, descriptor, &_afc);
 	
 	return _afc;
@@ -203,6 +205,8 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 
 - (void)dealloc
 {
+    [self getInfoForDevice:nil];
+    
 	if (device) idevice_free(device);
 }
 
@@ -388,7 +392,6 @@ NSString* load_icon (sbservices_client_t sbs, const char *_id);
 			plist_to_xml(value_node, &val, &xml_length);
 		}
 	}
-	lockdownd_client_free(lockdownd);
 	
 	return val != NULL ? [NSString stringWithUTF8String:val] : @"";
 }
@@ -433,6 +436,7 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	}
 	else if (event->event == IDEVICE_DEVICE_REMOVE)
 	{
+        [self getInfoForDevice:nil];
 		if (device) idevice_free(device);
 		if ([self.delegate respondsToSelector:@selector(deviceRemoved)])
 		{
@@ -501,7 +505,6 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	{
 		DBNSLog(@"ERROR: instproxy_browse returned %d", err);
 		instproxy_client_free(ipc);
-		lockdownd_client_free(client);
 		if (sbs) sbservices_client_free(sbs);
 		
 		return nil;
@@ -510,7 +513,6 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	{
 		DBNSLog(@"ERROR: instproxy_browse returnd an invalid plist!");
 		instproxy_client_free(ipc);
-		lockdownd_client_free(client);
 		if (sbs) sbservices_client_free(sbs);
 		
 		return nil;
@@ -527,7 +529,6 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 		}
 		plist_free(apps);
 		instproxy_client_free(ipc);
-		lockdownd_client_free(client);
 		if (sbs) sbservices_client_free(sbs);
 	
 		return nil;
@@ -597,7 +598,6 @@ void device_event_cb(const idevice_event_t* event, void* userdata)
 	}
 	plist_free(apps);
 	instproxy_client_free(ipc);
-	lockdownd_client_free(client);
 	if (sbs) sbservices_client_free(sbs);
 	
 	return arr;

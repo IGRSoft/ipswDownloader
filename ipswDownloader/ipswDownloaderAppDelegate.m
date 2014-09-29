@@ -96,11 +96,14 @@ static const NSUInteger kSecInMin = 60;
 														 selector:@selector(updateDownloadInfo)
 														 userInfo:nil
 														  repeats:YES];
-	dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0);
-	dispatch_async(queue, ^{
-		m_MobileDeviceServer = [[MobileDeviceServer alloc] init];
-		[m_MobileDeviceServer setDelegate:self];
-	});
+    
+    double delayInSeconds = 1.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        
+        m_MobileDeviceServer = [[MobileDeviceServer alloc] init];
+        [m_MobileDeviceServer setDelegate:self];
+    });
 }
 
 - (id)init
