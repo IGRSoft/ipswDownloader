@@ -383,6 +383,17 @@
 		<key>img_#3b3b3c</key>
 		<string>iPad_2_Black.png</string>
 	</dict>
+	<key>iPad4,3</key>
+	<dict>
+		<key>device</key>
+		<string>iPad Air Cellular (Rev A)</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_2_Black.png</string>
+	</dict>
 	<key>iPad4,4</key>
 	<dict>
 		<key>device</key>
@@ -404,6 +415,61 @@
 		<string>iPad_Mini_Black.png</string>
 		<key>img_#3b3b3c</key>
 		<string>iPad_Mini_White.png</string>
+	</dict>
+	<key>iPad4,7</key>
+	<dict>
+		<key>device</key>
+		<string>iPad mini 3G Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_Mini_White.png</string>
+	</dict>
+	<key>iPad4,8</key>
+	<dict>
+		<key>device</key>
+		<string>iPad mini 3G Cellular</string>
+		<key>img</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_Mini_White.png</string>
+	</dict>
+	<key>iPad4,9</key>
+	<dict>
+		<key>device</key>
+		<string>iPad mini 3G (Rev A)</string>
+		<key>img</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_Mini_Black.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_Mini_White.png</string>
+	</dict>
+	<key>iPad5,3</key>
+	<dict>
+		<key>device</key>
+		<string>iPad Air 2 Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_2_Black.png</string>
+	</dict>
+	<key>iPad5,4</key>
+	<dict>
+		<key>device</key>
+		<string>iPad Air 2 Cellular</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_2_Black.png</string>
 	</dict>
 </dict>
 </plist>
