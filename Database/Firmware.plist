@@ -16328,9 +16328,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>ad1634d28be520671612af513e9eff699e649f0b</string>
 			<key>size</key>
@@ -16357,9 +16357,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>67a0992711c6c2b8cded2f73978acdfc41d57744</string>
 			<key>size</key>
@@ -16386,9 +16386,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>67710e1a325be26a7d0ae27da31eb4653fc5bcd5</string>
 			<key>size</key>
@@ -16403,6 +16403,64 @@
 			<string></string>
 			<key>build</key>
 			<string>Okemo</string>
+		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.4.00</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09059.20141020.ggTJD/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>18d4e0950b52165f10588633510dfcebe11a86b0</string>
+			<key>size</key>
+			<real>1777885180</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09535.20141020.XaY73/iPhone4,1_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B435</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.4.00</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-11264.20141117.SKNir/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>941857f93e46e2ba58fb4bac45b74abd0b711b0b</string>
+			<key>size</key>
+			<real>1559968471</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-10020.20141117.ytRjS/iPhone4,1_8.1.1_12B435_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
 		</dict>
 	</dict>
 	<key>iPhone 5 GSM</key>
@@ -16853,9 +16911,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>56de17df87ec8fba9ad0d0c19b6667801ed3a8b7</string>
 			<key>size</key>
@@ -16882,9 +16940,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>96a292adf2e5a61326771e41722c595af2c23a2c</string>
 			<key>size</key>
@@ -16911,9 +16969,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>8706a73b77a52170b6a7cc61ffcd68742457f12f</string>
 			<key>size</key>
@@ -16928,6 +16986,64 @@
 			<string></string>
 			<key>build</key>
 			<string>Okemo</string>
+		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09059.20141020.ggTJD/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>18d4e0950b52165f10588633510dfcebe11a86b0</string>
+			<key>size</key>
+			<real>1816816148</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09568.20141020.2Dfj1/iPhone5,1_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B435</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-11264.20141117.SKNir/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>3d40671cbd70700343380b60cd6c630a83424444</string>
+			<key>size</key>
+			<real>1599089923</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-09776.20141117.vXXfN/iPhone5,1_8.1.1_12B435_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
 		</dict>
 	</dict>
 	<key>iPhone 5 Global</key>
@@ -17378,9 +17494,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>f0b620101c07a0720bfa16780869b1c47eb3aa41</string>
 			<key>size</key>
@@ -17407,9 +17523,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>80005c0108e64488fba19f5a97c860509d259bc0</string>
 			<key>size</key>
@@ -17436,9 +17552,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>0f637001cf3cab122a54234cfdf90423f40f1850</string>
 			<key>size</key>
@@ -17453,6 +17569,64 @@
 			<string></string>
 			<key>build</key>
 			<string>Okemo</string>
+		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09059.20141020.ggTJD/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>931563e7756c189bde87bb89778163fa5076cd53</string>
+			<key>size</key>
+			<real>1817261233</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09493.20141020.biBGk/iPhone5,2_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B435</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-11264.20141117.SKNir/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>72a3b8ec1390eeca817b9dac607e41d1e7c37975</string>
+			<key>size</key>
+			<real>1599402355</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-09939.20141117.t2uQL/iPhone5,2_8.1.1_12B435_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
 		</dict>
 	</dict>
 	<key>iPhone 5C GSM</key>
@@ -17700,9 +17874,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>f0b697c6b6d7e901212ac3b63936f3b717b192f0</string>
 			<key>size</key>
@@ -17729,9 +17903,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>7d26419c3057f35c668275f184d2266b4325bc6d</string>
 			<key>size</key>
@@ -17758,9 +17932,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>562ae7c5f5d54da9e4763c8be2cd560af8d9dd56</string>
 			<key>size</key>
@@ -17775,6 +17949,64 @@
 			<string></string>
 			<key>build</key>
 			<string>Okemo</string>
+		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09059.20141020.ggTJD/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>86e7b61ec70e11631ec1966fe5c9874fb3674af9</string>
+			<key>size</key>
+			<real>1827411946</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09534.20141020.Bs3EW/iPhone5,3_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B435</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-11264.20141117.SKNir/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>dd69d7b1ab5c1c7c14f1c0384dc547814c214619</string>
+			<key>size</key>
+			<real>1609319881</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-10014.20141117.L18bL/iPhone5,3_8.1.1_12B435_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
 		</dict>
 	</dict>
 	<key>iPhone 5C Global</key>
@@ -18051,9 +18283,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>4a22f014bbf7c62f4e7f6cb958d0c93c25fe7bbb</string>
 			<key>size</key>
@@ -18068,6 +18300,122 @@
 			<string></string>
 			<key>build</key>
 			<string>Okemo</string>
+		</dict>
+		<key>8.0.1 / 12A402</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPhone5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08039.20140925.Frerr/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>51b7fe3b3f4adc06e0dad95ed3c8f83e3c414884</string>
+			<key>size</key>
+			<real>1824939076</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-07486.20140924.8optk/iPhone5,4_8.0.1_12A402_Restore.ipsw</string>
+			<key>date</key>
+			<string>24 Sep 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.0.2 / 12A405</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.09.01</string>
+			<key>hwstr</key>
+			<string>iPhone5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8/Documentation/031-08039.20140925.Frerr/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>ac4721a08c9cd189dcefd5ba4f9e14318624d791</string>
+			<key>size</key>
+			<real>1825114071</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8/031-08083.20140925.13BUr/iPhone5,4_8.0.2_12A405_Restore.ipsw</string>
+			<key>date</key>
+			<string>25 Sep 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Okemo</string>
+		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09059.20141020.ggTJD/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>ecf042019989c61bb6532be711800e51ad02b5a9</string>
+			<key>size</key>
+			<real>1826931948</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09410.20141020.Jhv5W/iPhone5,4_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B435</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-11264.20141117.SKNir/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>b87a2c6f427950c6547a9ae4b60ec77453db0e9a</string>
+			<key>size</key>
+			<real>1609076876</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-09781.20141117.kBGeC/iPhone5,4_8.1.1_12B435_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
 		</dict>
 	</dict>
 	<key>iPhone 5S GSM</key>
@@ -18315,9 +18663,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>a1fdf212c4cd705bc5c81c5e79b98f951206a298</string>
 			<key>size</key>
@@ -18344,9 +18692,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>f23cff41c586448631fa7826bc4ea505a77e2c29</string>
 			<key>size</key>
@@ -18373,9 +18721,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>0af7bc78e311f9d7db4b0a543c39632559747be2</string>
 			<key>size</key>
@@ -18390,6 +18738,64 @@
 			<string></string>
 			<key>build</key>
 			<string>Okemo</string>
+		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09059.20141020.ggTJD/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>28853c4cee9c42d8d2787f53a8563d995f833ff8</string>
+			<key>size</key>
+			<real>2086071905</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09563.20141020.HPieF/iPhone6,1_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B435</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-11264.20141117.SKNir/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>6db4cb8a78580e65df7cf5202c9ef4842274bdab</string>
+			<key>size</key>
+			<real>1862953133</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-10080.20141117.dJQMW/iPhone6,1_8.1.1_12B435_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
 		</dict>
 	</dict>
 	<key>iPhone 5S Global</key>
@@ -18666,9 +19072,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>51dac179996563b5eb189fd599d7dd576fac77bc</string>
 			<key>size</key>
@@ -18695,9 +19101,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>feea363e5bbb9de0c25d76c0229c7d3c1c8f2adf</string>
 			<key>size</key>
@@ -18724,9 +19130,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>0af7bc78e311f9d7db4b0a543c39632559747be2</string>
 			<key>size</key>
@@ -18742,6 +19148,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09059.20141020.ggTJD/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>59d0ae8222bc5b3c52203e7e5e98883e28d7d953</string>
+			<key>size</key>
+			<real>2085953369</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09453.20141020.XRmMG/iPhone6,2_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B435</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-11264.20141117.SKNir/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>eebdf4616a5ea19cfc2ae4ae585693e86736fb9e</string>
+			<key>size</key>
+			<real>1862696240</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-09871.20141117.Wz6cX/iPhone6,2_8.1.1_12B435_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
 	</dict>
 	<key>iPhone 6</key>
 	<dict>
@@ -18756,9 +19220,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>b7851e068a6187cd0b85c4137d1a8844776b6e2c</string>
 			<key>size</key>
@@ -18785,9 +19249,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>0b787e5a25923328d3e1083e3e6dead40a09f96f</string>
 			<key>size</key>
@@ -18814,9 +19278,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>d3eabbb5374b1980bd28a67e0341d14d4bab5886</string>
 			<key>size</key>
@@ -18832,6 +19296,64 @@
 			<key>build</key>
 			<string>Okemo</string>
 		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.04.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09059.20141020.ggTJD/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>586b6ef9e3f1deec2000b6d508d058164829141d</string>
+			<key>size</key>
+			<real>2086819650</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09552.20141020.HUR2S/iPhone7,2_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B436</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.04.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-12358.20141117.Jtg5t/iPhone7,2_8.1.1_12B436_Restore.ipsw</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>4e340b9f1f2b68fc0cc1488e3cd51828b8c38665</string>
+			<key>size</key>
+			<real>1877415334</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-12358.20141117.Jtg5t/iPhone7,2_8.1.1_12B436_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
 	</dict>
 	<key>iPhone 6 Plus</key>
 	<dict>
@@ -18846,9 +19368,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>bfe00f19ca630bfd7c831ffc765ea3b32cf9e48b</string>
 			<key>size</key>
@@ -18875,9 +19397,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>48c48c91e4ed553e17cce454b91adb89e1a214af</string>
 			<key>size</key>
@@ -18904,9 +19426,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>08fb92354c9aaba1a3e0ee1d50e30615bebfef42</string>
 			<key>size</key>
@@ -18921,6 +19443,64 @@
 			<string></string>
 			<key>build</key>
 			<string>Okemo</string>
+		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.04.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09059.20141020.ggTJD/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>56b069393ca2637507ef44d95d80c5e010636e30</string>
+			<key>size</key>
+			<real>2408446841</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09660.20141020.Zt4Uu/iPhone7,1_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B436</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.04.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-11264.20141117.SKNir/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>e306dba340188c167efd719780bcf42d129cd161</string>
+			<key>size</key>
+			<real>2198407125</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-12474.20141117.2XxNt/iPhone7,1_8.1.1_12B436_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
 		</dict>
 	</dict>
 	<key>iPod Touch 1</key>
@@ -21181,9 +21761,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>f935397e82fb31c0a4a474b946c9ebad7710a66a</string>
 			<key>size</key>
@@ -21210,9 +21790,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>5e86fdb5d8556d7690007ab03ac1fc38a917c163</string>
 			<key>size</key>
@@ -21239,9 +21819,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>pangu8</string>
 			<key>sha1</key>
 			<string>b17471b0f8b1ad2c7cf16d7427c2158b623dd77d</string>
 			<key>size</key>
@@ -21256,6 +21836,64 @@
 			<string></string>
 			<key>build</key>
 			<string>Okemo</string>
+		</dict>
+		<key>8.1 / 12B411</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1/Documentation/031-09057.20141020.SyVgv/iPodtouchiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>pangu8</string>
+			<key>sha1</key>
+			<string>b1383a5563cf3c1991672d24608fb5a4a89295d3</string>
+			<key>size</key>
+			<real>1760492949</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1/031-09646.20141020.ZWaD1/iPod5,1_8.1_12B411_Restore.ipsw</string>
+			<key>date</key>
+			<string>20 Oct 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>OkemoTaos</string>
+		</dict>
+		<key>8.1.1 / 12B435</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-11266.20141117.FRYik/iPodtouchiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>f2d3a3c532ee33cfbbeb777aabc161529ada7498</string>
+			<key>size</key>
+			<real>1554069267</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-09942.20141117.rPzRB/iPod5,1_8.1.1_12B435_Restore.ipsw</string>
+			<key>date</key>
+			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
 		</dict>
 	</dict>
 </dict>
