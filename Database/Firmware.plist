@@ -2898,9 +2898,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>621bb2e1bc657e3c107b68f94a2865ca3b416517</string>
 			<key>size</key>
@@ -2927,9 +2927,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>e5363c8a06300d75015d9f4b9b74be6c90ead7d7</string>
 			<key>size</key>
@@ -2956,9 +2956,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>c7b81efa61a1adef63d69fdbf239c7effe691297</string>
 			<key>size</key>
@@ -2987,7 +2987,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>4ad4aa64524b646d681b26dd57310e3d29aa1de2</string>
 			<key>size</key>
@@ -3014,9 +3014,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>0f693fba3d8d24346c3c594171b88ed0eb34c743</string>
 			<key>size</key>
@@ -3027,6 +3027,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09827.20141117.bYw4D/iPad2,1_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>a8878e9e4f622ff9a0ada680ba9025597643e403</string>
+			<key>size</key>
+			<real>1403288119</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12405.20141208.wjy81/iPad2,1_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -3713,9 +3742,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>7c116f8aacb3e02cb169184885ac66a8b931c859</string>
 			<key>size</key>
@@ -3742,9 +3771,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>9e8fb546101c825f41218959191daaa5240045c6</string>
 			<key>size</key>
@@ -3771,9 +3800,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>262108076778085d3f81517d47d600f8593e4f9f</string>
 			<key>size</key>
@@ -3802,7 +3831,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>77cd64a4cd66ab34c2f799d22727443b20a0388f</string>
 			<key>size</key>
@@ -3829,9 +3858,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>51a260eb79b18162a750fc1117c6efae23bd82c8</string>
 			<key>size</key>
@@ -3842,6 +3871,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09898.20141117.DnCVi/iPad2,2_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>a9499dd38c7cb4296aa0035938a14a7ef9140391</string>
+			<key>size</key>
+			<real>1420308943</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12441.20141208.qAyrY/iPad2,2_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -4528,9 +4586,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>681c4175360e15db1860dfe0e124b133525e04e7</string>
 			<key>size</key>
@@ -4557,9 +4615,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>589ef82574589e0b13deea518477bdadbdfc5238</string>
 			<key>size</key>
@@ -4586,9 +4644,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>3859e7afad20591de7f9e07612361e12aa6c4bd5</string>
 			<key>size</key>
@@ -4617,7 +4675,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>4d2782e3e105f0f0cb5de394bc0f2761f3db8ffa</string>
 			<key>size</key>
@@ -4644,9 +4702,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>74a4aec53d5b8f15f8b9db95c721bada4b00af4c</string>
 			<key>size</key>
@@ -4657,6 +4715,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09889.20141117.h6JUs/iPad2,3_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.0.04</string>
+			<key>hwstr</key>
+			<string>iPad2,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>c4bfa39441b2de8cb999fac7f7b4a585ba292d96</string>
+			<key>size</key>
+			<real>1419162723</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12437.20141208.TeUzK/iPad2,3_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -5111,9 +5198,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>6de7ee8a95187c0a76668f2d498e936f484f0a86</string>
 			<key>size</key>
@@ -5140,9 +5227,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>2e88ef51c1aaf87e202bc5ff3de3f43dcac44c5d</string>
 			<key>size</key>
@@ -5169,9 +5256,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>1738e51adaa6f3664c6b6a7ebc23f1c391aa4f5f</string>
 			<key>size</key>
@@ -5200,7 +5287,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>df71c64c15dfa654bfa2d72d5f5ee7e9855e0b90</string>
 			<key>size</key>
@@ -5221,25 +5308,54 @@
 			<key>baseband</key>
 			<string>none</string>
 			<key>hwstr</key>
-			<string>iPad</string>
+			<string>iPad2,4</string>
 			<key>docs</key>
 			<string>http://appldnld.apple.com/iOS8.1.1/031-11265.20141117.3cDu5/iPadiTunesUpdateReadMe_8.0.ipd</string>
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
-			<string></string>
+			<string>c1231670dab3c940d4058d1d79a499b9828e973d</string>
 			<key>size</key>
-			<integer>0</integer>
+			<real>1402784929</real>
 			<key>unlock</key>
 			<true/>
 			<key>url</key>
-			<string></string>
+			<string>http://appldnld.apple.com/iOS8.1.1/031-10040.20141117.WNO2d/iPad2,4_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>0f4021667ea53ca95421130ee0f0625475e67bee</string>
+			<key>size</key>
+			<real>1402881022</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12522.20141208.nWf7U/iPad2,4_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -5694,9 +5810,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>7be1fd852da3368b6e4553317a255dcbb1c87935</string>
 			<key>size</key>
@@ -5723,9 +5839,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>70ffd7f3548aacb25c2d10c369a536ee8c954ee3</string>
 			<key>size</key>
@@ -5752,9 +5868,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>1ed28a76dd3627735ad618672777939177fc765d</string>
 			<key>size</key>
@@ -5783,7 +5899,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>df71c64c15dfa654bfa2d72d5f5ee7e9855e0b90</string>
 			<key>size</key>
@@ -5812,7 +5928,7 @@
 			<key>jailbreak</key>
 			<false/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>ef318ba417711e6c63c75e112cb4339bc65d6612</string>
 			<key>size</key>
@@ -5823,6 +5939,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09981.20141117.RGDaL/iPad3,1_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>816dba56330645c1a0ef6a383a247c01047fea4f</string>
+			<key>size</key>
+			<real>1775584628</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12485.20141208.Q8iqd/iPad3,1_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -6277,9 +6422,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>10ed11c5a568ab2c49092a868c7639ced0eb883f</string>
 			<key>size</key>
@@ -6306,9 +6451,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>c0835ce57804d1ed96ff589a593db5e2d75ccf89</string>
 			<key>size</key>
@@ -6335,9 +6480,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>812354680974aaafcc7a171ba40b4b42a165b4cc</string>
 			<key>size</key>
@@ -6366,7 +6511,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>da781b2850804783b69b685d3f42827c847a0b91</string>
 			<key>size</key>
@@ -6393,9 +6538,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>9f772ccda06b012285fafa3fd82c1c73be36da80</string>
 			<key>size</key>
@@ -6406,6 +6551,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09863.20141117.QEtTT/iPad3,2_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.3.00</string>
+			<key>hwstr</key>
+			<string>iPad3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>c16ee94382ec49e005a718284e938e7ff2875b41</string>
+			<key>size</key>
+			<real>1810543413</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-11429.20141208.BHqnH/iPad3,2_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -6860,9 +7034,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>c6283c5cda944036770812ed6908fac789063121</string>
 			<key>size</key>
@@ -6889,9 +7063,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>dc7ffe43efa144c75e5c4f96ef94d06f4ea891e3</string>
 			<key>size</key>
@@ -6918,9 +7092,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>5c94882abb43dd3ca893c16b7df1115f3db3076e</string>
 			<key>size</key>
@@ -6949,7 +7123,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>4825f516c560841d3ca7d88f3880f25c12bd93d9</string>
 			<key>size</key>
@@ -6976,9 +7150,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>c9993c0c789c80214f222030710e3448e9306647</string>
 			<key>size</key>
@@ -6989,6 +7163,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09999.20141117.EL2Tn/iPad3,3_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.3.00</string>
+			<key>hwstr</key>
+			<string>iPad3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>492fa45f7e1213b75ad09710b2d700bfeb86b973</string>
+			<key>size</key>
+			<real>1810531931</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12492.20141208.JkSS4/iPad3,3_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -7385,9 +7588,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>b32c45ca1b05a436076ddf8343ce69720c271a4b</string>
 			<key>size</key>
@@ -7414,9 +7617,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>57d333d7729247f0ea2ff4977c4ffe6b51a2e949</string>
 			<key>size</key>
@@ -7443,9 +7646,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>35f3d90a755d5d5ccdf48c2ca64bde7f4fcbc3e4</string>
 			<key>size</key>
@@ -7474,7 +7677,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>4825f516c560841d3ca7d88f3880f25c12bd93d9</string>
 			<key>size</key>
@@ -7501,9 +7704,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>454ff558bf3f2007b78592331a019f6d2d1bcac0</string>
 			<key>size</key>
@@ -7514,6 +7717,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09837.20141117.9FaQ0/iPad3,4_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>ac3820ddfb37996d54f6fd6a65104014696b6387</string>
+			<key>size</key>
+			<real>1796392014</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12409.20141208.j3glB/iPad3,4_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -7881,9 +8113,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>e1140b5604bb5ea84fb9fd82925bb850af55bae2</string>
 			<key>size</key>
@@ -7910,9 +8142,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>441c864742f3c62d04be5609597e50d1a75b87f7</string>
 			<key>size</key>
@@ -7939,9 +8171,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>6085d8ce036942d1f01dce936e952022911cc395</string>
 			<key>size</key>
@@ -7970,7 +8202,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>60526fe584888399679102cf0d46f19d39967ee0</string>
 			<key>size</key>
@@ -7997,9 +8229,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>e88ddc8dc152d60b885542e4f9e115eb69b81b77</string>
 			<key>size</key>
@@ -8010,6 +8242,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09972.20141117.bedbD/iPad3,5_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad3,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>ac3820ddfb37996d54f6fd6a65104014696b6387</string>
+			<key>size</key>
+			<real>1796392014</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12409.20141208.j3glB/iPad3,4_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -8377,9 +8638,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>ebc46771f9b6736797591cd3604dd35ac03ebe28</string>
 			<key>size</key>
@@ -8406,9 +8667,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>831d9f160186aea018c2bb9a70d08d19b42aff25</string>
 			<key>size</key>
@@ -8435,9 +8696,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>61c1fd94d7090a187c88d237a1c69ccf51bd0bc3</string>
 			<key>size</key>
@@ -8466,7 +8727,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>02dcb1101eeef761e18786811bf5ac8794fbcdd6</string>
 			<key>size</key>
@@ -8493,9 +8754,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>d5684272f9d96f374f1f65ec74316138ecb32b23</string>
 			<key>size</key>
@@ -8506,6 +8767,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09780.20141117.lcmOk/iPad3,6_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad3,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>1f2514be21d9436a114c5f96f71d56f4de6d528d</string>
+			<key>size</key>
+			<real>1836779323</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12382.20141208.oYM8L/iPad3,6_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -8699,9 +8989,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>616e8f31facf6db121620b2aed3461ea017a2d23</string>
 			<key>size</key>
@@ -8728,9 +9018,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>00f513c4bcafd4a377f48c02fdd2d23ce5ede1c0</string>
 			<key>size</key>
@@ -8757,9 +9047,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>9b2777b728c6820caa49a40531c8850246664a43</string>
 			<key>size</key>
@@ -8788,7 +9078,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>1a8491783954a6d78a69d8cf95a04a6793dead87</string>
 			<key>size</key>
@@ -8815,9 +9105,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>4c99586b6576ac38417c6d27327bcb47b0a6fe85</string>
 			<key>size</key>
@@ -8828,6 +9118,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09919.20141117.NZJZF/iPad4,1_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>aa8f669768e88d9dfa9ff7dc5e632860d8a1eb58</string>
+			<key>size</key>
+			<real>2029036683</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12456.20141208.LXAm6/iPad4,1_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -9021,9 +9340,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>7c6510cb1079718090d7d768fd991e97528650f0</string>
 			<key>size</key>
@@ -9050,9 +9369,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>00f513c4bcafd4a377f48c02fdd2d23ce5ede1c0</string>
 			<key>size</key>
@@ -9079,9 +9398,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>f6af6cdd2a2b5163485677906983422d78ca1a1d</string>
 			<key>size</key>
@@ -9110,7 +9429,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>b47702ef596e08d1db6edec413842cef600aeead</string>
 			<key>size</key>
@@ -9137,9 +9456,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>be25c020b08c1ea4a5ad882749ff675dc8c8832e</string>
 			<key>size</key>
@@ -9150,6 +9469,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-10000.20141117.0bBBV/iPad4,2_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>03cd5ed7af24dd64fb2a065c238eba622330a312</string>
+			<key>size</key>
+			<real>2076796604</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12493.20141208.kdjEY/iPad4,2_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -9256,9 +9604,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>b48f6ed1967c9e1e3241e760ddaf10574e2b8bb3</string>
 			<key>size</key>
@@ -9285,9 +9633,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>62275d9612a3427ec8f0d54f2734604a092502c9</string>
 			<key>size</key>
@@ -9314,9 +9662,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>8b507bba9d82662ffe20a6f4a7741ede88b6cb61</string>
 			<key>size</key>
@@ -9345,7 +9693,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>eeb92b55eda1387733efebc9aa540261a5952938</string>
 			<key>size</key>
@@ -9372,9 +9720,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>23c81af5ca4a58a7d30084e933907bb419fdd067</string>
 			<key>size</key>
@@ -9385,6 +9733,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09940.20141117.gxc9T/iPad4,3_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>9746ebe1a81974a76a8df087cc624b3303c594c5</string>
+			<key>size</key>
+			<real>2076603808</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/058-11183.20141208.cSD7k/iPad4,3_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -9406,7 +9783,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>42c86d7649240dbe1e58d5aba3c2ec563f0e8d5e</string>
 			<key>size</key>
@@ -9433,9 +9810,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>767ebd2206c1ed17c83272dc12f9426c26cc627d</string>
 			<key>size</key>
@@ -9446,6 +9823,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-12503.20141117.842BD/iPad5,3_8.1.1_12B436_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>a717e231e49f181fa40383a23d4f8fe3c04277e0</string>
+			<key>size</key>
+			<real>2037078311</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-13188.20141208.34blY/iPad5,3_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -9467,7 +9873,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>8f9ecad53ebc9129c84eaf931bbb8a442ca1af48</string>
 			<key>size</key>
@@ -9494,9 +9900,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>0b1165cb1c11e339985f886b96b1baf249359d5e</string>
 			<key>size</key>
@@ -9507,6 +9913,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-12361.20141117.Whste/iPad5,4_8.1.1_12B436_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>90c775dea761b24e02eb846b62bda58cb429c80b</string>
+			<key>size</key>
+			<real>2092434607</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-13202.20141208.WRBWq/iPad5,4_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -9932,9 +10367,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>ed9d54c1152a828bc311b456a04f69fd1c9cc349</string>
 			<key>size</key>
@@ -9961,9 +10396,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>176e49c7cc9c6f4dec023b2c27f3652ed277502c</string>
 			<key>size</key>
@@ -9990,9 +10425,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>859655efcc6c8262f26a622cbf43c4eef154b261</string>
 			<key>size</key>
@@ -10021,7 +10456,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>c17a01e204227e1e29d467e0b41594a554030232</string>
 			<key>size</key>
@@ -10048,9 +10483,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>8951fa2aa0616ac6fe98ac00d7d1f42b623b265c</string>
 			<key>size</key>
@@ -10061,6 +10496,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09847.20141117.Wmo23/iPad2,5_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>3f9e098d958a7238a933d251f402534db28c8d9f</string>
+			<key>size</key>
+			<real>1519413684</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12415.20141208.5ZCt9/iPad2,5_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -10457,9 +10921,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>2790fbf21232904c6fc44a46521a9ca8f1ad1bf7</string>
 			<key>size</key>
@@ -10486,9 +10950,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>3b77c85db50774716b22cef346665f9f63f9385a</string>
 			<key>size</key>
@@ -10515,9 +10979,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>d9bd4bdc81576f3d1c877af90d6e2531d7cd2713</string>
 			<key>size</key>
@@ -10546,7 +11010,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>a0cc5e5381fb3c44f67dbe446ea6bca16c6401a6</string>
 			<key>size</key>
@@ -10575,7 +11039,7 @@
 			<key>jailbreak</key>
 			<false/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>fce5f94134708891c43a1a37ebc872a366106474</string>
 			<key>size</key>
@@ -10586,6 +11050,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09887.20141117.ivh0j/iPad2,6_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad2,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>23f31e0465423285989b7b6d667fa88e563fecc8</string>
+			<key>size</key>
+			<real>1559800226</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12433.20141208.PkBeC/iPad2,6_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -10982,9 +11475,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>59ebd741c98a0a47d6b5f92f918165a3d5df934f</string>
 			<key>size</key>
@@ -11011,9 +11504,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>6774063589683a9146fa38472608de79e1d924bc</string>
 			<key>size</key>
@@ -11040,9 +11533,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>5e9f39cbe295a6d405498df53af906d113f46a7a</string>
 			<key>size</key>
@@ -11071,7 +11564,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>00cc85f7d1f33b02afb52149985d51ded11f158a</string>
 			<key>size</key>
@@ -11098,9 +11591,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>1849c90f1f0e5345cac2d287bce52b089b59c5d6</string>
 			<key>size</key>
@@ -11111,6 +11604,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09788.20141117.EtQ6c/iPad2,7_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad2,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>50695968c07494664a01b9755cf98dc4aef2dda9</string>
+			<key>size</key>
+			<real>1559861439</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-11455.20141208.w994o/iPad2,7_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -11304,9 +11826,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>1c761e243575b0f460eadb15f5bcd68d438667d8</string>
 			<key>size</key>
@@ -11333,9 +11855,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>565987c20c86e91cb26515c8f747f4b314e45ce3</string>
 			<key>size</key>
@@ -11362,9 +11884,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>f303f5eb9a04bba72dc93cf66daf6bbed1c8c20e</string>
 			<key>size</key>
@@ -11393,7 +11915,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>95c5ce399101b6b54594c3e20dfa4c83eaca0931</string>
 			<key>size</key>
@@ -11420,9 +11942,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>ae76250f47281416cc8972e4375cb259afe9c43c</string>
 			<key>size</key>
@@ -11433,6 +11955,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09902.20141117.Q37RF/iPad4,4_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>12da5538896107778557435785811b87e352dc94</string>
+			<key>size</key>
+			<real>2028943210</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-11417.20141208.sqoCE/iPad4,4_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -11626,9 +12177,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>616feb70aea4c25908001a3174b1311ba2c1359e</string>
 			<key>size</key>
@@ -11655,9 +12206,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>565987c20c86e91cb26515c8f747f4b314e45ce3</string>
 			<key>size</key>
@@ -11684,9 +12235,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>bc1e04e9ffa731d61722520253eb1a336c7a0479</string>
 			<key>size</key>
@@ -11715,7 +12266,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>9023cbc3f2a3dd770b6bcce2351a358b4e373554</string>
 			<key>size</key>
@@ -11742,9 +12293,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>530aa60a7f13080d1eb97142c8db26fa0e627570</string>
 			<key>size</key>
@@ -11755,6 +12306,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09815.20141117.K40LE/iPad4,5_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>ef6d41289dda0d23e115275571f68a2bf79b429c</string>
+			<key>size</key>
+			<real>2076597468</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12400.20141208.UUMQQ/iPad4,5_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -11861,9 +12441,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>beb68e8e859e57a0cb2521d0295f55dcecc79089</string>
 			<key>size</key>
@@ -11890,9 +12470,9 @@
 			<key>info</key>
 			<string>Pulled after 1.5 hours as it disabled cellular service &amp; Touch ID on many devices.	</string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>ccacddddcf61e78607cd740617677d79f33baf80</string>
 			<key>size</key>
@@ -11919,9 +12499,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>5a0f5eb6a79831b95d407d73072e62ebacc6a747</string>
 			<key>size</key>
@@ -11950,7 +12530,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>ee0b391fd6c5259477d9d70ffa7ef21070c7f8b3</string>
 			<key>size</key>
@@ -11977,9 +12557,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>e5852b83cab686f64486e199f66d6a74e7ad4035</string>
 			<key>size</key>
@@ -11990,6 +12570,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09812.20141117.CYh4K/iPad4,6_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>4d02d1aa01eb06a88a9c6b9e1f31ebd294024b89</string>
+			<key>size</key>
+			<real>2077241912</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/058-11169.20141208.EjxrD/iPad4,6_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -12011,7 +12620,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>57c83f5ae945f9ba873a532aec003c54ee20febe</string>
 			<key>size</key>
@@ -12038,9 +12647,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>a53028cec498c7e602f5bcc9ae1656122999f6af</string>
 			<key>size</key>
@@ -12051,6 +12660,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-12365.20141117.Zqnse/iPad4,7_8.1.1_12B436_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>0c735368c9816c61568f07b2087a04d4ef377a1f</string>
+			<key>size</key>
+			<real>2037775807</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13197.20141208.zT60F/iPad4,7_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -12072,7 +12710,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>655ec92b6771eb5f9c48b4e5c8dfa895ec748329</string>
 			<key>size</key>
@@ -12099,9 +12737,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>1517c7a1872b37457a001c9489a02a73633146c0</string>
 			<key>size</key>
@@ -12112,6 +12750,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-11469.20141117.ReVrt/iPad4,8_8.1.1_12B436_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,8</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>3df0b71e1c6ee740a195a88e924d3f79460ab2ce</string>
+			<key>size</key>
+			<real>2107873332</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-13195.20141208.zqfyW/iPad4,8_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -12133,7 +12800,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>a1801b399ccbf79b775d26801ea0811e92d7818e</string>
 			<key>size</key>
@@ -12160,9 +12827,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>41865209c298119dd85cdabbfbbbd40a7b9d942b</string>
 			<key>size</key>
@@ -12173,6 +12840,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-12359.20141117.5Vgto/iPad4,9_8.1.1_12B436_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,9</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13831.20141208.Cffr4/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>92e45be933f5027e7dd5e325cf8c3a6c21ebf391</string>
+			<key>size</key>
+			<real>2108449396</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-13196.20141208.WXIM5/iPad4,9_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
@@ -16330,7 +17026,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>ad1634d28be520671612af513e9eff699e649f0b</string>
 			<key>size</key>
@@ -16359,7 +17055,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>67a0992711c6c2b8cded2f73978acdfc41d57744</string>
 			<key>size</key>
@@ -16388,7 +17084,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>67710e1a325be26a7d0ae27da31eb4653fc5bcd5</string>
 			<key>size</key>
@@ -16417,7 +17113,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>18d4e0950b52165f10588633510dfcebe11a86b0</string>
 			<key>size</key>
@@ -16444,9 +17140,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>941857f93e46e2ba58fb4bac45b74abd0b711b0b</string>
 			<key>size</key>
@@ -16457,6 +17153,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-10020.20141117.ytRjS/iPhone4,1_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.4.00</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13833.20141208.2q9ed/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>53fa0cf99b772736630555b00d6d0f92494a09d9</string>
+			<key>size</key>
+			<real>1559971104</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12334.20141208.uTuEB/iPhone4,1_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -16913,7 +17638,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>56de17df87ec8fba9ad0d0c19b6667801ed3a8b7</string>
 			<key>size</key>
@@ -16942,7 +17667,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>96a292adf2e5a61326771e41722c595af2c23a2c</string>
 			<key>size</key>
@@ -16971,7 +17696,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>8706a73b77a52170b6a7cc61ffcd68742457f12f</string>
 			<key>size</key>
@@ -17000,7 +17725,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>18d4e0950b52165f10588633510dfcebe11a86b0</string>
 			<key>size</key>
@@ -17027,9 +17752,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>3d40671cbd70700343380b60cd6c630a83424444</string>
 			<key>size</key>
@@ -17040,6 +17765,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09776.20141117.vXXfN/iPhone5,1_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13833.20141208.2q9ed/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>55e79628252e680065ba2a40588fc1dce5374ef3</string>
+			<key>size</key>
+			<real>1599081438</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12381.20141208.cpnrY/iPhone5,1_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -17496,7 +18250,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>f0b620101c07a0720bfa16780869b1c47eb3aa41</string>
 			<key>size</key>
@@ -17525,7 +18279,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>80005c0108e64488fba19f5a97c860509d259bc0</string>
 			<key>size</key>
@@ -17554,7 +18308,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>0f637001cf3cab122a54234cfdf90423f40f1850</string>
 			<key>size</key>
@@ -17583,7 +18337,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>931563e7756c189bde87bb89778163fa5076cd53</string>
 			<key>size</key>
@@ -17610,9 +18364,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>72a3b8ec1390eeca817b9dac607e41d1e7c37975</string>
 			<key>size</key>
@@ -17623,6 +18377,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09939.20141117.t2uQL/iPhone5,2_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13833.20141208.2q9ed/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>31a0cd59b0cd97bbab3eb62ec20ee99eea2a76b1</string>
+			<key>size</key>
+			<real>1599364034</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-11472.20141208.cRzcb/iPhone5,2_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -17876,7 +18659,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>f0b697c6b6d7e901212ac3b63936f3b717b192f0</string>
 			<key>size</key>
@@ -17905,7 +18688,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>7d26419c3057f35c668275f184d2266b4325bc6d</string>
 			<key>size</key>
@@ -17934,7 +18717,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>562ae7c5f5d54da9e4763c8be2cd560af8d9dd56</string>
 			<key>size</key>
@@ -17963,7 +18746,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>86e7b61ec70e11631ec1966fe5c9874fb3674af9</string>
 			<key>size</key>
@@ -17990,9 +18773,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>dd69d7b1ab5c1c7c14f1c0384dc547814c214619</string>
 			<key>size</key>
@@ -18003,6 +18786,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-10014.20141117.L18bL/iPhone5,3_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13833.20141208.2q9ed/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>5834cb39c8dd34ef9e991a5b206e551f226d8cad</string>
+			<key>size</key>
+			<real>1609312010</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12332.20141208.js8bF/iPhone5,3_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -18285,7 +19097,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>4a22f014bbf7c62f4e7f6cb958d0c93c25fe7bbb</string>
 			<key>size</key>
@@ -18314,7 +19126,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>51b7fe3b3f4adc06e0dad95ed3c8f83e3c414884</string>
 			<key>size</key>
@@ -18343,7 +19155,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>ac4721a08c9cd189dcefd5ba4f9e14318624d791</string>
 			<key>size</key>
@@ -18372,7 +19184,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>ecf042019989c61bb6532be711800e51ad02b5a9</string>
 			<key>size</key>
@@ -18399,9 +19211,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>b87a2c6f427950c6547a9ae4b60ec77453db0e9a</string>
 			<key>size</key>
@@ -18412,6 +19224,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09781.20141117.kBGeC/iPhone5,4_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13833.20141208.2q9ed/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>9068f83f6e102cf63ab2265d33314b3fbcf2bc61</string>
+			<key>size</key>
+			<real>1609124959</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-11453.20141208.ve68F/iPhone5,4_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -18665,7 +19506,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>a1fdf212c4cd705bc5c81c5e79b98f951206a298</string>
 			<key>size</key>
@@ -18694,7 +19535,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>f23cff41c586448631fa7826bc4ea505a77e2c29</string>
 			<key>size</key>
@@ -18723,7 +19564,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>0af7bc78e311f9d7db4b0a543c39632559747be2</string>
 			<key>size</key>
@@ -18752,7 +19593,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>28853c4cee9c42d8d2787f53a8563d995f833ff8</string>
 			<key>size</key>
@@ -18779,9 +19620,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>6db4cb8a78580e65df7cf5202c9ef4842274bdab</string>
 			<key>size</key>
@@ -18792,6 +19633,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-10080.20141117.dJQMW/iPhone6,1_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13833.20141208.2q9ed/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>c77e8b3ad0f7a5f043fe60142154d3ae59291ec0</string>
+			<key>size</key>
+			<real>1863093948</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12373.20141208.OLo2R/iPhone6,1_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -19074,7 +19944,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>51dac179996563b5eb189fd599d7dd576fac77bc</string>
 			<key>size</key>
@@ -19103,7 +19973,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>feea363e5bbb9de0c25d76c0229c7d3c1c8f2adf</string>
 			<key>size</key>
@@ -19132,7 +20002,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>0af7bc78e311f9d7db4b0a543c39632559747be2</string>
 			<key>size</key>
@@ -19161,7 +20031,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>59d0ae8222bc5b3c52203e7e5e98883e28d7d953</string>
 			<key>size</key>
@@ -19188,9 +20058,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>eebdf4616a5ea19cfc2ae4ae585693e86736fb9e</string>
 			<key>size</key>
@@ -19201,6 +20071,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09871.20141117.Wz6cX/iPhone6,2_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13833.20141208.2q9ed/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>e67f3c1f2d11d43b44c32eb201cdbe5718a3d97e</string>
+			<key>size</key>
+			<real>1862749893</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-11445.20141208.csG9q/iPhone6,2_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -19222,7 +20121,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>b7851e068a6187cd0b85c4137d1a8844776b6e2c</string>
 			<key>size</key>
@@ -19251,7 +20150,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>0b787e5a25923328d3e1083e3e6dead40a09f96f</string>
 			<key>size</key>
@@ -19280,7 +20179,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>d3eabbb5374b1980bd28a67e0341d14d4bab5886</string>
 			<key>size</key>
@@ -19309,7 +20208,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>586b6ef9e3f1deec2000b6d508d058164829141d</string>
 			<key>size</key>
@@ -19336,9 +20235,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>4e340b9f1f2b68fc0cc1488e3cd51828b8c38665</string>
 			<key>size</key>
@@ -19349,6 +20248,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-12358.20141117.Jtg5t/iPhone7,2_8.1.1_12B436_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.04.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13833.20141208.2q9ed/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>5d32ad1aec247a84823d258299205af8aa743eb9</string>
+			<key>size</key>
+			<real>2198319532</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-13191.20141208.pKb7n/iPhone7,1_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -19370,7 +20298,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>bfe00f19ca630bfd7c831ffc765ea3b32cf9e48b</string>
 			<key>size</key>
@@ -19399,7 +20327,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>48c48c91e4ed553e17cce454b91adb89e1a214af</string>
 			<key>size</key>
@@ -19428,7 +20356,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>08fb92354c9aaba1a3e0ee1d50e30615bebfef42</string>
 			<key>size</key>
@@ -19457,7 +20385,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>56b069393ca2637507ef44d95d80c5e010636e30</string>
 			<key>size</key>
@@ -19484,9 +20412,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>e306dba340188c167efd719780bcf42d129cd161</string>
 			<key>size</key>
@@ -19497,6 +20425,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-12474.20141117.2XxNt/iPhone7,1_8.1.1_12B436_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.04.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13833.20141208.2q9ed/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>5d32ad1aec247a84823d258299205af8aa743eb9</string>
+			<key>size</key>
+			<real>2198319532</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-13191.20141208.pKb7n/iPhone7,1_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
@@ -21763,7 +22720,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>f935397e82fb31c0a4a474b946c9ebad7710a66a</string>
 			<key>size</key>
@@ -21792,7 +22749,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>5e86fdb5d8556d7690007ab03ac1fc38a917c163</string>
 			<key>size</key>
@@ -21821,7 +22778,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>b17471b0f8b1ad2c7cf16d7427c2158b623dd77d</string>
 			<key>size</key>
@@ -21850,7 +22807,7 @@
 			<key>jailbreak</key>
 			<true/>
 			<key>jbtools</key>
-			<string>pangu8</string>
+			<string>pangu8, TaiG 1.2</string>
 			<key>sha1</key>
 			<string>b1383a5563cf3c1991672d24608fb5a4a89295d3</string>
 			<key>size</key>
@@ -21877,9 +22834,9 @@
 			<key>info</key>
 			<string></string>
 			<key>jailbreak</key>
-			<false/>
+			<true/>
 			<key>jbtools</key>
-			<string></string>
+			<string>TaiG 1.2</string>
 			<key>sha1</key>
 			<string>f2d3a3c532ee33cfbbeb777aabc161529ada7498</string>
 			<key>size</key>
@@ -21890,6 +22847,35 @@
 			<string>http://appldnld.apple.com/iOS8.1.1/031-09942.20141117.rPzRB/iPod5,1_8.1.1_12B435_Restore.ipsw</string>
 			<key>date</key>
 			<string>17 Nov 2014</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.2 / 12B440</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/iOS8.1.2/031-13832.20141208.cC66Y/iPodtouchiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 1.2</string>
+			<key>sha1</key>
+			<string>dff680ecbffcb682bf192271dc38faedb97c37c4</string>
+			<key>size</key>
+			<real>1554247697</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.2/031-12465.20141208.0cAYy/iPod5,1_8.1.2_12B440_Restore.ipsw</string>
+			<key>date</key>
+			<string>9 Dec 2014</string>
 			<key>utools</key>
 			<string></string>
 			<key>build</key>
