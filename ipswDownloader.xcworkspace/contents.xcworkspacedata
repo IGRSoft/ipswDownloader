@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:External/libimobiledevice/deps/libusbmuxd/libusbmuxd.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:External/libimobiledevice/deps/libplist/libplist.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:External/libimobiledevice/libimobiledevice.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:External/ZipArchive/ZipArchive/ZipArchive.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:External/Sparkle/Sparkle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ipswDownloader.xcodeproj">
+   </FileRef>
+</Workspace>
