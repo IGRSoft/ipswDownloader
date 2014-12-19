@@ -21,3 +21,6 @@
 [submodule "External/Sparkle"]
 	path = External/Sparkle
 	url = https://github.com/sparkle-project/Sparkle.git
+[submodule "External/JAAIOSDeviceInfo"]
+	path = External/JAAIOSDeviceInfo
+	url = https://github.com/iKorich/JAAIOSDeviceInfo.git

@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		A501D4D11507A8B3003D9386 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A501D4CF1507A8B3003D9386 /* MainMenu.xib */; };
 		A51C38A2181806C700F1AC8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51C38A1181806C700F1AC8D /* Images.xcassets */; };
-		A54F7A4D1817D60900420935 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A54F7A3B1817D5CC00420935 /* Sparkle.framework */; };
-		A54F7A501817D6A500420935 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54F7A3B1817D5CC00420935 /* Sparkle.framework */; };
+		A5302A111A444009005DB6A0 /* libimobiledevice in Frameworks */ = {isa = PBXBuildFile; fileRef = A5302A101A444009005DB6A0 /* libimobiledevice */; };
+		A5302A131A444025005DB6A0 /* libZipArchive-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5302A121A444025005DB6A0 /* libZipArchive-mac.a */; };
+		A5302A591A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5302A581A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m */; };
 		A551C60E13E7285A00ADE661 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = A551C60D13E7285A00ADE661 /* dsa_pub.pem */; };
 		A554D23E17CCB84F00DBE617 /* LBProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A554D23517CCB84F00DBE617 /* LBProgressBar.m */; };
-		A554D25D17CCBB2500DBE617 /* libimobiledevice in Frameworks */ = {isa = PBXBuildFile; fileRef = A554D1FC17CCB83F00DBE617 /* libimobiledevice */; };
 		A575D07315A451AE0072734F /* ipswDownloaderHelp in Resources */ = {isa = PBXBuildFile; fileRef = A5E3BDDE15A4378900CB865F /* ipswDownloaderHelp */; };
 		A577289913E8228700C9AB51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4EF1B12F73A3E00A46734 /* main.m */; };
 		A57BDB2D16304FE700215237 /* IPSWInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A57BDB2716304FE700215237 /* IPSWInfoHelper.m */; };
@@ -38,280 +38,19 @@
 		A58926A916A5A31500063E09 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A58926A016A5A31400063E09 /* ASINetworkQueue.m */; };
 		A58926E516A5A3D100063E09 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A58926CD16A5A3D100063E09 /* Reachability.m */; };
 		A589272C16A5A52800063E09 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; };
-		A589290816A5A66600063E09 /* libZipArchive-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A589290116A5A64800063E09 /* libZipArchive-mac.a */; };
-		A589290B16A5A6A700063E09 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; };
 		A59969F3167F3E9500374C31 /* MobileDeviceServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A59969F2167F3E9500374C31 /* MobileDeviceServer.m */; };
 		A5B8FF121353A0D9006091F4 /* ipswDownloaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FF111353A0D9006091F4 /* ipswDownloaderAppDelegate.m */; };
 		A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4EF0E12F73A3E00A46734 /* Cocoa.framework */; };
 		A5DCC3191375D07200E2F466 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DCC3171375D07200E2F466 /* Localizable.strings */; };
+		A5E1F2661A39E9FD00096443 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E1F2651A39E9FD00096443 /* Sparkle.framework */; };
+		A5E1F2671A39EFB900096443 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A5E1F2651A39E9FD00096443 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5E1F2681A39F01500096443 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5F9B076168C724900B9D51F /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B074168C724900B9D51F /* DeviceInfo.m */; };
 		A5F9B077168C724900B9D51F /* DeviceInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F9B075168C724900B9D51F /* DeviceInfo.xib */; };
 		A5F9B081168CA8B800B9D51F /* NSColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B080168CA8B800B9D51F /* NSColoredView.m */; };
 		A5FA0E2C136489820084A0A8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FA0E2B136489820084A0A8 /* AudioToolbox.framework */; };
 		A5FD5699134CF0EC00D2488D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD5698134CF0EC00D2488D /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A51C386D1817DE1300F1AC8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C95AB35817E1C37700120861;
-			remoteInfo = "ZipArchive ios Tests";
-		};
-		A51C386F1817DE1300F1AC8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C95AB37417E1C47D00120861;
-			remoteInfo = "ZipArchive mac Tests";
-		};
-		A54F7A3A1817D5CC00420935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A54F79421817D5CB00420935 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = Sparkle;
-		};
-		A54F7A3C1817D5CC00420935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A54F79421817D5CB00420935 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 61B5F90209C4CEE200B25A18;
-			remoteInfo = "Sparkle Test App";
-		};
-		A54F7A3E1817D5CC00420935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A54F79421817D5CB00420935 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 612279D90DB5470200AB99EA;
-			remoteInfo = "Sparkle Unit Tests";
-		};
-		A54F7A401817D5CC00420935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A54F79421817D5CB00420935 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D06E8D00FD68C7C005AE3F6;
-			remoteInfo = BinaryDelta;
-		};
-		A54F7A421817D5CC00420935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A54F79421817D5CB00420935 /* Sparkle.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55C14BB7136EEF1500649790;
-			remoteInfo = finish_installation;
-		};
-		A54F7A4E1817D61900420935 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A54F79421817D5CB00420935 /* Sparkle.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = Sparkle;
-		};
-		A554D1FB17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96B88B30174E0B9900B868D9;
-			remoteInfo = imobiledevice.a;
-		};
-		A554D1FD17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC5FE174E493200AF832F;
-			remoteInfo = imobiledevice.dylib;
-		};
-		A554D1FF17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC65F174E7D6800AF832F;
-			remoteInfo = ideviceclient;
-		};
-		A554D20117CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC67E174EA13500AF832F;
-			remoteInfo = afccheck;
-		};
-		A554D20317CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC68B174EAA9C00AF832F;
-			remoteInfo = "lckd-client";
-		};
-		A554D20517CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC69B174EABFB00AF832F;
-			remoteInfo = filerelaytest;
-		};
-		A554D20717CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC6A8174EAD4800AF832F;
-			remoteInfo = housearresttest;
-		};
-		A554D20917CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC6B5174EAF2900AF832F;
-			remoteInfo = ideviceheartbeat;
-		};
-		A554D20B17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC6D2174EB17D00AF832F;
-			remoteInfo = idevice_id;
-		};
-		A554D20D17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC6EB174EB24E00AF832F;
-			remoteInfo = ideviceinfo;
-		};
-		A554D20F17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC6FB174EBC5B00AF832F;
-			remoteInfo = ideviceenterrecovery;
-		};
-		A554D21117CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC70A174EBDCC00AF832F;
-			remoteInfo = idevicesyslog;
-		};
-		A554D21317CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96CCC719174EC00100AF832F;
-			remoteInfo = idevicediagnostics;
-		};
-		A554D21517CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9609CAF2174EF50100E744BE;
-			remoteInfo = idevicepair;
-		};
-		A554D21717CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96F0F5FA174EFFAC0014879C;
-			remoteInfo = idevicebackup;
-		};
-		A554D21917CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96F0F60E174F01420014879C;
-			remoteInfo = idevicebackup2;
-		};
-		A554D21B17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96F0F637175223B70014879C;
-			remoteInfo = idevicedate;
-		};
-		A554D21D17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96F0F655175224C20014879C;
-			remoteInfo = idevicedebugserverproxy;
-		};
-		A554D21F17CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96F0F66717522D320014879C;
-			remoteInfo = ideviceimagemounter;
-		};
-		A554D22117CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96F0F67C175231690014879C;
-			remoteInfo = ideviceprovision;
-		};
-		A554D22317CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96F0F68E1752322C0014879C;
-			remoteInfo = idevicescreenshot;
-		};
-		A554D22517CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96A8D95117A12DF6006E38E0;
-			remoteInfo = ideviceexec;
-		};
-		A554D22717CCB83F00DBE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 96A8D97317A4A9B5006E38E0;
-			remoteInfo = afccl;
-		};
-		A5690E8917CDF65700906610 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 96B88B2F174E0B9900B868D9;
-			remoteInfo = imobiledevice.a;
-		};
-		A58928FE16A5A64800063E09 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = "ZipArchive ios";
-		};
-		A589290016A5A64800063E09 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C908A96F160AC26D000395DB;
-			remoteInfo = "ZipArchive mac";
-		};
-		A589290616A5A64F00063E09 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C908A95A160AC26D000395DB;
-			remoteInfo = "ZipArchive mac";
-		};
-		A5C11C0218E1668E008687EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9653BEB418E0334D00392466;
-			remoteInfo = idevicecrashreport;
-		};
-		A5C11C0418E1668E008687EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9649448218BBBD2000EDE08B;
-			remoteInfo = idevicename;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A518815115AB2B0400A246D2 /* CopyFiles */ = {
@@ -330,8 +69,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A54F7A4D1817D60900420935 /* Sparkle.framework in Copy Frameworks */,
-				A589290B16A5A6A700063E09 /* Growl.framework in Copy Frameworks */,
+				A5E1F2681A39F01500096443 /* Growl.framework in Copy Frameworks */,
+				A5E1F2671A39EFB900096443 /* Sparkle.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,10 +88,12 @@
 		A520A89C1647C15500C8D207 /* es */ = {isa = PBXFileReference; lastKnownFileType = folder; name = es; path = es.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A520A89D1647C15600C8D207 /* fr */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fr; path = fr.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A520A89E1647C15600C8D207 /* ja */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ja; path = ja.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
+		A5302A101A444009005DB6A0 /* libimobiledevice */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimobiledevice; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/libimobiledevice"; sourceTree = "<group>"; };
+		A5302A121A444025005DB6A0 /* libZipArchive-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libZipArchive-mac.a"; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/libZipArchive-mac.a"; sourceTree = "<group>"; };
+		A5302A571A445B36005DB6A0 /* JAAIOSDeviceInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAAIOSDeviceInfoManager.h; sourceTree = "<group>"; };
+		A5302A581A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAAIOSDeviceInfoManager.m; sourceTree = "<group>"; };
 		A53C748115E38D1300E82A75 /* ipswDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ipswDownloader.entitlements; sourceTree = "<group>"; };
-		A54F79421817D5CB00420935 /* Sparkle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Sparkle.xcodeproj; sourceTree = "<group>"; };
 		A551C60D13E7285A00ADE661 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = ../keys/dsa_pub.pem; sourceTree = "<group>"; };
-		A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libimobiledevice.xcodeproj; path = External/libimobiledevice/libimobiledevice.xcodeproj; sourceTree = SOURCE_ROOT; };
 		A554D23417CCB84F00DBE617 /* LBProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBProgressBar.h; sourceTree = "<group>"; };
 		A554D23517CCB84F00DBE617 /* LBProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBProgressBar.m; sourceTree = "<group>"; };
 		A57BDB2616304FE700215237 /* IPSWInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSWInfoHelper.h; sourceTree = "<group>"; };
@@ -395,7 +136,6 @@
 		A58926CC16A5A3D100063E09 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A58926CD16A5A3D100063E09 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		A589272B16A5A52800063E09 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Frameworks/Growl.framework; sourceTree = "<group>"; };
-		A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZipArchive.xcodeproj; path = ZipArchive/ZipArchive.xcodeproj; sourceTree = "<group>"; };
 		A59969F1167F3E9500374C31 /* MobileDeviceServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileDeviceServer.h; sourceTree = "<group>"; };
 		A59969F2167F3E9500374C31 /* MobileDeviceServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileDeviceServer.m; sourceTree = "<group>"; };
 		A59E695113E8451A0024AB3C /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -427,6 +167,9 @@
 		A5C4EF1B12F73A3E00A46734 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5C4EF2012F73A3E00A46734 /* ipswDownloaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipswDownloaderAppDelegate.h; sourceTree = "<group>"; };
 		A5DCC3181375D07200E2F466 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A5E1F25B1A39E83F00096443 /* libplist.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libplist.a; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/libplist.a"; sourceTree = "<group>"; };
+		A5E1F25D1A39E84400096443 /* libusbmuxd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusbmuxd.a; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/libusbmuxd.a"; sourceTree = "<group>"; };
+		A5E1F2651A39E9FD00096443 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/Sparkle.framework"; sourceTree = "<group>"; };
 		A5E3BDDF15A4378900CB865F /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = en.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5E3BDE915A437A400CB865F /* ru */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ru; path = ru.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5F9B073168C724900B9D51F /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
@@ -443,9 +186,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A554D25D17CCBB2500DBE617 /* libimobiledevice in Frameworks */,
-				A589290816A5A66600063E09 /* libZipArchive-mac.a in Frameworks */,
-				A54F7A501817D6A500420935 /* Sparkle.framework in Frameworks */,
+				A5302A131A444025005DB6A0 /* libZipArchive-mac.a in Frameworks */,
+				A5302A111A444009005DB6A0 /* libimobiledevice in Frameworks */,
+				A5E1F2661A39E9FD00096443 /* Sparkle.framework in Frameworks */,
 				A589272C16A5A52800063E09 /* Growl.framework in Frameworks */,
 				A585C26C14B9F678004CEC78 /* Security.framework in Frameworks */,
 				A5FA0E2C136489820084A0A8 /* AudioToolbox.framework in Frameworks */,
@@ -457,26 +200,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A54F78711817D5CA00420935 /* Sparkle */ = {
+		A5302A561A445B36005DB6A0 /* JAAIOSDeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
-				A54F79421817D5CB00420935 /* Sparkle.xcodeproj */,
+				A5302A571A445B36005DB6A0 /* JAAIOSDeviceInfoManager.h */,
+				A5302A581A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m */,
 			);
-			name = Sparkle;
-			path = External/Sparkle;
+			name = JAAIOSDeviceInfo;
+			path = External/JAAIOSDeviceInfo/JAAIOSDeviceInfo;
 			sourceTree = SOURCE_ROOT;
-		};
-		A54F79431817D5CB00420935 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A54F7A3B1817D5CC00420935 /* Sparkle.framework */,
-				A54F7A3D1817D5CC00420935 /* Sparkle Test App.app */,
-				A54F7A3F1817D5CC00420935 /* Sparkle Unit Tests.octest */,
-				A54F7A411817D5CC00420935 /* BinaryDelta */,
-				A54F7A431817D5CC00420935 /* finish_installation.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
 		};
 		A551C60F13E7287A00ADE661 /* Resources */ = {
 			isa = PBXGroup;
@@ -495,38 +227,6 @@
 			path = ipswDownloader;
 			sourceTree = "<group>";
 		};
-		A554D1DF17CCB83D00DBE617 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A554D1FC17CCB83F00DBE617 /* libimobiledevice */,
-				A554D1FE17CCB83F00DBE617 /* libimobiledevice.dylib */,
-				A554D20017CCB83F00DBE617 /* ideviceclient */,
-				A554D20217CCB83F00DBE617 /* afccheck */,
-				A554D20417CCB83F00DBE617 /* lckd-client */,
-				A554D20617CCB83F00DBE617 /* filerelaytest */,
-				A554D20817CCB83F00DBE617 /* housearresttest */,
-				A554D20A17CCB83F00DBE617 /* ideviceheartbeat */,
-				A554D20C17CCB83F00DBE617 /* idevice_id */,
-				A5C11C0318E1668E008687EB /* idevicecrashreport */,
-				A554D20E17CCB83F00DBE617 /* ideviceinfo */,
-				A554D21017CCB83F00DBE617 /* ideviceenterrecovery */,
-				A554D21217CCB83F00DBE617 /* idevicesyslog */,
-				A554D21417CCB83F00DBE617 /* idevicediagnostics */,
-				A5C11C0518E1668E008687EB /* idevicename */,
-				A554D21617CCB83F00DBE617 /* idevicepair */,
-				A554D21817CCB83F00DBE617 /* idevicebackup */,
-				A554D21A17CCB83F00DBE617 /* idevicebackup2 */,
-				A554D21C17CCB83F00DBE617 /* idevicedate */,
-				A554D21E17CCB83F00DBE617 /* idevicedebugserverproxy */,
-				A554D22017CCB83F00DBE617 /* ideviceimagemounter */,
-				A554D22217CCB83F00DBE617 /* ideviceprovision */,
-				A554D22417CCB83F00DBE617 /* idevicescreenshot */,
-				A554D22617CCB83F00DBE617 /* ideviceexec */,
-				A554D22817CCB83F00DBE617 /* afccl */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A554D22917CCB84F00DBE617 /* LBProgressBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -536,14 +236,6 @@
 			name = LBProgressBar;
 			path = External/LBProgressBar/LBProgressBar;
 			sourceTree = SOURCE_ROOT;
-		};
-		A5690E8C17CDF68D00906610 /* libmobiledevice */ = {
-			isa = PBXGroup;
-			children = (
-				A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */,
-			);
-			name = libmobiledevice;
-			sourceTree = "<group>";
 		};
 		A5690E8E17CDF78900906610 /* XIB */ = {
 			isa = PBXGroup;
@@ -620,26 +312,6 @@
 			path = External/Reachability;
 			sourceTree = SOURCE_ROOT;
 		};
-		A58926EE16A5A46600063E09 /* ZipArchive */ = {
-			isa = PBXGroup;
-			children = (
-				A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */,
-			);
-			name = ZipArchive;
-			path = External/ZipArchive;
-			sourceTree = SOURCE_ROOT;
-		};
-		A58928F516A5A64800063E09 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A58928FF16A5A64800063E09 /* libZipArchive-ios.a */,
-				A589290116A5A64800063E09 /* libZipArchive-mac.a */,
-				A51C386E1817DE1300F1AC8D /* ZipArchive ios Tests.xctest */,
-				A51C38701817DE1300F1AC8D /* ZipArchive mac Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A5C4EEFF12F73A3D00A46734 = {
 			isa = PBXGroup;
 			children = (
@@ -663,6 +335,11 @@
 		A5C4EF0D12F73A3E00A46734 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5302A121A444025005DB6A0 /* libZipArchive-mac.a */,
+				A5302A101A444009005DB6A0 /* libimobiledevice */,
+				A5E1F2651A39E9FD00096443 /* Sparkle.framework */,
+				A5E1F25D1A39E84400096443 /* libusbmuxd.a */,
+				A5E1F25B1A39E83F00096443 /* libplist.a */,
 				A5C4EF1212F73A3E00A46734 /* CoreData.framework */,
 				A5C4EF1312F73A3E00A46734 /* Foundation.framework */,
 				A585C26B14B9F678004CEC78 /* Security.framework */,
@@ -716,10 +393,8 @@
 		A5D5CF1D137092B2004325AD /* External */ = {
 			isa = PBXGroup;
 			children = (
-				A54F78711817D5CA00420935 /* Sparkle */,
-				A5690E8C17CDF68D00906610 /* libmobiledevice */,
+				A5302A561A445B36005DB6A0 /* JAAIOSDeviceInfo */,
 				A554D22917CCB84F00DBE617 /* LBProgressBar */,
-				A58926EE16A5A46600063E09 /* ZipArchive */,
 				A58926AA16A5A3D100063E09 /* Reachability */,
 				A5D5CF1E137092B2004325AD /* ASIHTTPRequest */,
 			);
@@ -768,15 +443,11 @@
 				A5C4EF0712F73A3E00A46734 /* Frameworks */,
 				A5C4EF0812F73A3E00A46734 /* Resources */,
 				A5B8FF0B135396A9006091F4 /* Copy Frameworks */,
-				A54F7A4C1817D5F700420935 /* Run Script */,
 				A518815115AB2B0400A246D2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A5690E8A17CDF65700906610 /* PBXTargetDependency */,
-				A589290716A5A64F00063E09 /* PBXTargetDependency */,
-				A54F7A4F1817D61900420935 /* PBXTargetDependency */,
 			);
 			name = ipswDownloader;
 			productName = ipswDownloader;
@@ -835,267 +506,12 @@
 			mainGroup = A5C4EEFF12F73A3D00A46734;
 			productRefGroup = A5C4EF0B12F73A3E00A46734 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A554D1DF17CCB83D00DBE617 /* Products */;
-					ProjectRef = A554D1DE17CCB83D00DBE617 /* libimobiledevice.xcodeproj */;
-				},
-				{
-					ProductGroup = A54F79431817D5CB00420935 /* Products */;
-					ProjectRef = A54F79421817D5CB00420935 /* Sparkle.xcodeproj */;
-				},
-				{
-					ProductGroup = A58928F516A5A64800063E09 /* Products */;
-					ProjectRef = A58928F416A5A64800063E09 /* ZipArchive.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A5C4EF0912F73A3E00A46734 /* ipswDownloader */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A51C386E1817DE1300F1AC8D /* ZipArchive ios Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ZipArchive ios Tests.xctest";
-			remoteRef = A51C386D1817DE1300F1AC8D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A51C38701817DE1300F1AC8D /* ZipArchive mac Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ZipArchive mac Tests.xctest";
-			remoteRef = A51C386F1817DE1300F1AC8D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A54F7A3B1817D5CC00420935 /* Sparkle.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Sparkle.framework;
-			remoteRef = A54F7A3A1817D5CC00420935 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A54F7A3D1817D5CC00420935 /* Sparkle Test App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Sparkle Test App.app";
-			remoteRef = A54F7A3C1817D5CC00420935 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A54F7A3F1817D5CC00420935 /* Sparkle Unit Tests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Sparkle Unit Tests.octest";
-			remoteRef = A54F7A3E1817D5CC00420935 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A54F7A411817D5CC00420935 /* BinaryDelta */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = BinaryDelta;
-			remoteRef = A54F7A401817D5CC00420935 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A54F7A431817D5CC00420935 /* finish_installation.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = finish_installation.app;
-			remoteRef = A54F7A421817D5CC00420935 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D1FC17CCB83F00DBE617 /* libimobiledevice */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libimobiledevice;
-			remoteRef = A554D1FB17CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D1FE17CCB83F00DBE617 /* libimobiledevice.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = libimobiledevice.dylib;
-			remoteRef = A554D1FD17CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D20017CCB83F00DBE617 /* ideviceclient */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = ideviceclient;
-			remoteRef = A554D1FF17CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D20217CCB83F00DBE617 /* afccheck */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = afccheck;
-			remoteRef = A554D20117CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D20417CCB83F00DBE617 /* lckd-client */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "lckd-client";
-			remoteRef = A554D20317CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D20617CCB83F00DBE617 /* filerelaytest */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = filerelaytest;
-			remoteRef = A554D20517CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D20817CCB83F00DBE617 /* housearresttest */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = housearresttest;
-			remoteRef = A554D20717CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D20A17CCB83F00DBE617 /* ideviceheartbeat */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = ideviceheartbeat;
-			remoteRef = A554D20917CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D20C17CCB83F00DBE617 /* idevice_id */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevice_id;
-			remoteRef = A554D20B17CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D20E17CCB83F00DBE617 /* ideviceinfo */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = ideviceinfo;
-			remoteRef = A554D20D17CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D21017CCB83F00DBE617 /* ideviceenterrecovery */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = ideviceenterrecovery;
-			remoteRef = A554D20F17CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D21217CCB83F00DBE617 /* idevicesyslog */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicesyslog;
-			remoteRef = A554D21117CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D21417CCB83F00DBE617 /* idevicediagnostics */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicediagnostics;
-			remoteRef = A554D21317CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D21617CCB83F00DBE617 /* idevicepair */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicepair;
-			remoteRef = A554D21517CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D21817CCB83F00DBE617 /* idevicebackup */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicebackup;
-			remoteRef = A554D21717CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D21A17CCB83F00DBE617 /* idevicebackup2 */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicebackup2;
-			remoteRef = A554D21917CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D21C17CCB83F00DBE617 /* idevicedate */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicedate;
-			remoteRef = A554D21B17CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D21E17CCB83F00DBE617 /* idevicedebugserverproxy */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicedebugserverproxy;
-			remoteRef = A554D21D17CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D22017CCB83F00DBE617 /* ideviceimagemounter */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = ideviceimagemounter;
-			remoteRef = A554D21F17CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D22217CCB83F00DBE617 /* ideviceprovision */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = ideviceprovision;
-			remoteRef = A554D22117CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D22417CCB83F00DBE617 /* idevicescreenshot */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicescreenshot;
-			remoteRef = A554D22317CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D22617CCB83F00DBE617 /* ideviceexec */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = ideviceexec;
-			remoteRef = A554D22517CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A554D22817CCB83F00DBE617 /* afccl */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = afccl;
-			remoteRef = A554D22717CCB83F00DBE617 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A58928FF16A5A64800063E09 /* libZipArchive-ios.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libZipArchive-ios.a";
-			remoteRef = A58928FE16A5A64800063E09 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A589290116A5A64800063E09 /* libZipArchive-mac.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libZipArchive-mac.a";
-			remoteRef = A589290016A5A64800063E09 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A5C11C0318E1668E008687EB /* idevicecrashreport */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicecrashreport;
-			remoteRef = A5C11C0218E1668E008687EB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A5C11C0518E1668E008687EB /* idevicename */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = idevicename;
-			remoteRef = A5C11C0418E1668E008687EB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A5C4EF0812F73A3E00A46734 /* Resources */ = {
@@ -1119,23 +535,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A54F7A4C1817D5F700420935 /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\nIDENTITY=\"IGR Software\"\ncodesign --verbose --force --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		A5C4EF0612F73A3E00A46734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1155,6 +554,7 @@
 				A5F9B081168CA8B800B9D51F /* NSColoredView.m in Sources */,
 				A58926A316A5A31500063E09 /* ASIDataCompressor.m in Sources */,
 				A58926A416A5A31500063E09 /* ASIDataDecompressor.m in Sources */,
+				A5302A591A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m in Sources */,
 				A58926A716A5A31500063E09 /* ASIHTTPRequest.m in Sources */,
 				A58926A816A5A31500063E09 /* ASIInputStream.m in Sources */,
 				A58926A916A5A31500063E09 /* ASINetworkQueue.m in Sources */,
@@ -1164,24 +564,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A54F7A4F1817D61900420935 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Sparkle;
-			targetProxy = A54F7A4E1817D61900420935 /* PBXContainerItemProxy */;
-		};
-		A5690E8A17CDF65700906610 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = imobiledevice.a;
-			targetProxy = A5690E8917CDF65700906610 /* PBXContainerItemProxy */;
-		};
-		A589290716A5A64F00063E09 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ZipArchive mac";
-			targetProxy = A589290616A5A64F00063E09 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A501D4CF1507A8B3003D9386 /* MainMenu.xib */ = {
@@ -1242,7 +624,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "IGR Software";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1258,7 +639,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "IGR Software";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1270,12 +650,14 @@
 		A5C4EF3B12F73A3E00A46734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Frameworks\"",
+					"$(CONFIGURATION_BUILD_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipswDownloader/ipswDownloader-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1290,13 +672,14 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(SDKROOT)/usr/include/openssl\"",
 					"\"$(SRCROOT)/External/ZipArchive\"",
-					"\"$(SRCROOT)/External/libimobiledevice/osx\"",
-					"\"$(SRCROOT)/External/libimobiledevice/include\"",
-					"\"$(SRCROOT)/External/libimobiledevice/deps/libplist/include\"",
+					"\"$(CONFIGURATION_BUILD_DIR)/include\"",
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
 				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug",
+				);
 				OTHER_LDFLAGS = (
 					"-lcrypto",
 					"-lssl",
@@ -1311,13 +694,15 @@
 		A5C4EF3C12F73A3E00A46734 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Frameworks\"",
+					"$(CONFIGURATION_BUILD_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipswDownloader/ipswDownloader-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1330,13 +715,14 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(SDKROOT)/usr/include/openssl\"",
 					"\"$(SRCROOT)/External/ZipArchive\"",
-					"\"$(SRCROOT)/External/libimobiledevice/osx\"",
-					"\"$(SRCROOT)/External/libimobiledevice/include\"",
-					"\"$(SRCROOT)/External/libimobiledevice/deps/libplist/include\"",
+					"\"$(CONFIGURATION_BUILD_DIR)/include\"",
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
 				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(CONFIGURATION_BUILD_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug",
+				);
 				OTHER_LDFLAGS = (
 					"-lcrypto",
 					"-lssl",

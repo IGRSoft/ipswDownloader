@@ -9,10 +9,11 @@
 #import "DeviceInfo.h"
 #import "MobileDeviceServer.h"
 #import "ItemCellView.h"
-
-NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
+#import "JAAIOSDeviceInfoManager.h"
 
 @interface DeviceInfo ()
+
+@property (nonatomic, strong) JAAIOSDeviceInfoManager *iosDeviceInfoManager;
 
 @end
 
@@ -34,6 +35,7 @@ NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
     if (self) {
         mobileDeviceServer = _mobileDeviceServer;
 		m_DevicesDict = [plist copy];
+        _iosDeviceInfoManager = [JAAIOSDeviceInfoManager new];
     }
     
     return self;
@@ -52,34 +54,16 @@ NSString* const IMG_URL = @"http://igrsoft.com/wp-content/iPhone/devices";
 		});
 		
 		NSString *productType = [mobileDeviceServer deviceProductType];
-		NSDictionary *info = m_DevicesDict[productType];
 		NSString *color = [mobileDeviceServer deviceColor];
 		
-		NSImage *img = nil;
-		if (info)
-		{
-			NSString *imgKey = @"img";
-			if (![color isEqualToString:@"black"])
-			{
-				imgKey = [imgKey stringByAppendingFormat:@"_%@", color];
-			}
-			NSString *sImg = info[imgKey];
-			if (sImg)
-			{
-				NSString *val = [IMG_URL stringByAppendingString:[NSString stringWithFormat:@"/%@", sImg]];
-				img = [[NSImage alloc] initWithContentsOfURL:[NSURL URLWithString:val]];
-			}
-		}
-		
-		dispatch_async(dispatch_get_main_queue(), ^{
-			
-			if (img)
-			{
-				dispatch_async(dispatch_get_main_queue(), ^{
-					[_devicePic setImage:img];
-				});
-			}
-		});
+        NSImage *img = [self.iosDeviceInfoManager iconForDevice:productType color:color];
+        if (img)
+        {
+            dispatch_async(dispatch_get_main_queue(), ^
+                           {
+                               [_devicePic setImage:img];
+                           });
+        }
 		
 		NSString *deviceName = [mobileDeviceServer deviceName];
 		dispatch_async(dispatch_get_main_queue(), ^{
