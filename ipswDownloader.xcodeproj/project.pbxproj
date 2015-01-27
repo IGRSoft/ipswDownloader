@@ -13,7 +13,7 @@
 		A5443E631A7817750080C51A /* libimobiledevice in Frameworks */ = {isa = PBXBuildFile; fileRef = A5443E601A7817750080C51A /* libimobiledevice */; };
 		A5443E641A7817750080C51A /* libZipArchive-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5443E611A7817750080C51A /* libZipArchive-mac.a */; };
 		A5443E651A7817750080C51A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5443E621A7817750080C51A /* Sparkle.framework */; };
-		A5443E661A78178A0080C51A /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A5443E621A7817750080C51A /* Sparkle.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5443E661A78178A0080C51A /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A5443E621A7817750080C51A /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5443E671A7817AC0080C51A /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; };
 		A5443E681A7817B00080C51A /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A551C60E13E7285A00ADE661 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = A551C60D13E7285A00ADE661 /* dsa_pub.pem */; };
@@ -674,6 +674,7 @@
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(CONFIGURATION_BUILD_DIR)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug",
@@ -720,6 +721,7 @@
 				);
 				INFOPLIST_FILE = "ipswDownloader/ipswDownloader-Info.plist";
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(CONFIGURATION_BUILD_DIR)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug",
