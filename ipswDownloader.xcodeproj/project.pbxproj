@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		A501D4D11507A8B3003D9386 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A501D4CF1507A8B3003D9386 /* MainMenu.xib */; };
 		A51C38A2181806C700F1AC8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51C38A1181806C700F1AC8D /* Images.xcassets */; };
-		A5302A111A444009005DB6A0 /* libimobiledevice in Frameworks */ = {isa = PBXBuildFile; fileRef = A5302A101A444009005DB6A0 /* libimobiledevice */; };
-		A5302A131A444025005DB6A0 /* libZipArchive-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5302A121A444025005DB6A0 /* libZipArchive-mac.a */; };
 		A5302A591A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5302A581A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m */; };
+		A5443E631A7817750080C51A /* libimobiledevice in Frameworks */ = {isa = PBXBuildFile; fileRef = A5443E601A7817750080C51A /* libimobiledevice */; };
+		A5443E641A7817750080C51A /* libZipArchive-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5443E611A7817750080C51A /* libZipArchive-mac.a */; };
+		A5443E651A7817750080C51A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5443E621A7817750080C51A /* Sparkle.framework */; };
+		A5443E661A78178A0080C51A /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A5443E621A7817750080C51A /* Sparkle.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5443E671A7817AC0080C51A /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; };
+		A5443E681A7817B00080C51A /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A551C60E13E7285A00ADE661 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = A551C60D13E7285A00ADE661 /* dsa_pub.pem */; };
 		A554D23E17CCB84F00DBE617 /* LBProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A554D23517CCB84F00DBE617 /* LBProgressBar.m */; };
 		A575D07315A451AE0072734F /* ipswDownloaderHelp in Resources */ = {isa = PBXBuildFile; fileRef = A5E3BDDE15A4378900CB865F /* ipswDownloaderHelp */; };
@@ -37,14 +41,10 @@
 		A58926A816A5A31500063E09 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A589269E16A5A31400063E09 /* ASIInputStream.m */; };
 		A58926A916A5A31500063E09 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A58926A016A5A31400063E09 /* ASINetworkQueue.m */; };
 		A58926E516A5A3D100063E09 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A58926CD16A5A3D100063E09 /* Reachability.m */; };
-		A589272C16A5A52800063E09 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; };
 		A59969F3167F3E9500374C31 /* MobileDeviceServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A59969F2167F3E9500374C31 /* MobileDeviceServer.m */; };
 		A5B8FF121353A0D9006091F4 /* ipswDownloaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FF111353A0D9006091F4 /* ipswDownloaderAppDelegate.m */; };
 		A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4EF0E12F73A3E00A46734 /* Cocoa.framework */; };
 		A5DCC3191375D07200E2F466 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DCC3171375D07200E2F466 /* Localizable.strings */; };
-		A5E1F2661A39E9FD00096443 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E1F2651A39E9FD00096443 /* Sparkle.framework */; };
-		A5E1F2671A39EFB900096443 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A5E1F2651A39E9FD00096443 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A5E1F2681A39F01500096443 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A589272B16A5A52800063E09 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5F9B076168C724900B9D51F /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B074168C724900B9D51F /* DeviceInfo.m */; };
 		A5F9B077168C724900B9D51F /* DeviceInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F9B075168C724900B9D51F /* DeviceInfo.xib */; };
 		A5F9B081168CA8B800B9D51F /* NSColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B080168CA8B800B9D51F /* NSColoredView.m */; };
@@ -65,15 +65,15 @@
 		};
 		A5B8FF0B135396A9006091F4 /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A5E1F2681A39F01500096443 /* Growl.framework in Copy Frameworks */,
-				A5E1F2671A39EFB900096443 /* Sparkle.framework in Copy Frameworks */,
+				A5443E681A7817B00080C51A /* Growl.framework in Copy Frameworks */,
+				A5443E661A78178A0080C51A /* Sparkle.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -88,11 +88,12 @@
 		A520A89C1647C15500C8D207 /* es */ = {isa = PBXFileReference; lastKnownFileType = folder; name = es; path = es.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A520A89D1647C15600C8D207 /* fr */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fr; path = fr.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A520A89E1647C15600C8D207 /* ja */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ja; path = ja.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
-		A5302A101A444009005DB6A0 /* libimobiledevice */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimobiledevice; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/libimobiledevice"; sourceTree = "<group>"; };
-		A5302A121A444025005DB6A0 /* libZipArchive-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libZipArchive-mac.a"; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/libZipArchive-mac.a"; sourceTree = "<group>"; };
 		A5302A571A445B36005DB6A0 /* JAAIOSDeviceInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAAIOSDeviceInfoManager.h; sourceTree = "<group>"; };
 		A5302A581A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAAIOSDeviceInfoManager.m; sourceTree = "<group>"; };
 		A53C748115E38D1300E82A75 /* ipswDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ipswDownloader.entitlements; sourceTree = "<group>"; };
+		A5443E601A7817750080C51A /* libimobiledevice */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimobiledevice; path = "../../../Library/Developer/Xcode/DerivedData/ipswDownloader-ggonsefviywboabxunfuljrhmkzs/Build/Products/Debug/libimobiledevice"; sourceTree = "<group>"; };
+		A5443E611A7817750080C51A /* libZipArchive-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libZipArchive-mac.a"; path = "../../../Library/Developer/Xcode/DerivedData/ipswDownloader-ggonsefviywboabxunfuljrhmkzs/Build/Products/Debug/libZipArchive-mac.a"; sourceTree = "<group>"; };
+		A5443E621A7817750080C51A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../../../Library/Developer/Xcode/DerivedData/ipswDownloader-ggonsefviywboabxunfuljrhmkzs/Build/Products/Debug/Sparkle.framework"; sourceTree = "<group>"; };
 		A551C60D13E7285A00ADE661 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = ../keys/dsa_pub.pem; sourceTree = "<group>"; };
 		A554D23417CCB84F00DBE617 /* LBProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBProgressBar.h; sourceTree = "<group>"; };
 		A554D23517CCB84F00DBE617 /* LBProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBProgressBar.m; sourceTree = "<group>"; };
@@ -167,9 +168,6 @@
 		A5C4EF1B12F73A3E00A46734 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5C4EF2012F73A3E00A46734 /* ipswDownloaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipswDownloaderAppDelegate.h; sourceTree = "<group>"; };
 		A5DCC3181375D07200E2F466 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A5E1F25B1A39E83F00096443 /* libplist.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libplist.a; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/libplist.a"; sourceTree = "<group>"; };
-		A5E1F25D1A39E84400096443 /* libusbmuxd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusbmuxd.a; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/libusbmuxd.a"; sourceTree = "<group>"; };
-		A5E1F2651A39E9FD00096443 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../../Library/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug/Sparkle.framework"; sourceTree = "<group>"; };
 		A5E3BDDF15A4378900CB865F /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = en.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5E3BDE915A437A400CB865F /* ru */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ru; path = ru.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5F9B073168C724900B9D51F /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
@@ -186,10 +184,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5302A131A444025005DB6A0 /* libZipArchive-mac.a in Frameworks */,
-				A5302A111A444009005DB6A0 /* libimobiledevice in Frameworks */,
-				A5E1F2661A39E9FD00096443 /* Sparkle.framework in Frameworks */,
-				A589272C16A5A52800063E09 /* Growl.framework in Frameworks */,
+				A5443E631A7817750080C51A /* libimobiledevice in Frameworks */,
+				A5443E641A7817750080C51A /* libZipArchive-mac.a in Frameworks */,
+				A5443E671A7817AC0080C51A /* Growl.framework in Frameworks */,
+				A5443E651A7817750080C51A /* Sparkle.framework in Frameworks */,
 				A585C26C14B9F678004CEC78 /* Security.framework in Frameworks */,
 				A5FA0E2C136489820084A0A8 /* AudioToolbox.framework in Frameworks */,
 				A5FD5699134CF0EC00D2488D /* SystemConfiguration.framework in Frameworks */,
@@ -335,11 +333,9 @@
 		A5C4EF0D12F73A3E00A46734 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A5302A121A444025005DB6A0 /* libZipArchive-mac.a */,
-				A5302A101A444009005DB6A0 /* libimobiledevice */,
-				A5E1F2651A39E9FD00096443 /* Sparkle.framework */,
-				A5E1F25D1A39E84400096443 /* libusbmuxd.a */,
-				A5E1F25B1A39E83F00096443 /* libplist.a */,
+				A5443E601A7817750080C51A /* libimobiledevice */,
+				A5443E611A7817750080C51A /* libZipArchive-mac.a */,
+				A5443E621A7817750080C51A /* Sparkle.framework */,
 				A5C4EF1212F73A3E00A46734 /* CoreData.framework */,
 				A5C4EF1312F73A3E00A46734 /* Foundation.framework */,
 				A585C26B14B9F678004CEC78 /* Security.framework */,
@@ -657,6 +653,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)/Frameworks\"",
 					"$(CONFIGURATION_BUILD_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-ggonsefviywboabxunfuljrhmkzs/Build/Products/Debug",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipswDownloader/ipswDownloader-Prefix.pch";
@@ -679,6 +677,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(CONFIGURATION_BUILD_DIR)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-ggonsefviywboabxunfuljrhmkzs/Build/Products/Debug",
 				);
 				OTHER_LDFLAGS = (
 					"-lcrypto",
@@ -702,6 +701,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)/Frameworks\"",
 					"$(CONFIGURATION_BUILD_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-ggonsefviywboabxunfuljrhmkzs/Build/Products/Debug",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipswDownloader/ipswDownloader-Prefix.pch";
@@ -722,6 +723,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(CONFIGURATION_BUILD_DIR)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-enemkdbwweewzkanngxbkhjesfqw/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-ggonsefviywboabxunfuljrhmkzs/Build/Products/Debug",
 				);
 				OTHER_LDFLAGS = (
 					"-lcrypto",
