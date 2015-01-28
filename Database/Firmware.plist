@@ -1399,6 +1399,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>7.0.3 (8.1.3) / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>fdcfa971a1e09c7247cd2c69c6ae5da63cc6bf74</string>
+			<key>size</key>
+			<real>955218014</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-12766-20150119-8A3917A8-A005-11E4-95D1-21565BAA4ECA/AppleTV3,1_7.0.2_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>Apple TV 3G (Rev A)</key>
 	<dict>
@@ -1807,6 +1836,35 @@
 			<string></string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>7.0.3 (8.1.3) / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/AppleTV/061-9393.20100924.Vfgrt/AppleTVDocumentation_4.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a3181f83a540cc3f3f0eca6560df23fa7bc0b7a1</string>
+			<key>size</key>
+			<real>955373107</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-12798-20150119-8A3A2684-A005-11E4-ABBD-23565BAA4ECA/AppleTV3,2_7.0.2_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad</key>
@@ -3061,6 +3119,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a0ae2368aded15793244b10286b50166328c06ea</string>
+			<key>size</key>
+			<real>1403436724</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15491-20150119-8A7898EC-A005-11E4-88D8-4B565BAA4ECA/iPad2,1_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad 2 GSM</key>
 	<dict>
@@ -3904,6 +3991,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>8e9b1400494aa1717823780c0f430357f66711de</string>
+			<key>size</key>
+			<real>1420478707</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15503-20150119-A0F9D246-A007-11E4-A9FE-D6575BAA4ECA/iPad2,2_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad 2 CDMA</key>
@@ -4749,6 +4865,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.0.04</string>
+			<key>hwstr</key>
+			<string>iPad2,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>8e9b1400494aa1717823780c0f430357f66711de</string>
+			<key>size</key>
+			<real>1419126335</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15502-20150119-FF0944B2-A006-11E4-85D4-B3575BAA4ECA/iPad2,3_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad 2 Wi-Fi (Rev A)</key>
 	<dict>
@@ -5360,6 +5505,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>8e9b1400494aa1717823780c0f430357f66711de</string>
+			<key>size</key>
+			<real>1402937522</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15521-20150119-2EC724E8-A008-11E4-ACD3-F7585BAA4ECA/iPad2,4_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Wi-Fi </key>
@@ -5973,6 +6147,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a87d37bbb283da836c737e78f8b7af696265bc36</string>
+			<key>size</key>
+			<real>1775590725</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15512-20150119-E598ACE2-A007-11E4-BEF8-59585BAA4ECA/iPad3,1_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad 3 CDMA</key>
 	<dict>
@@ -6584,6 +6787,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.3.00</string>
+			<key>hwstr</key>
+			<string>iPad3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>1231e2a9dc3c5bc284abeacd62e878f64adcde66</string>
+			<key>size</key>
+			<real>1810603709</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15434-20150119-8A3D5D40-A005-11E4-8C8F-2A565BAA4ECA/iPad3,2_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Global</key>
@@ -7197,6 +7429,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.3.00</string>
+			<key>hwstr</key>
+			<string>iPad3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>6790cdcf67d7979f1d105ae8c81fb7c4480a8bdd</string>
+			<key>size</key>
+			<real>1810601562</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15514-20150119-EB17E804-A007-11E4-8001-7A585BAA4ECA/iPad3,3_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad 4 Wi-Fi</key>
 	<dict>
@@ -7751,6 +8012,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>45f79a764c9a1892f1888753bde96984a1365b50</string>
+			<key>size</key>
+			<real>1796453996</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15492-20150119-8A77433E-A005-11E4-967E-4C565BAA4ECA/iPad3,4_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad 4 GSM</key>
 	<dict>
@@ -8275,6 +8565,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>708aa6c3242892072c81ed34a3bbbc1635bb92d8</string>
+			<key>size</key>
+			<real>1836507812</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15458-20150119-8A751C58-A005-11E4-B41F-36565BAA4ECA/iPad3,5_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad 4 Global</key>
@@ -8801,6 +9120,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad3,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>337b91637478cbda9d4af3da29639a2f3383823d</string>
+			<key>size</key>
+			<real>1836709217</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15480-20150119-8A822740-A005-11E4-99BD-46565BAA4ECA/iPad3,6_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad Air Wi-Fi</key>
 	<dict>
@@ -9151,6 +9499,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>559125d2490ae84e66f2d8be172a7b767e8ebd3b</string>
+			<key>size</key>
+			<real>2029112029</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15505-20150119-CBA3FAD0-A007-11E4-B999-F9575BAA4ECA/iPad4,1_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad Air Cellular</key>
@@ -9503,6 +9880,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>f246641ccf15146cfb1a875fd7e265b484bcf3ba</string>
+			<key>size</key>
+			<real>2076724546</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15515-20150119-F1898152-A007-11E4-94FC-9B585BAA4ECA/iPad4,2_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad Air Cellular (Rev A)</key>
 	<dict>
@@ -9767,6 +10173,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>45f4d858720909777130332d270c413ee9ca2da2</string>
+			<key>size</key>
+			<real>2076581943</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15446-20150119-8A66989A-A005-11E4-8B58-30565BAA4ECA/iPad4,3_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad Air 2 Wi-Fi</key>
 	<dict>
@@ -9857,6 +10292,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>bbde53e2dc395ca0466c3bc79a32e80710c3652e</string>
+			<key>size</key>
+			<real>2037164616</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15519-20150119-24D36F28-A008-11E4-8D90-BD585BAA4ECA/iPad5,3_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad Air 2 Cellular</key>
 	<dict>
@@ -9946,6 +10410,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.04.00</string>
+			<key>hwstr</key>
+			<string>iPad5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>9fdb75246e67882e9992a4eefa6938657365f076</string>
+			<key>size</key>
+			<real>2092383140</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15475-20150119-8A720D1A-A005-11E4-BE43-40565BAA4ECA/iPad5,4_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G Wi-Fi</key>
@@ -10530,6 +11023,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>37d6d6aadef2c4f2d811cf0402b7348701d49cc3</string>
+			<key>size</key>
+			<real>1519564829</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15494-20150119-8A708AF8-A005-11E4-B43C-4D565BAA4ECA/iPad2,5_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad mini 1G GSM</key>
 	<dict>
@@ -11083,6 +11605,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad2,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>c937de5a39170af590de50ea5df58101e862bc69</string>
+			<key>size</key>
+			<real>1559676157</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15501-20150119-F71852CA-A006-11E4-BD08-91575BAA4ECA/iPad2,6_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G Global</key>
@@ -11638,6 +12189,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPad2,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>5ac62f5c711554a5b48950826c5e83f2280b6115</string>
+			<key>size</key>
+			<real>1559822247</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15429-20150119-8A3B78CC-A005-11E4-B830-27565BAA4ECA/iPad2,7_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad mini 2G Wi-Fi</key>
 	<dict>
@@ -11988,6 +12568,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>dfc5b506d4a23c0566021a1ce2cc98c44978b129</string>
+			<key>size</key>
+			<real>2028865064</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15452-20150119-8A8948FE-A005-11E4-A74C-35565BAA4ECA/iPad4,4_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad mini 2G Cellular</key>
@@ -12340,6 +12949,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>328195958b01421a0633c57236f47ccbea6f6302</string>
+			<key>size</key>
+			<real>2076475453</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15489-20150119-8A87A1D4-A005-11E4-A5F6-48565BAA4ECA/iPad4,5_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad mini 2G (Rev A)</key>
 	<dict>
@@ -12604,6 +13242,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>07f6a8063457d8743dc3ab6c123ab9f39e09d0bd</string>
+			<key>size</key>
+			<real>2077311555</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15431-20150119-8A3B782C-A005-11E4-B830-29565BAA4ECA/iPad4,6_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad mini 3G Wi-Fi</key>
 	<dict>
@@ -12693,6 +13360,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>97e55c401b1f105d629d8dc7152f6bf71c9251b1</string>
+			<key>size</key>
+			<real>2037717490</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15476-20150119-8A79AF2A-A005-11E4-A06B-43565BAA4ECA/iPad4,7_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPad mini 3G Cellular</key>
@@ -12784,6 +13480,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,8</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>09d618b330e822dcdf0e6495fe4e6545c8fcf2c2</string>
+			<key>size</key>
+			<real>2107814529</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15448-20150119-8A789A54-A005-11E4-88D8-33565BAA4ECA/iPad4,8_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPad mini 3G (Rev A)</key>
 	<dict>
@@ -12873,6 +13598,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPad4,9</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15765-20150119-0D998EC2-A027-11E4-B9EE-F3855BAA4ECA/iPadiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>0cb438769482943b9e52b4469c1a1e416e454746</string>
+			<key>size</key>
+			<real>2108492623</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15472-20150119-8A8761CE-A005-11E4-B546-3E565BAA4ECA/iPad4,9_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPhone</key>
@@ -17187,6 +17941,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.4.00</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15764-20150119-0D998EB8-A027-11E4-B9EE-F2855BAA4ECA/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>44455be722f52301a10a19f2b9cb8ceedae79eab</string>
+			<key>size</key>
+			<real>1559956747</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15466-20150119-8A77FDB0-A005-11E4-9FF7-3A565BAA4ECA/iPhone4,1_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPhone 5 GSM</key>
 	<dict>
@@ -17798,6 +18581,35 @@
 			<string></string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15764-20150119-0D998EB8-A027-11E4-B9EE-F2855BAA4ECA/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>83a87959ea5ea120e034a8f91eeb85848949d630</string>
+			<key>size</key>
+			<real>1599020035</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15533-20150119-33AFF93A-A008-11E4-A0A7-0B595BAA4ECA/iPhone5,1_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPhone 5 Global</key>
@@ -18411,6 +19223,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>7.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15764-20150119-0D998EB8-A027-11E4-B9EE-F2855BAA4ECA/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>f531c36b01a8b41037c1bc8f35ba595ec8b6d974</string>
+			<key>size</key>
+			<real>1599402628</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15441-20150119-8A51B88A-A005-11E4-8F60-2E565BAA4ECA/iPhone5,2_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPhone 5C GSM</key>
 	<dict>
@@ -18819,6 +19660,35 @@
 			<string></string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15764-20150119-0D998EB8-A027-11E4-B9EE-F2855BAA4ECA/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a562e6527cf18ef50e5f5b1626514670e64e1abc</string>
+			<key>size</key>
+			<real>1609510077</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15465-20150119-8A7898B0-A005-11E4-88D8-38565BAA4ECA/iPhone5,3_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPhone 5C Global</key>
@@ -19258,6 +20128,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15764-20150119-0D998EB8-A027-11E4-B9EE-F2855BAA4ECA/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>9028136a56896efa69457827798afa435d28dbca</string>
+			<key>size</key>
+			<real>1608951729</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15427-20150119-8A3733FC-A005-11E4-A719-25565BAA4ECA/iPhone5,4_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPhone 5S GSM</key>
 	<dict>
@@ -19666,6 +20565,35 @@
 			<string></string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15764-20150119-0D998EB8-A027-11E4-B9EE-F2855BAA4ECA/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>1f6d320483f0a0f76236a4b4bbb358803406249f</string>
+			<key>size</key>
+			<real>1863204419</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15477-20150119-8A74DB44-A005-11E4-AE48-44565BAA4ECA/iPhone6,1_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPhone 5S Global</key>
@@ -20105,6 +21033,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.11.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15764-20150119-0D998EB8-A027-11E4-B9EE-F2855BAA4ECA/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>b918137f9f2f00fda1811abe5f0d92d16961109a</string>
+			<key>size</key>
+			<real>1862690072</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15440-20150119-8A5B3AEA-A005-11E4-A5C0-2C565BAA4ECA/iPhone6,2_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPhone 6</key>
 	<dict>
@@ -20282,6 +21239,35 @@
 			<key>build</key>
 			<string>SUOkemoTaos</string>
 		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.04.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15764-20150119-0D998EB8-A027-11E4-B9EE-F2855BAA4ECA/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>98778339fc7ed47dd1796343e83b00c4317ff923</string>
+			<key>size</key>
+			<real>1877537431</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15471-20150119-8A82DD34-A005-11E4-966F-3D565BAA4ECA/iPhone7,2_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
+		</dict>
 	</dict>
 	<key>iPhone 6 Plus</key>
 	<dict>
@@ -20458,6 +21444,35 @@
 			<string></string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.04.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15764-20150119-0D998EB8-A027-11E4-B9EE-F2855BAA4ECA/iPhoneiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>53e7f12e1b3b307a3b46d54a0eeebac072a5e1d3</string>
+			<key>size</key>
+			<real>2198682701</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15510-20150119-D6ECD9DE-A007-11E4-8093-35585BAA4ECA/iPhone7,1_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 	<key>iPod Touch 1</key>
@@ -22880,6 +23895,35 @@
 			<string></string>
 			<key>build</key>
 			<string>SUOkemoTaos</string>
+		</dict>
+		<key>8.1.3 / 12B466</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.1.3/documentation/031-15763-20150119-0D99CBB2-A027-11E4-92B7-F1855BAA4ECA/iPodtouchiTunesUpdateReadMe_8.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>8a018c6c88c714336ebc9d5791baee3eba02dce0</string>
+			<key>size</key>
+			<real>1554291017</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.1.3/031-15506-20150119-D53F31FE-A007-11E4-B3BD-25585BAA4ECA/iPod5,1_8.1.3_12B466_Restore.ipsw</string>
+			<key>date</key>
+			<string>27 Jan 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>SUOkemoTaosTwo</string>
 		</dict>
 	</dict>
 </dict>
