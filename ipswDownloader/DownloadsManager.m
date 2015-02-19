@@ -96,7 +96,8 @@ extern BOOL needWaitProcess;
 	[request setDelegate:self];
 	[request setDidFinishSelector:@selector(URLFetchWithProgressComplete:)];
 	[request setDidFailSelector:@selector(URLFetchWithProgressFailed:)];
-	
+	request.userAgentString = @"ipswDownloader";
+    
 	[request startAsynchronous];
 	
 	if (index >= 0)
@@ -106,14 +107,6 @@ extern BOOL needWaitProcess;
 	}
 	
     return index;
-    
-	/*NSMutableArray *ma = [[NSMutableArray alloc] init];
-	NSDictionary * expDict = @{@"index": @(index)};
-	[ma addObject:expDict];
-	
-	[[NSNotificationCenter defaultCenter] postNotificationName:ADD_DOWNLOAD_OBJECT_NOTIFICATION
-														object:ma];*/
-	
 }
 
 - (void)pauseDownloadAtIndex:(NSUInteger)index withObject:(NSDictionary*)object
