@@ -1,2 +1,0 @@
-need extract zip files:
- - Growl.framework - Sparkle.framework

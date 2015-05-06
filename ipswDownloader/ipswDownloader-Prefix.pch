@@ -31,11 +31,11 @@
 #define unix TARGET_OS_MAC
 #define USE_FILE32API 0
 
-//Growl
-#define GROWL_DOWNLOAD_COMPLETE @"Download Complete"
-#define GROWL_DOWNLOAD_FAIL		@"Download Fail"
-#define GROWL_CHECKSUM_FAIL		@"SHA1 Checksum Fail"
-#define GROWL_DOWNLOAD_CANCELED @"Download Canceled"
+//Notification
+#define NOTIFICATION_DOWNLOAD_COMPLETE @"Download Complete"
+#define NOTIFICATION_DOWNLOAD_FAIL		@"Download Fail"
+#define NOTIFICATION_CHECKSUM_FAIL		@"SHA1 Checksum Fail"
+#define NOTIFICATION_DOWNLOAD_CANCELED @"Download Canceled"
 
 #define SP_SCREEN_SCALE() ([[NSScreen mainScreen] respondsToSelector:@selector(backingScaleFactor)]? [[NSScreen mainScreen] backingScaleFactor]: 1.0f)
 

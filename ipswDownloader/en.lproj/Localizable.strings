@@ -30,7 +30,7 @@
 /* Expect to start download */
 "Expect to start download" = "Expect to start download";
 
-/* Growl notification title */
+/* Notification notification title */
 "ipswDownloader" = "ipswDownloader";
 
 /* No */
@@ -54,22 +54,22 @@
 /* You are using the latest version */
 "You are using the latest version" = "You are using the latest version";
 
-/* Growl Download Complete */
+/* Notification Download Complete */
 "Download Complete" = "Download Complete";
 
-/* Growl Download Fail */
+/* Notification Download Fail */
 "Download Fail" = "Download Fail";
 
-/* Growl Download Canceled */
+/* Notification Download Canceled */
 "Download Canceled" = "Download Canceled";
 
-/* Growl Download Paused */
+/* Notification Download Paused */
 "Download Paused" = "Download Paused";
 
-/* Growl Download Resume */
+/* Notification Download Resume */
 "Download Resume" = "Download Resume";
 
-/* Growl SHA1 Checksum Fail" */
+/* Notification SHA1 Checksum Fail" */
 "SHA1 Checksum Fail" = "SHA1 Checksum Fail";
 
 /* Resume */

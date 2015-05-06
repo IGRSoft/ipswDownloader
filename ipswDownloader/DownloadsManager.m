@@ -10,7 +10,6 @@
 #import "PreferenceController.h"
 
 #import "ASIHTTPRequest.h"
-#import <Growl/Growl.h>
 
 #import "sha1.h"
 #import <AudioToolbox/AudioToolbox.h>
@@ -20,7 +19,7 @@
 
 extern BOOL needWaitProcess;
 
-@interface DownloadsManager () <GrowlApplicationBridgeDelegate, NSUserNotificationCenterDelegate>
+@interface DownloadsManager () <NSUserNotificationCenterDelegate>
 
 - (void)URLFetchWithProgressComplete:(ASIHTTPRequest *)request;
 - (void)URLFetchWithProgressFailed:(ASIHTTPRequest *)request;
@@ -39,9 +38,7 @@ extern BOOL needWaitProcess;
 	
 	_downloadsInfoData = [[NSMutableArray alloc] initWithCapacity:127];
 	_pausedInfoData = [[NSMutableArray alloc] initWithCapacity:127];
-	
-	[GrowlApplicationBridge setGrowlDelegate: self];
-	
+		
 	return self;
 }
 
@@ -156,31 +153,16 @@ extern BOOL needWaitProcess;
 			{
 				NSString* fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 				
-				if (NSClassFromString(@"NSUserNotificationCenter"))
-				{
-					NSUserNotification *notification = [[NSUserNotification alloc] init];
-					[notification setTitle:NSLocalizedString(@"ipswDownloader", "Growl notification title")];
-					[notification setSubtitle:[IPSWInfoHelper nameIPWS:fileName]];
-					[notification setInformativeText:NSLocalizedString(GROWL_CHECKSUM_FAIL, @"Growl SHA1 Checksum Fail")];
-					NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
-					[center scheduleNotification:notification];
-				}
-				else
-				{
-					NSString *description = [NSString stringWithFormat:@"%@ - %@", [IPSWInfoHelper nameIPWS:fileName],  NSLocalizedString(GROWL_CHECKSUM_FAIL, @"Growl SHA1 Checksum Fail")];
-					//Growl
-					[GrowlApplicationBridge notifyWithTitle: NSLocalizedString(@"ipswDownloader", "Growl notification title")
-												description: description
-										   notificationName: GROWL_CHECKSUM_FAIL
-												   iconData: nil
-												   priority: 0
-												   isSticky: NO
-											   clickContext: nil];
-				}
+                NSUserNotification *notification = [[NSUserNotification alloc] init];
+                [notification setTitle:NSLocalizedString(@"ipswDownloader", "Notification notification title")];
+                [notification setSubtitle:[IPSWInfoHelper nameIPWS:fileName]];
+                [notification setInformativeText:NSLocalizedString(NOTIFICATION_CHECKSUM_FAIL, @"Notification SHA1 Checksum Fail")];
+                NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
+                [center scheduleNotification:notification];
 			}
 			else
 			{
-				DBNSLog(@"%@", NSLocalizedString(GROWL_CHECKSUM_FAIL, @"Growl SHA1 Checksum Fail"));
+				DBNSLog(@"%@", NSLocalizedString(NOTIFICATION_CHECKSUM_FAIL, @"Notification SHA1 Checksum Fail"));
 			}
 			
 			
@@ -197,33 +179,14 @@ extern BOOL needWaitProcess;
 			{
 				NSString* fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 				
-				if (NSClassFromString(@"NSUserNotificationCenter"))
-				{
-					NSUserNotification *notification = [[NSUserNotification alloc] init];
-					[notification setTitle:NSLocalizedString(@"ipswDownloader", "Growl notification title")];
-					[notification setSubtitle:[IPSWInfoHelper nameIPWS:fileName]];
-					[notification setInformativeText:NSLocalizedString(GROWL_DOWNLOAD_COMPLETE, @"Growl Download Complete")];
-					[notification setUserInfo:@{@"filePath": filePath}];
-					NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
-					[center setDelegate:self];
-					[center scheduleNotification:notification];
-				}
-				else
-				{
-					//Growl
-					NSMutableDictionary * clickContext = [NSMutableDictionary dictionaryWithObject: GROWL_DOWNLOAD_COMPLETE forKey: @"Type"];
-					NSString *description = [NSString stringWithFormat:@"%@ - %@", [IPSWInfoHelper nameIPWS:fileName], NSLocalizedString(GROWL_DOWNLOAD_COMPLETE, @"Growl Download Complete")];
-					
-					clickContext[@"Location"] = [request downloadDestinationPath];
-					
-					[GrowlApplicationBridge notifyWithTitle: NSLocalizedString(@"ipswDownloader", "Growl notification title")
-												description: description
-										   notificationName: GROWL_DOWNLOAD_COMPLETE
-												   iconData: nil
-												   priority: 0
-												   isSticky: NO
-											   clickContext: clickContext];
-				}
+                NSUserNotification *notification = [[NSUserNotification alloc] init];
+                [notification setTitle:NSLocalizedString(@"ipswDownloader", "Notification notification title")];
+                [notification setSubtitle:[IPSWInfoHelper nameIPWS:fileName]];
+                [notification setInformativeText:NSLocalizedString(NOTIFICATION_DOWNLOAD_COMPLETE, @"Notification Download Complete")];
+                [notification setUserInfo:@{@"filePath": filePath}];
+                NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
+                [center setDelegate:self];
+                [center scheduleNotification:notification];
 			}
 			[self playSystemSound:@"Tink"];
 		}
@@ -238,33 +201,14 @@ extern BOOL needWaitProcess;
 		{
 			NSString* fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 			
-			if (NSClassFromString(@"NSUserNotificationCenter"))
-			{
-				NSUserNotification *notification = [[NSUserNotification alloc] init];
-				[notification setTitle:NSLocalizedString(@"ipswDownloader", "Growl notification title")];
-				[notification setSubtitle:[IPSWInfoHelper nameIPWS:fileName]];
-				[notification setInformativeText:NSLocalizedString(GROWL_DOWNLOAD_COMPLETE, @"Growl Download Complete")];
-				[notification setUserInfo:@{@"filePath": filePath}];
-				NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
-				[center setDelegate:self];
-				[center scheduleNotification:notification];
-			}
-			else
-			{
-				//Growl
-				NSMutableDictionary * clickContext = [NSMutableDictionary dictionaryWithObject: GROWL_DOWNLOAD_COMPLETE forKey: @"Type"];
-				NSString *description = [NSString stringWithFormat:@"%@ - %@", [IPSWInfoHelper nameIPWS:fileName], NSLocalizedString(GROWL_DOWNLOAD_COMPLETE, @"Growl Download Complete")];
-				
-				clickContext[@"Location"] = [request downloadDestinationPath];
-				
-				[GrowlApplicationBridge notifyWithTitle: NSLocalizedString(@"ipswDownloader", "Growl notification title")
-											description: description
-									   notificationName: GROWL_DOWNLOAD_COMPLETE
-											   iconData: nil
-											   priority: 0
-											   isSticky: NO
-										   clickContext: clickContext];
-			}
+            NSUserNotification *notification = [[NSUserNotification alloc] init];
+            [notification setTitle:NSLocalizedString(@"ipswDownloader", "Notification notification title")];
+            [notification setSubtitle:[IPSWInfoHelper nameIPWS:fileName]];
+            [notification setInformativeText:NSLocalizedString(NOTIFICATION_DOWNLOAD_COMPLETE, @"Notification Download Complete")];
+            [notification setUserInfo:@{@"filePath": filePath}];
+            NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
+            [center setDelegate:self];
+            [center scheduleNotification:notification];
 		}
 		
 		[self playSystemSound:@"Tink"];
@@ -289,8 +233,6 @@ extern BOOL needWaitProcess;
 	}
 	else
 	{
-		
-		//Growl
 		// Inform the user.
 		DBNSLog(@"Download failed! Error - %@ %@",
 				[[request error] localizedDescription],
@@ -301,27 +243,12 @@ extern BOOL needWaitProcess;
 		{
 			NSString* fileName = [NSString stringWithString:[URLHelper splitURL:[request url]][1]];
 			
-			if (NSClassFromString(@"NSUserNotificationCenter"))
-			{
-				NSUserNotification *notification = [[NSUserNotification alloc] init];
-				[notification setTitle:NSLocalizedString(@"ipswDownloader", "Growl notification title")];
-				[notification setSubtitle:[IPSWInfoHelper nameIPWS:fileName]];
-				[notification setInformativeText:NSLocalizedString(GROWL_DOWNLOAD_FAIL, @"Growl Download Fail")];
-				NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
-				[center scheduleNotification:notification];
-			}
-			else
-			{
-				NSString *description = [NSString stringWithFormat:@"%@ - %@", [IPSWInfoHelper nameIPWS:fileName], NSLocalizedString(GROWL_DOWNLOAD_FAIL, @"Growl Download Fail")];
-				//Growl
-				[GrowlApplicationBridge notifyWithTitle: NSLocalizedString(@"ipswDownloader", "Growl notification title")
-											description: description
-									   notificationName: GROWL_DOWNLOAD_FAIL
-											   iconData: nil
-											   priority: 0
-											   isSticky: NO
-										   clickContext: nil];
-			}
+            NSUserNotification *notification = [[NSUserNotification alloc] init];
+            [notification setTitle:NSLocalizedString(@"ipswDownloader", "Notification notification title")];
+            [notification setSubtitle:[IPSWInfoHelper nameIPWS:fileName]];
+            [notification setInformativeText:NSLocalizedString(NOTIFICATION_DOWNLOAD_FAIL, @"Notification Download Fail")];
+            NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
+            [center scheduleNotification:notification];
 		}
 		[self playSystemSound:@"Basso"];
 	}
@@ -346,31 +273,6 @@ extern BOOL needWaitProcess;
 		AudioServicesCreateSystemSoundID((__bridge CFURLRef)filePath, &soundID);
 		AudioServicesPlaySystemSound(soundID);
 	}
-}
-
-#pragma mark ---- Growl ----
-
-- (NSDictionary *)registrationDictionaryForGrowl
-{
-    NSArray * notifications = @[GROWL_DOWNLOAD_COMPLETE, 
-							   GROWL_DOWNLOAD_FAIL, 
-							   GROWL_CHECKSUM_FAIL, 
-							   GROWL_DOWNLOAD_CANCELED];
-	
-    return @{GROWL_NOTIFICATIONS_ALL: notifications, GROWL_NOTIFICATIONS_DEFAULT: notifications};
-}
-
-- (void)growlNotificationWasClicked:(id)clickContext
-{
-    if (!clickContext || ![clickContext isKindOfClass: [NSDictionary class]])
-        return;
-    
-    NSString * type = clickContext[@"Type"], * location;
-    if (([type isEqualToString: GROWL_DOWNLOAD_COMPLETE])
-		&& (location = clickContext[@"Location"]))
-    {
-		[[NSWorkspace sharedWorkspace] selectFile: location inFileViewerRootedAtPath: nil];
-    }
 }
 
 #pragma mark -UserNotificationCenter

@@ -30,7 +30,7 @@
 /* Expect to start download */
 "Expect to start download" = "Vær forberedt på at starte dit download";
 
-/* Growl notification title */
+/* Notification notification title */
 "ipswDownloader" = "ipswDownloader";
 
 /* No */
@@ -54,22 +54,22 @@
 /* You are using the latest version */
 "You are using the latest version" = "Du bruger den seneste version";
 
-/* Growl Download Complete */
+/* Notification Download Complete */
 "Download Complete" = "Dit Download er Færdigt";
 
-/* Growl Download Fail */
+/* Notification Download Fail */
 "Download Fail" = "Fejl ved Download";
 
-/* Growl Download Canceled */
+/* Notification Download Canceled */
 "Download Canceled" = "Download annulleret";
 
-/* Growl Download Paused */
+/* Notification Download Paused */
 "Download Paused" = "Download sat på pause";
 
-/* Growl Download Resume */
+/* Notification Download Resume */
 "Download Resume" = "Fortsæt Download";
 
-/* Growl SHA1 Checksum Fail" */
+/* Notification SHA1 Checksum Fail" */
 "SHA1 Checksum Fail" = "Fejl ved SHA1 Checksum";
 
 /* Resume */
