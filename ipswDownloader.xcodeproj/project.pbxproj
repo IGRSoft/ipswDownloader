@@ -12,10 +12,6 @@
 		A5302A591A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5302A581A445B36005DB6A0 /* JAAIOSDeviceInfoManager.m */; };
 		A551C60E13E7285A00ADE661 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = A551C60D13E7285A00ADE661 /* dsa_pub.pem */; };
 		A554D23E17CCB84F00DBE617 /* LBProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A554D23517CCB84F00DBE617 /* LBProgressBar.m */; };
-		A562998A1AFA245C00836EFC /* libimobiledevice in Frameworks */ = {isa = PBXBuildFile; fileRef = A56299891AFA245C00836EFC /* libimobiledevice */; };
-		A562998C1AFA246A00836EFC /* libZipArchive-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A562998B1AFA246A00836EFC /* libZipArchive-mac.a */; };
-		A562998E1AFA247200836EFC /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A562998D1AFA247200836EFC /* Sparkle.framework */; };
-		A562998F1AFA247C00836EFC /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A562998D1AFA247200836EFC /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A575D07315A451AE0072734F /* ipswDownloaderHelp in Resources */ = {isa = PBXBuildFile; fileRef = A5E3BDDE15A4378900CB865F /* ipswDownloaderHelp */; };
 		A577289913E8228700C9AB51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C4EF1B12F73A3E00A46734 /* main.m */; };
 		A57BDB2D16304FE700215237 /* IPSWInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A57BDB2716304FE700215237 /* IPSWInfoHelper.m */; };
@@ -38,11 +34,15 @@
 		A58926A716A5A31500063E09 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A589269A16A5A31400063E09 /* ASIHTTPRequest.m */; };
 		A58926A816A5A31500063E09 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A589269E16A5A31400063E09 /* ASIInputStream.m */; };
 		A58926A916A5A31500063E09 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A58926A016A5A31400063E09 /* ASINetworkQueue.m */; };
-		A58926E516A5A3D100063E09 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A58926CD16A5A3D100063E09 /* Reachability.m */; };
 		A59969F3167F3E9500374C31 /* MobileDeviceServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A59969F2167F3E9500374C31 /* MobileDeviceServer.m */; };
 		A5B8FF121353A0D9006091F4 /* ipswDownloaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FF111353A0D9006091F4 /* ipswDownloaderAppDelegate.m */; };
 		A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4EF0E12F73A3E00A46734 /* Cocoa.framework */; };
 		A5DCC3191375D07200E2F466 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DCC3171375D07200E2F466 /* Localizable.strings */; };
+		A5DD58FB1B1C3A730037CC62 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD58FA1B1C3A730037CC62 /* Sparkle.framework */; };
+		A5DD58FC1B1C3A730037CC62 /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD58FA1B1C3A730037CC62 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5DD59001B1C3A880037CC62 /* libimobiledevice in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD58FE1B1C3A880037CC62 /* libimobiledevice */; };
+		A5DD59011B1C3A880037CC62 /* libZipArchive-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD58FF1B1C3A880037CC62 /* libZipArchive-mac.a */; };
+		A5DD59191B1C3DC70037CC62 /* TMReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DD59181B1C3DC70037CC62 /* TMReachability.framework */; };
 		A5F9B076168C724900B9D51F /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B074168C724900B9D51F /* DeviceInfo.m */; };
 		A5F9B077168C724900B9D51F /* DeviceInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F9B075168C724900B9D51F /* DeviceInfo.xib */; };
 		A5F9B081168CA8B800B9D51F /* NSColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B080168CA8B800B9D51F /* NSColoredView.m */; };
@@ -61,16 +61,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B8FF0B135396A9006091F4 /* Copy Frameworks */ = {
+		A5DD58FD1B1C3A740037CC62 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A562998F1AFA247C00836EFC /* Sparkle.framework in Copy Frameworks */,
+				A5DD58FC1B1C3A730037CC62 /* Sparkle.framework in Embed Frameworks */,
 			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 1;
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -91,9 +91,6 @@
 		A551C60D13E7285A00ADE661 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = ../keys/dsa_pub.pem; sourceTree = "<group>"; };
 		A554D23417CCB84F00DBE617 /* LBProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBProgressBar.h; sourceTree = "<group>"; };
 		A554D23517CCB84F00DBE617 /* LBProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBProgressBar.m; sourceTree = "<group>"; };
-		A56299891AFA245C00836EFC /* libimobiledevice */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimobiledevice; path = "../../../Library/Developer/Xcode/DerivedData/ipswDownloader-fecjgicguzascadltvpppazcgvto/Build/Products/Debug/libimobiledevice"; sourceTree = "<group>"; };
-		A562998B1AFA246A00836EFC /* libZipArchive-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libZipArchive-mac.a"; path = "../../../Library/Developer/Xcode/DerivedData/ipswDownloader-fecjgicguzascadltvpppazcgvto/Build/Products/Debug/libZipArchive-mac.a"; sourceTree = "<group>"; };
-		A562998D1AFA247200836EFC /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../../../Library/Developer/Xcode/DerivedData/ipswDownloader-fecjgicguzascadltvpppazcgvto/Build/Products/Debug/Sparkle.framework"; sourceTree = "<group>"; };
 		A57BDB2616304FE700215237 /* IPSWInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSWInfoHelper.h; sourceTree = "<group>"; };
 		A57BDB2716304FE700215237 /* IPSWInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSWInfoHelper.m; sourceTree = "<group>"; };
 		A57BDB2816304FE700215237 /* plistParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plistParser.h; sourceTree = "<group>"; };
@@ -131,8 +128,6 @@
 		A589269F16A5A31400063E09 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASINetworkQueue.h; path = "External/asi-http-request/Classes/ASINetworkQueue.h"; sourceTree = SOURCE_ROOT; };
 		A58926A016A5A31400063E09 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASINetworkQueue.m; path = "External/asi-http-request/Classes/ASINetworkQueue.m"; sourceTree = SOURCE_ROOT; };
 		A58926A116A5A31400063E09 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = "External/asi-http-request/Classes/ASIProgressDelegate.h"; sourceTree = SOURCE_ROOT; };
-		A58926CC16A5A3D100063E09 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		A58926CD16A5A3D100063E09 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		A59969F1167F3E9500374C31 /* MobileDeviceServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileDeviceServer.h; sourceTree = "<group>"; };
 		A59969F2167F3E9500374C31 /* MobileDeviceServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileDeviceServer.m; sourceTree = "<group>"; };
 		A59E695113E8451A0024AB3C /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -164,6 +159,10 @@
 		A5C4EF1B12F73A3E00A46734 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5C4EF2012F73A3E00A46734 /* ipswDownloaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipswDownloaderAppDelegate.h; sourceTree = "<group>"; };
 		A5DCC3181375D07200E2F466 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A5DD58FA1B1C3A730037CC62 /* Sparkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Sparkle.framework; path = "/Users/Korich/Library/Developer/Xcode/DerivedData/ipswDownloader-acfismlbhegsfbatsprlfsfbltrm/Build/Products/Debug/Sparkle.framework"; sourceTree = "<absolute>"; };
+		A5DD58FE1B1C3A880037CC62 /* libimobiledevice */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimobiledevice; path = "../../../Library/Developer/Xcode/DerivedData/ipswDownloader-acfismlbhegsfbatsprlfsfbltrm/Build/Products/Debug/libimobiledevice"; sourceTree = "<group>"; };
+		A5DD58FF1B1C3A880037CC62 /* libZipArchive-mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libZipArchive-mac.a"; path = "../../../Library/Developer/Xcode/DerivedData/ipswDownloader-acfismlbhegsfbatsprlfsfbltrm/Build/Products/Debug/libZipArchive-mac.a"; sourceTree = "<group>"; };
+		A5DD59181B1C3DC70037CC62 /* TMReachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TMReachability.framework; path = External/Reachability/TMReachability/build/Debug/TMReachability.framework; sourceTree = "<group>"; };
 		A5E3BDDF15A4378900CB865F /* en */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en; path = en.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5E3BDE915A437A400CB865F /* ru */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ru; path = ru.lproj/ipswDownloaderHelp; sourceTree = "<group>"; };
 		A5F9B073168C724900B9D51F /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
@@ -180,13 +179,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A562998E1AFA247200836EFC /* Sparkle.framework in Frameworks */,
-				A562998C1AFA246A00836EFC /* libZipArchive-mac.a in Frameworks */,
-				A562998A1AFA245C00836EFC /* libimobiledevice in Frameworks */,
+				A5DD59191B1C3DC70037CC62 /* TMReachability.framework in Frameworks */,
+				A5DD59001B1C3A880037CC62 /* libimobiledevice in Frameworks */,
+				A5DD59011B1C3A880037CC62 /* libZipArchive-mac.a in Frameworks */,
 				A585C26C14B9F678004CEC78 /* Security.framework in Frameworks */,
 				A5FA0E2C136489820084A0A8 /* AudioToolbox.framework in Frameworks */,
 				A5FD5699134CF0EC00D2488D /* SystemConfiguration.framework in Frameworks */,
 				A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */,
+				A5DD58FB1B1C3A730037CC62 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,16 +295,6 @@
 			path = Resources/indicators;
 			sourceTree = "<group>";
 		};
-		A58926AA16A5A3D100063E09 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				A58926CC16A5A3D100063E09 /* Reachability.h */,
-				A58926CD16A5A3D100063E09 /* Reachability.m */,
-			);
-			name = Reachability;
-			path = External/Reachability;
-			sourceTree = SOURCE_ROOT;
-		};
 		A5C4EEFF12F73A3D00A46734 = {
 			isa = PBXGroup;
 			children = (
@@ -328,9 +318,10 @@
 		A5C4EF0D12F73A3E00A46734 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A562998D1AFA247200836EFC /* Sparkle.framework */,
-				A562998B1AFA246A00836EFC /* libZipArchive-mac.a */,
-				A56299891AFA245C00836EFC /* libimobiledevice */,
+				A5DD59181B1C3DC70037CC62 /* TMReachability.framework */,
+				A5DD58FA1B1C3A730037CC62 /* Sparkle.framework */,
+				A5DD58FE1B1C3A880037CC62 /* libimobiledevice */,
+				A5DD58FF1B1C3A880037CC62 /* libZipArchive-mac.a */,
 				A5C4EF1212F73A3E00A46734 /* CoreData.framework */,
 				A5C4EF1312F73A3E00A46734 /* Foundation.framework */,
 				A585C26B14B9F678004CEC78 /* Security.framework */,
@@ -385,7 +376,6 @@
 			children = (
 				A5302A561A445B36005DB6A0 /* JAAIOSDeviceInfo */,
 				A554D22917CCB84F00DBE617 /* LBProgressBar */,
-				A58926AA16A5A3D100063E09 /* Reachability */,
 				A5D5CF1E137092B2004325AD /* ASIHTTPRequest */,
 			);
 			name = External;
@@ -432,8 +422,8 @@
 				A5C4EF0612F73A3E00A46734 /* Sources */,
 				A5C4EF0712F73A3E00A46734 /* Frameworks */,
 				A5C4EF0812F73A3E00A46734 /* Resources */,
-				A5B8FF0B135396A9006091F4 /* Copy Frameworks */,
 				A518815115AB2B0400A246D2 /* CopyFiles */,
+				A5DD58FD1B1C3A740037CC62 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -548,7 +538,6 @@
 				A58926A716A5A31500063E09 /* ASIHTTPRequest.m in Sources */,
 				A58926A816A5A31500063E09 /* ASIInputStream.m in Sources */,
 				A58926A916A5A31500063E09 /* ASINetworkQueue.m in Sources */,
-				A58926E516A5A3D100063E09 /* Reachability.m in Sources */,
 				A554D23E17CCB84F00DBE617 /* LBProgressBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,7 +635,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(CONFIGURATION_BUILD_DIR)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-fecjgicguzascadltvpppazcgvto/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-acfismlbhegsfbatsprlfsfbltrm/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipswDownloader/ipswDownloader-Prefix.pch";
@@ -669,7 +658,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(CONFIGURATION_BUILD_DIR)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-fecjgicguzascadltvpppazcgvto/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-acfismlbhegsfbatsprlfsfbltrm/Build/Products/Debug",
 				);
 				OTHER_LDFLAGS = (
 					"-lcrypto",
@@ -692,7 +681,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(CONFIGURATION_BUILD_DIR)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-fecjgicguzascadltvpppazcgvto/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-acfismlbhegsfbatsprlfsfbltrm/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipswDownloader/ipswDownloader-Prefix.pch";
@@ -713,7 +702,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(CONFIGURATION_BUILD_DIR)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-fecjgicguzascadltvpppazcgvto/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ipswDownloader-acfismlbhegsfbatsprlfsfbltrm/Build/Products/Debug",
 				);
 				OTHER_LDFLAGS = (
 					"-lcrypto",

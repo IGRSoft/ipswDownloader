@@ -10,7 +10,7 @@
 #import "ipswDownloaderAppDelegate.h"
 #import "PreferenceController.h"
 #import "DeviceInfo.h"
-#import "Reachability.h"
+#import <TMReachability/TMReachability.h>
 #import "plistParser.h"
 
 #import "DownloadsManager.h"
@@ -46,16 +46,16 @@ static const NSUInteger kSecInMin = 60;
                                                  name:kReachabilityChangedNotification 
                                                object:nil];
     
-    Reachability * reach = [Reachability reachabilityWithHostname:@"igrsoft.com"];
+    TMReachability * reach = [TMReachability reachabilityWithHostname:@"igrsoft.com"];
     
-    reach.reachableBlock = ^(Reachability * reachability)
+    reach.reachableBlock = ^(TMReachability * reachability)
     {
         dispatch_async(dispatch_get_main_queue(), ^{
             m_bInternet = YES;
         });
     };
     
-    reach.unreachableBlock = ^(Reachability * reachability)
+    reach.unreachableBlock = ^(TMReachability * reachability)
     {
         dispatch_async(dispatch_get_main_queue(), ^{
             m_bInternet = NO;
@@ -919,7 +919,7 @@ static const NSUInteger kSecInMin = 60;
 
 -(void)reachabilityChanged:(NSNotification*)note
 {
-    Reachability * reach = [note object];
+    TMReachability *reach = [note object];
     
 	if (!m_PlistDict && [m_PlistDict count] == 0)
 	{
