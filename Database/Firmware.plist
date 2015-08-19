@@ -3351,6 +3351,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>529fc75ec834111e255a74241eeb14fb7cc5c46b</string>
+			<key>size</key>
+			<real>1393094420</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31231-20150812-751BEF2C-3C8F-11E5-94D1-BB1A3A53DB92/iPad2,1_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad 2 GSM</key>
 	<dict>
@@ -4310,6 +4339,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>07025f0b71d0df76ebf34c3541114d25545dd2b7</string>
+			<key>size</key>
+			<real>1410815324</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31288-20150812-4490750C-3C90-11E5-84FD-231C3A53DB92/iPad2,2_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPad 2 CDMA</key>
@@ -5271,6 +5329,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.0.04</string>
+			<key>hwstr</key>
+			<string>iPad2,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>0c756073a53bc62f2e4e94e2ae8e85ded773778a</string>
+			<key>size</key>
+			<real>1409318653</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31281-20150812-40590580-3C90-11E5-92A1-011C3A53DB92/iPad2,3_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad 2 Wi-Fi (Rev A)</key>
 	<dict>
@@ -5998,6 +6085,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string></string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>dad2592ec799f6b33bc3ceaf283bdaae2a061a2d</string>
+			<key>size</key>
+			<real>1392757473</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31409-20150812-A5A8B962-3C90-11E5-97D3-C51D3A53DB92/iPad2,4_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Wi-Fi </key>
@@ -6727,6 +6843,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>c61165a638a16ddd9f607f589f1754613960c69a</string>
+			<key>size</key>
+			<real>1784230790</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31361-20150812-6F176506-3C90-11E5-AE5F-D01C3A53DB92/iPad3,1_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad 3 CDMA</key>
 	<dict>
@@ -7454,6 +7599,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.4.00</string>
+			<key>hwstr</key>
+			<string>iPad3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>00f54e48671e38ecb236af54671e6e0feb3d6e00</string>
+			<key>size</key>
+			<real>1817316315</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30995-20150812-7517C906-3C8F-11E5-AEB0-971A3A53DB92/iPad3,2_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Global</key>
@@ -8183,6 +8357,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.4.00</string>
+			<key>hwstr</key>
+			<string>iPad3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>bb1e741245266dbd276a7a79c1e83dbb875a5996</string>
+			<key>size</key>
+			<real>1817108312</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31372-20150812-767B933A-3C90-11E5-9E13-FF1C3A53DB92/iPad3,3_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad 4 Wi-Fi</key>
 	<dict>
@@ -8853,6 +9056,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string></string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>e429acf7d2997438ca6e2ee45012d25174d16283</string>
+			<key>size</key>
+			<real>1802659950</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31234-20150812-751D30B2-3C8F-11E5-895A-BD1A3A53DB92/iPad3,4_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad 4 GSM</key>
 	<dict>
@@ -9493,6 +9725,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>8.02.00</string>
+			<key>hwstr</key>
+			<string>iPad3,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>5a850c79c871f0487cf6177756c19894ff2bba16</string>
+			<key>size</key>
+			<real>1842909590</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31092-20150812-7518CFB8-3C8F-11E5-B849-A51A3A53DB92/iPad3,5_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPad 4 Global</key>
@@ -10135,6 +10396,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>8.02.00</string>
+			<key>hwstr</key>
+			<string>iPad3,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>ebafd3826dc6299dcbbed56459ce8661379d935d</string>
+			<key>size</key>
+			<real>1845205928</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31187-20150812-751A8A7E-3C8F-11E5-B300-B71A3A53DB92/iPad3,6_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad Air Wi-Fi</key>
 	<dict>
@@ -10601,6 +10891,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>80dff70f29097e06c928f6fc95be40c89a6eb007</string>
+			<key>size</key>
+			<real>2032067334</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31311-20150812-53F5D078-3C90-11E5-8FFE-4A1C3A53DB92/iPad4,1_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPad Air Cellular</key>
@@ -11069,6 +11388,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPad4,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>465bc2d738a5a522881141155e681922f2ab93b6</string>
+			<key>size</key>
+			<real>2080569893</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31373-20150812-8A5431FA-3C90-11E5-B53D-511D3A53DB92/iPad4,2_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad Air Cellular (Rev A)</key>
 	<dict>
@@ -11449,6 +11797,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPad4,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>5f03de3d0bd19b95bd297da986073b26f5acbf7f</string>
+			<key>size</key>
+			<real>2079532544</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31066-20150812-7519FA1E-3C8F-11E5-BC5C-A31A3A53DB92/iPad4,3_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad Air 2 Wi-Fi</key>
 	<dict>
@@ -11655,6 +12032,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>4f61e4dba231b54ac349347165a46a3b4ab22a5f</string>
+			<key>size</key>
+			<real>2038237840</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31386-20150812-A4FC2602-3C90-11E5-B036-A21D3A53DB92/iPad5,3_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad Air 2 Cellular</key>
 	<dict>
@@ -11860,6 +12266,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.41.00</string>
+			<key>hwstr</key>
+			<string>iPad5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>69c639bf0640257d9ccb6b877b878f9f1448acd7</string>
+			<key>size</key>
+			<real>2093838183</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31164-20150812-7519C21A-3C8F-11E5-937E-AF1A3A53DB92/iPad5,4_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G Wi-Fi</key>
@@ -12560,6 +12995,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>365d4a8e9ea9613c6bdb6db35cba0331580f7ae7</string>
+			<key>size</key>
+			<real>1509764204</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31249-20150812-75235CC6-3C8F-11E5-848D-BE1A3A53DB92/iPad2,5_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad mini 1G GSM</key>
 	<dict>
@@ -13229,6 +13693,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>8.02.00</string>
+			<key>hwstr</key>
+			<string>iPad2,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>7ffdcddafaada626c23311e03f1ab3e567838ce0</string>
+			<key>size</key>
+			<real>1548092267</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31278-20150812-751FA1F8-3C8F-11E5-9856-BF1A3A53DB92/iPad2,6_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G Global</key>
@@ -13900,6 +14393,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>8.02.00</string>
+			<key>hwstr</key>
+			<string>iPad2,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>feff67c4e3e759ac0a2880cd6a5e3568e8ebee7c</string>
+			<key>size</key>
+			<real>1548477911</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30932-20150812-7516F936-3C8F-11E5-849C-911A3A53DB92/iPad2,7_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad mini 2G Wi-Fi</key>
 	<dict>
@@ -14366,6 +14888,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>0130086e447d5c6ab3628d13e0ed857fe921e6d5</string>
+			<key>size</key>
+			<real>2033425074</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31035-20150812-7516931A-3C8F-11E5-BAB2-9F1A3A53DB92/iPad4,4_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPad mini 2G Cellular</key>
@@ -14834,6 +15385,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPad4,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>9a2a36d84d42d8c31c4583459881d5152ee4c75c</string>
+			<key>size</key>
+			<real>2079368241</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31221-20150812-751B191C-3C8F-11E5-8DC4-B91A3A53DB92/iPad4,5_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad mini 2G (Rev A)</key>
 	<dict>
@@ -15214,6 +15794,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPad4,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>7ac773a4c8faeca647cd7e1cbf2874585b358c1d</string>
+			<key>size</key>
+			<real>2080256841</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30939-20150812-75169356-3C8F-11E5-BAB2-931A3A53DB92/iPad4,6_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad mini 3G Wi-Fi</key>
 	<dict>
@@ -15419,6 +16028,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>b51b1347b589e5043c8efe78d1e5356bd56f4c4e</string>
+			<key>size</key>
+			<real>2038378590</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31166-20150812-7519DD40-3C8F-11E5-87ED-B11A3A53DB92/iPad4,7_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPad mini 3G Cellular</key>
@@ -15626,6 +16264,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPad4,8</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>8ff71a38f76cf60a67bb4dfd0453d737f67baf2d</string>
+			<key>size</key>
+			<real>2109074189</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31019-20150812-75169310-3C8F-11E5-BAB2-9B1A3A53DB92/iPad4,8_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPad mini 3G (Rev A)</key>
 	<dict>
@@ -15831,6 +16498,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPad4,9</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30767-20150812-EC7E19E0-3D0D-11E5-B8BB-4F5C3A53DB92/iPadiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>b30a8cda4b5732482e33747230b95097f8d2ea98</string>
+			<key>size</key>
+			<real>2109503169</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31157-20150812-7518D8FA-3C8F-11E5-B354-AD1A3A53DB92/iPad4,9_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPhone</key>
@@ -20261,6 +20957,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>5.5.00</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30768-20150812-EC7E0AA4-3D0D-11E5-BF57-505C3A53DB92/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>0858ce92863751e3f1b750b5ee3cc3e44800a52d</string>
+			<key>size</key>
+			<real>1560654758</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31129-20150812-751A3CB8-3C8F-11E5-A8A5-A91A3A53DB92/iPhone4,1_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPhone 5 GSM</key>
 	<dict>
@@ -20989,6 +21714,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>8.02.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30768-20150812-EC7E0AA4-3D0D-11E5-BF57-505C3A53DB92/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>1e0f9ebf293eafd4e43f10e61b877b86b27838b2</string>
+			<key>size</key>
+			<real>1657778104</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31186-20150812-751D243C-3C8F-11E5-8E4F-B51A3A53DB92/iPhone5,1_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPhone 5 Global</key>
 	<dict>
@@ -21691,7 +22445,7 @@
 		<key>8.4 / 12H143</key>
 		<dict>
 			<key>baseband</key>
-			<string></string>
+			<string>8.02.00</string>
 			<key>hwstr</key>
 			<string>iPhone5,2</string>
 			<key>docs</key>
@@ -21716,6 +22470,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>8.02.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30768-20150812-EC7E0AA4-3D0D-11E5-BF57-505C3A53DB92/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>da4e50bf721d91bbd0b4a90ba9df9cdf2e8b9f53</string>
+			<key>size</key>
+			<real>1656563298</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31065-20150812-7518F132-3C8F-11E5-A96A-A11A3A53DB92/iPhone5,2_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPhone 5C GSM</key>
@@ -22241,6 +23024,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30768-20150812-EC7E0AA4-3D0D-11E5-BF57-505C3A53DB92/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>f4f607601bbda4e22be98c88df51a54a95ba9808</string>
+			<key>size</key>
+			<real>1668830368</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31126-20150812-751B1656-3C8F-11E5-8F6B-A71A3A53DB92/iPhone5,3_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPhone 5C Global</key>
@@ -22796,6 +23608,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30768-20150812-EC7E0AA4-3D0D-11E5-BF57-505C3A53DB92/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>f84126463ea79cc200880a202d78b2471537a7e5</string>
+			<key>size</key>
+			<real>1668415626</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30941-20150812-7516948C-3C8F-11E5-B90B-951A3A53DB92/iPhone5,4_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPhone 5S GSM</key>
 	<dict>
@@ -23320,6 +24161,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30768-20150812-EC7E0AA4-3D0D-11E5-BF57-505C3A53DB92/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>7e979fccb4247dbc3aa7046cd663144d8d37f78f</string>
+			<key>size</key>
+			<real>1920103395</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31174-20150812-75196C52-3C8F-11E5-8C71-B31A3A53DB92/iPhone6,1_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPhone 5S Global</key>
@@ -23875,6 +24745,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.03.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30768-20150812-EC7E0AA4-3D0D-11E5-BF57-505C3A53DB92/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>315654998fdc66a73a76f870555e87085334bd3d</string>
+			<key>size</key>
+			<real>1919675606</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31002-20150812-7517E210-3C8F-11E5-A4C6-991A3A53DB92/iPhone6,2_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPhone 6</key>
 	<dict>
@@ -24168,6 +25067,35 @@
 			<key>build</key>
 			<string>Copper</string>
 		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.41.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30768-20150812-EC7E0AA4-3D0D-11E5-BF57-505C3A53DB92/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>beaa40d7f36ff0bd8f7a3d03856e614086484c1a</string>
+			<key>size</key>
+			<real>1971067436</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31156-20150812-751889C2-3C8F-11E5-9F80-AB1A3A53DB92/iPhone7,2_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
 	</dict>
 	<key>iPhone 6 Plus</key>
 	<dict>
@@ -24460,6 +25388,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4.1 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>2.41.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30768-20150812-EC7E0AA4-3D0D-11E5-BF57-505C3A53DB92/iPhoneiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>deb9be1c3c2eab79740eb114e104962763e478eb</string>
+			<key>size</key>
+			<real>2388837241</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31339-20150812-641E5DDA-3C90-11E5-A96C-AA1C3A53DB92/iPhone7,1_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 	<key>iPod Touch 1</key>
@@ -26998,6 +27955,96 @@
 			<string></string>
 			<key>build</key>
 			<string>Copper</string>
+		</dict>
+		<key>8.4 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30766-20150812-EC8297AE-3D0D-11E5-B442-4E5C3A53DB92/iPodtouchiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>cc08267089f5294884a7bfec8bb10dcb197fc20a</string>
+			<key>size</key>
+			<real>1555004920</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31324-20150812-5AAFE21E-3C90-11E5-BEE3-6A1C3A53DB92/iPod5,1_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
+		</dict>
+	</dict>
+	<key>iPod Touch 6</key>
+	<dict>
+		<key>8.4 / 12H143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod7,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4/031-25402-20150630-B8EF332E-1B71-11E5-A315-9762BE268FF7/iPodtouchiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<true/>
+			<key>jbtools</key>
+			<string>TaiG 2.2.0</string>
+			<key>sha1</key>
+			<string>e506dd4ed23e8d8b549245382b54f2d92b5329bf</string>
+			<key>size</key>
+			<real>1750116955</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4/ipsw/031-25940-20150630-7A549A0E-1B90-11E5-87A1-A763BE268FF7/iPod7,1_8.4_12H143_Restore.ipsw</string>
+			<key>date</key>
+			<string>15 Jul 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Copper</string>
+		</dict>
+		<key>8.4 / 12H321</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod7,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-30766-20150812-EC8297AE-3D0D-11E5-B442-4E5C3A53DB92/iPodtouchiTunesUpdateReadMe_7.1.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>ef2dc6e9ab4a21d342132f683ba7f572d0cb807d</string>
+			<key>size</key>
+			<real>1750643779</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios8.4.1/031-31024-20150812-751694AA-3C8F-11E5-B90B-9D1A3A53DB92/iPod7,1_8.4.1_12H321_Restore.ipsw</string>
+			<key>date</key>
+			<string>13 Aug 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Donner</string>
 		</dict>
 	</dict>
 </dict>

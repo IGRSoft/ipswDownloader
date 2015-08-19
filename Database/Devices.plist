@@ -237,6 +237,23 @@
 		<key>img_red</key>
 		<string>iPodTouch_5_Red.png</string>
 	</dict>
+	<key>iPod7,1</key>
+	<dict>
+		<key>device</key>
+		<string>iPod Touch 6</string>
+		<key>img</key>
+		<string>iPodTouch_5_Black.png</string>
+		<key>img_silver</key>
+		<string>iPodTouch_5_Silver.png</string>
+		<key>img_pink</key>
+		<string>iPodTouch_5_Pink.png</string>
+		<key>img_yellow</key>
+		<string>iPodTouch_5_Yellow.png</string>
+		<key>img_blue</key>
+		<string>iPodTouch_5_Blue.png</string>
+		<key>img_red</key>
+		<string>iPodTouch_5_Red.png</string>
+	</dict>
 	<key>iPad1,1</key>
 	<dict>
 		<key>device</key>
