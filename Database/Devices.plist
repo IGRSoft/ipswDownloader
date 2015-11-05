@@ -23,6 +23,13 @@
 		<key>img</key>
 		<string>AppleTV_2.png</string>
 	</dict>
+	<key>AppleTV5,3</key>
+	<dict>
+		<key>device</key>
+		<string>Apple TV 4G</string>
+		<key>img</key>
+		<string>AppleTV_2.png</string>
+	</dict>
 	<key>iPhone4,1</key>
 	<dict>
 		<key>device</key>
@@ -525,6 +532,28 @@
 	<dict>
 		<key>device</key>
 		<string>iPad Air 2 Cellular</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_2_Black.png</string>
+	</dict>
+	<key>iPad6,6</key>
+	<dict>
+		<key>device</key>
+		<string>iPad Pro Wi-Fi</string>
+		<key>img</key>
+		<string>iPad_2_Black.png</string>
+		<key>img_white</key>
+		<string>iPad_2_White.png</string>
+		<key>img_#3b3b3c</key>
+		<string>iPad_2_Black.png</string>
+	</dict>
+	<key>iPad6,8</key>
+	<dict>
+		<key>device</key>
+		<string>iPad Pro Cellular</string>
 		<key>img</key>
 		<string>iPad_2_Black.png</string>
 		<key>img_white</key>

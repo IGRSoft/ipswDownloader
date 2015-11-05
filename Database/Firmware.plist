@@ -1983,6 +1983,38 @@
 			<string>Stowe</string>
 		</dict>
 	</dict>
+	<key>Apple TV 4G</key>
+	<dict>
+		<key>9.0 / 13T396</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>AppleTV5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-43071-20151028-E9019AB2-7E71-11E5-9D71-88535942017F/AppleTViTunesUpdateReadMe_5.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>25849b01cef1c6bc4d1c6dfb5f88c10ae2954f3a</string>
+			<key>size</key>
+			<real>966517548</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/tvos9.0/031-24288-20151028-1BE4479A-7DDC-11E5-BDEE-974E5942017F/AppleTV5,3_9.0_13T396_Restore.ipsw</string>
+			<key>date</key>
+			<string>29 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>MonarchTide</string>
+		</dict>
+	</dict>
 	<key>iPad</key>
 	<dict>
 		<key>3.2 / 7B367</key>
@@ -3467,6 +3499,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>0830614506cc6db49fb1ba5d69cf4b310ea964fe</string>
+			<key>size</key>
+			<real>1391512134</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-40994-20151021-BA17F6A4-73FB-11E5-B0C8-917243DA716B/iPad2,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad 2 GSM</key>
 	<dict>
@@ -4542,6 +4603,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>04.12.09</string>
+			<key>hwstr</key>
+			<string>iPad2,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>b12859c9088d277a1fb3a393f4abcc6a8d2f2c19</string>
+			<key>size</key>
+			<real>1409074153</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41036-20151021-BA19AAD0-73FB-11E5-B4FB-987243DA716B/iPad2,2_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPad 2 CDMA</key>
@@ -5619,6 +5709,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>3.0.04</string>
+			<key>hwstr</key>
+			<string>iPad2,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>bd596842b20f13e6cafc543437bc537b281547da</string>
+			<key>size</key>
+			<real>1407818026</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41185-20151021-BA19E5E0-73FB-11E5-98E4-AE7243DA716B/iPad2,3_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad 2 Wi-Fi (Rev A)</key>
 	<dict>
@@ -6462,6 +6581,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>d2a4d9bc7cb240b3a528077ad753d5dba3617dc5</string>
+			<key>size</key>
+			<real>1391535377</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41269-20151021-BA1B6334-73FB-11E5-B5DD-BA7243DA716B/iPad2,4_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Wi-Fi </key>
@@ -7307,6 +7455,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a2408a400808c77a81463cb7426bd32edfb534cf</string>
+			<key>size</key>
+			<real>1638482197</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41539-20151021-F2CDAB64-73FC-11E5-A223-567643DA716B/iPad3,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad 3 CDMA</key>
 	<dict>
@@ -8150,6 +8327,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.00.00</string>
+			<key>hwstr</key>
+			<string>iPad3,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>363797777cf1cee846c67070c13604f074003bed</string>
+			<key>size</key>
+			<real>1674004756</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41115-20151021-BA17F8CA-73FB-11E5-B26F-A47243DA716B/iPad3,2_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPad 3 Global</key>
@@ -8995,6 +9201,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.00.00</string>
+			<key>hwstr</key>
+			<string>iPad3,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>3426be8e48a9fdff2d7799616a7d357c95e61795</string>
+			<key>size</key>
+			<real>1674662163</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41015-20151021-BA191714-73FB-11E5-8510-947243DA716B/iPad3,3_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad 4 Wi-Fi</key>
 	<dict>
@@ -9781,6 +10016,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad3,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>9e629ac9ef9fdef630d92782afca2231fce209a9</string>
+			<key>size</key>
+			<real>1659677204</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41181-20151021-BA181224-73FB-11E5-AD29-AC7243DA716B/iPad3,4_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad 4 GSM</key>
 	<dict>
@@ -10537,6 +10801,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>10.00.00</string>
+			<key>hwstr</key>
+			<string>iPad3,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>568e23dd18139301e902b2edffde69f395e6a5d0</string>
+			<key>size</key>
+			<real>1701458818</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41076-20151021-BA17F6A4-73FB-11E5-B0C8-9C7243DA716B/iPad3,5_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPad 4 Global</key>
@@ -11295,6 +11588,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>10.00.00</string>
+			<key>hwstr</key>
+			<string>iPad3,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a07a0133fcf80154abfaca8d38333d777e43c4f3</string>
+			<key>size</key>
+			<real>1701428295</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41055-20151021-BA17F5FA-73FB-11E5-B0C8-9A7243DA716B/iPad3,6_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad Air Wi-Fi</key>
 	<dict>
@@ -11877,6 +12199,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>d2dce5d5f314ea106690c083a6b342c5073cdb01</string>
+			<key>size</key>
+			<real>1926378672</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41597-20151021-FC270AFC-73FC-11E5-97FD-B27643DA716B/iPad4,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPad Air Cellular</key>
@@ -12461,6 +12812,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.00.00</string>
+			<key>hwstr</key>
+			<string>iPad4,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>26351b0ebae58a2528f8956d45204953f0747b04</string>
+			<key>size</key>
+			<real>1973904866</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41638-20151021-000DC9D0-73FD-11E5-A4ED-CD7643DA716B/iPad4,2_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad Air Cellular (Rev A)</key>
 	<dict>
@@ -12957,6 +13337,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.00.00</string>
+			<key>hwstr</key>
+			<string>iPad4,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>e3a9a42167985308c9645f9380718b211ccb1be8</string>
+			<key>size</key>
+			<real>1974799845</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41023-20151021-BA17F5E6-73FB-11E5-B0C8-967243DA716B/iPad4,3_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad Air 2 Wi-Fi</key>
 	<dict>
@@ -13279,6 +13688,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>96e8b1607e07c6cde7b55694c684a43d137f6d67</string>
+			<key>size</key>
+			<real>1937724498</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41505-20151021-CCEB6990-73FC-11E5-954E-927543DA716B/iPad5,3_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad Air 2 Cellular</key>
 	<dict>
@@ -13575,7 +14013,7 @@
 		<key>9.0.2 / 13A452</key>
 		<dict>
 			<key>baseband</key>
-			<string>4.01.00</string>
+			<string>4.02.00</string>
 			<key>hwstr</key>
 			<string>iPad5,4</string>
 			<key>docs</key>
@@ -13600,6 +14038,99 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.32.00</string>
+			<key>hwstr</key>
+			<string>iPad5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>e5874fa98e73ba4fa54b4f1fc757785c8652ad10</string>
+			<key>size</key>
+			<real>1995189289</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41194-20151021-BA192B1E-73FB-11E5-801B-B07243DA716B/iPad5,4_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
+	</dict>
+	<key>iPad Pro Wi-Fi</key>
+	<dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad6,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>f0b9aee51610b062e43d86d09608a86e2addd789</string>
+			<key>size</key>
+			<real>2081888735</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41420-20151021-959715F2-73FC-11E5-83AC-AC7443DA716B/iPad6,7_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
+	</dict>
+	<key>iPad Pro Cellular</key>
+	<dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.32.00</string>
+			<key>hwstr</key>
+			<string>iPad6,8</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>5ca4ba62d240b044437463073917f27432370675</string>
+			<key>size</key>
+			<real>2139692389</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41337-20151021-740DED5C-73FC-11E5-994A-1A7443DA716B/iPad6,8_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G Wi-Fi</key>
@@ -14416,6 +14947,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad2,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a05f3fd0ceee2839ca2be7094e8de3e018c015a3</string>
+			<key>size</key>
+			<real>1511752433</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41577-20151021-F7E690DE-73FC-11E5-9CB2-9A7643DA716B/iPad2,5_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad mini 1G GSM</key>
 	<dict>
@@ -15201,6 +15761,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>10.00.00</string>
+			<key>hwstr</key>
+			<string>iPad2,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a05f3fd0ceee2839ca2be7094e8de3e018c015a3</string>
+			<key>size</key>
+			<real>1553476369</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41351-20151021-83AA749C-73FC-11E5-A6C2-407443DA716B/iPad2,6_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPad mini 1G Global</key>
@@ -15988,6 +16577,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>10.00.00</string>
+			<key>hwstr</key>
+			<string>iPad2,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>11f010349ee2d4cdb3b0232d81027a5144e633df</string>
+			<key>size</key>
+			<real>1553836041</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41553-20151021-F32FA332-73FC-11E5-8A55-6B7643DA716B/iPad2,7_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad mini 2G Wi-Fi</key>
 	<dict>
@@ -16571,6 +17189,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>b1a96e1edb7b7cd575c33a50a6fe32d4c7cf42a2</string>
+			<key>size</key>
+			<real>1926000744</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41216-20151021-BA1ACBD6-73FB-11E5-A503-B47243DA716B/iPad4,4_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad mini 2G Cellular</key>
 	<dict>
@@ -17128,7 +17775,7 @@
 		<key>9.0.2 / 13A452</key>
 		<dict>
 			<key>baseband</key>
-			<string>6.00.00</string>
+			<string>6.01.00</string>
 			<key>hwstr</key>
 			<string>iPad4,5</string>
 			<key>docs</key>
@@ -17153,6 +17800,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.01.00</string>
+			<key>hwstr</key>
+			<string>iPad4,5</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>4c54173564d3ded3ac6be03132eedbe99aba74eb</string>
+			<key>size</key>
+			<real>1973851168</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41406-20151021-87BD3132-73FC-11E5-B74B-7D7443DA716B/iPad4,5_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPad mini 2G (Rev A)</key>
@@ -17650,6 +18326,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.01.00</string>
+			<key>hwstr</key>
+			<string>iPad4,6</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>187ba52b9c72634de8710a0a67b22a96b408733e</string>
+			<key>size</key>
+			<real>1973698477</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41222-20151021-BA1C46B4-73FB-11E5-B3FC-B67243DA716B/iPad4,6_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad mini 3G Wi-Fi</key>
 	<dict>
@@ -17971,6 +18676,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad4,7</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>47d7b2058c4a7f0246d30bf1f87393bb10ecb8d7</string>
+			<key>size</key>
+			<real>1935696187</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41159-20151021-BA1BBDD4-73FB-11E5-8386-A97243DA716B/iPad4,7_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPad mini 3G Cellular</key>
@@ -18294,6 +19028,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.01.00</string>
+			<key>hwstr</key>
+			<string>iPad4,8</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>d052c629c6fbcbd3226922546bdd6cb70b387688</string>
+			<key>size</key>
+			<real>1982475101</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41278-20151021-BA1BBCD0-73FB-11E5-8386-BC7243DA716B/iPad4,8_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad mini 3G (Rev A)</key>
 	<dict>
@@ -18616,6 +19379,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.01.00</string>
+			<key>hwstr</key>
+			<string>iPad4,9</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>ce6b1b23bbd836dd80eb761dcb862ff6b4da35b5</string>
+			<key>size</key>
+			<real>1982357644</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41440-20151021-A0EAE5B4-73FC-11E5-B242-D67443DA716B/iPad4,9_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad mini 4G Wi-Fi</key>
 	<dict>
@@ -18706,6 +19498,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPad5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>390680eb7db2d225a790c8682f22be101ba77600</string>
+			<key>size</key>
+			<real>1939735648</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41296-20151021-BA1B3D46-73FB-11E5-8EA6-BD7243DA716B/iPad5,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPad mini 4G Cellular</key>
 	<dict>
@@ -18795,6 +19616,35 @@
 			<string>Officially wasn&apos;t locked</string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.32.00</string>
+			<key>hwstr</key>
+			<string>iPad5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.0.2/031-38198-2015030-F1419B2B-EEDF-43DE-A892-A4309774888/iPadiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>99aaefe53cfb18374441e2052257733d7e9117b7</string>
+			<key>size</key>
+			<real>1993909833</real>
+			<key>unlock</key>
+			<true/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41523-20151021-DD72D9CE-73FC-11E5-A88C-F47543DA716B/iPad5,2_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string>Officially wasn&apos;t locked</string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPhone</key>
@@ -23341,6 +24191,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.0.00</string>
+			<key>hwstr</key>
+			<string>iPhone4,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>4a5a2affb370fe52d7d73132bf67fd985e5290e5</string>
+			<key>size</key>
+			<real>1581186734</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41357-20151021-866B88C4-73FC-11E5-91CE-6B7443DA716B/iPhone4,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPhone 5 GSM</key>
 	<dict>
@@ -24184,6 +25063,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>10.00.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a0bfe6d5daa41c0f8253eb3fdf29c8f7de30e805</string>
+			<key>size</key>
+			<real>1663760454</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41160-20151021-BA1AF502-73FB-11E5-8F88-AB7243DA716B/iPhone5,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPhone 5 Global</key>
@@ -25029,6 +25937,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>10.00.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>84d4b5ba31e634d5c463ba1284987f4d7608dcfb</string>
+			<key>size</key>
+			<real>1664126917</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41097-20151021-BA19123C-73FB-11E5-8369-9E7243DA716B/iPhone5,2_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPhone 5C GSM</key>
 	<dict>
@@ -25669,6 +26606,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.01.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,3</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>bc411c0e9c926d3ad7467d5b4d308630e12edf9e</string>
+			<key>size</key>
+			<real>1672631468</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-40999-20151021-BA17F7D0-73FB-11E5-B0C8-927243DA716B/iPhone5,3_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPhone 5C Global</key>
@@ -26340,6 +27306,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.01.00</string>
+			<key>hwstr</key>
+			<string>iPhone5,4</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>0bcaf617ed68e00d820bd01897bd76205c9abc56</string>
+			<key>size</key>
+			<real>1674525176</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41195-20151021-BA1ACCBC-73FB-11E5-A6AA-B27243DA716B/iPhone5,4_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPhone 5S GSM</key>
 	<dict>
@@ -26957,7 +27952,7 @@
 			<key>baseband</key>
 			<string>6.01.00</string>
 			<key>hwstr</key>
-			<string></string>
+			<string>iPhone6,1</string>
 			<key>docs</key>
 			<string>http://appldnld.apple.com/ios9.0.2/031-38196-20150930-66AB2200-E28C-4B4E-99AD-32F7ADCE72EC/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
 			<key>info</key>
@@ -26980,6 +27975,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.01.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>753d8769801b871a1c4ad0ab780885e8c695a774</string>
+			<key>size</key>
+			<real>1944532385</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41259-20151021-BA1B65B4-73FB-11E5-B784-B87243DA716B/iPhone6,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPhone 5S Global</key>
@@ -27651,6 +28675,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>6.01.00</string>
+			<key>hwstr</key>
+			<string>iPhone6,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>ece7364d864b9e1efd134143ec8a8b5c525ec4a8</string>
+			<key>size</key>
+			<real>1945991065</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41101-20151021-BA184ECE-73FB-11E5-9E4A-A07243DA716B/iPhone6,2_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPhone 6</key>
 	<dict>
@@ -28059,6 +29112,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.32.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>01c9b54e34973581e9a4d8253eb36fc0afa2d9ee</string>
+			<key>size</key>
+			<real>1973994348</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41110-20151021-BA1A8482-73FB-11E5-BDCC-A37243DA716B/iPhone7,2_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPhone 6 Plus</key>
@@ -28469,6 +29551,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>4.32.00</string>
+			<key>hwstr</key>
+			<string>iPhone7,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>2a10411395e0df54139ae4c54f2ca066d11bccfe</string>
+			<key>size</key>
+			<real>2197730678</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41444-20151021-BE8B95B4-73FC-11E5-9192-337543DA716B/iPhone7,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPhone 6S</key>
 	<dict>
@@ -28559,6 +29670,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.14.00</string>
+			<key>hwstr</key>
+			<string>iPhone8,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>a11e2420cccb5ec3375b9ba059be059044a8547c</string>
+			<key>size</key>
+			<real>2145696809</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41468-20151021-C6E90FC0-73FC-11E5-AB1D-5D7543DA716B/iPhone8,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPhone 6S Plus</key>
 	<dict>
@@ -28648,6 +29788,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>1.14.00</string>
+			<key>hwstr</key>
+			<string>iPhone8,2</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38781-20151020-014A315E-6EBB-11E5-89E2-8E7D52D92A8C/iPhoneiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>634807da8e723d688419b56f14b0913aee317760</string>
+			<key>size</key>
+			<real>2383904492</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41123-20151021-BA1A04B2-73FB-11E5-88EC-A67243DA716B/iPhone8,2_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 	<key>iPod Touch 1</key>
@@ -31303,6 +32472,35 @@
 			<key>build</key>
 			<string>Monarch</string>
 		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod5,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38780-20151021-9181F110-7769-11E5-B58A-1A4140B99175/iPodtouchiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>153ee9ae122e91f99365c1188a6338dc61285d3c</string>
+			<key>size</key>
+			<real>1578647026</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41298-20151021-BA1E146C-73FB-11E5-9B50-BE7243DA716B/iPod5,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
+		</dict>
 	</dict>
 	<key>iPod Touch 6</key>
 	<dict>
@@ -31450,6 +32648,35 @@
 			<string></string>
 			<key>build</key>
 			<string>Monarch</string>
+		</dict>
+		<key>9.1 / 13B143</key>
+		<dict>
+			<key>baseband</key>
+			<string>none</string>
+			<key>hwstr</key>
+			<string>iPod7,1</string>
+			<key>docs</key>
+			<string>http://appldnld.apple.com/ios9.1/documentation/031-38780-20151021-9181F110-7769-11E5-B58A-1A4140B99175/iPodtouchiTunesUpdateReadMe_9.0.ipd</string>
+			<key>info</key>
+			<string></string>
+			<key>jailbreak</key>
+			<false/>
+			<key>jbtools</key>
+			<string></string>
+			<key>sha1</key>
+			<string>279043e12f6ce5ae19183404909f1d373b4973a8</string>
+			<key>size</key>
+			<real>1840944062</real>
+			<key>unlock</key>
+			<false/>
+			<key>url</key>
+			<string>http://appldnld.apple.com/ios9.1/031-41518-20151021-D781758E-73FC-11E5-938D-DB7543DA716B/iPod7,1_9.1_13B143_Restore.ipsw</string>
+			<key>date</key>
+			<string>21 Oct 2015</string>
+			<key>utools</key>
+			<string></string>
+			<key>build</key>
+			<string>Boulder</string>
 		</dict>
 	</dict>
 </dict>
