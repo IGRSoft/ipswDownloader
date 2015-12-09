@@ -282,7 +282,7 @@ extern BOOL needWaitProcess;
 	NSString *filePath = [notification userInfo][@"filePath"];
     if (filePath)
 	{
-        [[NSWorkspace sharedWorkspace] selectFile: filePath inFileViewerRootedAtPath: nil];
+        [[NSWorkspace sharedWorkspace] selectFile:filePath inFileViewerRootedAtPath:@""];
     }
 	[center removeDeliveredNotification:notification];
 }

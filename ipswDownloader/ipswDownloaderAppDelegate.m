@@ -37,7 +37,7 @@ static const NSUInteger kSecInMin = 60;
     if (filePath)
 	{
 		DBNSLog(@"%@", aNotification);
-        [[NSWorkspace sharedWorkspace] selectFile: filePath inFileViewerRootedAtPath: nil];
+        [[NSWorkspace sharedWorkspace] selectFile:filePath inFileViewerRootedAtPath:@""];
     }
 	
 	m_bInternet = NO;
@@ -298,13 +298,13 @@ static const NSUInteger kSecInMin = 60;
 		case DOWNLOAD_FAILED:
 		{
 			NSString *path = [item tempDownloadPath];
-			[[NSWorkspace sharedWorkspace] selectFile: path inFileViewerRootedAtPath: nil];
+			[[NSWorkspace sharedWorkspace] selectFile: path inFileViewerRootedAtPath:@""];
 		}
 			break;
 		case DOWNLOAD_COMPLEATED:
 		{
 			NSString *path = [item downloadPath];
-			[[NSWorkspace sharedWorkspace] selectFile: path inFileViewerRootedAtPath: nil];
+			[[NSWorkspace sharedWorkspace] selectFile: path inFileViewerRootedAtPath:@""];
 		}
 			break;
 	}

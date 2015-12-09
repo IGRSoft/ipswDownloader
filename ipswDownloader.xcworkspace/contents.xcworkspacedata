@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:External/openssl/openssl.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:External/Reachability/TMReachability/TMReachability.xcodeproj">
    </FileRef>
    <FileRef

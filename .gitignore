@@ -7,3 +7,7 @@ Database/Links
 Database/Devices
 
 Frameworks/Growl.framework
+External/openssl/openssl
+External/openssl/build
+*.log
+*.gz

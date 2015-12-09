@@ -11,7 +11,7 @@
 	<key>CFBundleHelpBookName</key>
 	<string>ipsw Downloader Help</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.igrsoft.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,15 +19,20 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.6.4</string>
+	<string>2.6.5</string>
 	<key>CFBundleSignature</key>
 	<string>IPSW</string>
 	<key>CFBundleVersion</key>
-	<string>264</string>
+	<string>265</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright (c) 2011 Korich (Vitalii Parovishnyk). http://IGRSoft.com</string>
 	<key>NSMainNibFile</key>
