@@ -545,10 +545,12 @@ static const NSUInteger kSecInMin = 60;
 	NSArray* arrayKey = [[NSArray alloc] initWithArray:[m_PlistDict allKeys]];
 	NSArray* sortedKeys = [arrayKey sortedArrayUsingSelector:@selector(localizedCompare:)];
 	
-	[self.device addItemsWithObjectValues:sortedKeys];
-	[self.device selectItemAtIndex:0];
-	[self addItemsToFirmware:sortedKeys[0]];
-	
+	if (sortedKeys.count)
+	{
+		[self.device addItemsWithObjectValues:sortedKeys];
+		[self.device selectItemAtIndex:0];
+		[self addItemsToFirmware:sortedKeys.firstObject];
+	}
 }
 
 - (void)addItemsToFirmware:(NSString*)device
