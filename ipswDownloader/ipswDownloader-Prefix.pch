@@ -6,7 +6,7 @@
 	#import <Cocoa/Cocoa.h>
 #endif
 
-#define FIRMWARE_URL1 @"http://igrsoft.com/"
+#define FIRMWARE_URL1 @"https://igrsoft.com/"
 #define FIRMWARE_URL2 @"wp-content/iPhone/"
 #define FIRMWARE_URL3 @"Firmware"
 #define FIRMWARE_URL4 @"Links"
