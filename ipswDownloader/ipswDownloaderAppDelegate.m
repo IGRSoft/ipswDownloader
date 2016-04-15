@@ -926,9 +926,9 @@ static const NSUInteger kSecInMin = 60;
 	if (!m_PlistDict && [m_PlistDict count] == 0)
 	{
 		NSMutableDictionary* dict = [m_plistParser loadListWithInterval:m_dbUpdateInterval];
-		m_PlistDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL3]];
-		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL4]];
-		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL5]];
+		m_PlistDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_NAME]];
+		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[LINKS_NAME]];
+		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[DEVICES_NAME]];
 	}
 	
 	if (m_PlistDict)
@@ -941,11 +941,7 @@ static const NSUInteger kSecInMin = 60;
 	{
 		[self createMenus];
 	}
-    if([reach isReachable])
-    {
-		
-    }
-    else
+    if(![reach isReachable])
     {
         [self internetEnabledWithAlert:YES];
     }
@@ -1039,9 +1035,9 @@ static const NSUInteger kSecInMin = 60;
 		[self deviceRemoved];
 		
 		NSMutableDictionary* dict = [m_plistParser loadListWithInterval:UPDATE_AT_APP_START];
-        m_PlistDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL3]];
-		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL4]];
-		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_URL5]];
+        m_PlistDict = [[NSMutableDictionary alloc] initWithDictionary:dict[FIRMWARE_NAME]];
+		m_LinksDict = [[NSMutableDictionary alloc] initWithDictionary:dict[LINKS_NAME]];
+		m_DevicesDict = [[NSMutableDictionary alloc] initWithDictionary:dict[DEVICES_NAME]];
 		
 		if (m_PlistDict)
 		{

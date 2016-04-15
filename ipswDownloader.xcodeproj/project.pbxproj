@@ -42,6 +42,7 @@
 		A58C2A231C18BBFB0038FB5A /* libimobiledevice in Frameworks */ = {isa = PBXBuildFile; fileRef = A58C2A221C18BBFB0038FB5A /* libimobiledevice */; };
 		A59969F3167F3E9500374C31 /* MobileDeviceServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A59969F2167F3E9500374C31 /* MobileDeviceServer.m */; };
 		A5B8FF121353A0D9006091F4 /* ipswDownloaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8FF111353A0D9006091F4 /* ipswDownloaderAppDelegate.m */; };
+		A5C22E3A1CC1537D00A0AAFD /* Database in Resources */ = {isa = PBXBuildFile; fileRef = A5C22E391CC1537D00A0AAFD /* Database */; };
 		A5C4EF0F12F73A3E00A46734 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C4EF0E12F73A3E00A46734 /* Cocoa.framework */; };
 		A5DCC3191375D07200E2F466 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5DCC3171375D07200E2F466 /* Localizable.strings */; };
 		A5F9B076168C724900B9D51F /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B074168C724900B9D51F /* DeviceInfo.m */; };
@@ -155,6 +156,7 @@
 		A5AE015E15335C57001F72B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A5AE016015335C65001F72B9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A5B8FF111353A0D9006091F4 /* ipswDownloaderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ipswDownloaderAppDelegate.m; sourceTree = "<group>"; };
+		A5C22E391CC1537D00A0AAFD /* Database */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Database; sourceTree = SOURCE_ROOT; };
 		A5C4EF0A12F73A3E00A46734 /* ipswDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipswDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C4EF0E12F73A3E00A46734 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A5C4EF1112F73A3E00A46734 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -208,6 +210,7 @@
 		A551C60F13E7287A00ADE661 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5C22E391CC1537D00A0AAFD /* Database */,
 				A5836825195B286400828D32 /* _MASReceipt */,
 				A5836827195B286400828D32 /* Credits.rtf */,
 				A5836828195B286400828D32 /* indicators */,
@@ -508,6 +511,7 @@
 				A575D07315A451AE0072734F /* ipswDownloaderHelp in Resources */,
 				A5F9B077168C724900B9D51F /* DeviceInfo.xib in Resources */,
 				A5836833195B286400828D32 /* tether.pdf in Resources */,
+				A5C22E3A1CC1537D00A0AAFD /* Database in Resources */,
 				A5836830195B286400828D32 /* none.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

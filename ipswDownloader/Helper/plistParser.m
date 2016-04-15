@@ -7,11 +7,10 @@
 //
 
 #import "plistParser.h"
-#include "ZipArchive.h"
 
-static NSString * const firmwareFileName = @"Firmware.db";
-static NSString * const linksFileName = @"Links.db";
-static NSString * const deviceFileName = @"Devices.db";
+static NSString * const firmwareFileName = @"Firmware.plist";
+static NSString * const linksFileName = @"Links.plist";
+static NSString * const deviceFileName = @"Devices.plist";
 
 @implementation plistParser
 
@@ -91,80 +90,32 @@ static NSString * const deviceFileName = @"Devices.db";
 	
 	if (needUpdateDB)
 	{
-		NSString *url = [NSString stringWithFormat:@"%@%@%@", FIRMWARE_URL1, FIRMWARE_URL2, FIRMWARE_URL3];
-		NSData *theData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
+        NSString *firmwareFileUrl = FIRMWARE_URL;
+        firmwareFileUrl = [firmwareFileUrl stringByAppendingPathComponent:firmwareFileName];
+		NSData *theData = [NSData dataWithContentsOfFile:firmwareFileUrl];
 		[theData writeToFile:[result stringByAppendingPathComponent:firmwareFileName] atomically:YES];
+        
+        NSString *linksFileUrl = FIRMWARE_URL;
+        linksFileUrl = [linksFileUrl stringByAppendingPathComponent:linksFileName];
+        theData = [NSData dataWithContentsOfFile:linksFileUrl];
+        [theData writeToFile:[result stringByAppendingPathComponent:linksFileName] atomically:YES];
+        
+        NSString *deviceFileUrl = FIRMWARE_URL;
+        deviceFileUrl = [deviceFileUrl stringByAppendingPathComponent:deviceFileName];
+        theData = [NSData dataWithContentsOfFile:deviceFileUrl];
+        [theData writeToFile:[result stringByAppendingPathComponent:deviceFileName] atomically:YES];
 	}
 	
-	ZipArchive *za = [[ZipArchive alloc] init];
-	NSString *pas = [NSString stringWithFormat:@"%@%@%@%@", ARCH_PASS1, ARCH_PASS2, ARCH_PASS3, ARCH_PASS4];
-	if ([za UnzipOpenFile: [result stringByAppendingPathComponent:firmwareFileName] Password:pas])
-	{
-		BOOL ret = [za UnzipFileTo:result overWrite:YES];
-		
-		if (NO == ret){} [za UnzipCloseFile];
-	}
-	NSString* tempFileName = [NSString stringWithString:[result stringByAppendingPathComponent:@"Firmware.plist"]];
-	
-	NSMutableDictionary* _plist;
-	_plist = [[NSMutableDictionary alloc] initWithCapacity:2];
-	
-	_plist[FIRMWARE_URL3] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
-	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName])
-	{
-		[[NSFileManager defaultManager] removeItemAtPath:tempFileName error:nil];
-	}
-	
-	if (needUpdateDB)
-	{
-		NSString *url = [NSString stringWithFormat:@"%@%@%@", FIRMWARE_URL1, FIRMWARE_URL2, FIRMWARE_URL4];
-		NSData *theData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
-		[theData writeToFile:[result stringByAppendingPathComponent:linksFileName] atomically:YES];
-	}
-	
-	za = [[ZipArchive alloc] init];
-	pas = [NSString stringWithFormat:@"%@%@%@%@", ARCH_PASS1, ARCH_PASS2, ARCH_PASS3, ARCH_PASS4];
-	if ([za UnzipOpenFile:[result stringByAppendingPathComponent:linksFileName] Password:pas])
-	{
-		BOOL ret = [za UnzipFileTo:result overWrite:YES];
-		
-		if (NO == ret){} [za UnzipCloseFile];
-	}
-	
-	tempFileName = [NSString stringWithString:[result stringByAppendingPathComponent:@"Links.plist"]];
-	
-	_plist[FIRMWARE_URL4] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
-	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName])
-	{
-		[[NSFileManager defaultManager] removeItemAtPath:tempFileName error:nil];
-	}
-	
-	if (needUpdateDB)
-	{
-		NSString *url = [NSString stringWithFormat:@"%@%@%@", FIRMWARE_URL1, FIRMWARE_URL2, FIRMWARE_URL5];
-		NSData *theData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
-		[theData writeToFile:[result stringByAppendingPathComponent:deviceFileName] atomically:YES];
-	}
-	
-	za = [[ZipArchive alloc] init];
-	pas = [NSString stringWithFormat:@"%@%@%@%@", ARCH_PASS1, ARCH_PASS2, ARCH_PASS3, ARCH_PASS4];
-	if ([za UnzipOpenFile: [result stringByAppendingPathComponent:deviceFileName] Password:pas])
-	{
-		BOOL ret = [za UnzipFileTo: result overWrite: YES];
-		
-		if (NO == ret){} [za UnzipCloseFile];
-	}
-	
-	tempFileName = [NSString stringWithString:[result stringByAppendingPathComponent:@"Devices.plist"]];
-	
-	_plist[FIRMWARE_URL5] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
-	
-	if ([[NSFileManager defaultManager] fileExistsAtPath:tempFileName])
-	{
-		[[NSFileManager defaultManager] removeItemAtPath:tempFileName error:nil];
-	}
+	NSMutableDictionary *_plist = [[NSMutableDictionary alloc] initWithCapacity:3];
+    
+    NSString* tempFileName = [NSString stringWithString:[result stringByAppendingPathComponent:firmwareFileName]];
+	_plist[FIRMWARE_NAME] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
+    
+    tempFileName = [NSString stringWithString:[result stringByAppendingPathComponent:deviceFileName]];
+    _plist[DEVICES_NAME] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
+    
+    tempFileName = [NSString stringWithString:[result stringByAppendingPathComponent:linksFileName]];
+    _plist[LINKS_NAME] = [NSMutableDictionary dictionaryWithContentsOfFile:tempFileName];
 	
 	return _plist;
 }

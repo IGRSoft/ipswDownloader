@@ -6,17 +6,11 @@
 	#import <Cocoa/Cocoa.h>
 #endif
 
-#define FIRMWARE_URL1 @"https://igrsoft.com/"
-#define FIRMWARE_URL2 @"wp-content/iPhone/"
-#define FIRMWARE_URL3 @"Firmware"
-#define FIRMWARE_URL4 @"Links"
-#define FIRMWARE_URL5 @"Devices"
+#define FIRMWARE_URL [[NSBundle mainBundle] pathForResource:@"Database" ofType:nil]
 
-#define ARCH_PASS1 @"taLgr"
-#define ARCH_PASS2 @"ZLmi8"
-#define ARCH_PASS3 @"ZhcDM"
-#define ARCH_PASS4 @"0K6VL"
-//taLgrZLmi8ZhcDM0K6VL
+#define FIRMWARE_NAME @"Firmware"
+#define LINKS_NAME @"Links"
+#define DEVICES_NAME @"Devices"
 
 #define BYTE_IN_MB 1048576
 #define BYTE_IN_GB 1073741824
