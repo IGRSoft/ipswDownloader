@@ -171,5 +171,12 @@
 			<pubDate>Tue, 09 Feb 2016 14:29:28 +0200</pubDate>
 			<enclosure url="http://downloads.igrsoft.com/ipswDownloader/ipswDownloader_266.zip" sparkle:version="266" length="6978323" type="application/octet-stream" sparkle:dsaSignature="MCwCFHGBAfmqa+BdFsHinbUAl5bt5ZjoAhQTI9YInU0t9XSq3K3QS3RHtuyFFA==" />
 		</item>
+        <item>
+            <title>Version 2.7.0, Build ad77bfa91bc5b7cc12d45749d192581d61849c89</title>
+            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>http://igrsoft.com/wp-content/iPhone/info_270.html</sparkle:releaseNotesLink>
+            <pubDate>Fri, 15 Apr 2016 20:36:09 +0300</pubDate>
+            <enclosure url="http://downloads.igrsoft.com/ipswDownloader/ipswDownloader_270.zip" sparkle:version="270" length="5459282" type="application/octet-stream" sparkle:dsaSignature="" />
+        </item>
 	</channel>
 </rss>
