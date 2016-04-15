@@ -46,7 +46,7 @@ static const NSUInteger kSecInMin = 60;
                                                  name:kReachabilityChangedNotification 
                                                object:nil];
     
-    TMReachability * reach = [TMReachability reachabilityWithHostname:@"igrsoft.com"];
+    TMReachability * reach = [TMReachability reachabilityWithHostname:@"google.com"];
     
     reach.reachableBlock = ^(TMReachability * reachability)
     {
