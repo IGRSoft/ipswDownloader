@@ -1,3 +1,4 @@
+**[DEPRECATED]**
 ipswDownloader – make jailbreak easy and fast for iDevice
 ==============
 
